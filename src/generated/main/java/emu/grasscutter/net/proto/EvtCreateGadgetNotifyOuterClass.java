@@ -1413,7 +1413,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAsyncLoad(boolean value) {
-        
+
         isAsyncLoad_ = value;
         onChanged();
         return this;
@@ -1423,7 +1423,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAsyncLoad() {
-        
+
         isAsyncLoad_ = false;
         onChanged();
         return this;
@@ -1444,7 +1444,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCampType(int value) {
-        
+
         campType_ = value;
         onChanged();
         return this;
@@ -1454,7 +1454,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCampType() {
-        
+
         campType_ = 0;
         onChanged();
         return this;
@@ -1475,7 +1475,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSightGroupWithOwner(boolean value) {
-        
+
         sightGroupWithOwner_ = value;
         onChanged();
         return this;
@@ -1485,7 +1485,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSightGroupWithOwner() {
-        
+
         sightGroupWithOwner_ = false;
         onChanged();
         return this;
@@ -1584,7 +1584,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
@@ -1608,7 +1608,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
@@ -1618,7 +1618,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
@@ -1639,7 +1639,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -1649,7 +1649,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -1670,7 +1670,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetEntityId(int value) {
-        
+
         targetEntityId_ = value;
         onChanged();
         return this;
@@ -1680,7 +1680,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetEntityId() {
-        
+
         targetEntityId_ = 0;
         onChanged();
         return this;
@@ -1701,7 +1701,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCampId(int value) {
-        
+
         campId_ = value;
         onChanged();
         return this;
@@ -1711,7 +1711,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCampId() {
-        
+
         campId_ = 0;
         onChanged();
         return this;
@@ -1732,7 +1732,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(long value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -1742,7 +1742,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0L;
         onChanged();
         return this;
@@ -1835,7 +1835,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * <code>.Vector init_euler_angles = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getInitEulerAnglesBuilder() {
-        
+
         onChanged();
         return getInitEulerAnglesFieldBuilder().getBuilder();
       }
@@ -1854,7 +1854,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * <code>.Vector init_euler_angles = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getInitEulerAnglesFieldBuilder() {
         if (initEulerAnglesBuilder_ == null) {
           initEulerAnglesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1882,7 +1882,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetLockPointIndex(int value) {
-        
+
         targetLockPointIndex_ = value;
         onChanged();
         return this;
@@ -1892,7 +1892,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetLockPointIndex() {
-        
+
         targetLockPointIndex_ = 0;
         onChanged();
         return this;
@@ -2064,7 +2064,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * <code>.Vector init_pos = 4;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getInitPosBuilder() {
-        
+
         onChanged();
         return getInitPosFieldBuilder().getBuilder();
       }
@@ -2083,7 +2083,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * <code>.Vector init_pos = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getInitPosFieldBuilder() {
         if (initPosBuilder_ == null) {
           initPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2111,7 +2111,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOwnerEntityId(int value) {
-        
+
         ownerEntityId_ = value;
         onChanged();
         return this;
@@ -2121,7 +2121,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOwnerEntityId() {
-        
+
         ownerEntityId_ = 0;
         onChanged();
         return this;
@@ -2142,7 +2142,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRoomId(int value) {
-        
+
         roomId_ = value;
         onChanged();
         return this;
@@ -2152,7 +2152,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRoomId() {
-        
+
         roomId_ = 0;
         onChanged();
         return this;
@@ -2173,7 +2173,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700JBOPENAGGAF(boolean value) {
-        
+
         unk2700JBOPENAGGAF_ = value;
         onChanged();
         return this;
@@ -2183,7 +2183,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700JBOPENAGGAF() {
-        
+
         unk2700JBOPENAGGAF_ = false;
         onChanged();
         return this;
@@ -2204,7 +2204,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPropOwnerEntityId(int value) {
-        
+
         propOwnerEntityId_ = value;
         onChanged();
         return this;
@@ -2214,7 +2214,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPropOwnerEntityId() {
-        
+
         propOwnerEntityId_ = 0;
         onChanged();
         return this;
@@ -2235,7 +2235,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700IHIDGKPHFME(boolean value) {
-        
+
         unk2700IHIDGKPHFME_ = value;
         onChanged();
         return this;
@@ -2245,7 +2245,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700IHIDGKPHFME() {
-        
+
         unk2700IHIDGKPHFME_ = false;
         onChanged();
         return this;
@@ -2266,7 +2266,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setConfigId(int value) {
-        
+
         configId_ = value;
         onChanged();
         return this;
@@ -2276,7 +2276,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
-        
+
         configId_ = 0;
         onChanged();
         return this;
@@ -2336,7 +2336,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtCreateGadgetNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtCreateGadgetNotify_fieldAccessorTable;
 

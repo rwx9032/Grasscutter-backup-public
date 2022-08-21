@@ -532,7 +532,7 @@ public final class PlayerChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChannelId(int value) {
-        
+
         channelId_ = value;
         onChanged();
         return this;
@@ -542,7 +542,7 @@ public final class PlayerChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChannelId() {
-        
+
         channelId_ = 0;
         onChanged();
         return this;
@@ -635,7 +635,7 @@ public final class PlayerChatReqOuterClass {
        * <code>.ChatInfo chat_info = 15;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder getChatInfoBuilder() {
-        
+
         onChanged();
         return getChatInfoFieldBuilder().getBuilder();
       }
@@ -654,7 +654,7 @@ public final class PlayerChatReqOuterClass {
        * <code>.ChatInfo chat_info = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder> 
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder>
           getChatInfoFieldBuilder() {
         if (chatInfoBuilder_ == null) {
           chatInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -721,7 +721,7 @@ public final class PlayerChatReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerChatReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerChatReq_fieldAccessorTable;
 

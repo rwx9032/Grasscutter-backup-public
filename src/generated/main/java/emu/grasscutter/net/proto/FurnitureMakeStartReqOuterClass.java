@@ -487,7 +487,7 @@ public final class FurnitureMakeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class FurnitureMakeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class FurnitureMakeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMakeId(int value) {
-        
+
         makeId_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class FurnitureMakeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMakeId() {
-        
+
         makeId_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class FurnitureMakeStartReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FurnitureMakeStartReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FurnitureMakeStartReq_fieldAccessorTable;
 

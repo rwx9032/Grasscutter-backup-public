@@ -646,7 +646,7 @@ public final class GetInvestigationMonsterReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700DEMFDHNFBBJ(boolean value) {
-        
+
         unk2700DEMFDHNFBBJ_ = value;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class GetInvestigationMonsterReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700DEMFDHNFBBJ() {
-        
+
         unk2700DEMFDHNFBBJ_ = false;
         onChanged();
         return this;
@@ -716,7 +716,7 @@ public final class GetInvestigationMonsterReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetInvestigationMonsterReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetInvestigationMonsterReq_fieldAccessorTable;
 

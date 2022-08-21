@@ -645,7 +645,7 @@ public final class GetActivityInfoReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetActivityInfoReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetActivityInfoReq_fieldAccessorTable;
 

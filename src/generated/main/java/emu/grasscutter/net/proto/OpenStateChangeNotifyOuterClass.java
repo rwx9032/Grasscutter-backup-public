@@ -167,7 +167,7 @@ public final class OpenStateChangeNotifyOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.OpenStateChangeNotifyOuterClass.internal_static_OpenStateChangeNotify_OpenStateMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.OpenStateChangeNotifyOuterClass.internal_static_OpenStateChangeNotify_OpenStateMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -194,7 +194,7 @@ public final class OpenStateChangeNotifyOuterClass {
     @java.lang.Override
     public boolean containsOpenStateMap(
         int key) {
-      
+
       return internalGetOpenStateMap().getMap().containsKey(key);
     }
     /**
@@ -221,7 +221,7 @@ public final class OpenStateChangeNotifyOuterClass {
     public int getOpenStateMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetOpenStateMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -233,7 +233,7 @@ public final class OpenStateChangeNotifyOuterClass {
 
     public int getOpenStateMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetOpenStateMap().getMap();
       if (!map.containsKey(key)) {
@@ -617,7 +617,7 @@ public final class OpenStateChangeNotifyOuterClass {
       @java.lang.Override
       public boolean containsOpenStateMap(
           int key) {
-        
+
         return internalGetOpenStateMap().getMap().containsKey(key);
       }
       /**
@@ -644,7 +644,7 @@ public final class OpenStateChangeNotifyOuterClass {
       public int getOpenStateMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetOpenStateMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -656,7 +656,7 @@ public final class OpenStateChangeNotifyOuterClass {
 
       public int getOpenStateMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetOpenStateMap().getMap();
         if (!map.containsKey(key)) {
@@ -676,7 +676,7 @@ public final class OpenStateChangeNotifyOuterClass {
 
       public Builder removeOpenStateMap(
           int key) {
-        
+
         internalGetMutableOpenStateMap().getMutableMap()
             .remove(key);
         return this;
@@ -695,8 +695,8 @@ public final class OpenStateChangeNotifyOuterClass {
       public Builder putOpenStateMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableOpenStateMap().getMutableMap()
             .put(key, value);
         return this;
@@ -766,12 +766,12 @@ public final class OpenStateChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_OpenStateChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_OpenStateChangeNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_OpenStateChangeNotify_OpenStateMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_OpenStateChangeNotify_OpenStateMapEntry_fieldAccessorTable;
 

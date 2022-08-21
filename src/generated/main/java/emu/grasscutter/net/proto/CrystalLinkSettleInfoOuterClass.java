@@ -630,7 +630,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setKillEliteMonsterNum(int value) {
-        
+
         killEliteMonsterNum_ = value;
         onChanged();
         return this;
@@ -640,7 +640,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearKillEliteMonsterNum() {
-        
+
         killEliteMonsterNum_ = 0;
         onChanged();
         return this;
@@ -661,7 +661,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFinalScore(int value) {
-        
+
         finalScore_ = value;
         onChanged();
         return this;
@@ -671,7 +671,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFinalScore() {
-        
+
         finalScore_ = 0;
         onChanged();
         return this;
@@ -692,7 +692,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevelId(int value) {
-        
+
         levelId_ = value;
         onChanged();
         return this;
@@ -702,7 +702,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
-        
+
         levelId_ = 0;
         onChanged();
         return this;
@@ -723,7 +723,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsNewRecord(boolean value) {
-        
+
         isNewRecord_ = value;
         onChanged();
         return this;
@@ -733,7 +733,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
-        
+
         isNewRecord_ = false;
         onChanged();
         return this;
@@ -754,7 +754,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDifficultyId(int value) {
-        
+
         difficultyId_ = value;
         onChanged();
         return this;
@@ -764,7 +764,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDifficultyId() {
-        
+
         difficultyId_ = 0;
         onChanged();
         return this;
@@ -785,7 +785,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setKillNormalMosnterNum(int value) {
-        
+
         killNormalMosnterNum_ = value;
         onChanged();
         return this;
@@ -795,7 +795,7 @@ public final class CrystalLinkSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearKillNormalMosnterNum() {
-        
+
         killNormalMosnterNum_ = 0;
         onChanged();
         return this;
@@ -855,7 +855,7 @@ public final class CrystalLinkSettleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CrystalLinkSettleInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CrystalLinkSettleInfo_fieldAccessorTable;
 

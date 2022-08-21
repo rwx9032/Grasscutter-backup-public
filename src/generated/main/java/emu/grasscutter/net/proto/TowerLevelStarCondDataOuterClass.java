@@ -553,7 +553,7 @@ public final class TowerLevelStarCondDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700HIFMJMAHEMB(boolean value) {
-        
+
         unk2700HIFMJMAHEMB_ = value;
         onChanged();
         return this;
@@ -563,7 +563,7 @@ public final class TowerLevelStarCondDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700HIFMJMAHEMB() {
-        
+
         unk2700HIFMJMAHEMB_ = false;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class TowerLevelStarCondDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCondValue(int value) {
-        
+
         condValue_ = value;
         onChanged();
         return this;
@@ -594,7 +594,7 @@ public final class TowerLevelStarCondDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCondValue() {
-        
+
         condValue_ = 0;
         onChanged();
         return this;
@@ -615,7 +615,7 @@ public final class TowerLevelStarCondDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsPause(boolean value) {
-        
+
         isPause_ = value;
         onChanged();
         return this;
@@ -625,7 +625,7 @@ public final class TowerLevelStarCondDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsPause() {
-        
+
         isPause_ = false;
         onChanged();
         return this;
@@ -646,7 +646,7 @@ public final class TowerLevelStarCondDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStarCondIndex(int value) {
-        
+
         starCondIndex_ = value;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class TowerLevelStarCondDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStarCondIndex() {
-        
+
         starCondIndex_ = 0;
         onChanged();
         return this;
@@ -716,7 +716,7 @@ public final class TowerLevelStarCondDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerLevelStarCondData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerLevelStarCondData_fieldAccessorTable;
 

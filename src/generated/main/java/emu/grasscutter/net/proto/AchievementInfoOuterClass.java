@@ -730,7 +730,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -740,7 +740,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -760,7 +760,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStatusValue(int value) {
-        
+
         status_ = value;
         onChanged();
         return this;
@@ -784,7 +784,7 @@ public final class AchievementInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         status_ = value.getNumber();
         onChanged();
         return this;
@@ -794,7 +794,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStatus() {
-        
+
         status_ = 0;
         onChanged();
         return this;
@@ -815,7 +815,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurrent(int value) {
-        
+
         current_ = value;
         onChanged();
         return this;
@@ -825,7 +825,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurrent() {
-        
+
         current_ = 0;
         onChanged();
         return this;
@@ -846,7 +846,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGoal(int value) {
-        
+
         goal_ = value;
         onChanged();
         return this;
@@ -856,7 +856,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGoal() {
-        
+
         goal_ = 0;
         onChanged();
         return this;
@@ -877,7 +877,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAchievedate(int value) {
-        
+
         achievedate_ = value;
         onChanged();
         return this;
@@ -887,7 +887,7 @@ public final class AchievementInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAchievedate() {
-        
+
         achievedate_ = 0;
         onChanged();
         return this;
@@ -947,7 +947,7 @@ public final class AchievementInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AchievementInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AchievementInfo_fieldAccessorTable;
 

@@ -647,7 +647,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnknownEnum1Value(int value) {
-        
+
         unknownEnum1_ = value;
         onChanged();
         return this;
@@ -671,7 +671,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unknownEnum1_ = value.getNumber();
         onChanged();
         return this;
@@ -681,7 +681,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnknownEnum1() {
-        
+
         unknownEnum1_ = 0;
         onChanged();
         return this;
@@ -702,7 +702,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicShareId(long value) {
-        
+
         musicShareId_ = value;
         onChanged();
         return this;
@@ -712,7 +712,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicShareId() {
-        
+
         musicShareId_ = 0L;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnknownEnum2Value(int value) {
-        
+
         unknownEnum2_ = value;
         onChanged();
         return this;
@@ -756,7 +756,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unknownEnum2_ = value.getNumber();
         onChanged();
         return this;
@@ -766,7 +766,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnknownEnum2() {
-        
+
         unknownEnum2_ = 0;
         onChanged();
         return this;
@@ -787,7 +787,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCDFOGGDLKNA(boolean value) {
-        
+
         cDFOGGDLKNA_ = value;
         onChanged();
         return this;
@@ -797,7 +797,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCDFOGGDLKNA() {
-        
+
         cDFOGGDLKNA_ = false;
         onChanged();
         return this;
@@ -817,7 +817,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setReqTypeValue(int value) {
-        
+
         reqType_ = value;
         onChanged();
         return this;
@@ -841,7 +841,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         reqType_ = value.getNumber();
         onChanged();
         return this;
@@ -851,7 +851,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReqType() {
-        
+
         reqType_ = 0;
         onChanged();
         return this;
@@ -911,7 +911,7 @@ public final class MusicGameGetBeatmapReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameGetBeatmapReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameGetBeatmapReq_fieldAccessorTable;
 

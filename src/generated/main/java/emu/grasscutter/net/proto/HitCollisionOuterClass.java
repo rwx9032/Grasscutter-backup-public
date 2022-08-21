@@ -736,7 +736,7 @@ public final class HitCollisionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHitColliderTypeValue(int value) {
-        
+
         hitColliderType_ = value;
         onChanged();
         return this;
@@ -760,7 +760,7 @@ public final class HitCollisionOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         hitColliderType_ = value.getNumber();
         onChanged();
         return this;
@@ -770,7 +770,7 @@ public final class HitCollisionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHitColliderType() {
-        
+
         hitColliderType_ = 0;
         onChanged();
         return this;
@@ -863,7 +863,7 @@ public final class HitCollisionOuterClass {
        * <code>.Vector hit_point = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getHitPointBuilder() {
-        
+
         onChanged();
         return getHitPointFieldBuilder().getBuilder();
       }
@@ -882,7 +882,7 @@ public final class HitCollisionOuterClass {
        * <code>.Vector hit_point = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getHitPointFieldBuilder() {
         if (hitPointBuilder_ == null) {
           hitPointBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -910,7 +910,7 @@ public final class HitCollisionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAttackeeHitForceAngle(float value) {
-        
+
         attackeeHitForceAngle_ = value;
         onChanged();
         return this;
@@ -920,7 +920,7 @@ public final class HitCollisionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAttackeeHitForceAngle() {
-        
+
         attackeeHitForceAngle_ = 0F;
         onChanged();
         return this;
@@ -1013,7 +1013,7 @@ public final class HitCollisionOuterClass {
        * <code>.Vector hit_dir = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getHitDirBuilder() {
-        
+
         onChanged();
         return getHitDirFieldBuilder().getBuilder();
       }
@@ -1032,7 +1032,7 @@ public final class HitCollisionOuterClass {
        * <code>.Vector hit_dir = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getHitDirFieldBuilder() {
         if (hitDirBuilder_ == null) {
           hitDirBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1060,7 +1060,7 @@ public final class HitCollisionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAttackeeHitEntityAngle(float value) {
-        
+
         attackeeHitEntityAngle_ = value;
         onChanged();
         return this;
@@ -1070,7 +1070,7 @@ public final class HitCollisionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAttackeeHitEntityAngle() {
-        
+
         attackeeHitEntityAngle_ = 0F;
         onChanged();
         return this;
@@ -1091,7 +1091,7 @@ public final class HitCollisionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHitBoxIndex(int value) {
-        
+
         hitBoxIndex_ = value;
         onChanged();
         return this;
@@ -1101,7 +1101,7 @@ public final class HitCollisionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHitBoxIndex() {
-        
+
         hitBoxIndex_ = 0;
         onChanged();
         return this;
@@ -1161,7 +1161,7 @@ public final class HitCollisionOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HitCollision_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HitCollision_fieldAccessorTable;
 

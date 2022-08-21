@@ -349,7 +349,7 @@ public final class OnlinePlayerInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nickname_ = s;
@@ -365,7 +365,7 @@ public final class OnlinePlayerInfoOuterClass {
         getNicknameBytes() {
       java.lang.Object ref = nickname_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nickname_ = b;
@@ -450,7 +450,7 @@ public final class OnlinePlayerInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         onlineId_ = s;
@@ -466,7 +466,7 @@ public final class OnlinePlayerInfoOuterClass {
         getOnlineIdBytes() {
       java.lang.Object ref = onlineId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         onlineId_ = b;
@@ -527,7 +527,7 @@ public final class OnlinePlayerInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         signature_ = s;
@@ -543,7 +543,7 @@ public final class OnlinePlayerInfoOuterClass {
         getSignatureBytes() {
       java.lang.Object ref = signature_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         signature_ = b;
@@ -591,7 +591,7 @@ public final class OnlinePlayerInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         psnId_ = s;
@@ -607,7 +607,7 @@ public final class OnlinePlayerInfoOuterClass {
         getPsnIdBytes() {
       java.lang.Object ref = psnId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         psnId_ = b;
@@ -1180,7 +1180,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -1190,7 +1190,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -1221,7 +1221,7 @@ public final class OnlinePlayerInfoOuterClass {
           getNicknameBytes() {
         java.lang.Object ref = nickname_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nickname_ = b;
@@ -1240,7 +1240,7 @@ public final class OnlinePlayerInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         nickname_ = value;
         onChanged();
         return this;
@@ -1250,7 +1250,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNickname() {
-        
+
         nickname_ = getDefaultInstance().getNickname();
         onChanged();
         return this;
@@ -1266,7 +1266,7 @@ public final class OnlinePlayerInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         nickname_ = value;
         onChanged();
         return this;
@@ -1287,7 +1287,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPlayerLevel(int value) {
-        
+
         playerLevel_ = value;
         onChanged();
         return this;
@@ -1297,7 +1297,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPlayerLevel() {
-        
+
         playerLevel_ = 0;
         onChanged();
         return this;
@@ -1318,7 +1318,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
@@ -1328,7 +1328,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -1348,7 +1348,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMpSettingTypeValue(int value) {
-        
+
         mpSettingType_ = value;
         onChanged();
         return this;
@@ -1372,7 +1372,7 @@ public final class OnlinePlayerInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         mpSettingType_ = value.getNumber();
         onChanged();
         return this;
@@ -1382,7 +1382,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMpSettingType() {
-        
+
         mpSettingType_ = 0;
         onChanged();
         return this;
@@ -1403,7 +1403,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurPlayerNumInWorld(int value) {
-        
+
         curPlayerNumInWorld_ = value;
         onChanged();
         return this;
@@ -1413,7 +1413,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurPlayerNumInWorld() {
-        
+
         curPlayerNumInWorld_ = 0;
         onChanged();
         return this;
@@ -1434,7 +1434,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWorldLevel(int value) {
-        
+
         worldLevel_ = value;
         onChanged();
         return this;
@@ -1444,7 +1444,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWorldLevel() {
-        
+
         worldLevel_ = 0;
         onChanged();
         return this;
@@ -1475,7 +1475,7 @@ public final class OnlinePlayerInfoOuterClass {
           getOnlineIdBytes() {
         java.lang.Object ref = onlineId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           onlineId_ = b;
@@ -1494,7 +1494,7 @@ public final class OnlinePlayerInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         onlineId_ = value;
         onChanged();
         return this;
@@ -1504,7 +1504,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOnlineId() {
-        
+
         onlineId_ = getDefaultInstance().getOnlineId();
         onChanged();
         return this;
@@ -1520,7 +1520,7 @@ public final class OnlinePlayerInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         onlineId_ = value;
         onChanged();
         return this;
@@ -1541,7 +1541,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNameCardId(int value) {
-        
+
         nameCardId_ = value;
         onChanged();
         return this;
@@ -1551,7 +1551,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNameCardId() {
-        
+
         nameCardId_ = 0;
         onChanged();
         return this;
@@ -1661,7 +1661,7 @@ public final class OnlinePlayerInfoOuterClass {
           getSignatureBytes() {
         java.lang.Object ref = signature_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           signature_ = b;
@@ -1680,7 +1680,7 @@ public final class OnlinePlayerInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         signature_ = value;
         onChanged();
         return this;
@@ -1690,7 +1690,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSignature() {
-        
+
         signature_ = getDefaultInstance().getSignature();
         onChanged();
         return this;
@@ -1706,7 +1706,7 @@ public final class OnlinePlayerInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         signature_ = value;
         onChanged();
         return this;
@@ -1799,7 +1799,7 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>.ProfilePicture profile_picture = 12;</code>
        */
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder getProfilePictureBuilder() {
-        
+
         onChanged();
         return getProfilePictureFieldBuilder().getBuilder();
       }
@@ -1818,7 +1818,7 @@ public final class OnlinePlayerInfoOuterClass {
        * <code>.ProfilePicture profile_picture = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> 
+          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder>
           getProfilePictureFieldBuilder() {
         if (profilePictureBuilder_ == null) {
           profilePictureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1856,7 +1856,7 @@ public final class OnlinePlayerInfoOuterClass {
           getPsnIdBytes() {
         java.lang.Object ref = psnId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           psnId_ = b;
@@ -1875,7 +1875,7 @@ public final class OnlinePlayerInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         psnId_ = value;
         onChanged();
         return this;
@@ -1885,7 +1885,7 @@ public final class OnlinePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPsnId() {
-        
+
         psnId_ = getDefaultInstance().getPsnId();
         onChanged();
         return this;
@@ -1901,7 +1901,7 @@ public final class OnlinePlayerInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         psnId_ = value;
         onChanged();
         return this;
@@ -1961,7 +1961,7 @@ public final class OnlinePlayerInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_OnlinePlayerInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_OnlinePlayerInfo_fieldAccessorTable;
 

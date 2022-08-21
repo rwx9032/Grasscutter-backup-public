@@ -489,7 +489,7 @@ public final class WearEquipReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEquipGuid(long value) {
-        
+
         equipGuid_ = value;
         onChanged();
         return this;
@@ -499,7 +499,7 @@ public final class WearEquipReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEquipGuid() {
-        
+
         equipGuid_ = 0L;
         onChanged();
         return this;
@@ -520,7 +520,7 @@ public final class WearEquipReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -530,7 +530,7 @@ public final class WearEquipReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -590,7 +590,7 @@ public final class WearEquipReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WearEquipReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WearEquipReq_fieldAccessorTable;
 

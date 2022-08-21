@@ -605,7 +605,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStateValue(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -629,7 +629,7 @@ public final class AvatarExpeditionInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         state_ = value.getNumber();
         onChanged();
         return this;
@@ -639,7 +639,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -660,7 +660,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExpId(int value) {
-        
+
         expId_ = value;
         onChanged();
         return this;
@@ -670,7 +670,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExpId() {
-        
+
         expId_ = 0;
         onChanged();
         return this;
@@ -691,7 +691,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHourTime(int value) {
-        
+
         hourTime_ = value;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHourTime() {
-        
+
         hourTime_ = 0;
         onChanged();
         return this;
@@ -722,7 +722,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartTime(int value) {
-        
+
         startTime_ = value;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartTime() {
-        
+
         startTime_ = 0;
         onChanged();
         return this;
@@ -753,7 +753,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setShortenRatio(float value) {
-        
+
         shortenRatio_ = value;
         onChanged();
         return this;
@@ -763,7 +763,7 @@ public final class AvatarExpeditionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearShortenRatio() {
-        
+
         shortenRatio_ = 0F;
         onChanged();
         return this;
@@ -823,7 +823,7 @@ public final class AvatarExpeditionInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarExpeditionInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarExpeditionInfo_fieldAccessorTable;
 

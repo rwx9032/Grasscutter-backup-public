@@ -486,7 +486,7 @@ public final class FireWorkInstanceOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTypeValue(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
@@ -510,7 +510,7 @@ public final class FireWorkInstanceOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         type_ = value.getNumber();
         onChanged();
         return this;
@@ -520,7 +520,7 @@ public final class FireWorkInstanceOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -541,7 +541,7 @@ public final class FireWorkInstanceOuterClass {
        * @return This builder for chaining.
        */
       public Builder setValue(int value) {
-        
+
         value_ = value;
         onChanged();
         return this;
@@ -551,7 +551,7 @@ public final class FireWorkInstanceOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearValue() {
-        
+
         value_ = 0;
         onChanged();
         return this;
@@ -611,7 +611,7 @@ public final class FireWorkInstanceOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FireWorkInstance_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FireWorkInstance_fieldAccessorTable;
 

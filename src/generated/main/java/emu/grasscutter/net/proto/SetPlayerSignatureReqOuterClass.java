@@ -133,7 +133,7 @@ public final class SetPlayerSignatureReqOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         signature_ = s;
@@ -149,7 +149,7 @@ public final class SetPlayerSignatureReqOuterClass {
         getSignatureBytes() {
       java.lang.Object ref = signature_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         signature_ = b;
@@ -493,7 +493,7 @@ public final class SetPlayerSignatureReqOuterClass {
           getSignatureBytes() {
         java.lang.Object ref = signature_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           signature_ = b;
@@ -512,7 +512,7 @@ public final class SetPlayerSignatureReqOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         signature_ = value;
         onChanged();
         return this;
@@ -522,7 +522,7 @@ public final class SetPlayerSignatureReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSignature() {
-        
+
         signature_ = getDefaultInstance().getSignature();
         onChanged();
         return this;
@@ -538,7 +538,7 @@ public final class SetPlayerSignatureReqOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         signature_ = value;
         onChanged();
         return this;
@@ -598,7 +598,7 @@ public final class SetPlayerSignatureReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetPlayerSignatureReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetPlayerSignatureReq_fieldAccessorTable;
 

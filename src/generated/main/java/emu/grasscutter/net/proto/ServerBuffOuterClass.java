@@ -591,7 +591,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder setServerBuffUid(int value) {
-        
+
         serverBuffUid_ = value;
         onChanged();
         return this;
@@ -601,7 +601,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearServerBuffUid() {
-        
+
         serverBuffUid_ = 0;
         onChanged();
         return this;
@@ -622,7 +622,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder setServerBuffId(int value) {
-        
+
         serverBuffId_ = value;
         onChanged();
         return this;
@@ -632,7 +632,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearServerBuffId() {
-        
+
         serverBuffId_ = 0;
         onChanged();
         return this;
@@ -653,7 +653,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder setServerBuffType(int value) {
-        
+
         serverBuffType_ = value;
         onChanged();
         return this;
@@ -663,7 +663,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearServerBuffType() {
-        
+
         serverBuffType_ = 0;
         onChanged();
         return this;
@@ -684,7 +684,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInstancedModifierId(int value) {
-        
+
         instancedModifierId_ = value;
         onChanged();
         return this;
@@ -694,7 +694,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInstancedModifierId() {
-        
+
         instancedModifierId_ = 0;
         onChanged();
         return this;
@@ -715,7 +715,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsModifierAdded(boolean value) {
-        
+
         isModifierAdded_ = value;
         onChanged();
         return this;
@@ -725,7 +725,7 @@ public final class ServerBuffOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsModifierAdded() {
-        
+
         isModifierAdded_ = false;
         onChanged();
         return this;
@@ -785,7 +785,7 @@ public final class ServerBuffOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServerBuff_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServerBuff_fieldAccessorTable;
 

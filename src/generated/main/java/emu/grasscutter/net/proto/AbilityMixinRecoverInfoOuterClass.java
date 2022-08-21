@@ -50,7 +50,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     /**
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo> 
+    java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo>
         getMassivePropListList();
     /**
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -63,7 +63,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     /**
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder>
         getMassivePropListOrBuilderList();
     /**
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -335,7 +335,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder>
         getMassivePropListOrBuilderList() {
       return massivePropList_;
     }
@@ -840,7 +840,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
               massivePropListBuilder_ = null;
               massivePropList_ = other.massivePropList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              massivePropListBuilder_ = 
+              massivePropListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMassivePropListFieldBuilder() : null;
             } else {
@@ -921,7 +921,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLocalId(int value) {
-        
+
         localId_ = value;
         onChanged();
         return this;
@@ -931,7 +931,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLocalId() {
-        
+
         localId_ = 0;
         onChanged();
         return this;
@@ -1031,7 +1031,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsServerbuffModifier(boolean value) {
-        
+
         isServerbuffModifier_ = value;
         onChanged();
         return this;
@@ -1041,7 +1041,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsServerbuffModifier() {
-        
+
         isServerbuffModifier_ = false;
         onChanged();
         return this;
@@ -1242,7 +1242,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       /**
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder>
            getMassivePropListOrBuilderList() {
         if (massivePropListBuilder_ != null) {
           return massivePropListBuilder_.getMessageOrBuilderList();
@@ -1268,12 +1268,12 @@ public final class AbilityMixinRecoverInfoOuterClass {
       /**
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder>
            getMassivePropListBuilderList() {
         return getMassivePropListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder> 
+          emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder>
           getMassivePropListFieldBuilder() {
         if (massivePropListBuilder_ == null) {
           massivePropListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1423,7 +1423,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityMixinRecoverInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityMixinRecoverInfo_fieldAccessorTable;
 

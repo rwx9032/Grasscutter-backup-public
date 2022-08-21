@@ -487,7 +487,7 @@ public final class SetOpenStateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setKey(int value) {
-        
+
         key_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class SetOpenStateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearKey() {
-        
+
         key_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class SetOpenStateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setValue(int value) {
-        
+
         value_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class SetOpenStateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearValue() {
-        
+
         value_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class SetOpenStateReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetOpenStateReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetOpenStateReq_fieldAccessorTable;
 

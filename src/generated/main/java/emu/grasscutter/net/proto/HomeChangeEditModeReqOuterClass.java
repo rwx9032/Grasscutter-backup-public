@@ -449,7 +449,7 @@ public final class HomeChangeEditModeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsEnterEditMode(boolean value) {
-        
+
         isEnterEditMode_ = value;
         onChanged();
         return this;
@@ -459,7 +459,7 @@ public final class HomeChangeEditModeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsEnterEditMode() {
-        
+
         isEnterEditMode_ = false;
         onChanged();
         return this;
@@ -519,7 +519,7 @@ public final class HomeChangeEditModeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeChangeEditModeReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeChangeEditModeReq_fieldAccessorTable;
 

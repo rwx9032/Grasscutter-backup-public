@@ -473,7 +473,7 @@ public final class ItemParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class ItemParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class ItemParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCount(int value) {
-        
+
         count_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class ItemParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCount() {
-        
+
         count_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class ItemParamOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ItemParam_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ItemParam_fieldAccessorTable;
 

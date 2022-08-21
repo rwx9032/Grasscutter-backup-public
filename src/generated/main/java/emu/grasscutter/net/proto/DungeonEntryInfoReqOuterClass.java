@@ -33,7 +33,7 @@ public final class DungeonEntryInfoReqOuterClass {
     /**
      * <code>repeated .Uint32Pair Unk2800_GGAMJDFELPH = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
+    java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>
         getUnk2800GGAMJDFELPHList();
     /**
      * <code>repeated .Uint32Pair Unk2800_GGAMJDFELPH = 4;</code>
@@ -46,7 +46,7 @@ public final class DungeonEntryInfoReqOuterClass {
     /**
      * <code>repeated .Uint32Pair Unk2800_GGAMJDFELPH = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
         getUnk2800GGAMJDFELPHOrBuilderList();
     /**
      * <code>repeated .Uint32Pair Unk2800_GGAMJDFELPH = 4;</code>
@@ -197,7 +197,7 @@ public final class DungeonEntryInfoReqOuterClass {
      * <code>repeated .Uint32Pair Unk2800_GGAMJDFELPH = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
         getUnk2800GGAMJDFELPHOrBuilderList() {
       return unk2800GGAMJDFELPH_;
     }
@@ -569,7 +569,7 @@ public final class DungeonEntryInfoReqOuterClass {
               unk2800GGAMJDFELPHBuilder_ = null;
               unk2800GGAMJDFELPH_ = other.unk2800GGAMJDFELPH_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              unk2800GGAMJDFELPHBuilder_ = 
+              unk2800GGAMJDFELPHBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getUnk2800GGAMJDFELPHFieldBuilder() : null;
             } else {
@@ -622,7 +622,7 @@ public final class DungeonEntryInfoReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
@@ -632,7 +632,7 @@ public final class DungeonEntryInfoReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
@@ -653,7 +653,7 @@ public final class DungeonEntryInfoReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -663,7 +663,7 @@ public final class DungeonEntryInfoReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -864,7 +864,7 @@ public final class DungeonEntryInfoReqOuterClass {
       /**
        * <code>repeated .Uint32Pair Unk2800_GGAMJDFELPH = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
            getUnk2800GGAMJDFELPHOrBuilderList() {
         if (unk2800GGAMJDFELPHBuilder_ != null) {
           return unk2800GGAMJDFELPHBuilder_.getMessageOrBuilderList();
@@ -890,12 +890,12 @@ public final class DungeonEntryInfoReqOuterClass {
       /**
        * <code>repeated .Uint32Pair Unk2800_GGAMJDFELPH = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder>
            getUnk2800GGAMJDFELPHBuilderList() {
         return getUnk2800GGAMJDFELPHFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
+          emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
           getUnk2800GGAMJDFELPHFieldBuilder() {
         if (unk2800GGAMJDFELPHBuilder_ == null) {
           unk2800GGAMJDFELPHBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -963,7 +963,7 @@ public final class DungeonEntryInfoReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DungeonEntryInfoReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DungeonEntryInfoReq_fieldAccessorTable;
 

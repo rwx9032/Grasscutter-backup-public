@@ -590,7 +590,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
        * <code>.BattlePassRewardTag tag = 10;</code>
        */
       public emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag.Builder getTagBuilder() {
-        
+
         onChanged();
         return getTagFieldBuilder().getBuilder();
       }
@@ -609,7 +609,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
        * <code>.BattlePassRewardTag tag = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag.Builder, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder> 
+          emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag.Builder, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder>
           getTagFieldBuilder() {
         if (tagBuilder_ == null) {
           tagBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -637,7 +637,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOptionIdx(int value) {
-        
+
         optionIdx_ = value;
         onChanged();
         return this;
@@ -647,7 +647,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOptionIdx() {
-        
+
         optionIdx_ = 0;
         onChanged();
         return this;
@@ -707,7 +707,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BattlePassRewardTakeOption_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BattlePassRewardTakeOption_fieldAccessorTable;
 

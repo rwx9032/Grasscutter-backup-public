@@ -178,7 +178,7 @@ public final class AvatarFightPropNotifyOuterClass {
           java.lang.Integer, java.lang.Float> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Float>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarFightPropNotifyOuterClass.internal_static_AvatarFightPropNotify_FightPropMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarFightPropNotifyOuterClass.internal_static_AvatarFightPropNotify_FightPropMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.FLOAT,
@@ -205,7 +205,7 @@ public final class AvatarFightPropNotifyOuterClass {
     @java.lang.Override
     public boolean containsFightPropMap(
         int key) {
-      
+
       return internalGetFightPropMap().getMap().containsKey(key);
     }
     /**
@@ -232,7 +232,7 @@ public final class AvatarFightPropNotifyOuterClass {
     public float getFightPropMapOrDefault(
         int key,
         float defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Float> map =
           internalGetFightPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -244,7 +244,7 @@ public final class AvatarFightPropNotifyOuterClass {
 
     public float getFightPropMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Float> map =
           internalGetFightPropMap().getMap();
       if (!map.containsKey(key)) {
@@ -657,7 +657,7 @@ public final class AvatarFightPropNotifyOuterClass {
       @java.lang.Override
       public boolean containsFightPropMap(
           int key) {
-        
+
         return internalGetFightPropMap().getMap().containsKey(key);
       }
       /**
@@ -684,7 +684,7 @@ public final class AvatarFightPropNotifyOuterClass {
       public float getFightPropMapOrDefault(
           int key,
           float defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Float> map =
             internalGetFightPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -696,7 +696,7 @@ public final class AvatarFightPropNotifyOuterClass {
 
       public float getFightPropMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Float> map =
             internalGetFightPropMap().getMap();
         if (!map.containsKey(key)) {
@@ -716,7 +716,7 @@ public final class AvatarFightPropNotifyOuterClass {
 
       public Builder removeFightPropMap(
           int key) {
-        
+
         internalGetMutableFightPropMap().getMutableMap()
             .remove(key);
         return this;
@@ -735,8 +735,8 @@ public final class AvatarFightPropNotifyOuterClass {
       public Builder putFightPropMap(
           int key,
           float value) {
-        
-        
+
+
         internalGetMutableFightPropMap().getMutableMap()
             .put(key, value);
         return this;
@@ -767,7 +767,7 @@ public final class AvatarFightPropNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -777,7 +777,7 @@ public final class AvatarFightPropNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -837,12 +837,12 @@ public final class AvatarFightPropNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarFightPropNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarFightPropNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarFightPropNotify_FightPropMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarFightPropNotify_FightPropMapEntry_fieldAccessorTable;
 

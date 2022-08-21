@@ -21,7 +21,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
     /**
      * <code>repeated .VehicleLocationInfo vehicle_loc_list = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfo> 
+    java.util.List<emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfo>
         getVehicleLocListList();
     /**
      * <code>repeated .VehicleLocationInfo vehicle_loc_list = 3;</code>
@@ -34,7 +34,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
     /**
      * <code>repeated .VehicleLocationInfo vehicle_loc_list = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfoOrBuilder>
         getVehicleLocListOrBuilderList();
     /**
      * <code>repeated .VehicleLocationInfo vehicle_loc_list = 3;</code>
@@ -51,7 +51,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
     /**
      * <code>repeated .PlayerLocationInfo player_loc_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo> 
+    java.util.List<emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo>
         getPlayerLocListList();
     /**
      * <code>repeated .PlayerLocationInfo player_loc_list = 14;</code>
@@ -64,7 +64,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
     /**
      * <code>repeated .PlayerLocationInfo player_loc_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder>
         getPlayerLocListOrBuilderList();
     /**
      * <code>repeated .PlayerLocationInfo player_loc_list = 14;</code>
@@ -200,7 +200,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
      * <code>repeated .VehicleLocationInfo vehicle_loc_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfoOrBuilder>
         getVehicleLocListOrBuilderList() {
       return vehicleLocList_;
     }
@@ -251,7 +251,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
      * <code>repeated .PlayerLocationInfo player_loc_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder>
         getPlayerLocListOrBuilderList() {
       return playerLocList_;
     }
@@ -631,7 +631,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
               vehicleLocListBuilder_ = null;
               vehicleLocList_ = other.vehicleLocList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              vehicleLocListBuilder_ = 
+              vehicleLocListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getVehicleLocListFieldBuilder() : null;
             } else {
@@ -660,7 +660,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
               playerLocListBuilder_ = null;
               playerLocList_ = other.playerLocList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              playerLocListBuilder_ = 
+              playerLocListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPlayerLocListFieldBuilder() : null;
             } else {
@@ -893,7 +893,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
       /**
        * <code>repeated .VehicleLocationInfo vehicle_loc_list = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfoOrBuilder>
            getVehicleLocListOrBuilderList() {
         if (vehicleLocListBuilder_ != null) {
           return vehicleLocListBuilder_.getMessageOrBuilderList();
@@ -919,12 +919,12 @@ public final class ScenePlayerLocationNotifyOuterClass {
       /**
        * <code>repeated .VehicleLocationInfo vehicle_loc_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfo.Builder>
            getVehicleLocListBuilderList() {
         return getVehicleLocListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfo, emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfo.Builder, emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfoOrBuilder> 
+          emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfo, emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfo.Builder, emu.grasscutter.net.proto.VehicleLocationInfoOuterClass.VehicleLocationInfoOrBuilder>
           getVehicleLocListFieldBuilder() {
         if (vehicleLocListBuilder_ == null) {
           vehicleLocListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -953,7 +953,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -963,7 +963,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -1164,7 +1164,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
       /**
        * <code>repeated .PlayerLocationInfo player_loc_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder>
            getPlayerLocListOrBuilderList() {
         if (playerLocListBuilder_ != null) {
           return playerLocListBuilder_.getMessageOrBuilderList();
@@ -1190,12 +1190,12 @@ public final class ScenePlayerLocationNotifyOuterClass {
       /**
        * <code>repeated .PlayerLocationInfo player_loc_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder>
            getPlayerLocListBuilderList() {
         return getPlayerLocListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder> 
+          emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder>
           getPlayerLocListFieldBuilder() {
         if (playerLocListBuilder_ == null) {
           playerLocListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1263,7 +1263,7 @@ public final class ScenePlayerLocationNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ScenePlayerLocationNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ScenePlayerLocationNotify_fieldAccessorTable;
 

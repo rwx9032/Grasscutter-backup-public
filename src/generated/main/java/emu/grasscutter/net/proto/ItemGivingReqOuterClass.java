@@ -61,7 +61,7 @@ public final class ItemGivingReqOuterClass {
     /**
      * <code>repeated .ItemParam item_param_list = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
         getItemParamListList();
     /**
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -74,7 +74,7 @@ public final class ItemGivingReqOuterClass {
     /**
      * <code>repeated .ItemParam item_param_list = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getItemParamListOrBuilderList();
     /**
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -342,7 +342,7 @@ public final class ItemGivingReqOuterClass {
           java.lang.Long, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Long, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.ItemGivingReqOuterClass.internal_static_ItemGivingReq_ItemGuidCountMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.ItemGivingReqOuterClass.internal_static_ItemGivingReq_ItemGuidCountMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT64,
                   0L,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -369,7 +369,7 @@ public final class ItemGivingReqOuterClass {
     @java.lang.Override
     public boolean containsItemGuidCountMap(
         long key) {
-      
+
       return internalGetItemGuidCountMap().getMap().containsKey(key);
     }
     /**
@@ -396,7 +396,7 @@ public final class ItemGivingReqOuterClass {
     public int getItemGuidCountMapOrDefault(
         long key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Long, java.lang.Integer> map =
           internalGetItemGuidCountMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -408,7 +408,7 @@ public final class ItemGivingReqOuterClass {
 
     public int getItemGuidCountMapOrThrow(
         long key) {
-      
+
       java.util.Map<java.lang.Long, java.lang.Integer> map =
           internalGetItemGuidCountMap().getMap();
       if (!map.containsKey(key)) {
@@ -441,7 +441,7 @@ public final class ItemGivingReqOuterClass {
      * <code>repeated .ItemParam item_param_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getItemParamListOrBuilderList() {
       return itemParamList_;
     }
@@ -877,7 +877,7 @@ public final class ItemGivingReqOuterClass {
               itemParamListBuilder_ = null;
               itemParamList_ = other.itemParamList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              itemParamListBuilder_ = 
+              itemParamListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getItemParamListFieldBuilder() : null;
             } else {
@@ -951,7 +951,7 @@ public final class ItemGivingReqOuterClass {
       @java.lang.Override
       public boolean containsItemGuidCountMap(
           long key) {
-        
+
         return internalGetItemGuidCountMap().getMap().containsKey(key);
       }
       /**
@@ -978,7 +978,7 @@ public final class ItemGivingReqOuterClass {
       public int getItemGuidCountMapOrDefault(
           long key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Long, java.lang.Integer> map =
             internalGetItemGuidCountMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -990,7 +990,7 @@ public final class ItemGivingReqOuterClass {
 
       public int getItemGuidCountMapOrThrow(
           long key) {
-        
+
         java.util.Map<java.lang.Long, java.lang.Integer> map =
             internalGetItemGuidCountMap().getMap();
         if (!map.containsKey(key)) {
@@ -1010,7 +1010,7 @@ public final class ItemGivingReqOuterClass {
 
       public Builder removeItemGuidCountMap(
           long key) {
-        
+
         internalGetMutableItemGuidCountMap().getMutableMap()
             .remove(key);
         return this;
@@ -1029,8 +1029,8 @@ public final class ItemGivingReqOuterClass {
       public Builder putItemGuidCountMap(
           long key,
           int value) {
-        
-        
+
+
         internalGetMutableItemGuidCountMap().getMutableMap()
             .put(key, value);
         return this;
@@ -1061,7 +1061,7 @@ public final class ItemGivingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGivingId(int value) {
-        
+
         givingId_ = value;
         onChanged();
         return this;
@@ -1071,7 +1071,7 @@ public final class ItemGivingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGivingId() {
-        
+
         givingId_ = 0;
         onChanged();
         return this;
@@ -1272,7 +1272,7 @@ public final class ItemGivingReqOuterClass {
       /**
        * <code>repeated .ItemParam item_param_list = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
            getItemParamListOrBuilderList() {
         if (itemParamListBuilder_ != null) {
           return itemParamListBuilder_.getMessageOrBuilderList();
@@ -1298,12 +1298,12 @@ public final class ItemGivingReqOuterClass {
       /**
        * <code>repeated .ItemParam item_param_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
            getItemParamListBuilderList() {
         return getItemParamListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getItemParamListFieldBuilder() {
         if (itemParamListBuilder_ == null) {
           itemParamListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1331,7 +1331,7 @@ public final class ItemGivingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2800PHNIJJMECGNValue(int value) {
-        
+
         unk2800PHNIJJMECGN_ = value;
         onChanged();
         return this;
@@ -1355,7 +1355,7 @@ public final class ItemGivingReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unk2800PHNIJJMECGN_ = value.getNumber();
         onChanged();
         return this;
@@ -1365,7 +1365,7 @@ public final class ItemGivingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2800PHNIJJMECGN() {
-        
+
         unk2800PHNIJJMECGN_ = 0;
         onChanged();
         return this;
@@ -1425,12 +1425,12 @@ public final class ItemGivingReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ItemGivingReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ItemGivingReq_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ItemGivingReq_ItemGuidCountMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ItemGivingReq_ItemGuidCountMapEntry_fieldAccessorTable;
 

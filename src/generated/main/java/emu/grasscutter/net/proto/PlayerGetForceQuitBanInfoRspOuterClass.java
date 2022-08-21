@@ -524,7 +524,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMatchId(int value) {
-        
+
         matchId_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMatchId() {
-        
+
         matchId_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExpireTime(int value) {
-        
+
         expireTime_ = value;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExpireTime() {
-        
+
         expireTime_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerGetForceQuitBanInfoRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerGetForceQuitBanInfoRsp_fieldAccessorTable;
 

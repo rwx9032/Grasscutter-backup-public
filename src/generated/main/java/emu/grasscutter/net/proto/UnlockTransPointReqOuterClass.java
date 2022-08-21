@@ -487,7 +487,7 @@ public final class UnlockTransPointReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class UnlockTransPointReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class UnlockTransPointReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class UnlockTransPointReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class UnlockTransPointReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UnlockTransPointReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UnlockTransPointReq_fieldAccessorTable;
 

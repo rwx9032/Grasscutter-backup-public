@@ -769,7 +769,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMissionId(int value) {
-        
+
         missionId_ = value;
         onChanged();
         return this;
@@ -779,7 +779,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMissionId() {
-        
+
         missionId_ = 0;
         onChanged();
         return this;
@@ -800,7 +800,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurProgress(int value) {
-        
+
         curProgress_ = value;
         onChanged();
         return this;
@@ -810,7 +810,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurProgress() {
-        
+
         curProgress_ = 0;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTotalProgress(int value) {
-        
+
         totalProgress_ = value;
         onChanged();
         return this;
@@ -841,7 +841,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTotalProgress() {
-        
+
         totalProgress_ = 0;
         onChanged();
         return this;
@@ -862,7 +862,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRewardBattlePassPoint(int value) {
-        
+
         rewardBattlePassPoint_ = value;
         onChanged();
         return this;
@@ -872,7 +872,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRewardBattlePassPoint() {
-        
+
         rewardBattlePassPoint_ = 0;
         onChanged();
         return this;
@@ -893,7 +893,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMissionType(int value) {
-        
+
         missionType_ = value;
         onChanged();
         return this;
@@ -903,7 +903,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMissionType() {
-        
+
         missionType_ = 0;
         onChanged();
         return this;
@@ -923,7 +923,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMissionStatusValue(int value) {
-        
+
         missionStatus_ = value;
         onChanged();
         return this;
@@ -947,7 +947,7 @@ public final class BattlePassMissionOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         missionStatus_ = value.getNumber();
         onChanged();
         return this;
@@ -957,7 +957,7 @@ public final class BattlePassMissionOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMissionStatus() {
-        
+
         missionStatus_ = 0;
         onChanged();
         return this;
@@ -1017,7 +1017,7 @@ public final class BattlePassMissionOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BattlePassMission_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BattlePassMission_fieldAccessorTable;
 

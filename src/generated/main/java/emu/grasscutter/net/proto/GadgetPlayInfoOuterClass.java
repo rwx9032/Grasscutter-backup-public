@@ -867,7 +867,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPlayType(int value) {
-        
+
         playType_ = value;
         onChanged();
         return this;
@@ -877,7 +877,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPlayType() {
-        
+
         playType_ = 0;
         onChanged();
         return this;
@@ -898,7 +898,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDuration(int value) {
-        
+
         duration_ = value;
         onChanged();
         return this;
@@ -908,7 +908,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDuration() {
-        
+
         duration_ = 0;
         onChanged();
         return this;
@@ -1008,7 +1008,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartCd(int value) {
-        
+
         startCd_ = value;
         onChanged();
         return this;
@@ -1018,7 +1018,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartCd() {
-        
+
         startCd_ = 0;
         onChanged();
         return this;
@@ -1039,7 +1039,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartTime(int value) {
-        
+
         startTime_ = value;
         onChanged();
         return this;
@@ -1049,7 +1049,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartTime() {
-        
+
         startTime_ = 0;
         onChanged();
         return this;
@@ -1070,7 +1070,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setProgress(int value) {
-        
+
         progress_ = value;
         onChanged();
         return this;
@@ -1080,7 +1080,7 @@ public final class GadgetPlayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearProgress() {
-        
+
         progress_ = 0;
         onChanged();
         return this;
@@ -1209,7 +1209,7 @@ public final class GadgetPlayInfoOuterClass {
        * <code>.GadgetCrucibleInfo crucible_info = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo, emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo.Builder, emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfoOrBuilder> 
+          emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo, emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo.Builder, emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfoOrBuilder>
           getCrucibleInfoFieldBuilder() {
         if (crucibleInfoBuilder_ == null) {
           if (!(playInfoCase_ == 21)) {
@@ -1281,7 +1281,7 @@ public final class GadgetPlayInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GadgetPlayInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GadgetPlayInfo_fieldAccessorTable;
 

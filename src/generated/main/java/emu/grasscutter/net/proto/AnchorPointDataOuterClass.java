@@ -680,7 +680,7 @@ public final class AnchorPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -690,7 +690,7 @@ public final class AnchorPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -711,7 +711,7 @@ public final class AnchorPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAnchorPointId(int value) {
-        
+
         anchorPointId_ = value;
         onChanged();
         return this;
@@ -721,7 +721,7 @@ public final class AnchorPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAnchorPointId() {
-        
+
         anchorPointId_ = 0;
         onChanged();
         return this;
@@ -742,7 +742,7 @@ public final class AnchorPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -752,7 +752,7 @@ public final class AnchorPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -845,7 +845,7 @@ public final class AnchorPointDataOuterClass {
        * <code>.Vector pos = 15;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -864,7 +864,7 @@ public final class AnchorPointDataOuterClass {
        * <code>.Vector pos = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -964,7 +964,7 @@ public final class AnchorPointDataOuterClass {
        * <code>.Vector rot = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
-        
+
         onChanged();
         return getRotFieldBuilder().getBuilder();
       }
@@ -983,7 +983,7 @@ public final class AnchorPointDataOuterClass {
        * <code>.Vector rot = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRotFieldBuilder() {
         if (rotBuilder_ == null) {
           rotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1050,7 +1050,7 @@ public final class AnchorPointDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AnchorPointData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AnchorPointData_fieldAccessorTable;
 

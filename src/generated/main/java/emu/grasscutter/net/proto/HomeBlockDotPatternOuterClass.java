@@ -513,7 +513,7 @@ public final class HomeBlockDotPatternOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWidth(int value) {
-        
+
         width_ = value;
         onChanged();
         return this;
@@ -523,7 +523,7 @@ public final class HomeBlockDotPatternOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWidth() {
-        
+
         width_ = 0;
         onChanged();
         return this;
@@ -544,7 +544,7 @@ public final class HomeBlockDotPatternOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHeight(int value) {
-        
+
         height_ = value;
         onChanged();
         return this;
@@ -554,7 +554,7 @@ public final class HomeBlockDotPatternOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHeight() {
-        
+
         height_ = 0;
         onChanged();
         return this;
@@ -578,7 +578,7 @@ public final class HomeBlockDotPatternOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         data_ = value;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class HomeBlockDotPatternOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearData() {
-        
+
         data_ = getDefaultInstance().getData();
         onChanged();
         return this;
@@ -648,7 +648,7 @@ public final class HomeBlockDotPatternOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeBlockDotPattern_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeBlockDotPattern_fieldAccessorTable;
 

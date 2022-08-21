@@ -42,7 +42,7 @@ public final class MailDataOuterClass {
     /**
      * <code>repeated .MailItem item_list = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MailItemOuterClass.MailItem> 
+    java.util.List<emu.grasscutter.net.proto.MailItemOuterClass.MailItem>
         getItemListList();
     /**
      * <code>repeated .MailItem item_list = 7;</code>
@@ -55,7 +55,7 @@ public final class MailDataOuterClass {
     /**
      * <code>repeated .MailItem item_list = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MailItemOuterClass.MailItemOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.MailItemOuterClass.MailItemOrBuilder>
         getItemListOrBuilderList();
     /**
      * <code>repeated .MailItem item_list = 7;</code>
@@ -344,7 +344,7 @@ public final class MailDataOuterClass {
      * <code>repeated .MailItem item_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MailItemOuterClass.MailItemOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.MailItemOuterClass.MailItemOrBuilder>
         getItemListOrBuilderList() {
       return itemList_;
     }
@@ -965,7 +965,7 @@ public final class MailDataOuterClass {
               itemListBuilder_ = null;
               itemList_ = other.itemList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              itemListBuilder_ = 
+              itemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getItemListFieldBuilder() : null;
             } else {
@@ -1049,7 +1049,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMailId(int value) {
-        
+
         mailId_ = value;
         onChanged();
         return this;
@@ -1059,7 +1059,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMailId() {
-        
+
         mailId_ = 0;
         onChanged();
         return this;
@@ -1152,7 +1152,7 @@ public final class MailDataOuterClass {
        * <code>.MailTextContent mail_text_content = 4;</code>
        */
       public emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent.Builder getMailTextContentBuilder() {
-        
+
         onChanged();
         return getMailTextContentFieldBuilder().getBuilder();
       }
@@ -1171,7 +1171,7 @@ public final class MailDataOuterClass {
        * <code>.MailTextContent mail_text_content = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent, emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent.Builder, emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContentOrBuilder> 
+          emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent, emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent.Builder, emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContentOrBuilder>
           getMailTextContentFieldBuilder() {
         if (mailTextContentBuilder_ == null) {
           mailTextContentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1379,7 +1379,7 @@ public final class MailDataOuterClass {
       /**
        * <code>repeated .MailItem item_list = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MailItemOuterClass.MailItemOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.MailItemOuterClass.MailItemOrBuilder>
            getItemListOrBuilderList() {
         if (itemListBuilder_ != null) {
           return itemListBuilder_.getMessageOrBuilderList();
@@ -1405,12 +1405,12 @@ public final class MailDataOuterClass {
       /**
        * <code>repeated .MailItem item_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MailItemOuterClass.MailItem.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.MailItemOuterClass.MailItem.Builder>
            getItemListBuilderList() {
         return getItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MailItemOuterClass.MailItem, emu.grasscutter.net.proto.MailItemOuterClass.MailItem.Builder, emu.grasscutter.net.proto.MailItemOuterClass.MailItemOrBuilder> 
+          emu.grasscutter.net.proto.MailItemOuterClass.MailItem, emu.grasscutter.net.proto.MailItemOuterClass.MailItem.Builder, emu.grasscutter.net.proto.MailItemOuterClass.MailItemOrBuilder>
           getItemListFieldBuilder() {
         if (itemListBuilder_ == null) {
           itemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1439,7 +1439,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSendTime(int value) {
-        
+
         sendTime_ = value;
         onChanged();
         return this;
@@ -1449,7 +1449,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSendTime() {
-        
+
         sendTime_ = 0;
         onChanged();
         return this;
@@ -1470,7 +1470,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExpireTime(int value) {
-        
+
         expireTime_ = value;
         onChanged();
         return this;
@@ -1480,7 +1480,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExpireTime() {
-        
+
         expireTime_ = 0;
         onChanged();
         return this;
@@ -1501,7 +1501,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setImportance(int value) {
-        
+
         importance_ = value;
         onChanged();
         return this;
@@ -1511,7 +1511,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearImportance() {
-        
+
         importance_ = 0;
         onChanged();
         return this;
@@ -1532,7 +1532,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsRead(boolean value) {
-        
+
         isRead_ = value;
         onChanged();
         return this;
@@ -1542,7 +1542,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsRead() {
-        
+
         isRead_ = false;
         onChanged();
         return this;
@@ -1563,7 +1563,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAttachmentGot(boolean value) {
-        
+
         isAttachmentGot_ = value;
         onChanged();
         return this;
@@ -1573,7 +1573,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAttachmentGot() {
-        
+
         isAttachmentGot_ = false;
         onChanged();
         return this;
@@ -1594,7 +1594,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setConfigId(int value) {
-        
+
         configId_ = value;
         onChanged();
         return this;
@@ -1604,7 +1604,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
-        
+
         configId_ = 0;
         onChanged();
         return this;
@@ -1734,7 +1734,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700NDPPGJKJOMHValue(int value) {
-        
+
         unk2700NDPPGJKJOMH_ = value;
         onChanged();
         return this;
@@ -1758,7 +1758,7 @@ public final class MailDataOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unk2700NDPPGJKJOMH_ = value.getNumber();
         onChanged();
         return this;
@@ -1768,7 +1768,7 @@ public final class MailDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700NDPPGJKJOMH() {
-        
+
         unk2700NDPPGJKJOMH_ = 0;
         onChanged();
         return this;
@@ -1828,7 +1828,7 @@ public final class MailDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MailData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MailData_fieldAccessorTable;
 

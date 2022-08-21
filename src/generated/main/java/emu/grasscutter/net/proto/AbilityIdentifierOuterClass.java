@@ -630,7 +630,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setModifierOwnerId(int value) {
-        
+
         modifierOwnerId_ = value;
         onChanged();
         return this;
@@ -640,7 +640,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearModifierOwnerId() {
-        
+
         modifierOwnerId_ = 0;
         onChanged();
         return this;
@@ -661,7 +661,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInstancedModifierId(int value) {
-        
+
         instancedModifierId_ = value;
         onChanged();
         return this;
@@ -671,7 +671,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInstancedModifierId() {
-        
+
         instancedModifierId_ = 0;
         onChanged();
         return this;
@@ -692,7 +692,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInstancedAbilityId(int value) {
-        
+
         instancedAbilityId_ = value;
         onChanged();
         return this;
@@ -702,7 +702,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInstancedAbilityId() {
-        
+
         instancedAbilityId_ = 0;
         onChanged();
         return this;
@@ -723,7 +723,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsServerbuffModifier(boolean value) {
-        
+
         isServerbuffModifier_ = value;
         onChanged();
         return this;
@@ -733,7 +733,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsServerbuffModifier() {
-        
+
         isServerbuffModifier_ = false;
         onChanged();
         return this;
@@ -754,7 +754,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAbilityCasterId(int value) {
-        
+
         abilityCasterId_ = value;
         onChanged();
         return this;
@@ -764,7 +764,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAbilityCasterId() {
-        
+
         abilityCasterId_ = 0;
         onChanged();
         return this;
@@ -785,7 +785,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLocalId(int value) {
-        
+
         localId_ = value;
         onChanged();
         return this;
@@ -795,7 +795,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLocalId() {
-        
+
         localId_ = 0;
         onChanged();
         return this;
@@ -855,7 +855,7 @@ public final class AbilityIdentifierOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityIdentifier_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityIdentifier_fieldAccessorTable;
 

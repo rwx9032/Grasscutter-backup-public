@@ -27,7 +27,7 @@ public final class MassivePropSyncInfoOuterClass {
     /**
      * <code>repeated .MassivePropParam prop_list = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam> 
+    java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam>
         getPropListList();
     /**
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -40,7 +40,7 @@ public final class MassivePropSyncInfoOuterClass {
     /**
      * <code>repeated .MassivePropParam prop_list = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder>
         getPropListOrBuilderList();
     /**
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -168,7 +168,7 @@ public final class MassivePropSyncInfoOuterClass {
      * <code>repeated .MassivePropParam prop_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder>
         getPropListOrBuilderList() {
       return propList_;
     }
@@ -517,7 +517,7 @@ public final class MassivePropSyncInfoOuterClass {
               propListBuilder_ = null;
               propList_ = other.propList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              propListBuilder_ = 
+              propListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPropListFieldBuilder() : null;
             } else {
@@ -570,7 +570,7 @@ public final class MassivePropSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(long value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -580,7 +580,7 @@ public final class MassivePropSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0L;
         onChanged();
         return this;
@@ -781,7 +781,7 @@ public final class MassivePropSyncInfoOuterClass {
       /**
        * <code>repeated .MassivePropParam prop_list = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder>
            getPropListOrBuilderList() {
         if (propListBuilder_ != null) {
           return propListBuilder_.getMessageOrBuilderList();
@@ -807,12 +807,12 @@ public final class MassivePropSyncInfoOuterClass {
       /**
        * <code>repeated .MassivePropParam prop_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder>
            getPropListBuilderList() {
         return getPropListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder> 
+          emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam.Builder, emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParamOrBuilder>
           getPropListFieldBuilder() {
         if (propListBuilder_ == null) {
           propListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -880,7 +880,7 @@ public final class MassivePropSyncInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MassivePropSyncInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MassivePropSyncInfo_fieldAccessorTable;
 

@@ -486,7 +486,7 @@ public final class Unk2800PHPHMILPOLC {
        * @return This builder for chaining.
        */
       public Builder setStateValue(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -510,7 +510,7 @@ public final class Unk2800PHPHMILPOLC {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         state_ = value.getNumber();
         onChanged();
         return this;
@@ -520,7 +520,7 @@ public final class Unk2800PHPHMILPOLC {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -541,7 +541,7 @@ public final class Unk2800PHPHMILPOLC {
        * @return This builder for chaining.
        */
       public Builder setUnk2800CLOCMPFBGMD(int value) {
-        
+
         unk2800CLOCMPFBGMD_ = value;
         onChanged();
         return this;
@@ -551,7 +551,7 @@ public final class Unk2800PHPHMILPOLC {
        * @return This builder for chaining.
        */
       public Builder clearUnk2800CLOCMPFBGMD() {
-        
+
         unk2800CLOCMPFBGMD_ = 0;
         onChanged();
         return this;
@@ -611,7 +611,7 @@ public final class Unk2800PHPHMILPOLC {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Unk2800_PHPHMILPOLC_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Unk2800_PHPHMILPOLC_fieldAccessorTable;
 

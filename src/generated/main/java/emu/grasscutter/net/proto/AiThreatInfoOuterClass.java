@@ -161,7 +161,7 @@ public final class AiThreatInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.AiThreatInfoOuterClass.internal_static_AiThreatInfo_AiThreatMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AiThreatInfoOuterClass.internal_static_AiThreatInfo_AiThreatMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -188,7 +188,7 @@ public final class AiThreatInfoOuterClass {
     @java.lang.Override
     public boolean containsAiThreatMap(
         int key) {
-      
+
       return internalGetAiThreatMap().getMap().containsKey(key);
     }
     /**
@@ -215,7 +215,7 @@ public final class AiThreatInfoOuterClass {
     public int getAiThreatMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAiThreatMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -227,7 +227,7 @@ public final class AiThreatInfoOuterClass {
 
     public int getAiThreatMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAiThreatMap().getMap();
       if (!map.containsKey(key)) {
@@ -605,7 +605,7 @@ public final class AiThreatInfoOuterClass {
       @java.lang.Override
       public boolean containsAiThreatMap(
           int key) {
-        
+
         return internalGetAiThreatMap().getMap().containsKey(key);
       }
       /**
@@ -632,7 +632,7 @@ public final class AiThreatInfoOuterClass {
       public int getAiThreatMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAiThreatMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -644,7 +644,7 @@ public final class AiThreatInfoOuterClass {
 
       public int getAiThreatMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAiThreatMap().getMap();
         if (!map.containsKey(key)) {
@@ -664,7 +664,7 @@ public final class AiThreatInfoOuterClass {
 
       public Builder removeAiThreatMap(
           int key) {
-        
+
         internalGetMutableAiThreatMap().getMutableMap()
             .remove(key);
         return this;
@@ -683,8 +683,8 @@ public final class AiThreatInfoOuterClass {
       public Builder putAiThreatMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableAiThreatMap().getMutableMap()
             .put(key, value);
         return this;
@@ -754,12 +754,12 @@ public final class AiThreatInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AiThreatInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AiThreatInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AiThreatInfo_AiThreatMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AiThreatInfo_AiThreatMapEntry_fieldAccessorTable;
 

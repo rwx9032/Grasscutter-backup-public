@@ -21,7 +21,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     /**
      * <code>repeated .AbilityInvokeEntry invokes = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> 
+    java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry>
         getInvokesList();
     /**
      * <code>repeated .AbilityInvokeEntry invokes = 14;</code>
@@ -34,7 +34,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     /**
      * <code>repeated .AbilityInvokeEntry invokes = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
         getInvokesOrBuilderList();
     /**
      * <code>repeated .AbilityInvokeEntry invokes = 14;</code>
@@ -164,7 +164,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
      * <code>repeated .AbilityInvokeEntry invokes = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
         getInvokesOrBuilderList() {
       return invokes_;
     }
@@ -527,7 +527,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
               invokesBuilder_ = null;
               invokes_ = other.invokes_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              invokesBuilder_ = 
+              invokesBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getInvokesFieldBuilder() : null;
             } else {
@@ -763,7 +763,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       /**
        * <code>repeated .AbilityInvokeEntry invokes = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
            getInvokesOrBuilderList() {
         if (invokesBuilder_ != null) {
           return invokesBuilder_.getMessageOrBuilderList();
@@ -789,12 +789,12 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       /**
        * <code>repeated .AbilityInvokeEntry invokes = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder>
            getInvokesBuilderList() {
         return getInvokesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> 
+          emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
           getInvokesFieldBuilder() {
         if (invokesBuilder_ == null) {
           invokesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -823,7 +823,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -833,7 +833,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -893,7 +893,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ClientAbilityInitFinishNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ClientAbilityInitFinishNotify_fieldAccessorTable;
 

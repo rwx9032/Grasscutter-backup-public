@@ -473,7 +473,7 @@ public final class GadgetCrucibleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMpPlayId(int value) {
-        
+
         mpPlayId_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class GadgetCrucibleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMpPlayId() {
-        
+
         mpPlayId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class GadgetCrucibleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPrepareEndTime(int value) {
-        
+
         prepareEndTime_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class GadgetCrucibleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPrepareEndTime() {
-        
+
         prepareEndTime_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class GadgetCrucibleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GadgetCrucibleInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GadgetCrucibleInfo_fieldAccessorTable;
 

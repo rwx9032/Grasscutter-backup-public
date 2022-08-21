@@ -486,7 +486,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFlycloakId(int value) {
-        
+
         flycloakId_ = value;
         onChanged();
         return this;
@@ -496,7 +496,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFlycloakId() {
-        
+
         flycloakId_ = 0;
         onChanged();
         return this;
@@ -517,7 +517,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -527,7 +527,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -587,7 +587,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarFlycloakChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarFlycloakChangeNotify_fieldAccessorTable;
 

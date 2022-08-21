@@ -527,7 +527,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -537,7 +537,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -558,7 +558,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOldLevel(int value) {
-        
+
         oldLevel_ = value;
         onChanged();
         return this;
@@ -568,7 +568,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOldLevel() {
-        
+
         oldLevel_ = 0;
         onChanged();
         return this;
@@ -589,7 +589,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarSkillId(int value) {
-        
+
         avatarSkillId_ = value;
         onChanged();
         return this;
@@ -599,7 +599,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarSkillId() {
-        
+
         avatarSkillId_ = 0;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillUpgradeReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillUpgradeReq_fieldAccessorTable;
 

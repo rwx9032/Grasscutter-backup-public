@@ -36,7 +36,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .AnchorPointData anchor_point_list = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData> 
+    java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData>
         getAnchorPointListList();
     /**
      * <code>repeated .AnchorPointData anchor_point_list = 3;</code>
@@ -49,7 +49,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .AnchorPointData anchor_point_list = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
         getAnchorPointListOrBuilderList();
     /**
      * <code>repeated .AnchorPointData anchor_point_list = 3;</code>
@@ -60,7 +60,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .ClientCollectorData client_collector_data_list = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData> 
+    java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData>
         getClientCollectorDataListList();
     /**
      * <code>repeated .ClientCollectorData client_collector_data_list = 4;</code>
@@ -73,7 +73,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .ClientCollectorData client_collector_data_list = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
         getClientCollectorDataListOrBuilderList();
     /**
      * <code>repeated .ClientCollectorData client_collector_data_list = 4;</code>
@@ -84,7 +84,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> 
+    java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData>
         getNormalCoolDownDataListList();
     /**
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 9;</code>
@@ -97,7 +97,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
         getNormalCoolDownDataListOrBuilderList();
     /**
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 9;</code>
@@ -114,7 +114,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .OneofGatherPointDetectorData oneof_gather_point_detector_data_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData> 
+    java.util.List<emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData>
         getOneofGatherPointDetectorDataListList();
     /**
      * <code>repeated .OneofGatherPointDetectorData oneof_gather_point_detector_data_list = 15;</code>
@@ -127,7 +127,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .OneofGatherPointDetectorData oneof_gather_point_detector_data_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder>
         getOneofGatherPointDetectorDataListOrBuilderList();
     /**
      * <code>repeated .OneofGatherPointDetectorData oneof_gather_point_detector_data_list = 15;</code>
@@ -153,7 +153,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> 
+    java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData>
         getCoolDownGroupDataListList();
     /**
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 13;</code>
@@ -166,7 +166,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
         getCoolDownGroupDataListOrBuilderList();
     /**
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 13;</code>
@@ -177,7 +177,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .WidgetSlotData slot_list = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> 
+    java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData>
         getSlotListList();
     /**
      * <code>repeated .WidgetSlotData slot_list = 6;</code>
@@ -190,7 +190,7 @@ public final class AllWidgetDataNotifyOuterClass {
     /**
      * <code>repeated .WidgetSlotData slot_list = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
         getSlotListOrBuilderList();
     /**
      * <code>repeated .WidgetSlotData slot_list = 6;</code>
@@ -430,7 +430,7 @@ public final class AllWidgetDataNotifyOuterClass {
      * <code>repeated .AnchorPointData anchor_point_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
         getAnchorPointListOrBuilderList() {
       return anchorPointList_;
     }
@@ -470,7 +470,7 @@ public final class AllWidgetDataNotifyOuterClass {
      * <code>repeated .ClientCollectorData client_collector_data_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
         getClientCollectorDataListOrBuilderList() {
       return clientCollectorDataList_;
     }
@@ -510,7 +510,7 @@ public final class AllWidgetDataNotifyOuterClass {
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
         getNormalCoolDownDataListOrBuilderList() {
       return normalCoolDownDataList_;
     }
@@ -561,7 +561,7 @@ public final class AllWidgetDataNotifyOuterClass {
      * <code>repeated .OneofGatherPointDetectorData oneof_gather_point_detector_data_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder>
         getOneofGatherPointDetectorDataListOrBuilderList() {
       return oneofGatherPointDetectorDataList_;
     }
@@ -627,7 +627,7 @@ public final class AllWidgetDataNotifyOuterClass {
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
         getCoolDownGroupDataListOrBuilderList() {
       return coolDownGroupDataList_;
     }
@@ -667,7 +667,7 @@ public final class AllWidgetDataNotifyOuterClass {
      * <code>repeated .WidgetSlotData slot_list = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
         getSlotListOrBuilderList() {
       return slotList_;
     }
@@ -1220,7 +1220,7 @@ public final class AllWidgetDataNotifyOuterClass {
               anchorPointListBuilder_ = null;
               anchorPointList_ = other.anchorPointList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              anchorPointListBuilder_ = 
+              anchorPointListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAnchorPointListFieldBuilder() : null;
             } else {
@@ -1246,7 +1246,7 @@ public final class AllWidgetDataNotifyOuterClass {
               clientCollectorDataListBuilder_ = null;
               clientCollectorDataList_ = other.clientCollectorDataList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              clientCollectorDataListBuilder_ = 
+              clientCollectorDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getClientCollectorDataListFieldBuilder() : null;
             } else {
@@ -1272,7 +1272,7 @@ public final class AllWidgetDataNotifyOuterClass {
               normalCoolDownDataListBuilder_ = null;
               normalCoolDownDataList_ = other.normalCoolDownDataList_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              normalCoolDownDataListBuilder_ = 
+              normalCoolDownDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getNormalCoolDownDataListFieldBuilder() : null;
             } else {
@@ -1301,7 +1301,7 @@ public final class AllWidgetDataNotifyOuterClass {
               oneofGatherPointDetectorDataListBuilder_ = null;
               oneofGatherPointDetectorDataList_ = other.oneofGatherPointDetectorDataList_;
               bitField0_ = (bitField0_ & ~0x00000008);
-              oneofGatherPointDetectorDataListBuilder_ = 
+              oneofGatherPointDetectorDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getOneofGatherPointDetectorDataListFieldBuilder() : null;
             } else {
@@ -1330,7 +1330,7 @@ public final class AllWidgetDataNotifyOuterClass {
               coolDownGroupDataListBuilder_ = null;
               coolDownGroupDataList_ = other.coolDownGroupDataList_;
               bitField0_ = (bitField0_ & ~0x00000010);
-              coolDownGroupDataListBuilder_ = 
+              coolDownGroupDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCoolDownGroupDataListFieldBuilder() : null;
             } else {
@@ -1356,7 +1356,7 @@ public final class AllWidgetDataNotifyOuterClass {
               slotListBuilder_ = null;
               slotList_ = other.slotList_;
               bitField0_ = (bitField0_ & ~0x00000020);
-              slotListBuilder_ = 
+              slotListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getSlotListFieldBuilder() : null;
             } else {
@@ -1481,7 +1481,7 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>.Unk2700_CCEOEOHLAPK Unk2700_COIELIGEACL = 12;</code>
        */
       public emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK.Builder getUnk2700COIELIGEACLBuilder() {
-        
+
         onChanged();
         return getUnk2700COIELIGEACLFieldBuilder().getBuilder();
       }
@@ -1500,7 +1500,7 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>.Unk2700_CCEOEOHLAPK Unk2700_COIELIGEACL = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK, emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK.Builder, emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPKOrBuilder> 
+          emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK, emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK.Builder, emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPKOrBuilder>
           getUnk2700COIELIGEACLFieldBuilder() {
         if (unk2700COIELIGEACLBuilder_ == null) {
           unk2700COIELIGEACLBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1708,7 +1708,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .AnchorPointData anchor_point_list = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
            getAnchorPointListOrBuilderList() {
         if (anchorPointListBuilder_ != null) {
           return anchorPointListBuilder_.getMessageOrBuilderList();
@@ -1734,12 +1734,12 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .AnchorPointData anchor_point_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder>
            getAnchorPointListBuilderList() {
         return getAnchorPointListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
+          emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
           getAnchorPointListFieldBuilder() {
         if (anchorPointListBuilder_ == null) {
           anchorPointListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1948,7 +1948,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .ClientCollectorData client_collector_data_list = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
            getClientCollectorDataListOrBuilderList() {
         if (clientCollectorDataListBuilder_ != null) {
           return clientCollectorDataListBuilder_.getMessageOrBuilderList();
@@ -1974,12 +1974,12 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .ClientCollectorData client_collector_data_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder>
            getClientCollectorDataListBuilderList() {
         return getClientCollectorDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
+          emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
           getClientCollectorDataListFieldBuilder() {
         if (clientCollectorDataListBuilder_ == null) {
           clientCollectorDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2188,7 +2188,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 9;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
            getNormalCoolDownDataListOrBuilderList() {
         if (normalCoolDownDataListBuilder_ != null) {
           return normalCoolDownDataListBuilder_.getMessageOrBuilderList();
@@ -2214,12 +2214,12 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder>
            getNormalCoolDownDataListBuilderList() {
         return getNormalCoolDownDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
           getNormalCoolDownDataListFieldBuilder() {
         if (normalCoolDownDataListBuilder_ == null) {
           normalCoolDownDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2248,7 +2248,7 @@ public final class AllWidgetDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextAnchorPointUsableTime(int value) {
-        
+
         nextAnchorPointUsableTime_ = value;
         onChanged();
         return this;
@@ -2258,7 +2258,7 @@ public final class AllWidgetDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextAnchorPointUsableTime() {
-        
+
         nextAnchorPointUsableTime_ = 0;
         onChanged();
         return this;
@@ -2459,7 +2459,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .OneofGatherPointDetectorData oneof_gather_point_detector_data_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder>
            getOneofGatherPointDetectorDataListOrBuilderList() {
         if (oneofGatherPointDetectorDataListBuilder_ != null) {
           return oneofGatherPointDetectorDataListBuilder_.getMessageOrBuilderList();
@@ -2485,12 +2485,12 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .OneofGatherPointDetectorData oneof_gather_point_detector_data_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData.Builder>
            getOneofGatherPointDetectorDataListBuilderList() {
         return getOneofGatherPointDetectorDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData, emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData.Builder, emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder> 
+          emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData, emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData.Builder, emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder>
           getOneofGatherPointDetectorDataListFieldBuilder() {
         if (oneofGatherPointDetectorDataListBuilder_ == null) {
           oneofGatherPointDetectorDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2591,7 +2591,7 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>.LunchBoxData lunch_box_data = 1;</code>
        */
       public emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder getLunchBoxDataBuilder() {
-        
+
         onChanged();
         return getLunchBoxDataFieldBuilder().getBuilder();
       }
@@ -2610,7 +2610,7 @@ public final class AllWidgetDataNotifyOuterClass {
        * <code>.LunchBoxData lunch_box_data = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder> 
+          emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder>
           getLunchBoxDataFieldBuilder() {
         if (lunchBoxDataBuilder_ == null) {
           lunchBoxDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2818,7 +2818,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
            getCoolDownGroupDataListOrBuilderList() {
         if (coolDownGroupDataListBuilder_ != null) {
           return coolDownGroupDataListBuilder_.getMessageOrBuilderList();
@@ -2844,12 +2844,12 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder>
            getCoolDownGroupDataListBuilderList() {
         return getCoolDownGroupDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
           getCoolDownGroupDataListFieldBuilder() {
         if (coolDownGroupDataListBuilder_ == null) {
           coolDownGroupDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3058,7 +3058,7 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .WidgetSlotData slot_list = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
            getSlotListOrBuilderList() {
         if (slotListBuilder_ != null) {
           return slotListBuilder_.getMessageOrBuilderList();
@@ -3084,12 +3084,12 @@ public final class AllWidgetDataNotifyOuterClass {
       /**
        * <code>repeated .WidgetSlotData slot_list = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder>
            getSlotListBuilderList() {
         return getSlotListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
           getSlotListFieldBuilder() {
         if (slotListBuilder_ == null) {
           slotListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3157,7 +3157,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AllWidgetDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AllWidgetDataNotify_fieldAccessorTable;
 

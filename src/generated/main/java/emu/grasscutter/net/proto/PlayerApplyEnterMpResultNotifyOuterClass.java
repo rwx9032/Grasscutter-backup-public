@@ -399,7 +399,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         targetNickname_ = s;
@@ -415,7 +415,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
         getTargetNicknameBytes() {
       java.lang.Object ref = targetNickname_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         targetNickname_ = b;
@@ -829,7 +829,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAgreed(boolean value) {
-        
+
         isAgreed_ = value;
         onChanged();
         return this;
@@ -839,7 +839,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAgreed() {
-        
+
         isAgreed_ = false;
         onChanged();
         return this;
@@ -870,7 +870,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
           getTargetNicknameBytes() {
         java.lang.Object ref = targetNickname_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           targetNickname_ = b;
@@ -889,7 +889,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         targetNickname_ = value;
         onChanged();
         return this;
@@ -899,7 +899,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetNickname() {
-        
+
         targetNickname_ = getDefaultInstance().getTargetNickname();
         onChanged();
         return this;
@@ -915,7 +915,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         targetNickname_ = value;
         onChanged();
         return this;
@@ -935,7 +935,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setReasonValue(int value) {
-        
+
         reason_ = value;
         onChanged();
         return this;
@@ -959,7 +959,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         reason_ = value.getNumber();
         onChanged();
         return this;
@@ -969,7 +969,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReason() {
-        
+
         reason_ = 0;
         onChanged();
         return this;
@@ -990,7 +990,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
@@ -1000,7 +1000,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
@@ -1060,7 +1060,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerApplyEnterMpResultNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerApplyEnterMpResultNotify_fieldAccessorTable;
 

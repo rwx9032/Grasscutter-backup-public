@@ -670,7 +670,7 @@ public final class ParentQuestRandomInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTemplateId(int value) {
-        
+
         templateId_ = value;
         onChanged();
         return this;
@@ -680,7 +680,7 @@ public final class ParentQuestRandomInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTemplateId() {
-        
+
         templateId_ = 0;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class ParentQuestRandomInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntranceId(int value) {
-        
+
         entranceId_ = value;
         onChanged();
         return this;
@@ -711,7 +711,7 @@ public final class ParentQuestRandomInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntranceId() {
-        
+
         entranceId_ = 0;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class ParentQuestRandomInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ParentQuestRandomInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ParentQuestRandomInfo_fieldAccessorTable;
 

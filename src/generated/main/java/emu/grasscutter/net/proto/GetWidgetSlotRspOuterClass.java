@@ -21,7 +21,7 @@ public final class GetWidgetSlotRspOuterClass {
     /**
      * <code>repeated .WidgetSlotData slot_list = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> 
+    java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData>
         getSlotListList();
     /**
      * <code>repeated .WidgetSlotData slot_list = 13;</code>
@@ -34,7 +34,7 @@ public final class GetWidgetSlotRspOuterClass {
     /**
      * <code>repeated .WidgetSlotData slot_list = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
         getSlotListOrBuilderList();
     /**
      * <code>repeated .WidgetSlotData slot_list = 13;</code>
@@ -163,7 +163,7 @@ public final class GetWidgetSlotRspOuterClass {
      * <code>repeated .WidgetSlotData slot_list = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
         getSlotListOrBuilderList() {
       return slotList_;
     }
@@ -525,7 +525,7 @@ public final class GetWidgetSlotRspOuterClass {
               slotListBuilder_ = null;
               slotList_ = other.slotList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              slotListBuilder_ = 
+              slotListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getSlotListFieldBuilder() : null;
             } else {
@@ -761,7 +761,7 @@ public final class GetWidgetSlotRspOuterClass {
       /**
        * <code>repeated .WidgetSlotData slot_list = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
            getSlotListOrBuilderList() {
         if (slotListBuilder_ != null) {
           return slotListBuilder_.getMessageOrBuilderList();
@@ -787,12 +787,12 @@ public final class GetWidgetSlotRspOuterClass {
       /**
        * <code>repeated .WidgetSlotData slot_list = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder>
            getSlotListBuilderList() {
         return getSlotListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
           getSlotListFieldBuilder() {
         if (slotListBuilder_ == null) {
           slotListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class GetWidgetSlotRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class GetWidgetSlotRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -891,7 +891,7 @@ public final class GetWidgetSlotRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetWidgetSlotRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetWidgetSlotRsp_fieldAccessorTable;
 

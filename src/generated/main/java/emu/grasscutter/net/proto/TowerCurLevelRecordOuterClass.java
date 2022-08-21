@@ -21,7 +21,7 @@ public final class TowerCurLevelRecordOuterClass {
     /**
      * <code>repeated .TowerTeam tower_team_list = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> 
+    java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam>
         getTowerTeamListList();
     /**
      * <code>repeated .TowerTeam tower_team_list = 8;</code>
@@ -34,7 +34,7 @@ public final class TowerCurLevelRecordOuterClass {
     /**
      * <code>repeated .TowerTeam tower_team_list = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder>
         getTowerTeamListOrBuilderList();
     /**
      * <code>repeated .TowerTeam tower_team_list = 8;</code>
@@ -232,7 +232,7 @@ public final class TowerCurLevelRecordOuterClass {
      * <code>repeated .TowerTeam tower_team_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder>
         getTowerTeamListOrBuilderList() {
       return towerTeamList_;
     }
@@ -728,7 +728,7 @@ public final class TowerCurLevelRecordOuterClass {
               towerTeamListBuilder_ = null;
               towerTeamList_ = other.towerTeamList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              towerTeamListBuilder_ = 
+              towerTeamListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTowerTeamListFieldBuilder() : null;
             } else {
@@ -983,7 +983,7 @@ public final class TowerCurLevelRecordOuterClass {
       /**
        * <code>repeated .TowerTeam tower_team_list = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder>
            getTowerTeamListOrBuilderList() {
         if (towerTeamListBuilder_ != null) {
           return towerTeamListBuilder_.getMessageOrBuilderList();
@@ -1009,12 +1009,12 @@ public final class TowerCurLevelRecordOuterClass {
       /**
        * <code>repeated .TowerTeam tower_team_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder>
            getTowerTeamListBuilderList() {
         return getTowerTeamListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
+          emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder>
           getTowerTeamListFieldBuilder() {
         if (towerTeamListBuilder_ == null) {
           towerTeamListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1043,7 +1043,7 @@ public final class TowerCurLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsEmpty(boolean value) {
-        
+
         isEmpty_ = value;
         onChanged();
         return this;
@@ -1053,7 +1053,7 @@ public final class TowerCurLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsEmpty() {
-        
+
         isEmpty_ = false;
         onChanged();
         return this;
@@ -1153,7 +1153,7 @@ public final class TowerCurLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700CBPNPEBMPOH(boolean value) {
-        
+
         unk2700CBPNPEBMPOH_ = value;
         onChanged();
         return this;
@@ -1163,7 +1163,7 @@ public final class TowerCurLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700CBPNPEBMPOH() {
-        
+
         unk2700CBPNPEBMPOH_ = false;
         onChanged();
         return this;
@@ -1184,7 +1184,7 @@ public final class TowerCurLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurLevelIndex(int value) {
-        
+
         curLevelIndex_ = value;
         onChanged();
         return this;
@@ -1194,7 +1194,7 @@ public final class TowerCurLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurLevelIndex() {
-        
+
         curLevelIndex_ = 0;
         onChanged();
         return this;
@@ -1215,7 +1215,7 @@ public final class TowerCurLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurFloorId(int value) {
-        
+
         curFloorId_ = value;
         onChanged();
         return this;
@@ -1225,7 +1225,7 @@ public final class TowerCurLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurFloorId() {
-        
+
         curFloorId_ = 0;
         onChanged();
         return this;
@@ -1285,7 +1285,7 @@ public final class TowerCurLevelRecordOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerCurLevelRecord_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerCurLevelRecord_fieldAccessorTable;
 

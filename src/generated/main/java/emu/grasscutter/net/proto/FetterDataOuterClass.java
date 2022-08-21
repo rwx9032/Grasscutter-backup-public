@@ -591,7 +591,7 @@ public final class FetterDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFetterId(int value) {
-        
+
         fetterId_ = value;
         onChanged();
         return this;
@@ -601,7 +601,7 @@ public final class FetterDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFetterId() {
-        
+
         fetterId_ = 0;
         onChanged();
         return this;
@@ -622,7 +622,7 @@ public final class FetterDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFetterState(int value) {
-        
+
         fetterState_ = value;
         onChanged();
         return this;
@@ -632,7 +632,7 @@ public final class FetterDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFetterState() {
-        
+
         fetterState_ = 0;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class FetterDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FetterData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FetterData_fieldAccessorTable;
 

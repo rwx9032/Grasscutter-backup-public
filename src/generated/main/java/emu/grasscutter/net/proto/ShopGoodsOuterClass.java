@@ -39,7 +39,7 @@ public final class ShopGoodsOuterClass {
     /**
      * <code>repeated .ItemParam cost_item_list = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
         getCostItemListList();
     /**
      * <code>repeated .ItemParam cost_item_list = 3;</code>
@@ -52,7 +52,7 @@ public final class ShopGoodsOuterClass {
     /**
      * <code>repeated .ItemParam cost_item_list = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getCostItemListOrBuilderList();
     /**
      * <code>repeated .ItemParam cost_item_list = 3;</code>
@@ -436,7 +436,7 @@ public final class ShopGoodsOuterClass {
      * <code>repeated .ItemParam cost_item_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getCostItemListOrBuilderList() {
       return costItemList_;
     }
@@ -1284,7 +1284,7 @@ public final class ShopGoodsOuterClass {
               costItemListBuilder_ = null;
               costItemList_ = other.costItemList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              costItemListBuilder_ = 
+              costItemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCostItemListFieldBuilder() : null;
             } else {
@@ -1392,7 +1392,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDiscountEndTime(int value) {
-        
+
         discountEndTime_ = value;
         onChanged();
         return this;
@@ -1402,7 +1402,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDiscountEndTime() {
-        
+
         discountEndTime_ = 0;
         onChanged();
         return this;
@@ -1423,7 +1423,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMinLevel(int value) {
-        
+
         minLevel_ = value;
         onChanged();
         return this;
@@ -1433,7 +1433,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMinLevel() {
-        
+
         minLevel_ = 0;
         onChanged();
         return this;
@@ -1454,7 +1454,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -1464,7 +1464,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -1665,7 +1665,7 @@ public final class ShopGoodsOuterClass {
       /**
        * <code>repeated .ItemParam cost_item_list = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
            getCostItemListOrBuilderList() {
         if (costItemListBuilder_ != null) {
           return costItemListBuilder_.getMessageOrBuilderList();
@@ -1691,12 +1691,12 @@ public final class ShopGoodsOuterClass {
       /**
        * <code>repeated .ItemParam cost_item_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
            getCostItemListBuilderList() {
         return getCostItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getCostItemListFieldBuilder() {
         if (costItemListBuilder_ == null) {
           costItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1725,7 +1725,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSecondarySheetId(int value) {
-        
+
         secondarySheetId_ = value;
         onChanged();
         return this;
@@ -1735,7 +1735,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSecondarySheetId() {
-        
+
         secondarySheetId_ = 0;
         onChanged();
         return this;
@@ -1756,7 +1756,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHcoin(int value) {
-        
+
         hcoin_ = value;
         onChanged();
         return this;
@@ -1766,7 +1766,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHcoin() {
-        
+
         hcoin_ = 0;
         onChanged();
         return this;
@@ -1787,7 +1787,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMcoin(int value) {
-        
+
         mcoin_ = value;
         onChanged();
         return this;
@@ -1797,7 +1797,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMcoin() {
-        
+
         mcoin_ = 0;
         onChanged();
         return this;
@@ -1818,7 +1818,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDiscountId(int value) {
-        
+
         discountId_ = value;
         onChanged();
         return this;
@@ -1828,7 +1828,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDiscountId() {
-        
+
         discountId_ = 0;
         onChanged();
         return this;
@@ -1849,7 +1849,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSingleLimit(int value) {
-        
+
         singleLimit_ = value;
         onChanged();
         return this;
@@ -1859,7 +1859,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSingleLimit() {
-        
+
         singleLimit_ = 0;
         onChanged();
         return this;
@@ -1880,7 +1880,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGoodsId(int value) {
-        
+
         goodsId_ = value;
         onChanged();
         return this;
@@ -1890,7 +1890,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGoodsId() {
-        
+
         goodsId_ = 0;
         onChanged();
         return this;
@@ -1911,7 +1911,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextRefreshTime(int value) {
-        
+
         nextRefreshTime_ = value;
         onChanged();
         return this;
@@ -1921,7 +1921,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextRefreshTime() {
-        
+
         nextRefreshTime_ = 0;
         onChanged();
         return this;
@@ -1942,7 +1942,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxLevel(int value) {
-        
+
         maxLevel_ = value;
         onChanged();
         return this;
@@ -1952,7 +1952,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxLevel() {
-        
+
         maxLevel_ = 0;
         onChanged();
         return this;
@@ -1973,7 +1973,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDisableType(int value) {
-        
+
         disableType_ = value;
         onChanged();
         return this;
@@ -1983,7 +1983,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDisableType() {
-        
+
         disableType_ = 0;
         onChanged();
         return this;
@@ -2004,7 +2004,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDiscountBeginTime(int value) {
-        
+
         discountBeginTime_ = value;
         onChanged();
         return this;
@@ -2014,7 +2014,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDiscountBeginTime() {
-        
+
         discountBeginTime_ = 0;
         onChanged();
         return this;
@@ -2114,7 +2114,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
@@ -2124,7 +2124,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -2145,7 +2145,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScoin(int value) {
-        
+
         scoin_ = value;
         onChanged();
         return this;
@@ -2155,7 +2155,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScoin() {
-        
+
         scoin_ = 0;
         onChanged();
         return this;
@@ -2176,7 +2176,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBoughtNum(int value) {
-        
+
         boughtNum_ = value;
         onChanged();
         return this;
@@ -2186,7 +2186,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBoughtNum() {
-        
+
         boughtNum_ = 0;
         onChanged();
         return this;
@@ -2207,7 +2207,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBuyLimit(int value) {
-        
+
         buyLimit_ = value;
         onChanged();
         return this;
@@ -2217,7 +2217,7 @@ public final class ShopGoodsOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBuyLimit() {
-        
+
         buyLimit_ = 0;
         onChanged();
         return this;
@@ -2310,7 +2310,7 @@ public final class ShopGoodsOuterClass {
        * <code>.ItemParam goods_item = 9;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getGoodsItemBuilder() {
-        
+
         onChanged();
         return getGoodsItemFieldBuilder().getBuilder();
       }
@@ -2329,7 +2329,7 @@ public final class ShopGoodsOuterClass {
        * <code>.ItemParam goods_item = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getGoodsItemFieldBuilder() {
         if (goodsItemBuilder_ == null) {
           goodsItemBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2396,7 +2396,7 @@ public final class ShopGoodsOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShopGoods_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShopGoods_fieldAccessorTable;
 

@@ -779,7 +779,7 @@ public final class MusicGameCreateBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnknownEnum1Value(int value) {
-        
+
         unknownEnum1_ = value;
         onChanged();
         return this;
@@ -803,7 +803,7 @@ public final class MusicGameCreateBeatmapReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unknownEnum1_ = value.getNumber();
         onChanged();
         return this;
@@ -813,7 +813,7 @@ public final class MusicGameCreateBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnknownEnum1() {
-        
+
         unknownEnum1_ = 0;
         onChanged();
         return this;
@@ -942,7 +942,7 @@ public final class MusicGameCreateBeatmapReqOuterClass {
        * <code>.MusicBeatmap music_record = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmap, emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmap.Builder, emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmapOrBuilder> 
+          emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmap, emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmap.Builder, emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmapOrBuilder>
           getMusicRecordFieldBuilder() {
         if (musicRecordBuilder_ == null) {
           if (!(beatmapCase_ == 10)) {
@@ -1083,7 +1083,7 @@ public final class MusicGameCreateBeatmapReqOuterClass {
        * <code>.MusicBriefInfo music_brief_info = 1021;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo.Builder, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo.Builder, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfoOrBuilder>
           getMusicBriefInfoFieldBuilder() {
         if (musicBriefInfoBuilder_ == null) {
           if (!(briefInfoCase_ == 1021)) {
@@ -1155,7 +1155,7 @@ public final class MusicGameCreateBeatmapReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameCreateBeatmapReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameCreateBeatmapReq_fieldAccessorTable;
 

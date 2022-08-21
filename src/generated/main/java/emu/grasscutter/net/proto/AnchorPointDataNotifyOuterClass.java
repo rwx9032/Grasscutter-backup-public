@@ -21,7 +21,7 @@ public final class AnchorPointDataNotifyOuterClass {
     /**
      * <code>repeated .AnchorPointData anchor_point_list = 10;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData> 
+    java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData>
         getAnchorPointListList();
     /**
      * <code>repeated .AnchorPointData anchor_point_list = 10;</code>
@@ -34,7 +34,7 @@ public final class AnchorPointDataNotifyOuterClass {
     /**
      * <code>repeated .AnchorPointData anchor_point_list = 10;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
         getAnchorPointListOrBuilderList();
     /**
      * <code>repeated .AnchorPointData anchor_point_list = 10;</code>
@@ -163,7 +163,7 @@ public final class AnchorPointDataNotifyOuterClass {
      * <code>repeated .AnchorPointData anchor_point_list = 10;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
         getAnchorPointListOrBuilderList() {
       return anchorPointList_;
     }
@@ -525,7 +525,7 @@ public final class AnchorPointDataNotifyOuterClass {
               anchorPointListBuilder_ = null;
               anchorPointList_ = other.anchorPointList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              anchorPointListBuilder_ = 
+              anchorPointListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAnchorPointListFieldBuilder() : null;
             } else {
@@ -761,7 +761,7 @@ public final class AnchorPointDataNotifyOuterClass {
       /**
        * <code>repeated .AnchorPointData anchor_point_list = 10;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
            getAnchorPointListOrBuilderList() {
         if (anchorPointListBuilder_ != null) {
           return anchorPointListBuilder_.getMessageOrBuilderList();
@@ -787,12 +787,12 @@ public final class AnchorPointDataNotifyOuterClass {
       /**
        * <code>repeated .AnchorPointData anchor_point_list = 10;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder>
            getAnchorPointListBuilderList() {
         return getAnchorPointListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
+          emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
           getAnchorPointListFieldBuilder() {
         if (anchorPointListBuilder_ == null) {
           anchorPointListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class AnchorPointDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextUsableTime(int value) {
-        
+
         nextUsableTime_ = value;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class AnchorPointDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextUsableTime() {
-        
+
         nextUsableTime_ = 0;
         onChanged();
         return this;
@@ -891,7 +891,7 @@ public final class AnchorPointDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AnchorPointDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AnchorPointDataNotify_fieldAccessorTable;
 

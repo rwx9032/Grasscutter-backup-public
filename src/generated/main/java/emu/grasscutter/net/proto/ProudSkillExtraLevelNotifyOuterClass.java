@@ -564,7 +564,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTalentType(int value) {
-        
+
         talentType_ = value;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTalentType() {
-        
+
         talentType_ = 0;
         onChanged();
         return this;
@@ -595,7 +595,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTalentIndex(int value) {
-        
+
         talentIndex_ = value;
         onChanged();
         return this;
@@ -605,7 +605,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTalentIndex() {
-        
+
         talentIndex_ = 0;
         onChanged();
         return this;
@@ -626,7 +626,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -636,7 +636,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -657,7 +657,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExtraLevel(int value) {
-        
+
         extraLevel_ = value;
         onChanged();
         return this;
@@ -667,7 +667,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExtraLevel() {
-        
+
         extraLevel_ = 0;
         onChanged();
         return this;
@@ -727,7 +727,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ProudSkillExtraLevelNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ProudSkillExtraLevelNotify_fieldAccessorTable;
 

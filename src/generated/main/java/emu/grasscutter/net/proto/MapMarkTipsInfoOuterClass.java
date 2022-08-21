@@ -565,7 +565,7 @@ public final class MapMarkTipsInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTipsTypeValue(int value) {
-        
+
         tipsType_ = value;
         onChanged();
         return this;
@@ -589,7 +589,7 @@ public final class MapMarkTipsInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         tipsType_ = value.getNumber();
         onChanged();
         return this;
@@ -599,7 +599,7 @@ public final class MapMarkTipsInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTipsType() {
-        
+
         tipsType_ = 0;
         onChanged();
         return this;
@@ -738,7 +738,7 @@ public final class MapMarkTipsInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MapMarkTipsInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MapMarkTipsInfo_fieldAccessorTable;
 

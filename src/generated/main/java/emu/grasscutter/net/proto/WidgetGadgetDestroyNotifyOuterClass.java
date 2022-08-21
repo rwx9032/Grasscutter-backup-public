@@ -446,7 +446,7 @@ public final class WidgetGadgetDestroyNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -456,7 +456,7 @@ public final class WidgetGadgetDestroyNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -516,7 +516,7 @@ public final class WidgetGadgetDestroyNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetGadgetDestroyNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetGadgetDestroyNotify_fieldAccessorTable;
 

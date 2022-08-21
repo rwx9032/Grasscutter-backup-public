@@ -183,7 +183,7 @@ public final class RegionSimpleInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -199,7 +199,7 @@ public final class RegionSimpleInfoOuterClass {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -221,7 +221,7 @@ public final class RegionSimpleInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         title_ = s;
@@ -237,7 +237,7 @@ public final class RegionSimpleInfoOuterClass {
         getTitleBytes() {
       java.lang.Object ref = title_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         title_ = b;
@@ -259,7 +259,7 @@ public final class RegionSimpleInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         type_ = s;
@@ -275,7 +275,7 @@ public final class RegionSimpleInfoOuterClass {
         getTypeBytes() {
       java.lang.Object ref = type_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         type_ = b;
@@ -297,7 +297,7 @@ public final class RegionSimpleInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         dispatchUrl_ = s;
@@ -313,7 +313,7 @@ public final class RegionSimpleInfoOuterClass {
         getDispatchUrlBytes() {
       java.lang.Object ref = dispatchUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         dispatchUrl_ = b;
@@ -701,7 +701,7 @@ public final class RegionSimpleInfoOuterClass {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -720,7 +720,7 @@ public final class RegionSimpleInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -730,7 +730,7 @@ public final class RegionSimpleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -746,7 +746,7 @@ public final class RegionSimpleInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -777,7 +777,7 @@ public final class RegionSimpleInfoOuterClass {
           getTitleBytes() {
         java.lang.Object ref = title_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           title_ = b;
@@ -796,7 +796,7 @@ public final class RegionSimpleInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         title_ = value;
         onChanged();
         return this;
@@ -806,7 +806,7 @@ public final class RegionSimpleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTitle() {
-        
+
         title_ = getDefaultInstance().getTitle();
         onChanged();
         return this;
@@ -822,7 +822,7 @@ public final class RegionSimpleInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         title_ = value;
         onChanged();
         return this;
@@ -853,7 +853,7 @@ public final class RegionSimpleInfoOuterClass {
           getTypeBytes() {
         java.lang.Object ref = type_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           type_ = b;
@@ -872,7 +872,7 @@ public final class RegionSimpleInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         type_ = value;
         onChanged();
         return this;
@@ -882,7 +882,7 @@ public final class RegionSimpleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-        
+
         type_ = getDefaultInstance().getType();
         onChanged();
         return this;
@@ -898,7 +898,7 @@ public final class RegionSimpleInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         type_ = value;
         onChanged();
         return this;
@@ -929,7 +929,7 @@ public final class RegionSimpleInfoOuterClass {
           getDispatchUrlBytes() {
         java.lang.Object ref = dispatchUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           dispatchUrl_ = b;
@@ -948,7 +948,7 @@ public final class RegionSimpleInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         dispatchUrl_ = value;
         onChanged();
         return this;
@@ -958,7 +958,7 @@ public final class RegionSimpleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDispatchUrl() {
-        
+
         dispatchUrl_ = getDefaultInstance().getDispatchUrl();
         onChanged();
         return this;
@@ -974,7 +974,7 @@ public final class RegionSimpleInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         dispatchUrl_ = value;
         onChanged();
         return this;
@@ -1034,7 +1034,7 @@ public final class RegionSimpleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RegionSimpleInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RegionSimpleInfo_fieldAccessorTable;
 

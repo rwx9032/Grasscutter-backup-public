@@ -552,7 +552,7 @@ public final class GachaUpInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemParentType(int value) {
-        
+
         itemParentType_ = value;
         onChanged();
         return this;
@@ -562,7 +562,7 @@ public final class GachaUpInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemParentType() {
-        
+
         itemParentType_ = 0;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class GachaUpInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GachaUpInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GachaUpInfo_fieldAccessorTable;
 

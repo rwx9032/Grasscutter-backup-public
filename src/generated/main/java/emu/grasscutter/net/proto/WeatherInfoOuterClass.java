@@ -434,7 +434,7 @@ public final class WeatherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWeatherAreaId(int value) {
-        
+
         weatherAreaId_ = value;
         onChanged();
         return this;
@@ -444,7 +444,7 @@ public final class WeatherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWeatherAreaId() {
-        
+
         weatherAreaId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class WeatherInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeatherInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeatherInfo_fieldAccessorTable;
 

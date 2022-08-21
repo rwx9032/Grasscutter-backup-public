@@ -513,7 +513,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSuccess(boolean value) {
-        
+
         isSuccess_ = value;
         onChanged();
         return this;
@@ -523,7 +523,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSuccess() {
-        
+
         isSuccess_ = false;
         onChanged();
         return this;
@@ -544,7 +544,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2800ELHBCNPKOJG(int value) {
-        
+
         unk2800ELHBCNPKOJG_ = value;
         onChanged();
         return this;
@@ -554,7 +554,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2800ELHBCNPKOJG() {
-        
+
         unk2800ELHBCNPKOJG_ = 0;
         onChanged();
         return this;
@@ -575,7 +575,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2800HDEFJKGDNEH(int value) {
-        
+
         unk2800HDEFJKGDNEH_ = value;
         onChanged();
         return this;
@@ -585,7 +585,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2800HDEFJKGDNEH() {
-        
+
         unk2800HDEFJKGDNEH_ = 0;
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SummerTimeV2DungeonSettleInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SummerTimeV2DungeonSettleInfo_fieldAccessorTable;
 

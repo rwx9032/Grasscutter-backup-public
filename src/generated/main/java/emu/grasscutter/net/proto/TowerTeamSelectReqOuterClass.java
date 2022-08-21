@@ -21,7 +21,7 @@ public final class TowerTeamSelectReqOuterClass {
     /**
      * <code>repeated .TowerTeam tower_team_list = 11;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam> 
+    java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam>
         getTowerTeamListList();
     /**
      * <code>repeated .TowerTeam tower_team_list = 11;</code>
@@ -34,7 +34,7 @@ public final class TowerTeamSelectReqOuterClass {
     /**
      * <code>repeated .TowerTeam tower_team_list = 11;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder>
         getTowerTeamListOrBuilderList();
     /**
      * <code>repeated .TowerTeam tower_team_list = 11;</code>
@@ -164,7 +164,7 @@ public final class TowerTeamSelectReqOuterClass {
      * <code>repeated .TowerTeam tower_team_list = 11;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder>
         getTowerTeamListOrBuilderList() {
       return towerTeamList_;
     }
@@ -527,7 +527,7 @@ public final class TowerTeamSelectReqOuterClass {
               towerTeamListBuilder_ = null;
               towerTeamList_ = other.towerTeamList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              towerTeamListBuilder_ = 
+              towerTeamListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTowerTeamListFieldBuilder() : null;
             } else {
@@ -763,7 +763,7 @@ public final class TowerTeamSelectReqOuterClass {
       /**
        * <code>repeated .TowerTeam tower_team_list = 11;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder>
            getTowerTeamListOrBuilderList() {
         if (towerTeamListBuilder_ != null) {
           return towerTeamListBuilder_.getMessageOrBuilderList();
@@ -789,12 +789,12 @@ public final class TowerTeamSelectReqOuterClass {
       /**
        * <code>repeated .TowerTeam tower_team_list = 11;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder>
            getTowerTeamListBuilderList() {
         return getTowerTeamListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder> 
+          emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeam.Builder, emu.grasscutter.net.proto.TowerTeamOuterClass.TowerTeamOrBuilder>
           getTowerTeamListFieldBuilder() {
         if (towerTeamListBuilder_ == null) {
           towerTeamListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -823,7 +823,7 @@ public final class TowerTeamSelectReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFloorId(int value) {
-        
+
         floorId_ = value;
         onChanged();
         return this;
@@ -833,7 +833,7 @@ public final class TowerTeamSelectReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFloorId() {
-        
+
         floorId_ = 0;
         onChanged();
         return this;
@@ -893,7 +893,7 @@ public final class TowerTeamSelectReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerTeamSelectReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerTeamSelectReq_fieldAccessorTable;
 

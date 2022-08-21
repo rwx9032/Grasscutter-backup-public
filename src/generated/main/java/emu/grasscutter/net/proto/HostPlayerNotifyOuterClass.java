@@ -485,7 +485,7 @@ public final class HostPlayerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHostPeerId(int value) {
-        
+
         hostPeerId_ = value;
         onChanged();
         return this;
@@ -495,7 +495,7 @@ public final class HostPlayerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHostPeerId() {
-        
+
         hostPeerId_ = 0;
         onChanged();
         return this;
@@ -516,7 +516,7 @@ public final class HostPlayerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHostUid(int value) {
-        
+
         hostUid_ = value;
         onChanged();
         return this;
@@ -526,7 +526,7 @@ public final class HostPlayerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHostUid() {
-        
+
         hostUid_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class HostPlayerNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HostPlayerNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HostPlayerNotify_fieldAccessorTable;
 

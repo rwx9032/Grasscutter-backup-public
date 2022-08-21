@@ -285,7 +285,7 @@ public final class WorldDataNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>newDefaultInstance(
-                  emu.grasscutter.net.proto.WorldDataNotifyOuterClass.internal_static_WorldDataNotify_WorldPropMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.WorldDataNotifyOuterClass.internal_static_WorldDataNotify_WorldPropMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -312,7 +312,7 @@ public final class WorldDataNotifyOuterClass {
     @java.lang.Override
     public boolean containsWorldPropMap(
         int key) {
-      
+
       return internalGetWorldPropMap().getMap().containsKey(key);
     }
     /**
@@ -339,7 +339,7 @@ public final class WorldDataNotifyOuterClass {
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getWorldPropMapOrDefault(
         int key,
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
           internalGetWorldPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -351,7 +351,7 @@ public final class WorldDataNotifyOuterClass {
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getWorldPropMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
           internalGetWorldPropMap().getMap();
       if (!map.containsKey(key)) {
@@ -736,7 +736,7 @@ public final class WorldDataNotifyOuterClass {
       @java.lang.Override
       public boolean containsWorldPropMap(
           int key) {
-        
+
         return internalGetWorldPropMap().getMap().containsKey(key);
       }
       /**
@@ -763,7 +763,7 @@ public final class WorldDataNotifyOuterClass {
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getWorldPropMapOrDefault(
           int key,
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
             internalGetWorldPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -775,7 +775,7 @@ public final class WorldDataNotifyOuterClass {
 
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getWorldPropMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
             internalGetWorldPropMap().getMap();
         if (!map.containsKey(key)) {
@@ -795,7 +795,7 @@ public final class WorldDataNotifyOuterClass {
 
       public Builder removeWorldPropMap(
           int key) {
-        
+
         internalGetMutableWorldPropMap().getMutableMap()
             .remove(key);
         return this;
@@ -814,7 +814,7 @@ public final class WorldDataNotifyOuterClass {
       public Builder putWorldPropMap(
           int key,
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableWorldPropMap().getMutableMap()
             .put(key, value);
@@ -885,12 +885,12 @@ public final class WorldDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldDataNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldDataNotify_WorldPropMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldDataNotify_WorldPropMapEntry_fieldAccessorTable;
 

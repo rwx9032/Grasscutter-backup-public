@@ -155,7 +155,7 @@ public final class GetAuthkeyReqOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         authAppid_ = s;
@@ -171,7 +171,7 @@ public final class GetAuthkeyReqOuterClass {
         getAuthAppidBytes() {
       java.lang.Object ref = authAppid_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         authAppid_ = b;
@@ -571,7 +571,7 @@ public final class GetAuthkeyReqOuterClass {
           getAuthAppidBytes() {
         java.lang.Object ref = authAppid_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           authAppid_ = b;
@@ -590,7 +590,7 @@ public final class GetAuthkeyReqOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         authAppid_ = value;
         onChanged();
         return this;
@@ -600,7 +600,7 @@ public final class GetAuthkeyReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthAppid() {
-        
+
         authAppid_ = getDefaultInstance().getAuthAppid();
         onChanged();
         return this;
@@ -616,7 +616,7 @@ public final class GetAuthkeyReqOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         authAppid_ = value;
         onChanged();
         return this;
@@ -637,7 +637,7 @@ public final class GetAuthkeyReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSignType(int value) {
-        
+
         signType_ = value;
         onChanged();
         return this;
@@ -647,7 +647,7 @@ public final class GetAuthkeyReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSignType() {
-        
+
         signType_ = 0;
         onChanged();
         return this;
@@ -668,7 +668,7 @@ public final class GetAuthkeyReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAuthkeyVer(int value) {
-        
+
         authkeyVer_ = value;
         onChanged();
         return this;
@@ -678,7 +678,7 @@ public final class GetAuthkeyReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthkeyVer() {
-        
+
         authkeyVer_ = 0;
         onChanged();
         return this;
@@ -738,7 +738,7 @@ public final class GetAuthkeyReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAuthkeyReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAuthkeyReq_fieldAccessorTable;
 

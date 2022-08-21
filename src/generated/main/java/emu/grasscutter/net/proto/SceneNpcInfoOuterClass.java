@@ -551,7 +551,7 @@ public final class SceneNpcInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNpcId(int value) {
-        
+
         npcId_ = value;
         onChanged();
         return this;
@@ -561,7 +561,7 @@ public final class SceneNpcInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNpcId() {
-        
+
         npcId_ = 0;
         onChanged();
         return this;
@@ -582,7 +582,7 @@ public final class SceneNpcInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRoomId(int value) {
-        
+
         roomId_ = value;
         onChanged();
         return this;
@@ -592,7 +592,7 @@ public final class SceneNpcInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRoomId() {
-        
+
         roomId_ = 0;
         onChanged();
         return this;
@@ -613,7 +613,7 @@ public final class SceneNpcInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParentQuestId(int value) {
-        
+
         parentQuestId_ = value;
         onChanged();
         return this;
@@ -623,7 +623,7 @@ public final class SceneNpcInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParentQuestId() {
-        
+
         parentQuestId_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class SceneNpcInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBlockId(int value) {
-        
+
         blockId_ = value;
         onChanged();
         return this;
@@ -654,7 +654,7 @@ public final class SceneNpcInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBlockId() {
-        
+
         blockId_ = 0;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class SceneNpcInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneNpcInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneNpcInfo_fieldAccessorTable;
 

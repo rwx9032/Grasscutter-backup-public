@@ -591,7 +591,7 @@ public final class HomeModuleComfortInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setModuleId(int value) {
-        
+
         moduleId_ = value;
         onChanged();
         return this;
@@ -601,7 +601,7 @@ public final class HomeModuleComfortInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearModuleId() {
-        
+
         moduleId_ = 0;
         onChanged();
         return this;
@@ -622,7 +622,7 @@ public final class HomeModuleComfortInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRoomSceneComfortValue(int value) {
-        
+
         roomSceneComfortValue_ = value;
         onChanged();
         return this;
@@ -632,7 +632,7 @@ public final class HomeModuleComfortInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRoomSceneComfortValue() {
-        
+
         roomSceneComfortValue_ = 0;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class HomeModuleComfortInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeModuleComfortInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeModuleComfortInfo_fieldAccessorTable;
 

@@ -42,7 +42,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     /**
      * <code>repeated .BattlePassMission mission_list = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission> 
+    java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission>
         getMissionListList();
     /**
      * <code>repeated .BattlePassMission mission_list = 4;</code>
@@ -55,7 +55,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     /**
      * <code>repeated .BattlePassMission mission_list = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder>
         getMissionListOrBuilderList();
     /**
      * <code>repeated .BattlePassMission mission_list = 4;</code>
@@ -228,7 +228,7 @@ public final class BattlePassAllDataNotifyOuterClass {
      * <code>repeated .BattlePassMission mission_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder>
         getMissionListOrBuilderList() {
       return missionList_;
     }
@@ -613,7 +613,7 @@ public final class BattlePassAllDataNotifyOuterClass {
               missionListBuilder_ = null;
               missionList_ = other.missionList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              missionListBuilder_ = 
+              missionListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMissionListFieldBuilder() : null;
             } else {
@@ -666,7 +666,7 @@ public final class BattlePassAllDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHaveCurSchedule(boolean value) {
-        
+
         haveCurSchedule_ = value;
         onChanged();
         return this;
@@ -676,7 +676,7 @@ public final class BattlePassAllDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHaveCurSchedule() {
-        
+
         haveCurSchedule_ = false;
         onChanged();
         return this;
@@ -769,7 +769,7 @@ public final class BattlePassAllDataNotifyOuterClass {
        * <code>.BattlePassSchedule cur_schedule = 1;</code>
        */
       public emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder getCurScheduleBuilder() {
-        
+
         onChanged();
         return getCurScheduleFieldBuilder().getBuilder();
       }
@@ -788,7 +788,7 @@ public final class BattlePassAllDataNotifyOuterClass {
        * <code>.BattlePassSchedule cur_schedule = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder> 
+          emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder>
           getCurScheduleFieldBuilder() {
         if (curScheduleBuilder_ == null) {
           curScheduleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -996,7 +996,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       /**
        * <code>repeated .BattlePassMission mission_list = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder>
            getMissionListOrBuilderList() {
         if (missionListBuilder_ != null) {
           return missionListBuilder_.getMessageOrBuilderList();
@@ -1022,12 +1022,12 @@ public final class BattlePassAllDataNotifyOuterClass {
       /**
        * <code>repeated .BattlePassMission mission_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.Builder>
            getMissionListBuilderList() {
         return getMissionListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission, emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.Builder, emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder> 
+          emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission, emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.Builder, emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder>
           getMissionListFieldBuilder() {
         if (missionListBuilder_ == null) {
           missionListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1095,7 +1095,7 @@ public final class BattlePassAllDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BattlePassAllDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BattlePassAllDataNotify_fieldAccessorTable;
 

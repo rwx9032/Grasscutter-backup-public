@@ -566,7 +566,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChairId(long value) {
-        
+
         chairId_ = value;
         onChanged();
         return this;
@@ -576,7 +576,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChairId() {
-        
+
         chairId_ = 0L;
         onChanged();
         return this;
@@ -597,7 +597,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPerformId(int value) {
-        
+
         performId_ = value;
         onChanged();
         return this;
@@ -607,7 +607,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPerformId() {
-        
+
         performId_ = 0;
         onChanged();
         return this;
@@ -628,7 +628,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDirection(int value) {
-        
+
         direction_ = value;
         onChanged();
         return this;
@@ -638,7 +638,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDirection() {
-        
+
         direction_ = 0;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -669,7 +669,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -729,7 +729,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtAvatarStandUpNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtAvatarStandUpNotify_fieldAccessorTable;
 

@@ -355,7 +355,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarSkillDepotChangeNotifyOuterClass.internal_static_AvatarSkillDepotChangeNotify_ProudSkillExtraLevelMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarSkillDepotChangeNotifyOuterClass.internal_static_AvatarSkillDepotChangeNotify_ProudSkillExtraLevelMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -382,7 +382,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     @java.lang.Override
     public boolean containsProudSkillExtraLevelMap(
         int key) {
-      
+
       return internalGetProudSkillExtraLevelMap().getMap().containsKey(key);
     }
     /**
@@ -409,7 +409,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     public int getProudSkillExtraLevelMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetProudSkillExtraLevelMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -421,7 +421,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     public int getProudSkillExtraLevelMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetProudSkillExtraLevelMap().getMap();
       if (!map.containsKey(key)) {
@@ -525,7 +525,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarSkillDepotChangeNotifyOuterClass.internal_static_AvatarSkillDepotChangeNotify_SkillLevelMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarSkillDepotChangeNotifyOuterClass.internal_static_AvatarSkillDepotChangeNotify_SkillLevelMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -552,7 +552,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     @java.lang.Override
     public boolean containsSkillLevelMap(
         int key) {
-      
+
       return internalGetSkillLevelMap().getMap().containsKey(key);
     }
     /**
@@ -579,7 +579,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     public int getSkillLevelMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSkillLevelMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -591,7 +591,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     public int getSkillLevelMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSkillLevelMap().getMap();
       if (!map.containsKey(key)) {
@@ -1146,7 +1146,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSkillDepotId(int value) {
-        
+
         skillDepotId_ = value;
         onChanged();
         return this;
@@ -1156,7 +1156,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSkillDepotId() {
-        
+
         skillDepotId_ = 0;
         onChanged();
         return this;
@@ -1195,7 +1195,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       @java.lang.Override
       public boolean containsProudSkillExtraLevelMap(
           int key) {
-        
+
         return internalGetProudSkillExtraLevelMap().getMap().containsKey(key);
       }
       /**
@@ -1222,7 +1222,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       public int getProudSkillExtraLevelMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetProudSkillExtraLevelMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1234,7 +1234,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
       public int getProudSkillExtraLevelMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetProudSkillExtraLevelMap().getMap();
         if (!map.containsKey(key)) {
@@ -1254,7 +1254,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
       public Builder removeProudSkillExtraLevelMap(
           int key) {
-        
+
         internalGetMutableProudSkillExtraLevelMap().getMutableMap()
             .remove(key);
         return this;
@@ -1273,8 +1273,8 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       public Builder putProudSkillExtraLevelMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableProudSkillExtraLevelMap().getMutableMap()
             .put(key, value);
         return this;
@@ -1463,7 +1463,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCoreProudSkillLevel(int value) {
-        
+
         coreProudSkillLevel_ = value;
         onChanged();
         return this;
@@ -1473,7 +1473,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCoreProudSkillLevel() {
-        
+
         coreProudSkillLevel_ = 0;
         onChanged();
         return this;
@@ -1494,7 +1494,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -1504,7 +1504,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -1525,7 +1525,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -1535,7 +1535,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -1574,7 +1574,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       @java.lang.Override
       public boolean containsSkillLevelMap(
           int key) {
-        
+
         return internalGetSkillLevelMap().getMap().containsKey(key);
       }
       /**
@@ -1601,7 +1601,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       public int getSkillLevelMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSkillLevelMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1613,7 +1613,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
       public int getSkillLevelMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSkillLevelMap().getMap();
         if (!map.containsKey(key)) {
@@ -1633,7 +1633,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
       public Builder removeSkillLevelMap(
           int key) {
-        
+
         internalGetMutableSkillLevelMap().getMutableMap()
             .remove(key);
         return this;
@@ -1652,8 +1652,8 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       public Builder putSkillLevelMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableSkillLevelMap().getMutableMap()
             .put(key, value);
         return this;
@@ -1723,17 +1723,17 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillDepotChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillDepotChangeNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillDepotChangeNotify_ProudSkillExtraLevelMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillDepotChangeNotify_ProudSkillExtraLevelMapEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillDepotChangeNotify_SkillLevelMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillDepotChangeNotify_SkillLevelMapEntry_fieldAccessorTable;
 

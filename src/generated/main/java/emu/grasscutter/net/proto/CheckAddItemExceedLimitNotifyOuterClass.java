@@ -858,7 +858,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsDrop(boolean value) {
-        
+
         isDrop_ = value;
         onChanged();
         return this;
@@ -868,7 +868,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsDrop() {
-        
+
         isDrop_ = false;
         onChanged();
         return this;
@@ -1046,7 +1046,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMsgTypeValue(int value) {
-        
+
         msgType_ = value;
         onChanged();
         return this;
@@ -1070,7 +1070,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         msgType_ = value.getNumber();
         onChanged();
         return this;
@@ -1080,7 +1080,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMsgType() {
-        
+
         msgType_ = 0;
         onChanged();
         return this;
@@ -1140,7 +1140,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CheckAddItemExceedLimitNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CheckAddItemExceedLimitNotify_fieldAccessorTable;
 

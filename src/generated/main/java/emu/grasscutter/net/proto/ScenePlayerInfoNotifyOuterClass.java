@@ -21,7 +21,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
     /**
      * <code>repeated .ScenePlayerInfo player_info_list = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo> 
+    java.util.List<emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo>
         getPlayerInfoListList();
     /**
      * <code>repeated .ScenePlayerInfo player_info_list = 5;</code>
@@ -34,7 +34,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
     /**
      * <code>repeated .ScenePlayerInfo player_info_list = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfoOrBuilder>
         getPlayerInfoListOrBuilderList();
     /**
      * <code>repeated .ScenePlayerInfo player_info_list = 5;</code>
@@ -152,7 +152,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
      * <code>repeated .ScenePlayerInfo player_info_list = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfoOrBuilder>
         getPlayerInfoListOrBuilderList() {
       return playerInfoList_;
     }
@@ -489,7 +489,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
               playerInfoListBuilder_ = null;
               playerInfoList_ = other.playerInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              playerInfoListBuilder_ = 
+              playerInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPlayerInfoListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
       /**
        * <code>repeated .ScenePlayerInfo player_info_list = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfoOrBuilder>
            getPlayerInfoListOrBuilderList() {
         if (playerInfoListBuilder_ != null) {
           return playerInfoListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class ScenePlayerInfoNotifyOuterClass {
       /**
        * <code>repeated .ScenePlayerInfo player_info_list = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo.Builder>
            getPlayerInfoListBuilderList() {
         return getPlayerInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo, emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo.Builder, emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfoOrBuilder> 
+          emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo, emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo.Builder, emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfoOrBuilder>
           getPlayerInfoListFieldBuilder() {
         if (playerInfoListBuilder_ == null) {
           playerInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class ScenePlayerInfoNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ScenePlayerInfoNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ScenePlayerInfoNotify_fieldAccessorTable;
 

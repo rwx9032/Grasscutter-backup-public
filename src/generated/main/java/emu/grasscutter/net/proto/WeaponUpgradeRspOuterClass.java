@@ -39,7 +39,7 @@ public final class WeaponUpgradeRspOuterClass {
     /**
      * <code>repeated .ItemParam item_param_list = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
         getItemParamListList();
     /**
      * <code>repeated .ItemParam item_param_list = 2;</code>
@@ -52,7 +52,7 @@ public final class WeaponUpgradeRspOuterClass {
     /**
      * <code>repeated .ItemParam item_param_list = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getItemParamListOrBuilderList();
     /**
      * <code>repeated .ItemParam item_param_list = 2;</code>
@@ -229,7 +229,7 @@ public final class WeaponUpgradeRspOuterClass {
      * <code>repeated .ItemParam item_param_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getItemParamListOrBuilderList() {
       return itemParamList_;
     }
@@ -643,7 +643,7 @@ public final class WeaponUpgradeRspOuterClass {
               itemParamListBuilder_ = null;
               itemParamList_ = other.itemParamList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              itemParamListBuilder_ = 
+              itemParamListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getItemParamListFieldBuilder() : null;
             } else {
@@ -699,7 +699,7 @@ public final class WeaponUpgradeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurLevel(int value) {
-        
+
         curLevel_ = value;
         onChanged();
         return this;
@@ -709,7 +709,7 @@ public final class WeaponUpgradeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurLevel() {
-        
+
         curLevel_ = 0;
         onChanged();
         return this;
@@ -730,7 +730,7 @@ public final class WeaponUpgradeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -740,7 +740,7 @@ public final class WeaponUpgradeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -761,7 +761,7 @@ public final class WeaponUpgradeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOldLevel(int value) {
-        
+
         oldLevel_ = value;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class WeaponUpgradeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOldLevel() {
-        
+
         oldLevel_ = 0;
         onChanged();
         return this;
@@ -972,7 +972,7 @@ public final class WeaponUpgradeRspOuterClass {
       /**
        * <code>repeated .ItemParam item_param_list = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
            getItemParamListOrBuilderList() {
         if (itemParamListBuilder_ != null) {
           return itemParamListBuilder_.getMessageOrBuilderList();
@@ -998,12 +998,12 @@ public final class WeaponUpgradeRspOuterClass {
       /**
        * <code>repeated .ItemParam item_param_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
            getItemParamListBuilderList() {
         return getItemParamListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getItemParamListFieldBuilder() {
         if (itemParamListBuilder_ == null) {
           itemParamListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1032,7 +1032,7 @@ public final class WeaponUpgradeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetWeaponGuid(long value) {
-        
+
         targetWeaponGuid_ = value;
         onChanged();
         return this;
@@ -1042,7 +1042,7 @@ public final class WeaponUpgradeRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetWeaponGuid() {
-        
+
         targetWeaponGuid_ = 0L;
         onChanged();
         return this;
@@ -1102,7 +1102,7 @@ public final class WeaponUpgradeRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeaponUpgradeRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeaponUpgradeRsp_fieldAccessorTable;
 

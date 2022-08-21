@@ -757,7 +757,7 @@ public final class ChatInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder setType(int value) {
-          
+
           type_ = value;
           onChanged();
           return this;
@@ -767,7 +767,7 @@ public final class ChatInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder clearType() {
-          
+
           type_ = 0;
           onChanged();
           return this;
@@ -943,7 +943,7 @@ public final class ChatInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (contentCase_ == 1946) {
@@ -963,7 +963,7 @@ public final class ChatInfoOuterClass {
         ref = content_;
       }
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         if (contentCase_ == 1946) {
@@ -1518,7 +1518,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTime(int value) {
-        
+
         time_ = value;
         onChanged();
         return this;
@@ -1528,7 +1528,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTime() {
-        
+
         time_ = 0;
         onChanged();
         return this;
@@ -1549,7 +1549,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSequence(int value) {
-        
+
         sequence_ = value;
         onChanged();
         return this;
@@ -1559,7 +1559,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSequence() {
-        
+
         sequence_ = 0;
         onChanged();
         return this;
@@ -1580,7 +1580,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setToUid(int value) {
-        
+
         toUid_ = value;
         onChanged();
         return this;
@@ -1590,7 +1590,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearToUid() {
-        
+
         toUid_ = 0;
         onChanged();
         return this;
@@ -1611,7 +1611,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -1621,7 +1621,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -1642,7 +1642,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsRead(boolean value) {
-        
+
         isRead_ = value;
         onChanged();
         return this;
@@ -1652,7 +1652,7 @@ public final class ChatInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsRead() {
-        
+
         isRead_ = false;
         onChanged();
         return this;
@@ -1700,7 +1700,7 @@ public final class ChatInfoOuterClass {
           ref = content_;
         }
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           if (contentCase_ == 1946) {
@@ -1919,7 +1919,7 @@ public final class ChatInfoOuterClass {
        * <code>.ChatInfo.SystemHint system_hint = 1753;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHintOrBuilder> 
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHintOrBuilder>
           getSystemHintFieldBuilder() {
         if (systemHintBuilder_ == null) {
           if (!(contentCase_ == 1753)) {
@@ -1991,12 +1991,12 @@ public final class ChatInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChatInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChatInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChatInfo_SystemHint_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChatInfo_SystemHint_fieldAccessorTable;
 

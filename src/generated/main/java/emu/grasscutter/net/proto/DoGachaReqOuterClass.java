@@ -221,7 +221,7 @@ public final class DoGachaReqOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gachaTag_ = s;
@@ -237,7 +237,7 @@ public final class DoGachaReqOuterClass {
         getGachaTagBytes() {
       java.lang.Object ref = gachaTag_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gachaTag_ = b;
@@ -639,7 +639,7 @@ public final class DoGachaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaTimes(int value) {
-        
+
         gachaTimes_ = value;
         onChanged();
         return this;
@@ -649,7 +649,7 @@ public final class DoGachaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaTimes() {
-        
+
         gachaTimes_ = 0;
         onChanged();
         return this;
@@ -670,7 +670,7 @@ public final class DoGachaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaScheduleId(int value) {
-        
+
         gachaScheduleId_ = value;
         onChanged();
         return this;
@@ -680,7 +680,7 @@ public final class DoGachaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaScheduleId() {
-        
+
         gachaScheduleId_ = 0;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class DoGachaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaType(int value) {
-        
+
         gachaType_ = value;
         onChanged();
         return this;
@@ -711,7 +711,7 @@ public final class DoGachaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaType() {
-        
+
         gachaType_ = 0;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class DoGachaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaRandom(int value) {
-        
+
         gachaRandom_ = value;
         onChanged();
         return this;
@@ -742,7 +742,7 @@ public final class DoGachaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaRandom() {
-        
+
         gachaRandom_ = 0;
         onChanged();
         return this;
@@ -773,7 +773,7 @@ public final class DoGachaReqOuterClass {
           getGachaTagBytes() {
         java.lang.Object ref = gachaTag_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gachaTag_ = b;
@@ -792,7 +792,7 @@ public final class DoGachaReqOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gachaTag_ = value;
         onChanged();
         return this;
@@ -802,7 +802,7 @@ public final class DoGachaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaTag() {
-        
+
         gachaTag_ = getDefaultInstance().getGachaTag();
         onChanged();
         return this;
@@ -818,7 +818,7 @@ public final class DoGachaReqOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gachaTag_ = value;
         onChanged();
         return this;
@@ -878,7 +878,7 @@ public final class DoGachaReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DoGachaReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DoGachaReq_fieldAccessorTable;
 

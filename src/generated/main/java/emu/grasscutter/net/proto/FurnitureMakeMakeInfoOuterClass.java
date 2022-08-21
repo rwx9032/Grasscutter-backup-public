@@ -473,7 +473,7 @@ public final class FurnitureMakeMakeInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFurnitureId(int value) {
-        
+
         furnitureId_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class FurnitureMakeMakeInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFurnitureId() {
-        
+
         furnitureId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class FurnitureMakeMakeInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMakeCount(int value) {
-        
+
         makeCount_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class FurnitureMakeMakeInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMakeCount() {
-        
+
         makeCount_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class FurnitureMakeMakeInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FurnitureMakeMakeInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FurnitureMakeMakeInfo_fieldAccessorTable;
 

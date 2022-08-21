@@ -985,7 +985,7 @@ public final class ScenePointUnlockNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -995,7 +995,7 @@ public final class ScenePointUnlockNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -1292,7 +1292,7 @@ public final class ScenePointUnlockNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ScenePointUnlockNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ScenePointUnlockNotify_fieldAccessorTable;
 

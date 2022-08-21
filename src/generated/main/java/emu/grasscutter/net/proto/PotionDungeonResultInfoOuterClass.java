@@ -629,7 +629,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFinalScore(int value) {
-        
+
         finalScore_ = value;
         onChanged();
         return this;
@@ -639,7 +639,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFinalScore() {
-        
+
         finalScore_ = 0;
         onChanged();
         return this;
@@ -660,7 +660,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLeftTime(int value) {
-        
+
         leftTime_ = value;
         onChanged();
         return this;
@@ -670,7 +670,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLeftTime() {
-        
+
         leftTime_ = 0;
         onChanged();
         return this;
@@ -691,7 +691,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700FHEHGDABALE(int value) {
-        
+
         unk2700FHEHGDABALE_ = value;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700FHEHGDABALE() {
-        
+
         unk2700FHEHGDABALE_ = 0;
         onChanged();
         return this;
@@ -722,7 +722,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700HKFEBBCMBHL(int value) {
-        
+
         unk2700HKFEBBCMBHL_ = value;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700HKFEBBCMBHL() {
-        
+
         unk2700HKFEBBCMBHL_ = 0;
         onChanged();
         return this;
@@ -753,7 +753,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevelId(int value) {
-        
+
         levelId_ = value;
         onChanged();
         return this;
@@ -763,7 +763,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
-        
+
         levelId_ = 0;
         onChanged();
         return this;
@@ -784,7 +784,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStageId(int value) {
-        
+
         stageId_ = value;
         onChanged();
         return this;
@@ -794,7 +794,7 @@ public final class PotionDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
-        
+
         stageId_ = 0;
         onChanged();
         return this;
@@ -854,7 +854,7 @@ public final class PotionDungeonResultInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PotionDungeonResultInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PotionDungeonResultInfo_fieldAccessorTable;
 

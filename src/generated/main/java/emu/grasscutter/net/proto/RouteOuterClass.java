@@ -21,7 +21,7 @@ public final class RouteOuterClass {
     /**
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> 
+    java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint>
         getRoutePointsList();
     /**
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -34,7 +34,7 @@ public final class RouteOuterClass {
     /**
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
         getRoutePointsOrBuilderList();
     /**
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -157,7 +157,7 @@ public final class RouteOuterClass {
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
         getRoutePointsOrBuilderList() {
       return routePoints_;
     }
@@ -513,7 +513,7 @@ public final class RouteOuterClass {
               routePointsBuilder_ = null;
               routePoints_ = other.routePoints_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              routePointsBuilder_ = 
+              routePointsBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRoutePointsFieldBuilder() : null;
             } else {
@@ -749,7 +749,7 @@ public final class RouteOuterClass {
       /**
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
            getRoutePointsOrBuilderList() {
         if (routePointsBuilder_ != null) {
           return routePointsBuilder_.getMessageOrBuilderList();
@@ -775,12 +775,12 @@ public final class RouteOuterClass {
       /**
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder>
            getRoutePointsBuilderList() {
         return getRoutePointsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
+          emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder>
           getRoutePointsFieldBuilder() {
         if (routePointsBuilder_ == null) {
           routePointsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -809,7 +809,7 @@ public final class RouteOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRouteType(int value) {
-        
+
         routeType_ = value;
         onChanged();
         return this;
@@ -819,7 +819,7 @@ public final class RouteOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRouteType() {
-        
+
         routeType_ = 0;
         onChanged();
         return this;
@@ -879,7 +879,7 @@ public final class RouteOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Route_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Route_fieldAccessorTable;
 

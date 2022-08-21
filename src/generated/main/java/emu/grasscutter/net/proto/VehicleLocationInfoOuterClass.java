@@ -952,7 +952,7 @@ public final class VehicleLocationInfoOuterClass {
        * <code>.Vector rot = 14;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
-        
+
         onChanged();
         return getRotFieldBuilder().getBuilder();
       }
@@ -971,7 +971,7 @@ public final class VehicleLocationInfoOuterClass {
        * <code>.Vector rot = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRotFieldBuilder() {
         if (rotBuilder_ == null) {
           rotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -999,7 +999,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -1009,7 +1009,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -1030,7 +1030,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurHp(float value) {
-        
+
         curHp_ = value;
         onChanged();
         return this;
@@ -1040,7 +1040,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurHp() {
-        
+
         curHp_ = 0F;
         onChanged();
         return this;
@@ -1061,7 +1061,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOwnerUid(int value) {
-        
+
         ownerUid_ = value;
         onChanged();
         return this;
@@ -1071,7 +1071,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOwnerUid() {
-        
+
         ownerUid_ = 0;
         onChanged();
         return this;
@@ -1164,7 +1164,7 @@ public final class VehicleLocationInfoOuterClass {
        * <code>.Vector pos = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -1183,7 +1183,7 @@ public final class VehicleLocationInfoOuterClass {
        * <code>.Vector pos = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1290,7 +1290,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetId(int value) {
-        
+
         gadgetId_ = value;
         onChanged();
         return this;
@@ -1300,7 +1300,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetId() {
-        
+
         gadgetId_ = 0;
         onChanged();
         return this;
@@ -1321,7 +1321,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxHp(float value) {
-        
+
         maxHp_ = value;
         onChanged();
         return this;
@@ -1331,7 +1331,7 @@ public final class VehicleLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxHp() {
-        
+
         maxHp_ = 0F;
         onChanged();
         return this;
@@ -1391,7 +1391,7 @@ public final class VehicleLocationInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VehicleLocationInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VehicleLocationInfo_fieldAccessorTable;
 

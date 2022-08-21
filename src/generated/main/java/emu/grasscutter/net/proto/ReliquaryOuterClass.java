@@ -669,7 +669,7 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
@@ -679,7 +679,7 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -700,7 +700,7 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExp(int value) {
-        
+
         exp_ = value;
         onChanged();
         return this;
@@ -710,7 +710,7 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExp() {
-        
+
         exp_ = 0;
         onChanged();
         return this;
@@ -731,7 +731,7 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPromoteLevel(int value) {
-        
+
         promoteLevel_ = value;
         onChanged();
         return this;
@@ -741,7 +741,7 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPromoteLevel() {
-        
+
         promoteLevel_ = 0;
         onChanged();
         return this;
@@ -762,7 +762,7 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMainPropId(int value) {
-        
+
         mainPropId_ = value;
         onChanged();
         return this;
@@ -772,7 +772,7 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMainPropId() {
-        
+
         mainPropId_ = 0;
         onChanged();
         return this;
@@ -911,7 +911,7 @@ public final class ReliquaryOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Reliquary_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Reliquary_fieldAccessorTable;
 

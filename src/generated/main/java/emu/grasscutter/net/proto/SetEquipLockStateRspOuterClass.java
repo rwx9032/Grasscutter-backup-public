@@ -526,7 +526,7 @@ public final class SetEquipLockStateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetEquipGuid(long value) {
-        
+
         targetEquipGuid_ = value;
         onChanged();
         return this;
@@ -536,7 +536,7 @@ public final class SetEquipLockStateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetEquipGuid() {
-        
+
         targetEquipGuid_ = 0L;
         onChanged();
         return this;
@@ -557,7 +557,7 @@ public final class SetEquipLockStateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -567,7 +567,7 @@ public final class SetEquipLockStateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class SetEquipLockStateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsLocked(boolean value) {
-        
+
         isLocked_ = value;
         onChanged();
         return this;
@@ -598,7 +598,7 @@ public final class SetEquipLockStateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsLocked() {
-        
+
         isLocked_ = false;
         onChanged();
         return this;
@@ -658,7 +658,7 @@ public final class SetEquipLockStateRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetEquipLockStateRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetEquipLockStateRsp_fieldAccessorTable;
 

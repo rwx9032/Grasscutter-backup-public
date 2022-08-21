@@ -485,7 +485,7 @@ public final class CutSceneEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -495,7 +495,7 @@ public final class CutSceneEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -516,7 +516,7 @@ public final class CutSceneEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCutsceneId(int value) {
-        
+
         cutsceneId_ = value;
         onChanged();
         return this;
@@ -526,7 +526,7 @@ public final class CutSceneEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCutsceneId() {
-        
+
         cutsceneId_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class CutSceneEndNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CutSceneEndNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CutSceneEndNotify_fieldAccessorTable;
 

@@ -697,7 +697,7 @@ public final class AnimatorParameterValueInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParaType(int value) {
-        
+
         paraType_ = value;
         onChanged();
         return this;
@@ -707,7 +707,7 @@ public final class AnimatorParameterValueInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParaType() {
-        
+
         paraType_ = 0;
         onChanged();
         return this;
@@ -890,7 +890,7 @@ public final class AnimatorParameterValueInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AnimatorParameterValueInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AnimatorParameterValueInfo_fieldAccessorTable;
 

@@ -538,7 +538,7 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -548,7 +548,7 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -569,7 +569,7 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWeaponMaxPromoteLevel(int value) {
-        
+
         weaponMaxPromoteLevel_ = value;
         onChanged();
         return this;
@@ -579,7 +579,7 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWeaponMaxPromoteLevel() {
-        
+
         weaponMaxPromoteLevel_ = 0;
         onChanged();
         return this;
@@ -599,7 +599,7 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTypeValue(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
@@ -623,7 +623,7 @@ public final class CodexDataUpdateNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         type_ = value.getNumber();
         onChanged();
         return this;
@@ -633,7 +633,7 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -693,7 +693,7 @@ public final class CodexDataUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CodexDataUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CodexDataUpdateNotify_fieldAccessorTable;
 

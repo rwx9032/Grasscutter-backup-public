@@ -526,7 +526,7 @@ public final class PullPrivateChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
@@ -536,7 +536,7 @@ public final class PullPrivateChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
@@ -557,7 +557,7 @@ public final class PullPrivateChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPullNum(int value) {
-        
+
         pullNum_ = value;
         onChanged();
         return this;
@@ -567,7 +567,7 @@ public final class PullPrivateChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPullNum() {
-        
+
         pullNum_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class PullPrivateChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFromSequence(int value) {
-        
+
         fromSequence_ = value;
         onChanged();
         return this;
@@ -598,7 +598,7 @@ public final class PullPrivateChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFromSequence() {
-        
+
         fromSequence_ = 0;
         onChanged();
         return this;
@@ -658,7 +658,7 @@ public final class PullPrivateChatReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PullPrivateChatReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PullPrivateChatReq_fieldAccessorTable;
 

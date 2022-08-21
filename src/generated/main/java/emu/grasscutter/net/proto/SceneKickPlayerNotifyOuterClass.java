@@ -487,7 +487,7 @@ public final class SceneKickPlayerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class SceneKickPlayerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class SceneKickPlayerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setKickerUid(int value) {
-        
+
         kickerUid_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class SceneKickPlayerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearKickerUid() {
-        
+
         kickerUid_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class SceneKickPlayerNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneKickPlayerNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneKickPlayerNotify_fieldAccessorTable;
 

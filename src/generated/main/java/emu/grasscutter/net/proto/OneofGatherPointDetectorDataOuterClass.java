@@ -787,7 +787,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * <code>.Vector hint_center_pos = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getHintCenterPosBuilder() {
-        
+
         onChanged();
         return getHintCenterPosFieldBuilder().getBuilder();
       }
@@ -806,7 +806,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * <code>.Vector hint_center_pos = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getHintCenterPosFieldBuilder() {
         if (hintCenterPosBuilder_ == null) {
           hintCenterPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -834,7 +834,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHintRadius(int value) {
-        
+
         hintRadius_ = value;
         onChanged();
         return this;
@@ -844,7 +844,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHintRadius() {
-        
+
         hintRadius_ = 0;
         onChanged();
         return this;
@@ -865,7 +865,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
@@ -875,7 +875,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -896,7 +896,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setConfigId(int value) {
-        
+
         configId_ = value;
         onChanged();
         return this;
@@ -906,7 +906,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
-        
+
         configId_ = 0;
         onChanged();
         return this;
@@ -927,7 +927,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGroupId(int value) {
-        
+
         groupId_ = value;
         onChanged();
         return this;
@@ -937,7 +937,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGroupId() {
-        
+
         groupId_ = 0;
         onChanged();
         return this;
@@ -958,7 +958,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAllCollected(boolean value) {
-        
+
         isAllCollected_ = value;
         onChanged();
         return this;
@@ -968,7 +968,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAllCollected() {
-        
+
         isAllCollected_ = false;
         onChanged();
         return this;
@@ -989,7 +989,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsHintValid(boolean value) {
-        
+
         isHintValid_ = value;
         onChanged();
         return this;
@@ -999,7 +999,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsHintValid() {
-        
+
         isHintValid_ = false;
         onChanged();
         return this;
@@ -1059,7 +1059,7 @@ public final class OneofGatherPointDetectorDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_OneofGatherPointDetectorData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_OneofGatherPointDetectorData_fieldAccessorTable;
 

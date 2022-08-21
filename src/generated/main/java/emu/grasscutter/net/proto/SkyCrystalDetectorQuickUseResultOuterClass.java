@@ -590,7 +590,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
        * <code>.Unk2700_CCEOEOHLAPK Unk2700_COIELIGEACL = 9;</code>
        */
       public emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK.Builder getUnk2700COIELIGEACLBuilder() {
-        
+
         onChanged();
         return getUnk2700COIELIGEACLFieldBuilder().getBuilder();
       }
@@ -609,7 +609,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
        * <code>.Unk2700_CCEOEOHLAPK Unk2700_COIELIGEACL = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK, emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK.Builder, emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPKOrBuilder> 
+          emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK, emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPK.Builder, emu.grasscutter.net.proto.Unk2700CCEOEOHLAPK.Unk2700_CCEOEOHLAPKOrBuilder>
           getUnk2700COIELIGEACLFieldBuilder() {
         if (unk2700COIELIGEACLBuilder_ == null) {
           unk2700COIELIGEACLBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -637,7 +637,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -647,7 +647,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -707,7 +707,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SkyCrystalDetectorQuickUseResult_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SkyCrystalDetectorQuickUseResult_fieldAccessorTable;
 

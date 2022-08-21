@@ -591,7 +591,7 @@ public final class FishPoolInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPoolId(int value) {
-        
+
         poolId_ = value;
         onChanged();
         return this;
@@ -601,7 +601,7 @@ public final class FishPoolInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPoolId() {
-        
+
         poolId_ = 0;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class FishPoolInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTodayFishNum(int value) {
-        
+
         todayFishNum_ = value;
         onChanged();
         return this;
@@ -711,7 +711,7 @@ public final class FishPoolInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTodayFishNum() {
-        
+
         todayFishNum_ = 0;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class FishPoolInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FishPoolInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FishPoolInfo_fieldAccessorTable;
 

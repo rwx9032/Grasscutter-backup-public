@@ -518,7 +518,7 @@ public final class PropPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder setType(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class PropPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -621,7 +621,7 @@ public final class PropPairOuterClass {
        * <code>.PropValue prop_value = 2;</code>
        */
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder getPropValueBuilder() {
-        
+
         onChanged();
         return getPropValueFieldBuilder().getBuilder();
       }
@@ -640,7 +640,7 @@ public final class PropPairOuterClass {
        * <code>.PropValue prop_value = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PropValueOuterClass.PropValue, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder, emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> 
+          emu.grasscutter.net.proto.PropValueOuterClass.PropValue, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder, emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder>
           getPropValueFieldBuilder() {
         if (propValueBuilder_ == null) {
           propValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -707,7 +707,7 @@ public final class PropPairOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PropPair_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PropPair_fieldAccessorTable;
 

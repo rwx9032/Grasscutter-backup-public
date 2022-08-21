@@ -518,7 +518,7 @@ public final class PlayerWorldLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class PlayerWorldLocationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -621,7 +621,7 @@ public final class PlayerWorldLocationInfoOuterClass {
        * <code>.PlayerLocationInfo player_loc = 12;</code>
        */
       public emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder getPlayerLocBuilder() {
-        
+
         onChanged();
         return getPlayerLocFieldBuilder().getBuilder();
       }
@@ -640,7 +640,7 @@ public final class PlayerWorldLocationInfoOuterClass {
        * <code>.PlayerLocationInfo player_loc = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder> 
+          emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfo.Builder, emu.grasscutter.net.proto.PlayerLocationInfoOuterClass.PlayerLocationInfoOrBuilder>
           getPlayerLocFieldBuilder() {
         if (playerLocBuilder_ == null) {
           playerLocBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -707,7 +707,7 @@ public final class PlayerWorldLocationInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerWorldLocationInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerWorldLocationInfo_fieldAccessorTable;
 

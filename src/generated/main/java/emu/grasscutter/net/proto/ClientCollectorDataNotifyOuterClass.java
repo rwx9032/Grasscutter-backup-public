@@ -21,7 +21,7 @@ public final class ClientCollectorDataNotifyOuterClass {
     /**
      * <code>repeated .ClientCollectorData client_collector_data_list = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData> 
+    java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData>
         getClientCollectorDataListList();
     /**
      * <code>repeated .ClientCollectorData client_collector_data_list = 13;</code>
@@ -34,7 +34,7 @@ public final class ClientCollectorDataNotifyOuterClass {
     /**
      * <code>repeated .ClientCollectorData client_collector_data_list = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
         getClientCollectorDataListOrBuilderList();
     /**
      * <code>repeated .ClientCollectorData client_collector_data_list = 13;</code>
@@ -152,7 +152,7 @@ public final class ClientCollectorDataNotifyOuterClass {
      * <code>repeated .ClientCollectorData client_collector_data_list = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
         getClientCollectorDataListOrBuilderList() {
       return clientCollectorDataList_;
     }
@@ -489,7 +489,7 @@ public final class ClientCollectorDataNotifyOuterClass {
               clientCollectorDataListBuilder_ = null;
               clientCollectorDataList_ = other.clientCollectorDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              clientCollectorDataListBuilder_ = 
+              clientCollectorDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getClientCollectorDataListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class ClientCollectorDataNotifyOuterClass {
       /**
        * <code>repeated .ClientCollectorData client_collector_data_list = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
            getClientCollectorDataListOrBuilderList() {
         if (clientCollectorDataListBuilder_ != null) {
           return clientCollectorDataListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class ClientCollectorDataNotifyOuterClass {
       /**
        * <code>repeated .ClientCollectorData client_collector_data_list = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder>
            getClientCollectorDataListBuilderList() {
         return getClientCollectorDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
+          emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
           getClientCollectorDataListFieldBuilder() {
         if (clientCollectorDataListBuilder_ == null) {
           clientCollectorDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class ClientCollectorDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ClientCollectorDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ClientCollectorDataNotify_fieldAccessorTable;
 

@@ -631,7 +631,7 @@ public final class StatueGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StatueGadgetInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StatueGadgetInfo_fieldAccessorTable;
 

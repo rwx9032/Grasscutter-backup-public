@@ -525,7 +525,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSkillId(int value) {
-        
+
         skillId_ = value;
         onChanged();
         return this;
@@ -535,7 +535,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSkillId() {
-        
+
         skillId_ = 0;
         onChanged();
         return this;
@@ -556,7 +556,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -566,7 +566,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -587,7 +587,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDieGuid(long value) {
-        
+
         dieGuid_ = value;
         onChanged();
         return this;
@@ -597,7 +597,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDieGuid() {
-        
+
         dieGuid_ = 0L;
         onChanged();
         return this;
@@ -657,7 +657,7 @@ public final class AvatarDieAnimationEndRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarDieAnimationEndRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarDieAnimationEndRsp_fieldAccessorTable;
 

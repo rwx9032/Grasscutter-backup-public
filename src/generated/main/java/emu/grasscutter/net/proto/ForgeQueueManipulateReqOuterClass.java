@@ -501,7 +501,7 @@ public final class ForgeQueueManipulateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForgeQueueId(int value) {
-        
+
         forgeQueueId_ = value;
         onChanged();
         return this;
@@ -511,7 +511,7 @@ public final class ForgeQueueManipulateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForgeQueueId() {
-        
+
         forgeQueueId_ = 0;
         onChanged();
         return this;
@@ -531,7 +531,7 @@ public final class ForgeQueueManipulateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setManipulateTypeValue(int value) {
-        
+
         manipulateType_ = value;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class ForgeQueueManipulateReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         manipulateType_ = value.getNumber();
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class ForgeQueueManipulateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearManipulateType() {
-        
+
         manipulateType_ = 0;
         onChanged();
         return this;
@@ -625,7 +625,7 @@ public final class ForgeQueueManipulateReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForgeQueueManipulateReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForgeQueueManipulateReq_fieldAccessorTable;
 

@@ -144,7 +144,7 @@ public final class ActivityInfoOuterClass {
     /**
      * <code>repeated .Unk2800_PHPHMILPOLC Unk2800_KOMIPKKKOBE = 864;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLC> 
+    java.util.List<emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLC>
         getUnk2800KOMIPKKKOBEList();
     /**
      * <code>repeated .Unk2800_PHPHMILPOLC Unk2800_KOMIPKKKOBE = 864;</code>
@@ -157,7 +157,7 @@ public final class ActivityInfoOuterClass {
     /**
      * <code>repeated .Unk2800_PHPHMILPOLC Unk2800_KOMIPKKKOBE = 864;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLCOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLCOrBuilder>
         getUnk2800KOMIPKKKOBEOrBuilderList();
     /**
      * <code>repeated .Unk2800_PHPHMILPOLC Unk2800_KOMIPKKKOBE = 864;</code>
@@ -202,7 +202,7 @@ public final class ActivityInfoOuterClass {
     /**
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> 
+    java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo>
         getWatcherInfoListList();
     /**
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 2;</code>
@@ -215,7 +215,7 @@ public final class ActivityInfoOuterClass {
     /**
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
         getWatcherInfoListOrBuilderList();
     /**
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 2;</code>
@@ -822,7 +822,7 @@ public final class ActivityInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.ActivityInfoOuterClass.internal_static_ActivityInfo_ActivityCoinMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.ActivityInfoOuterClass.internal_static_ActivityInfo_ActivityCoinMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -849,7 +849,7 @@ public final class ActivityInfoOuterClass {
     @java.lang.Override
     public boolean containsActivityCoinMap(
         int key) {
-      
+
       return internalGetActivityCoinMap().getMap().containsKey(key);
     }
     /**
@@ -876,7 +876,7 @@ public final class ActivityInfoOuterClass {
     public int getActivityCoinMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetActivityCoinMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -888,7 +888,7 @@ public final class ActivityInfoOuterClass {
 
     public int getActivityCoinMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetActivityCoinMap().getMap();
       if (!map.containsKey(key)) {
@@ -921,7 +921,7 @@ public final class ActivityInfoOuterClass {
      * <code>repeated .Unk2800_PHPHMILPOLC Unk2800_KOMIPKKKOBE = 864;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLCOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLCOrBuilder>
         getUnk2800KOMIPKKKOBEOrBuilderList() {
       return unk2800KOMIPKKKOBE_;
     }
@@ -1017,7 +1017,7 @@ public final class ActivityInfoOuterClass {
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
         getWatcherInfoListOrBuilderList() {
       return watcherInfoList_;
     }
@@ -1936,7 +1936,7 @@ public final class ActivityInfoOuterClass {
               unk2800KOMIPKKKOBEBuilder_ = null;
               unk2800KOMIPKKKOBE_ = other.unk2800KOMIPKKKOBE_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              unk2800KOMIPKKKOBEBuilder_ = 
+              unk2800KOMIPKKKOBEBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getUnk2800KOMIPKKKOBEFieldBuilder() : null;
             } else {
@@ -1982,7 +1982,7 @@ public final class ActivityInfoOuterClass {
               watcherInfoListBuilder_ = null;
               watcherInfoList_ = other.watcherInfoList_;
               bitField0_ = (bitField0_ & ~0x00000020);
-              watcherInfoListBuilder_ = 
+              watcherInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getWatcherInfoListFieldBuilder() : null;
             } else {
@@ -2062,7 +2062,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsPlayOpenAnim(boolean value) {
-        
+
         isPlayOpenAnim_ = value;
         onChanged();
         return this;
@@ -2072,7 +2072,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsPlayOpenAnim() {
-        
+
         isPlayOpenAnim_ = false;
         onChanged();
         return this;
@@ -2093,7 +2093,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScheduleId(int value) {
-        
+
         scheduleId_ = value;
         onChanged();
         return this;
@@ -2103,7 +2103,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScheduleId() {
-        
+
         scheduleId_ = 0;
         onChanged();
         return this;
@@ -2124,7 +2124,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurScore(int value) {
-        
+
         curScore_ = value;
         onChanged();
         return this;
@@ -2134,7 +2134,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurScore() {
-        
+
         curScore_ = 0;
         onChanged();
         return this;
@@ -2155,7 +2155,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsStarting(boolean value) {
-        
+
         isStarting_ = value;
         onChanged();
         return this;
@@ -2165,7 +2165,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsStarting() {
-        
+
         isStarting_ = false;
         onChanged();
         return this;
@@ -2265,7 +2265,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSelectedAvatarRewardId(int value) {
-        
+
         selectedAvatarRewardId_ = value;
         onChanged();
         return this;
@@ -2275,7 +2275,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSelectedAvatarRewardId() {
-        
+
         selectedAvatarRewardId_ = 0;
         onChanged();
         return this;
@@ -2296,7 +2296,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFirstDayStartTime(int value) {
-        
+
         firstDayStartTime_ = value;
         onChanged();
         return this;
@@ -2306,7 +2306,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFirstDayStartTime() {
-        
+
         firstDayStartTime_ = 0;
         onChanged();
         return this;
@@ -2327,7 +2327,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScoreLimit(int value) {
-        
+
         scoreLimit_ = value;
         onChanged();
         return this;
@@ -2337,7 +2337,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScoreLimit() {
-        
+
         scoreLimit_ = 0;
         onChanged();
         return this;
@@ -2358,7 +2358,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsFinished(boolean value) {
-        
+
         isFinished_ = value;
         onChanged();
         return this;
@@ -2368,7 +2368,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
-        
+
         isFinished_ = false;
         onChanged();
         return this;
@@ -2389,7 +2389,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsHidden(boolean value) {
-        
+
         isHidden_ = value;
         onChanged();
         return this;
@@ -2399,7 +2399,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsHidden() {
-        
+
         isHidden_ = false;
         onChanged();
         return this;
@@ -2420,7 +2420,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
@@ -2430,7 +2430,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -2451,7 +2451,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -2461,7 +2461,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -2500,7 +2500,7 @@ public final class ActivityInfoOuterClass {
       @java.lang.Override
       public boolean containsActivityCoinMap(
           int key) {
-        
+
         return internalGetActivityCoinMap().getMap().containsKey(key);
       }
       /**
@@ -2527,7 +2527,7 @@ public final class ActivityInfoOuterClass {
       public int getActivityCoinMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetActivityCoinMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -2539,7 +2539,7 @@ public final class ActivityInfoOuterClass {
 
       public int getActivityCoinMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetActivityCoinMap().getMap();
         if (!map.containsKey(key)) {
@@ -2559,7 +2559,7 @@ public final class ActivityInfoOuterClass {
 
       public Builder removeActivityCoinMap(
           int key) {
-        
+
         internalGetMutableActivityCoinMap().getMutableMap()
             .remove(key);
         return this;
@@ -2578,8 +2578,8 @@ public final class ActivityInfoOuterClass {
       public Builder putActivityCoinMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableActivityCoinMap().getMutableMap()
             .put(key, value);
         return this;
@@ -2610,7 +2610,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setActivityType(int value) {
-        
+
         activityType_ = value;
         onChanged();
         return this;
@@ -2620,7 +2620,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearActivityType() {
-        
+
         activityType_ = 0;
         onChanged();
         return this;
@@ -2821,7 +2821,7 @@ public final class ActivityInfoOuterClass {
       /**
        * <code>repeated .Unk2800_PHPHMILPOLC Unk2800_KOMIPKKKOBE = 864;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLCOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLCOrBuilder>
            getUnk2800KOMIPKKKOBEOrBuilderList() {
         if (unk2800KOMIPKKKOBEBuilder_ != null) {
           return unk2800KOMIPKKKOBEBuilder_.getMessageOrBuilderList();
@@ -2847,12 +2847,12 @@ public final class ActivityInfoOuterClass {
       /**
        * <code>repeated .Unk2800_PHPHMILPOLC Unk2800_KOMIPKKKOBE = 864;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLC.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLC.Builder>
            getUnk2800KOMIPKKKOBEBuilderList() {
         return getUnk2800KOMIPKKKOBEFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLC, emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLC.Builder, emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLCOrBuilder> 
+          emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLC, emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLC.Builder, emu.grasscutter.net.proto.Unk2800PHPHMILPOLC.Unk2800_PHPHMILPOLCOrBuilder>
           getUnk2800KOMIPKKKOBEFieldBuilder() {
         if (unk2800KOMIPKKKOBEBuilder_ == null) {
           unk2800KOMIPKKKOBEBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3219,7 +3219,7 @@ public final class ActivityInfoOuterClass {
       /**
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
            getWatcherInfoListOrBuilderList() {
         if (watcherInfoListBuilder_ != null) {
           return watcherInfoListBuilder_.getMessageOrBuilderList();
@@ -3245,12 +3245,12 @@ public final class ActivityInfoOuterClass {
       /**
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder>
            getWatcherInfoListBuilderList() {
         return getWatcherInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
+          emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
           getWatcherInfoListFieldBuilder() {
         if (watcherInfoListBuilder_ == null) {
           watcherInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3279,7 +3279,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setActivityId(int value) {
-        
+
         activityId_ = value;
         onChanged();
         return this;
@@ -3289,7 +3289,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearActivityId() {
-        
+
         activityId_ = 0;
         onChanged();
         return this;
@@ -3715,7 +3715,7 @@ public final class ActivityInfoOuterClass {
        * <code>.MusicGameActivityDetailInfo music_game_info = 460;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder> 
+          emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder>
           getMusicGameInfoFieldBuilder() {
         if (musicGameInfoBuilder_ == null) {
           if (!(detailCase_ == 460)) {
@@ -3787,12 +3787,12 @@ public final class ActivityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityInfo_ActivityCoinMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityInfo_ActivityCoinMapEntry_fieldAccessorTable;
 

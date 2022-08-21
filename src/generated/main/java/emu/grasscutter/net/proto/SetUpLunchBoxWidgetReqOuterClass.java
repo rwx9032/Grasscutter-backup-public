@@ -565,7 +565,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
        * <code>.LunchBoxData lunch_box_data = 6;</code>
        */
       public emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder getLunchBoxDataBuilder() {
-        
+
         onChanged();
         return getLunchBoxDataFieldBuilder().getBuilder();
       }
@@ -584,7 +584,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
        * <code>.LunchBoxData lunch_box_data = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder> 
+          emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder>
           getLunchBoxDataFieldBuilder() {
         if (lunchBoxDataBuilder_ == null) {
           lunchBoxDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -651,7 +651,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetUpLunchBoxWidgetReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetUpLunchBoxWidgetReq_fieldAccessorTable;
 

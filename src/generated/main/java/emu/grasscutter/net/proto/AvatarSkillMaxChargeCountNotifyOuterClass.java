@@ -525,7 +525,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSkillId(int value) {
-        
+
         skillId_ = value;
         onChanged();
         return this;
@@ -535,7 +535,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSkillId() {
-        
+
         skillId_ = 0;
         onChanged();
         return this;
@@ -556,7 +556,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxChargeCount(int value) {
-        
+
         maxChargeCount_ = value;
         onChanged();
         return this;
@@ -566,7 +566,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxChargeCount() {
-        
+
         maxChargeCount_ = 0;
         onChanged();
         return this;
@@ -587,7 +587,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -597,7 +597,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -657,7 +657,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillMaxChargeCountNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillMaxChargeCountNotify_fieldAccessorTable;
 

@@ -565,7 +565,7 @@ public final class FireworkSetReqOuterClass {
        * <code>.FireworkSetData data = 2;</code>
        */
       public emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData.Builder getDataBuilder() {
-        
+
         onChanged();
         return getDataFieldBuilder().getBuilder();
       }
@@ -584,7 +584,7 @@ public final class FireworkSetReqOuterClass {
        * <code>.FireworkSetData data = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData, emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData.Builder, emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder> 
+          emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData, emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData.Builder, emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder>
           getDataFieldBuilder() {
         if (dataBuilder_ == null) {
           dataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -651,7 +651,7 @@ public final class FireworkSetReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FireworkSetReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FireworkSetReq_fieldAccessorTable;
 

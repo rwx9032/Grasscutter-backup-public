@@ -524,7 +524,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParam(int value) {
-        
+
         param_ = value;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParam() {
-        
+
         param_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerApplyEnterMpRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerApplyEnterMpRsp_fieldAccessorTable;
 

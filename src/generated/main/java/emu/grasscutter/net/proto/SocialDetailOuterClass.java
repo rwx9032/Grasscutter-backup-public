@@ -196,7 +196,7 @@ public final class SocialDetailOuterClass {
     /**
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo> 
+    java.util.List<emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo>
         getShowAvatarInfoListList();
     /**
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -209,7 +209,7 @@ public final class SocialDetailOuterClass {
     /**
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder>
         getShowAvatarInfoListOrBuilderList();
     /**
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -562,7 +562,7 @@ public final class SocialDetailOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nickname_ = s;
@@ -578,7 +578,7 @@ public final class SocialDetailOuterClass {
         getNicknameBytes() {
       java.lang.Object ref = nickname_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nickname_ = b;
@@ -622,7 +622,7 @@ public final class SocialDetailOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         signature_ = s;
@@ -638,7 +638,7 @@ public final class SocialDetailOuterClass {
         getSignatureBytes() {
       java.lang.Object ref = signature_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         signature_ = b;
@@ -777,7 +777,7 @@ public final class SocialDetailOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         onlineId_ = s;
@@ -793,7 +793,7 @@ public final class SocialDetailOuterClass {
         getOnlineIdBytes() {
       java.lang.Object ref = onlineId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         onlineId_ = b;
@@ -848,7 +848,7 @@ public final class SocialDetailOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         remarkName_ = s;
@@ -864,7 +864,7 @@ public final class SocialDetailOuterClass {
         getRemarkNameBytes() {
       java.lang.Object ref = remarkName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         remarkName_ = b;
@@ -931,7 +931,7 @@ public final class SocialDetailOuterClass {
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder>
         getShowAvatarInfoListOrBuilderList() {
       return showAvatarInfoList_;
     }
@@ -1811,7 +1811,7 @@ public final class SocialDetailOuterClass {
               showAvatarInfoListBuilder_ = null;
               showAvatarInfoList_ = other.showAvatarInfoList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              showAvatarInfoListBuilder_ = 
+              showAvatarInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getShowAvatarInfoListFieldBuilder() : null;
             } else {
@@ -1880,7 +1880,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -1890,7 +1890,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -1921,7 +1921,7 @@ public final class SocialDetailOuterClass {
           getNicknameBytes() {
         java.lang.Object ref = nickname_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nickname_ = b;
@@ -1940,7 +1940,7 @@ public final class SocialDetailOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         nickname_ = value;
         onChanged();
         return this;
@@ -1950,7 +1950,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNickname() {
-        
+
         nickname_ = getDefaultInstance().getNickname();
         onChanged();
         return this;
@@ -1966,7 +1966,7 @@ public final class SocialDetailOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         nickname_ = value;
         onChanged();
         return this;
@@ -1987,7 +1987,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
@@ -1997,7 +1997,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -2018,7 +2018,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
@@ -2028,7 +2028,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -2059,7 +2059,7 @@ public final class SocialDetailOuterClass {
           getSignatureBytes() {
         java.lang.Object ref = signature_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           signature_ = b;
@@ -2078,7 +2078,7 @@ public final class SocialDetailOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         signature_ = value;
         onChanged();
         return this;
@@ -2088,7 +2088,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSignature() {
-        
+
         signature_ = getDefaultInstance().getSignature();
         onChanged();
         return this;
@@ -2104,7 +2104,7 @@ public final class SocialDetailOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         signature_ = value;
         onChanged();
         return this;
@@ -2197,7 +2197,7 @@ public final class SocialDetailOuterClass {
        * <code>.Birthday birthday = 6;</code>
        */
       public emu.grasscutter.net.proto.BirthdayOuterClass.Birthday.Builder getBirthdayBuilder() {
-        
+
         onChanged();
         return getBirthdayFieldBuilder().getBuilder();
       }
@@ -2216,7 +2216,7 @@ public final class SocialDetailOuterClass {
        * <code>.Birthday birthday = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BirthdayOuterClass.Birthday, emu.grasscutter.net.proto.BirthdayOuterClass.Birthday.Builder, emu.grasscutter.net.proto.BirthdayOuterClass.BirthdayOrBuilder> 
+          emu.grasscutter.net.proto.BirthdayOuterClass.Birthday, emu.grasscutter.net.proto.BirthdayOuterClass.Birthday.Builder, emu.grasscutter.net.proto.BirthdayOuterClass.BirthdayOrBuilder>
           getBirthdayFieldBuilder() {
         if (birthdayBuilder_ == null) {
           birthdayBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2244,7 +2244,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWorldLevel(int value) {
-        
+
         worldLevel_ = value;
         onChanged();
         return this;
@@ -2254,7 +2254,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWorldLevel() {
-        
+
         worldLevel_ = 0;
         onChanged();
         return this;
@@ -2353,7 +2353,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOnlineStateValue(int value) {
-        
+
         onlineState_ = value;
         onChanged();
         return this;
@@ -2377,7 +2377,7 @@ public final class SocialDetailOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         onlineState_ = value.getNumber();
         onChanged();
         return this;
@@ -2387,7 +2387,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOnlineState() {
-        
+
         onlineState_ = 0;
         onChanged();
         return this;
@@ -2408,7 +2408,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParam(int value) {
-        
+
         param_ = value;
         onChanged();
         return this;
@@ -2418,7 +2418,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParam() {
-        
+
         param_ = 0;
         onChanged();
         return this;
@@ -2439,7 +2439,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsFriend(boolean value) {
-        
+
         isFriend_ = value;
         onChanged();
         return this;
@@ -2449,7 +2449,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsFriend() {
-        
+
         isFriend_ = false;
         onChanged();
         return this;
@@ -2470,7 +2470,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsMpModeAvailable(boolean value) {
-        
+
         isMpModeAvailable_ = value;
         onChanged();
         return this;
@@ -2480,7 +2480,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsMpModeAvailable() {
-        
+
         isMpModeAvailable_ = false;
         onChanged();
         return this;
@@ -2511,7 +2511,7 @@ public final class SocialDetailOuterClass {
           getOnlineIdBytes() {
         java.lang.Object ref = onlineId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           onlineId_ = b;
@@ -2530,7 +2530,7 @@ public final class SocialDetailOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         onlineId_ = value;
         onChanged();
         return this;
@@ -2540,7 +2540,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOnlineId() {
-        
+
         onlineId_ = getDefaultInstance().getOnlineId();
         onChanged();
         return this;
@@ -2556,7 +2556,7 @@ public final class SocialDetailOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         onlineId_ = value;
         onChanged();
         return this;
@@ -2577,7 +2577,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNameCardId(int value) {
-        
+
         nameCardId_ = value;
         onChanged();
         return this;
@@ -2587,7 +2587,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNameCardId() {
-        
+
         nameCardId_ = 0;
         onChanged();
         return this;
@@ -2608,7 +2608,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsInBlacklist(boolean value) {
-        
+
         isInBlacklist_ = value;
         onChanged();
         return this;
@@ -2618,7 +2618,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsInBlacklist() {
-        
+
         isInBlacklist_ = false;
         onChanged();
         return this;
@@ -2639,7 +2639,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsChatNoDisturb(boolean value) {
-        
+
         isChatNoDisturb_ = value;
         onChanged();
         return this;
@@ -2649,7 +2649,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsChatNoDisturb() {
-        
+
         isChatNoDisturb_ = false;
         onChanged();
         return this;
@@ -2680,7 +2680,7 @@ public final class SocialDetailOuterClass {
           getRemarkNameBytes() {
         java.lang.Object ref = remarkName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           remarkName_ = b;
@@ -2699,7 +2699,7 @@ public final class SocialDetailOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         remarkName_ = value;
         onChanged();
         return this;
@@ -2709,7 +2709,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRemarkName() {
-        
+
         remarkName_ = getDefaultInstance().getRemarkName();
         onChanged();
         return this;
@@ -2725,7 +2725,7 @@ public final class SocialDetailOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         remarkName_ = value;
         onChanged();
         return this;
@@ -2746,7 +2746,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFinishAchievementNum(int value) {
-        
+
         finishAchievementNum_ = value;
         onChanged();
         return this;
@@ -2756,7 +2756,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFinishAchievementNum() {
-        
+
         finishAchievementNum_ = 0;
         onChanged();
         return this;
@@ -2777,7 +2777,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTowerFloorIndex(int value) {
-        
+
         towerFloorIndex_ = value;
         onChanged();
         return this;
@@ -2787,7 +2787,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTowerFloorIndex() {
-        
+
         towerFloorIndex_ = 0;
         onChanged();
         return this;
@@ -2808,7 +2808,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTowerLevelIndex(int value) {
-        
+
         towerLevelIndex_ = value;
         onChanged();
         return this;
@@ -2818,7 +2818,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTowerLevelIndex() {
-        
+
         towerLevelIndex_ = 0;
         onChanged();
         return this;
@@ -2839,7 +2839,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsShowAvatar(boolean value) {
-        
+
         isShowAvatar_ = value;
         onChanged();
         return this;
@@ -2849,7 +2849,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsShowAvatar() {
-        
+
         isShowAvatar_ = false;
         onChanged();
         return this;
@@ -3050,7 +3050,7 @@ public final class SocialDetailOuterClass {
       /**
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder>
            getShowAvatarInfoListOrBuilderList() {
         if (showAvatarInfoListBuilder_ != null) {
           return showAvatarInfoListBuilder_.getMessageOrBuilderList();
@@ -3076,12 +3076,12 @@ public final class SocialDetailOuterClass {
       /**
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder>
            getShowAvatarInfoListBuilderList() {
         return getShowAvatarInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder>
           getShowAvatarInfoListFieldBuilder() {
         if (showAvatarInfoListBuilder_ == null) {
           showAvatarInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3188,7 +3188,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFriendEnterHomeOptionValue(int value) {
-        
+
         friendEnterHomeOption_ = value;
         onChanged();
         return this;
@@ -3212,7 +3212,7 @@ public final class SocialDetailOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         friendEnterHomeOption_ = value.getNumber();
         onChanged();
         return this;
@@ -3222,7 +3222,7 @@ public final class SocialDetailOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFriendEnterHomeOption() {
-        
+
         friendEnterHomeOption_ = 0;
         onChanged();
         return this;
@@ -3315,7 +3315,7 @@ public final class SocialDetailOuterClass {
        * <code>.ProfilePicture profile_picture = 25;</code>
        */
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder getProfilePictureBuilder() {
-        
+
         onChanged();
         return getProfilePictureFieldBuilder().getBuilder();
       }
@@ -3334,7 +3334,7 @@ public final class SocialDetailOuterClass {
        * <code>.ProfilePicture profile_picture = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> 
+          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder>
           getProfilePictureFieldBuilder() {
         if (profilePictureBuilder_ == null) {
           profilePictureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3401,7 +3401,7 @@ public final class SocialDetailOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SocialDetail_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SocialDetail_fieldAccessorTable;
 

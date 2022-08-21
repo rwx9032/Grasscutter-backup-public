@@ -565,7 +565,7 @@ public final class UnlockedFurnitureSuiteDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAll(boolean value) {
-        
+
         isAll_ = value;
         onChanged();
         return this;
@@ -575,7 +575,7 @@ public final class UnlockedFurnitureSuiteDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAll() {
-        
+
         isAll_ = false;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class UnlockedFurnitureSuiteDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UnlockedFurnitureSuiteDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UnlockedFurnitureSuiteDataNotify_fieldAccessorTable;
 

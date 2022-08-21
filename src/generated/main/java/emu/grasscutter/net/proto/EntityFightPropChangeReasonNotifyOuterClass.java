@@ -882,7 +882,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPropDelta(float value) {
-        
+
         propDelta_ = value;
         onChanged();
         return this;
@@ -892,7 +892,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPropDelta() {
-        
+
         propDelta_ = 0F;
         onChanged();
         return this;
@@ -912,7 +912,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChangeHpReasonValue(int value) {
-        
+
         changeHpReason_ = value;
         onChanged();
         return this;
@@ -936,7 +936,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         changeHpReason_ = value.getNumber();
         onChanged();
         return this;
@@ -946,7 +946,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChangeHpReason() {
-        
+
         changeHpReason_ = 0;
         onChanged();
         return this;
@@ -966,7 +966,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setReasonValue(int value) {
-        
+
         reason_ = value;
         onChanged();
         return this;
@@ -990,7 +990,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         reason_ = value.getNumber();
         onChanged();
         return this;
@@ -1000,7 +1000,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReason() {
-        
+
         reason_ = 0;
         onChanged();
         return this;
@@ -1021,7 +1021,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -1031,7 +1031,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -1051,7 +1051,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChangeEnergyResonValue(int value) {
-        
+
         changeEnergyReson_ = value;
         onChanged();
         return this;
@@ -1075,7 +1075,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         changeEnergyReson_ = value.getNumber();
         onChanged();
         return this;
@@ -1085,7 +1085,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChangeEnergyReson() {
-        
+
         changeEnergyReson_ = 0;
         onChanged();
         return this;
@@ -1106,7 +1106,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPropType(int value) {
-        
+
         propType_ = value;
         onChanged();
         return this;
@@ -1116,7 +1116,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPropType() {
-        
+
         propType_ = 0;
         onChanged();
         return this;
@@ -1176,7 +1176,7 @@ public final class EntityFightPropChangeReasonNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityFightPropChangeReasonNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityFightPropChangeReasonNotify_fieldAccessorTable;
 

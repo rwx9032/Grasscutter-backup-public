@@ -473,7 +473,7 @@ public final class CookRecipeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRecipeId(int value) {
-        
+
         recipeId_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class CookRecipeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRecipeId() {
-        
+
         recipeId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class CookRecipeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setProficiency(int value) {
-        
+
         proficiency_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class CookRecipeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearProficiency() {
-        
+
         proficiency_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class CookRecipeDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CookRecipeData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CookRecipeData_fieldAccessorTable;
 

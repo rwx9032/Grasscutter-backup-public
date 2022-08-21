@@ -809,7 +809,7 @@ public final class ItemOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
@@ -819,7 +819,7 @@ public final class ItemOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -840,7 +840,7 @@ public final class ItemOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(long value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -850,7 +850,7 @@ public final class ItemOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0L;
         onChanged();
         return this;
@@ -979,7 +979,7 @@ public final class ItemOuterClass {
        * <code>.Material material = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MaterialOuterClass.Material, emu.grasscutter.net.proto.MaterialOuterClass.Material.Builder, emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder> 
+          emu.grasscutter.net.proto.MaterialOuterClass.Material, emu.grasscutter.net.proto.MaterialOuterClass.Material.Builder, emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder>
           getMaterialFieldBuilder() {
         if (materialBuilder_ == null) {
           if (!(detailCase_ == 5)) {
@@ -1120,7 +1120,7 @@ public final class ItemOuterClass {
        * <code>.Equip equip = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EquipOuterClass.Equip, emu.grasscutter.net.proto.EquipOuterClass.Equip.Builder, emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder> 
+          emu.grasscutter.net.proto.EquipOuterClass.Equip, emu.grasscutter.net.proto.EquipOuterClass.Equip.Builder, emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder>
           getEquipFieldBuilder() {
         if (equipBuilder_ == null) {
           if (!(detailCase_ == 6)) {
@@ -1261,7 +1261,7 @@ public final class ItemOuterClass {
        * <code>.Furniture furniture = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder> 
+          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder>
           getFurnitureFieldBuilder() {
         if (furnitureBuilder_ == null) {
           if (!(detailCase_ == 7)) {
@@ -1333,7 +1333,7 @@ public final class ItemOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Item_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Item_fieldAccessorTable;
 

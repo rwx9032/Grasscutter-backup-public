@@ -636,7 +636,7 @@ public final class EntityMoveInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -646,7 +646,7 @@ public final class EntityMoveInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -739,7 +739,7 @@ public final class EntityMoveInfoOuterClass {
        * <code>.MotionInfo motion_info = 2;</code>
        */
       public emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo.Builder getMotionInfoBuilder() {
-        
+
         onChanged();
         return getMotionInfoFieldBuilder().getBuilder();
       }
@@ -758,7 +758,7 @@ public final class EntityMoveInfoOuterClass {
        * <code>.MotionInfo motion_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo, emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo.Builder, emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfoOrBuilder> 
+          emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo, emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo.Builder, emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfoOrBuilder>
           getMotionInfoFieldBuilder() {
         if (motionInfoBuilder_ == null) {
           motionInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -786,7 +786,7 @@ public final class EntityMoveInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneTime(int value) {
-        
+
         sceneTime_ = value;
         onChanged();
         return this;
@@ -796,7 +796,7 @@ public final class EntityMoveInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneTime() {
-        
+
         sceneTime_ = 0;
         onChanged();
         return this;
@@ -817,7 +817,7 @@ public final class EntityMoveInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setReliableSeq(int value) {
-        
+
         reliableSeq_ = value;
         onChanged();
         return this;
@@ -827,7 +827,7 @@ public final class EntityMoveInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReliableSeq() {
-        
+
         reliableSeq_ = 0;
         onChanged();
         return this;
@@ -848,7 +848,7 @@ public final class EntityMoveInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsReliable(boolean value) {
-        
+
         isReliable_ = value;
         onChanged();
         return this;
@@ -858,7 +858,7 @@ public final class EntityMoveInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsReliable() {
-        
+
         isReliable_ = false;
         onChanged();
         return this;
@@ -918,7 +918,7 @@ public final class EntityMoveInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityMoveInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityMoveInfo_fieldAccessorTable;
 

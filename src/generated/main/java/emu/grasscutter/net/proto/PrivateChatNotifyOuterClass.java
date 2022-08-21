@@ -563,7 +563,7 @@ public final class PrivateChatNotifyOuterClass {
        * <code>.ChatInfo chat_info = 7;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder getChatInfoBuilder() {
-        
+
         onChanged();
         return getChatInfoFieldBuilder().getBuilder();
       }
@@ -582,7 +582,7 @@ public final class PrivateChatNotifyOuterClass {
        * <code>.ChatInfo chat_info = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder> 
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder>
           getChatInfoFieldBuilder() {
         if (chatInfoBuilder_ == null) {
           chatInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class PrivateChatNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PrivateChatNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PrivateChatNotify_fieldAccessorTable;
 

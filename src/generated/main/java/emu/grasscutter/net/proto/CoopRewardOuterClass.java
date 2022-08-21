@@ -604,7 +604,7 @@ public final class CoopRewardOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -614,7 +614,7 @@ public final class CoopRewardOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -634,7 +634,7 @@ public final class CoopRewardOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStateValue(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -658,7 +658,7 @@ public final class CoopRewardOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         state_ = value.getNumber();
         onChanged();
         return this;
@@ -668,7 +668,7 @@ public final class CoopRewardOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -728,7 +728,7 @@ public final class CoopRewardOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CoopReward_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CoopReward_fieldAccessorTable;
 

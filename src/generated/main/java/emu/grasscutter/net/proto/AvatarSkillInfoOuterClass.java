@@ -591,7 +591,7 @@ public final class AvatarSkillInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPassCdTime(int value) {
-        
+
         passCdTime_ = value;
         onChanged();
         return this;
@@ -601,7 +601,7 @@ public final class AvatarSkillInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPassCdTime() {
-        
+
         passCdTime_ = 0;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class AvatarSkillInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxChargeCount(int value) {
-        
+
         maxChargeCount_ = value;
         onChanged();
         return this;
@@ -711,7 +711,7 @@ public final class AvatarSkillInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxChargeCount() {
-        
+
         maxChargeCount_ = 0;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class AvatarSkillInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillInfo_fieldAccessorTable;
 

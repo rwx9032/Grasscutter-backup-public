@@ -27,7 +27,7 @@ public final class SyncTeamEntityNotifyOuterClass {
     /**
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo> 
+    java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo>
         getTeamEntityInfoListList();
     /**
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
@@ -40,7 +40,7 @@ public final class SyncTeamEntityNotifyOuterClass {
     /**
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder>
         getTeamEntityInfoListOrBuilderList();
     /**
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
@@ -174,7 +174,7 @@ public final class SyncTeamEntityNotifyOuterClass {
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder>
         getTeamEntityInfoListOrBuilderList() {
       return teamEntityInfoList_;
     }
@@ -528,7 +528,7 @@ public final class SyncTeamEntityNotifyOuterClass {
               teamEntityInfoListBuilder_ = null;
               teamEntityInfoList_ = other.teamEntityInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              teamEntityInfoListBuilder_ = 
+              teamEntityInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTeamEntityInfoListFieldBuilder() : null;
             } else {
@@ -581,7 +581,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -591,7 +591,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -792,7 +792,7 @@ public final class SyncTeamEntityNotifyOuterClass {
       /**
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder>
            getTeamEntityInfoListOrBuilderList() {
         if (teamEntityInfoListBuilder_ != null) {
           return teamEntityInfoListBuilder_.getMessageOrBuilderList();
@@ -818,12 +818,12 @@ public final class SyncTeamEntityNotifyOuterClass {
       /**
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder>
            getTeamEntityInfoListBuilderList() {
         return getTeamEntityInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder> 
+          emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder>
           getTeamEntityInfoListFieldBuilder() {
         if (teamEntityInfoListBuilder_ == null) {
           teamEntityInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -891,7 +891,7 @@ public final class SyncTeamEntityNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SyncTeamEntityNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SyncTeamEntityNotify_fieldAccessorTable;
 

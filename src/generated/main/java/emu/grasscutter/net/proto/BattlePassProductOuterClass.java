@@ -164,7 +164,7 @@ public final class BattlePassProductOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         normalProductId_ = s;
@@ -180,7 +180,7 @@ public final class BattlePassProductOuterClass {
         getNormalProductIdBytes() {
       java.lang.Object ref = normalProductId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         normalProductId_ = b;
@@ -202,7 +202,7 @@ public final class BattlePassProductOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         extraProductId_ = s;
@@ -218,7 +218,7 @@ public final class BattlePassProductOuterClass {
         getExtraProductIdBytes() {
       java.lang.Object ref = extraProductId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         extraProductId_ = b;
@@ -240,7 +240,7 @@ public final class BattlePassProductOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         upgradeProductId_ = s;
@@ -256,7 +256,7 @@ public final class BattlePassProductOuterClass {
         getUpgradeProductIdBytes() {
       java.lang.Object ref = upgradeProductId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         upgradeProductId_ = b;
@@ -627,7 +627,7 @@ public final class BattlePassProductOuterClass {
           getNormalProductIdBytes() {
         java.lang.Object ref = normalProductId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           normalProductId_ = b;
@@ -646,7 +646,7 @@ public final class BattlePassProductOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         normalProductId_ = value;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class BattlePassProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNormalProductId() {
-        
+
         normalProductId_ = getDefaultInstance().getNormalProductId();
         onChanged();
         return this;
@@ -672,7 +672,7 @@ public final class BattlePassProductOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         normalProductId_ = value;
         onChanged();
         return this;
@@ -703,7 +703,7 @@ public final class BattlePassProductOuterClass {
           getExtraProductIdBytes() {
         java.lang.Object ref = extraProductId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           extraProductId_ = b;
@@ -722,7 +722,7 @@ public final class BattlePassProductOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         extraProductId_ = value;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class BattlePassProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExtraProductId() {
-        
+
         extraProductId_ = getDefaultInstance().getExtraProductId();
         onChanged();
         return this;
@@ -748,7 +748,7 @@ public final class BattlePassProductOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         extraProductId_ = value;
         onChanged();
         return this;
@@ -779,7 +779,7 @@ public final class BattlePassProductOuterClass {
           getUpgradeProductIdBytes() {
         java.lang.Object ref = upgradeProductId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           upgradeProductId_ = b;
@@ -798,7 +798,7 @@ public final class BattlePassProductOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         upgradeProductId_ = value;
         onChanged();
         return this;
@@ -808,7 +808,7 @@ public final class BattlePassProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUpgradeProductId() {
-        
+
         upgradeProductId_ = getDefaultInstance().getUpgradeProductId();
         onChanged();
         return this;
@@ -824,7 +824,7 @@ public final class BattlePassProductOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         upgradeProductId_ = value;
         onChanged();
         return this;
@@ -884,7 +884,7 @@ public final class BattlePassProductOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BattlePassProduct_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BattlePassProduct_fieldAccessorTable;
 

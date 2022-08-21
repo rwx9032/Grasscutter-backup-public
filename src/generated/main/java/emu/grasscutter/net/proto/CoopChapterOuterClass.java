@@ -21,7 +21,7 @@ public final class CoopChapterOuterClass {
     /**
      * <code>repeated .CoopCg coop_cg_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg> 
+    java.util.List<emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg>
         getCoopCgListList();
     /**
      * <code>repeated .CoopCg coop_cg_list = 1;</code>
@@ -34,7 +34,7 @@ public final class CoopChapterOuterClass {
     /**
      * <code>repeated .CoopCg coop_cg_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CoopCgOuterClass.CoopCgOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.CoopCgOuterClass.CoopCgOrBuilder>
         getCoopCgListOrBuilderList();
     /**
      * <code>repeated .CoopCg coop_cg_list = 1;</code>
@@ -51,7 +51,7 @@ public final class CoopChapterOuterClass {
     /**
      * <code>repeated .CoopPoint coop_point_list = 11;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint> 
+    java.util.List<emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint>
         getCoopPointListList();
     /**
      * <code>repeated .CoopPoint coop_point_list = 11;</code>
@@ -64,7 +64,7 @@ public final class CoopChapterOuterClass {
     /**
      * <code>repeated .CoopPoint coop_point_list = 11;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CoopPointOuterClass.CoopPointOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.CoopPointOuterClass.CoopPointOrBuilder>
         getCoopPointListOrBuilderList();
     /**
      * <code>repeated .CoopPoint coop_point_list = 11;</code>
@@ -104,7 +104,7 @@ public final class CoopChapterOuterClass {
     /**
      * <code>repeated .CoopReward coop_reward_list = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward> 
+    java.util.List<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward>
         getCoopRewardListList();
     /**
      * <code>repeated .CoopReward coop_reward_list = 5;</code>
@@ -117,7 +117,7 @@ public final class CoopChapterOuterClass {
     /**
      * <code>repeated .CoopReward coop_reward_list = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder>
         getCoopRewardListOrBuilderList();
     /**
      * <code>repeated .CoopReward coop_reward_list = 5;</code>
@@ -540,7 +540,7 @@ public final class CoopChapterOuterClass {
      * <code>repeated .CoopCg coop_cg_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CoopCgOuterClass.CoopCgOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.CoopCgOuterClass.CoopCgOrBuilder>
         getCoopCgListOrBuilderList() {
       return coopCgList_;
     }
@@ -591,7 +591,7 @@ public final class CoopChapterOuterClass {
      * <code>repeated .CoopPoint coop_point_list = 11;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CoopPointOuterClass.CoopPointOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.CoopPointOuterClass.CoopPointOrBuilder>
         getCoopPointListOrBuilderList() {
       return coopPointList_;
     }
@@ -681,7 +681,7 @@ public final class CoopChapterOuterClass {
      * <code>repeated .CoopReward coop_reward_list = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder>
         getCoopRewardListOrBuilderList() {
       return coopRewardList_;
     }
@@ -761,7 +761,7 @@ public final class CoopChapterOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.CoopChapterOuterClass.internal_static_CoopChapter_SeenEndingMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.CoopChapterOuterClass.internal_static_CoopChapter_SeenEndingMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -788,7 +788,7 @@ public final class CoopChapterOuterClass {
     @java.lang.Override
     public boolean containsSeenEndingMap(
         int key) {
-      
+
       return internalGetSeenEndingMap().getMap().containsKey(key);
     }
     /**
@@ -815,7 +815,7 @@ public final class CoopChapterOuterClass {
     public int getSeenEndingMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSeenEndingMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -827,7 +827,7 @@ public final class CoopChapterOuterClass {
 
     public int getSeenEndingMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSeenEndingMap().getMap();
       if (!map.containsKey(key)) {
@@ -1369,7 +1369,7 @@ public final class CoopChapterOuterClass {
               coopCgListBuilder_ = null;
               coopCgList_ = other.coopCgList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              coopCgListBuilder_ = 
+              coopCgListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCoopCgListFieldBuilder() : null;
             } else {
@@ -1398,7 +1398,7 @@ public final class CoopChapterOuterClass {
               coopPointListBuilder_ = null;
               coopPointList_ = other.coopPointList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              coopPointListBuilder_ = 
+              coopPointListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCoopPointListFieldBuilder() : null;
             } else {
@@ -1440,7 +1440,7 @@ public final class CoopChapterOuterClass {
               coopRewardListBuilder_ = null;
               coopRewardList_ = other.coopRewardList_;
               bitField0_ = (bitField0_ & ~0x00000008);
-              coopRewardListBuilder_ = 
+              coopRewardListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCoopRewardListFieldBuilder() : null;
             } else {
@@ -1688,7 +1688,7 @@ public final class CoopChapterOuterClass {
       /**
        * <code>repeated .CoopCg coop_cg_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CoopCgOuterClass.CoopCgOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.CoopCgOuterClass.CoopCgOrBuilder>
            getCoopCgListOrBuilderList() {
         if (coopCgListBuilder_ != null) {
           return coopCgListBuilder_.getMessageOrBuilderList();
@@ -1714,12 +1714,12 @@ public final class CoopChapterOuterClass {
       /**
        * <code>repeated .CoopCg coop_cg_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg.Builder>
            getCoopCgListBuilderList() {
         return getCoopCgListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg, emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg.Builder, emu.grasscutter.net.proto.CoopCgOuterClass.CoopCgOrBuilder> 
+          emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg, emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg.Builder, emu.grasscutter.net.proto.CoopCgOuterClass.CoopCgOrBuilder>
           getCoopCgListFieldBuilder() {
         if (coopCgListBuilder_ == null) {
           coopCgListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1748,7 +1748,7 @@ public final class CoopChapterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -1758,7 +1758,7 @@ public final class CoopChapterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -1959,7 +1959,7 @@ public final class CoopChapterOuterClass {
       /**
        * <code>repeated .CoopPoint coop_point_list = 11;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CoopPointOuterClass.CoopPointOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.CoopPointOuterClass.CoopPointOrBuilder>
            getCoopPointListOrBuilderList() {
         if (coopPointListBuilder_ != null) {
           return coopPointListBuilder_.getMessageOrBuilderList();
@@ -1985,12 +1985,12 @@ public final class CoopChapterOuterClass {
       /**
        * <code>repeated .CoopPoint coop_point_list = 11;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.Builder>
            getCoopPointListBuilderList() {
         return getCoopPointListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint, emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.Builder, emu.grasscutter.net.proto.CoopPointOuterClass.CoopPointOrBuilder> 
+          emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint, emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.Builder, emu.grasscutter.net.proto.CoopPointOuterClass.CoopPointOrBuilder>
           getCoopPointListFieldBuilder() {
         if (coopPointListBuilder_ == null) {
           coopPointListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2098,7 +2098,7 @@ public final class CoopChapterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFinishedEndCount(int value) {
-        
+
         finishedEndCount_ = value;
         onChanged();
         return this;
@@ -2108,7 +2108,7 @@ public final class CoopChapterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFinishedEndCount() {
-        
+
         finishedEndCount_ = 0;
         onChanged();
         return this;
@@ -2129,7 +2129,7 @@ public final class CoopChapterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTotalEndCount(int value) {
-        
+
         totalEndCount_ = value;
         onChanged();
         return this;
@@ -2139,7 +2139,7 @@ public final class CoopChapterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTotalEndCount() {
-        
+
         totalEndCount_ = 0;
         onChanged();
         return this;
@@ -2340,7 +2340,7 @@ public final class CoopChapterOuterClass {
       /**
        * <code>repeated .CoopReward coop_reward_list = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder>
            getCoopRewardListOrBuilderList() {
         if (coopRewardListBuilder_ != null) {
           return coopRewardListBuilder_.getMessageOrBuilderList();
@@ -2366,12 +2366,12 @@ public final class CoopChapterOuterClass {
       /**
        * <code>repeated .CoopReward coop_reward_list = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder>
            getCoopRewardListBuilderList() {
         return getCoopRewardListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder> 
+          emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder>
           getCoopRewardListFieldBuilder() {
         if (coopRewardListBuilder_ == null) {
           coopRewardListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2478,7 +2478,7 @@ public final class CoopChapterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStateValue(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -2502,7 +2502,7 @@ public final class CoopChapterOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         state_ = value.getNumber();
         onChanged();
         return this;
@@ -2512,7 +2512,7 @@ public final class CoopChapterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -2551,7 +2551,7 @@ public final class CoopChapterOuterClass {
       @java.lang.Override
       public boolean containsSeenEndingMap(
           int key) {
-        
+
         return internalGetSeenEndingMap().getMap().containsKey(key);
       }
       /**
@@ -2578,7 +2578,7 @@ public final class CoopChapterOuterClass {
       public int getSeenEndingMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSeenEndingMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -2590,7 +2590,7 @@ public final class CoopChapterOuterClass {
 
       public int getSeenEndingMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSeenEndingMap().getMap();
         if (!map.containsKey(key)) {
@@ -2610,7 +2610,7 @@ public final class CoopChapterOuterClass {
 
       public Builder removeSeenEndingMap(
           int key) {
-        
+
         internalGetMutableSeenEndingMap().getMutableMap()
             .remove(key);
         return this;
@@ -2629,8 +2629,8 @@ public final class CoopChapterOuterClass {
       public Builder putSeenEndingMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableSeenEndingMap().getMutableMap()
             .put(key, value);
         return this;
@@ -2700,12 +2700,12 @@ public final class CoopChapterOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CoopChapter_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CoopChapter_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CoopChapter_SeenEndingMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CoopChapter_SeenEndingMapEntry_fieldAccessorTable;
 

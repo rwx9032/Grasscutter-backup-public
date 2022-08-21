@@ -33,7 +33,7 @@ public final class CustomDungeonResultInfoOuterClass {
     /**
      * <code>repeated .Unk2700_FDEGJOCDDGH child_challenge_list = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGH> 
+    java.util.List<emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGH>
         getChildChallengeListList();
     /**
      * <code>repeated .Unk2700_FDEGJOCDDGH child_challenge_list = 6;</code>
@@ -46,7 +46,7 @@ public final class CustomDungeonResultInfoOuterClass {
     /**
      * <code>repeated .Unk2700_FDEGJOCDDGH child_challenge_list = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGHOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGHOrBuilder>
         getChildChallengeListOrBuilderList();
     /**
      * <code>repeated .Unk2700_FDEGJOCDDGH child_challenge_list = 6;</code>
@@ -252,7 +252,7 @@ public final class CustomDungeonResultInfoOuterClass {
      * <code>repeated .Unk2700_FDEGJOCDDGH child_challenge_list = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGHOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGHOrBuilder>
         getChildChallengeListOrBuilderList() {
       return childChallengeList_;
     }
@@ -753,7 +753,7 @@ public final class CustomDungeonResultInfoOuterClass {
               childChallengeListBuilder_ = null;
               childChallengeList_ = other.childChallengeList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              childChallengeListBuilder_ = 
+              childChallengeListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getChildChallengeListFieldBuilder() : null;
             } else {
@@ -821,7 +821,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700BONNHGKDLFO(boolean value) {
-        
+
         unk2700BONNHGKDLFO_ = value;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700BONNHGKDLFO() {
-        
+
         unk2700BONNHGKDLFO_ = false;
         onChanged();
         return this;
@@ -852,7 +852,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700FBBEJKCDMEI(int value) {
-        
+
         unk2700FBBEJKCDMEI_ = value;
         onChanged();
         return this;
@@ -862,7 +862,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700FBBEJKCDMEI() {
-        
+
         unk2700FBBEJKCDMEI_ = 0;
         onChanged();
         return this;
@@ -1063,7 +1063,7 @@ public final class CustomDungeonResultInfoOuterClass {
       /**
        * <code>repeated .Unk2700_FDEGJOCDDGH child_challenge_list = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGHOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGHOrBuilder>
            getChildChallengeListOrBuilderList() {
         if (childChallengeListBuilder_ != null) {
           return childChallengeListBuilder_.getMessageOrBuilderList();
@@ -1089,12 +1089,12 @@ public final class CustomDungeonResultInfoOuterClass {
       /**
        * <code>repeated .Unk2700_FDEGJOCDDGH child_challenge_list = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGH.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGH.Builder>
            getChildChallengeListBuilderList() {
         return getChildChallengeListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGH, emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGH.Builder, emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGHOrBuilder> 
+          emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGH, emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGH.Builder, emu.grasscutter.net.proto.Unk2700FDEGJOCDDGH.Unk2700_FDEGJOCDDGHOrBuilder>
           getChildChallengeListFieldBuilder() {
         if (childChallengeListBuilder_ == null) {
           childChallengeListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1123,7 +1123,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700ONOOJBEABOE(long value) {
-        
+
         unk2700ONOOJBEABOE_ = value;
         onChanged();
         return this;
@@ -1133,7 +1133,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700ONOOJBEABOE() {
-        
+
         unk2700ONOOJBEABOE_ = 0L;
         onChanged();
         return this;
@@ -1153,7 +1153,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700ONCDLPDHFABValue(int value) {
-        
+
         unk2700ONCDLPDHFAB_ = value;
         onChanged();
         return this;
@@ -1177,7 +1177,7 @@ public final class CustomDungeonResultInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unk2700ONCDLPDHFAB_ = value.getNumber();
         onChanged();
         return this;
@@ -1187,7 +1187,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700ONCDLPDHFAB() {
-        
+
         unk2700ONCDLPDHFAB_ = 0;
         onChanged();
         return this;
@@ -1208,7 +1208,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTimeCost(int value) {
-        
+
         timeCost_ = value;
         onChanged();
         return this;
@@ -1218,7 +1218,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTimeCost() {
-        
+
         timeCost_ = 0;
         onChanged();
         return this;
@@ -1239,7 +1239,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700IBDCFAMBGOK(boolean value) {
-        
+
         unk2700IBDCFAMBGOK_ = value;
         onChanged();
         return this;
@@ -1249,7 +1249,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700IBDCFAMBGOK() {
-        
+
         unk2700IBDCFAMBGOK_ = false;
         onChanged();
         return this;
@@ -1270,7 +1270,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700HBFLKFOCKBF(boolean value) {
-        
+
         unk2700HBFLKFOCKBF_ = value;
         onChanged();
         return this;
@@ -1280,7 +1280,7 @@ public final class CustomDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700HBFLKFOCKBF() {
-        
+
         unk2700HBFLKFOCKBF_ = false;
         onChanged();
         return this;
@@ -1340,7 +1340,7 @@ public final class CustomDungeonResultInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CustomDungeonResultInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CustomDungeonResultInfo_fieldAccessorTable;
 

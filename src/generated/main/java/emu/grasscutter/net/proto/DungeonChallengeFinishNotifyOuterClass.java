@@ -414,7 +414,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData>newDefaultInstance(
-                  emu.grasscutter.net.proto.DungeonChallengeFinishNotifyOuterClass.internal_static_DungeonChallengeFinishNotify_StrengthenPointDataMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.DungeonChallengeFinishNotifyOuterClass.internal_static_DungeonChallengeFinishNotify_StrengthenPointDataMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -441,7 +441,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
     @java.lang.Override
     public boolean containsStrengthenPointDataMap(
         int key) {
-      
+
       return internalGetStrengthenPointDataMap().getMap().containsKey(key);
     }
     /**
@@ -468,7 +468,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
     public emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData getStrengthenPointDataMapOrDefault(
         int key,
         emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> map =
           internalGetStrengthenPointDataMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -480,7 +480,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
 
     public emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData getStrengthenPointDataMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> map =
           internalGetStrengthenPointDataMap().getMap();
       if (!map.containsKey(key)) {
@@ -1329,7 +1329,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       @java.lang.Override
       public boolean containsStrengthenPointDataMap(
           int key) {
-        
+
         return internalGetStrengthenPointDataMap().getMap().containsKey(key);
       }
       /**
@@ -1356,7 +1356,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       public emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData getStrengthenPointDataMapOrDefault(
           int key,
           emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> map =
             internalGetStrengthenPointDataMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1368,7 +1368,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
 
       public emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData getStrengthenPointDataMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> map =
             internalGetStrengthenPointDataMap().getMap();
         if (!map.containsKey(key)) {
@@ -1388,7 +1388,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
 
       public Builder removeStrengthenPointDataMap(
           int key) {
-        
+
         internalGetMutableStrengthenPointDataMap().getMutableMap()
             .remove(key);
         return this;
@@ -1407,7 +1407,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
       public Builder putStrengthenPointDataMap(
           int key,
           emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableStrengthenPointDataMap().getMutableMap()
             .put(key, value);
@@ -1438,7 +1438,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700ONCDLPDHFABValue(int value) {
-        
+
         unk2700ONCDLPDHFAB_ = value;
         onChanged();
         return this;
@@ -1462,7 +1462,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unk2700ONCDLPDHFAB_ = value.getNumber();
         onChanged();
         return this;
@@ -1472,7 +1472,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700ONCDLPDHFAB() {
-        
+
         unk2700ONCDLPDHFAB_ = 0;
         onChanged();
         return this;
@@ -1493,7 +1493,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsNewRecord(boolean value) {
-        
+
         isNewRecord_ = value;
         onChanged();
         return this;
@@ -1503,7 +1503,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
-        
+
         isNewRecord_ = false;
         onChanged();
         return this;
@@ -1524,7 +1524,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChallengeRecordType(int value) {
-        
+
         challengeRecordType_ = value;
         onChanged();
         return this;
@@ -1534,7 +1534,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChallengeRecordType() {
-        
+
         challengeRecordType_ = 0;
         onChanged();
         return this;
@@ -1555,7 +1555,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTimeCost(int value) {
-        
+
         timeCost_ = value;
         onChanged();
         return this;
@@ -1565,7 +1565,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTimeCost() {
-        
+
         timeCost_ = 0;
         onChanged();
         return this;
@@ -1586,7 +1586,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurrentValue(int value) {
-        
+
         currentValue_ = value;
         onChanged();
         return this;
@@ -1596,7 +1596,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurrentValue() {
-        
+
         currentValue_ = 0;
         onChanged();
         return this;
@@ -1617,7 +1617,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSuccess(boolean value) {
-        
+
         isSuccess_ = value;
         onChanged();
         return this;
@@ -1627,7 +1627,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSuccess() {
-        
+
         isSuccess_ = false;
         onChanged();
         return this;
@@ -1648,7 +1648,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChallengeIndex(int value) {
-        
+
         challengeIndex_ = value;
         onChanged();
         return this;
@@ -1658,7 +1658,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChallengeIndex() {
-        
+
         challengeIndex_ = 0;
         onChanged();
         return this;
@@ -1787,7 +1787,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * <code>.ChannelerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 1521;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfo, emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfo.Builder, emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfoOrBuilder> 
+          emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfo, emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfo.Builder, emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfoOrBuilder>
           getChannellerSlabLoopDungeonResultInfoFieldBuilder() {
         if (channellerSlabLoopDungeonResultInfoBuilder_ == null) {
           if (!(detailCase_ == 1521)) {
@@ -1928,7 +1928,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * <code>.EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 1627;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfoOrBuilder> 
+          emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfoOrBuilder>
           getEffigyChallengeDungeonResultInfoFieldBuilder() {
         if (effigyChallengeDungeonResultInfoBuilder_ == null) {
           if (!(detailCase_ == 1627)) {
@@ -2069,7 +2069,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * <code>.PotionDungeonResultInfo potion_dungeon_result_info = 1824;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo, emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.Builder, emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfoOrBuilder> 
+          emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo, emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfo.Builder, emu.grasscutter.net.proto.PotionDungeonResultInfoOuterClass.PotionDungeonResultInfoOrBuilder>
           getPotionDungeonResultInfoFieldBuilder() {
         if (potionDungeonResultInfoBuilder_ == null) {
           if (!(detailCase_ == 1824)) {
@@ -2210,7 +2210,7 @@ public final class DungeonChallengeFinishNotifyOuterClass {
        * <code>.CustomDungeonResultInfo custom_dungeon_result_info = 1664;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo, emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.Builder, emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfoOrBuilder> 
+          emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo, emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfo.Builder, emu.grasscutter.net.proto.CustomDungeonResultInfoOuterClass.CustomDungeonResultInfoOrBuilder>
           getCustomDungeonResultInfoFieldBuilder() {
         if (customDungeonResultInfoBuilder_ == null) {
           if (!(detailCase_ == 1664)) {
@@ -2282,12 +2282,12 @@ public final class DungeonChallengeFinishNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DungeonChallengeFinishNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DungeonChallengeFinishNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DungeonChallengeFinishNotify_StrengthenPointDataMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DungeonChallengeFinishNotify_StrengthenPointDataMapEntry_fieldAccessorTable;
 

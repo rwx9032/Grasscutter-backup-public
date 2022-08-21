@@ -21,7 +21,7 @@ public final class WidgetCoolDownNotifyOuterClass {
     /**
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> 
+    java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData>
         getNormalCoolDownDataListList();
     /**
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 1;</code>
@@ -34,7 +34,7 @@ public final class WidgetCoolDownNotifyOuterClass {
     /**
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
         getNormalCoolDownDataListOrBuilderList();
     /**
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 1;</code>
@@ -45,7 +45,7 @@ public final class WidgetCoolDownNotifyOuterClass {
     /**
      * <code>repeated .WidgetCoolDownData group_cool_down_data_list = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> 
+    java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData>
         getGroupCoolDownDataListList();
     /**
      * <code>repeated .WidgetCoolDownData group_cool_down_data_list = 12;</code>
@@ -58,7 +58,7 @@ public final class WidgetCoolDownNotifyOuterClass {
     /**
      * <code>repeated .WidgetCoolDownData group_cool_down_data_list = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
         getGroupCoolDownDataListOrBuilderList();
     /**
      * <code>repeated .WidgetCoolDownData group_cool_down_data_list = 12;</code>
@@ -189,7 +189,7 @@ public final class WidgetCoolDownNotifyOuterClass {
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
         getNormalCoolDownDataListOrBuilderList() {
       return normalCoolDownDataList_;
     }
@@ -229,7 +229,7 @@ public final class WidgetCoolDownNotifyOuterClass {
      * <code>repeated .WidgetCoolDownData group_cool_down_data_list = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
         getGroupCoolDownDataListOrBuilderList() {
       return groupCoolDownDataList_;
     }
@@ -595,7 +595,7 @@ public final class WidgetCoolDownNotifyOuterClass {
               normalCoolDownDataListBuilder_ = null;
               normalCoolDownDataList_ = other.normalCoolDownDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              normalCoolDownDataListBuilder_ = 
+              normalCoolDownDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getNormalCoolDownDataListFieldBuilder() : null;
             } else {
@@ -621,7 +621,7 @@ public final class WidgetCoolDownNotifyOuterClass {
               groupCoolDownDataListBuilder_ = null;
               groupCoolDownDataList_ = other.groupCoolDownDataList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              groupCoolDownDataListBuilder_ = 
+              groupCoolDownDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getGroupCoolDownDataListFieldBuilder() : null;
             } else {
@@ -854,7 +854,7 @@ public final class WidgetCoolDownNotifyOuterClass {
       /**
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
            getNormalCoolDownDataListOrBuilderList() {
         if (normalCoolDownDataListBuilder_ != null) {
           return normalCoolDownDataListBuilder_.getMessageOrBuilderList();
@@ -880,12 +880,12 @@ public final class WidgetCoolDownNotifyOuterClass {
       /**
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder>
            getNormalCoolDownDataListBuilderList() {
         return getNormalCoolDownDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
           getNormalCoolDownDataListFieldBuilder() {
         if (normalCoolDownDataListBuilder_ == null) {
           normalCoolDownDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1094,7 +1094,7 @@ public final class WidgetCoolDownNotifyOuterClass {
       /**
        * <code>repeated .WidgetCoolDownData group_cool_down_data_list = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
            getGroupCoolDownDataListOrBuilderList() {
         if (groupCoolDownDataListBuilder_ != null) {
           return groupCoolDownDataListBuilder_.getMessageOrBuilderList();
@@ -1120,12 +1120,12 @@ public final class WidgetCoolDownNotifyOuterClass {
       /**
        * <code>repeated .WidgetCoolDownData group_cool_down_data_list = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder>
            getGroupCoolDownDataListBuilderList() {
         return getGroupCoolDownDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder>
           getGroupCoolDownDataListFieldBuilder() {
         if (groupCoolDownDataListBuilder_ == null) {
           groupCoolDownDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1193,7 +1193,7 @@ public final class WidgetCoolDownNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetCoolDownNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetCoolDownNotify_fieldAccessorTable;
 

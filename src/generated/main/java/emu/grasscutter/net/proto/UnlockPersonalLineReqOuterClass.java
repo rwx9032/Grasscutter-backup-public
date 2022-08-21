@@ -448,7 +448,7 @@ public final class UnlockPersonalLineReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPersonalLineId(int value) {
-        
+
         personalLineId_ = value;
         onChanged();
         return this;
@@ -458,7 +458,7 @@ public final class UnlockPersonalLineReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPersonalLineId() {
-        
+
         personalLineId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class UnlockPersonalLineReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UnlockPersonalLineReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UnlockPersonalLineReq_fieldAccessorTable;
 

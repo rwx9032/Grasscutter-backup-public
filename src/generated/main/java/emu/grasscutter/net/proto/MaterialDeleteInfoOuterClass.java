@@ -353,7 +353,7 @@ public final class MaterialDeleteInfoOuterClass {
             java.lang.Integer, java.lang.Integer> defaultEntry =
                 com.google.protobuf.MapEntry
                 .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                    emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.internal_static_MaterialDeleteInfo_CountDownDelete_DeleteTimeNumMapEntry_descriptor, 
+                    emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.internal_static_MaterialDeleteInfo_CountDownDelete_DeleteTimeNumMapEntry_descriptor,
                     com.google.protobuf.WireFormat.FieldType.UINT32,
                     0,
                     com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -380,7 +380,7 @@ public final class MaterialDeleteInfoOuterClass {
       @java.lang.Override
       public boolean containsDeleteTimeNumMap(
           int key) {
-        
+
         return internalGetDeleteTimeNumMap().getMap().containsKey(key);
       }
       /**
@@ -407,7 +407,7 @@ public final class MaterialDeleteInfoOuterClass {
       public int getDeleteTimeNumMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetDeleteTimeNumMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -419,7 +419,7 @@ public final class MaterialDeleteInfoOuterClass {
 
       public int getDeleteTimeNumMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetDeleteTimeNumMap().getMap();
         if (!map.containsKey(key)) {
@@ -825,7 +825,7 @@ public final class MaterialDeleteInfoOuterClass {
         @java.lang.Override
         public boolean containsDeleteTimeNumMap(
             int key) {
-          
+
           return internalGetDeleteTimeNumMap().getMap().containsKey(key);
         }
         /**
@@ -852,7 +852,7 @@ public final class MaterialDeleteInfoOuterClass {
         public int getDeleteTimeNumMapOrDefault(
             int key,
             int defaultValue) {
-          
+
           java.util.Map<java.lang.Integer, java.lang.Integer> map =
               internalGetDeleteTimeNumMap().getMap();
           return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -864,7 +864,7 @@ public final class MaterialDeleteInfoOuterClass {
 
         public int getDeleteTimeNumMapOrThrow(
             int key) {
-          
+
           java.util.Map<java.lang.Integer, java.lang.Integer> map =
               internalGetDeleteTimeNumMap().getMap();
           if (!map.containsKey(key)) {
@@ -884,7 +884,7 @@ public final class MaterialDeleteInfoOuterClass {
 
         public Builder removeDeleteTimeNumMap(
             int key) {
-          
+
           internalGetMutableDeleteTimeNumMap().getMutableMap()
               .remove(key);
           return this;
@@ -903,8 +903,8 @@ public final class MaterialDeleteInfoOuterClass {
         public Builder putDeleteTimeNumMap(
             int key,
             int value) {
-          
-          
+
+
           internalGetMutableDeleteTimeNumMap().getMutableMap()
               .put(key, value);
           return this;
@@ -935,7 +935,7 @@ public final class MaterialDeleteInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder setConfigCountDownTime(int value) {
-          
+
           configCountDownTime_ = value;
           onChanged();
           return this;
@@ -945,7 +945,7 @@ public final class MaterialDeleteInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder clearConfigCountDownTime() {
-          
+
           configCountDownTime_ = 0;
           onChanged();
           return this;
@@ -1423,7 +1423,7 @@ public final class MaterialDeleteInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder setDeleteTime(int value) {
-          
+
           deleteTime_ = value;
           onChanged();
           return this;
@@ -1433,7 +1433,7 @@ public final class MaterialDeleteInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder clearDeleteTime() {
-          
+
           deleteTime_ = 0;
           onChanged();
           return this;
@@ -1660,7 +1660,7 @@ public final class MaterialDeleteInfoOuterClass {
             java.lang.Integer, java.lang.Integer> defaultEntry =
                 com.google.protobuf.MapEntry
                 .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                    emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.internal_static_MaterialDeleteInfo_DelayWeekCountDownDelete_DeleteTimeNumMapEntry_descriptor, 
+                    emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.internal_static_MaterialDeleteInfo_DelayWeekCountDownDelete_DeleteTimeNumMapEntry_descriptor,
                     com.google.protobuf.WireFormat.FieldType.UINT32,
                     0,
                     com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -1687,7 +1687,7 @@ public final class MaterialDeleteInfoOuterClass {
       @java.lang.Override
       public boolean containsDeleteTimeNumMap(
           int key) {
-        
+
         return internalGetDeleteTimeNumMap().getMap().containsKey(key);
       }
       /**
@@ -1714,7 +1714,7 @@ public final class MaterialDeleteInfoOuterClass {
       public int getDeleteTimeNumMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetDeleteTimeNumMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1726,7 +1726,7 @@ public final class MaterialDeleteInfoOuterClass {
 
       public int getDeleteTimeNumMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetDeleteTimeNumMap().getMap();
         if (!map.containsKey(key)) {
@@ -2160,7 +2160,7 @@ public final class MaterialDeleteInfoOuterClass {
         @java.lang.Override
         public boolean containsDeleteTimeNumMap(
             int key) {
-          
+
           return internalGetDeleteTimeNumMap().getMap().containsKey(key);
         }
         /**
@@ -2187,7 +2187,7 @@ public final class MaterialDeleteInfoOuterClass {
         public int getDeleteTimeNumMapOrDefault(
             int key,
             int defaultValue) {
-          
+
           java.util.Map<java.lang.Integer, java.lang.Integer> map =
               internalGetDeleteTimeNumMap().getMap();
           return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -2199,7 +2199,7 @@ public final class MaterialDeleteInfoOuterClass {
 
         public int getDeleteTimeNumMapOrThrow(
             int key) {
-          
+
           java.util.Map<java.lang.Integer, java.lang.Integer> map =
               internalGetDeleteTimeNumMap().getMap();
           if (!map.containsKey(key)) {
@@ -2219,7 +2219,7 @@ public final class MaterialDeleteInfoOuterClass {
 
         public Builder removeDeleteTimeNumMap(
             int key) {
-          
+
           internalGetMutableDeleteTimeNumMap().getMutableMap()
               .remove(key);
           return this;
@@ -2238,8 +2238,8 @@ public final class MaterialDeleteInfoOuterClass {
         public Builder putDeleteTimeNumMap(
             int key,
             int value) {
-          
-          
+
+
           internalGetMutableDeleteTimeNumMap().getMutableMap()
               .put(key, value);
           return this;
@@ -2270,7 +2270,7 @@ public final class MaterialDeleteInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder setConfigDelayWeek(int value) {
-          
+
           configDelayWeek_ = value;
           onChanged();
           return this;
@@ -2280,7 +2280,7 @@ public final class MaterialDeleteInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder clearConfigDelayWeek() {
-          
+
           configDelayWeek_ = 0;
           onChanged();
           return this;
@@ -2301,7 +2301,7 @@ public final class MaterialDeleteInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder setConfigCountDownTime(int value) {
-          
+
           configCountDownTime_ = value;
           onChanged();
           return this;
@@ -2311,7 +2311,7 @@ public final class MaterialDeleteInfoOuterClass {
          * @return This builder for chaining.
          */
         public Builder clearConfigCountDownTime() {
-          
+
           configCountDownTime_ = 0;
           onChanged();
           return this;
@@ -2944,7 +2944,7 @@ public final class MaterialDeleteInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHasDeleteConfig(boolean value) {
-        
+
         hasDeleteConfig_ = value;
         onChanged();
         return this;
@@ -2954,7 +2954,7 @@ public final class MaterialDeleteInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHasDeleteConfig() {
-        
+
         hasDeleteConfig_ = false;
         onChanged();
         return this;
@@ -3083,7 +3083,7 @@ public final class MaterialDeleteInfoOuterClass {
        * <code>.MaterialDeleteInfo.CountDownDelete count_down_delete = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.CountDownDelete, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.CountDownDelete.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.CountDownDeleteOrBuilder> 
+          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.CountDownDelete, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.CountDownDelete.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.CountDownDeleteOrBuilder>
           getCountDownDeleteFieldBuilder() {
         if (countDownDeleteBuilder_ == null) {
           if (!(deleteInfoCase_ == 2)) {
@@ -3224,7 +3224,7 @@ public final class MaterialDeleteInfoOuterClass {
        * <code>.MaterialDeleteInfo.DateTimeDelete date_delete = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DateTimeDelete, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DateTimeDelete.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DateTimeDeleteOrBuilder> 
+          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DateTimeDelete, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DateTimeDelete.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DateTimeDeleteOrBuilder>
           getDateDeleteFieldBuilder() {
         if (dateDeleteBuilder_ == null) {
           if (!(deleteInfoCase_ == 3)) {
@@ -3365,7 +3365,7 @@ public final class MaterialDeleteInfoOuterClass {
        * <code>.MaterialDeleteInfo.DelayWeekCountDownDelete delay_week_count_down_delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DelayWeekCountDownDelete, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DelayWeekCountDownDelete.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DelayWeekCountDownDeleteOrBuilder> 
+          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DelayWeekCountDownDelete, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DelayWeekCountDownDelete.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DelayWeekCountDownDeleteOrBuilder>
           getDelayWeekCountDownDeleteFieldBuilder() {
         if (delayWeekCountDownDeleteBuilder_ == null) {
           if (!(deleteInfoCase_ == 4)) {
@@ -3437,32 +3437,32 @@ public final class MaterialDeleteInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MaterialDeleteInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MaterialDeleteInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MaterialDeleteInfo_CountDownDelete_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MaterialDeleteInfo_CountDownDelete_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MaterialDeleteInfo_CountDownDelete_DeleteTimeNumMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MaterialDeleteInfo_CountDownDelete_DeleteTimeNumMapEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MaterialDeleteInfo_DateTimeDelete_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MaterialDeleteInfo_DateTimeDelete_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MaterialDeleteInfo_DelayWeekCountDownDelete_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MaterialDeleteInfo_DelayWeekCountDownDelete_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MaterialDeleteInfo_DelayWeekCountDownDelete_DeleteTimeNumMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MaterialDeleteInfo_DelayWeekCountDownDelete_DeleteTimeNumMapEntry_fieldAccessorTable;
 

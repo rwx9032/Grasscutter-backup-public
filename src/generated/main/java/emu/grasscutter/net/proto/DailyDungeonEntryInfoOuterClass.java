@@ -596,7 +596,7 @@ public final class DailyDungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDungeonEntryConfigId(int value) {
-        
+
         dungeonEntryConfigId_ = value;
         onChanged();
         return this;
@@ -606,7 +606,7 @@ public final class DailyDungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDungeonEntryConfigId() {
-        
+
         dungeonEntryConfigId_ = 0;
         onChanged();
         return this;
@@ -627,7 +627,7 @@ public final class DailyDungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDungeonEntryId(int value) {
-        
+
         dungeonEntryId_ = value;
         onChanged();
         return this;
@@ -637,7 +637,7 @@ public final class DailyDungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDungeonEntryId() {
-        
+
         dungeonEntryId_ = 0;
         onChanged();
         return this;
@@ -730,7 +730,7 @@ public final class DailyDungeonEntryInfoOuterClass {
        * <code>.DungeonEntryInfo recommend_dungeon_entry_info = 1;</code>
        */
       public emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo.Builder getRecommendDungeonEntryInfoBuilder() {
-        
+
         onChanged();
         return getRecommendDungeonEntryInfoFieldBuilder().getBuilder();
       }
@@ -749,7 +749,7 @@ public final class DailyDungeonEntryInfoOuterClass {
        * <code>.DungeonEntryInfo recommend_dungeon_entry_info = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo, emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo.Builder, emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfoOrBuilder> 
+          emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo, emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo.Builder, emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfoOrBuilder>
           getRecommendDungeonEntryInfoFieldBuilder() {
         if (recommendDungeonEntryInfoBuilder_ == null) {
           recommendDungeonEntryInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -777,7 +777,7 @@ public final class DailyDungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRecommendDungeonId(int value) {
-        
+
         recommendDungeonId_ = value;
         onChanged();
         return this;
@@ -787,7 +787,7 @@ public final class DailyDungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRecommendDungeonId() {
-        
+
         recommendDungeonId_ = 0;
         onChanged();
         return this;
@@ -847,7 +847,7 @@ public final class DailyDungeonEntryInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DailyDungeonEntryInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DailyDungeonEntryInfo_fieldAccessorTable;
 

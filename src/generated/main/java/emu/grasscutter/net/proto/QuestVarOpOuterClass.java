@@ -513,7 +513,7 @@ public final class QuestVarOpOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIndex(int value) {
-        
+
         index_ = value;
         onChanged();
         return this;
@@ -523,7 +523,7 @@ public final class QuestVarOpOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIndex() {
-        
+
         index_ = 0;
         onChanged();
         return this;
@@ -544,7 +544,7 @@ public final class QuestVarOpOuterClass {
        * @return This builder for chaining.
        */
       public Builder setValue(int value) {
-        
+
         value_ = value;
         onChanged();
         return this;
@@ -554,7 +554,7 @@ public final class QuestVarOpOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearValue() {
-        
+
         value_ = 0;
         onChanged();
         return this;
@@ -575,7 +575,7 @@ public final class QuestVarOpOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAdd(boolean value) {
-        
+
         isAdd_ = value;
         onChanged();
         return this;
@@ -585,7 +585,7 @@ public final class QuestVarOpOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAdd() {
-        
+
         isAdd_ = false;
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class QuestVarOpOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QuestVarOp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QuestVarOp_fieldAccessorTable;
 

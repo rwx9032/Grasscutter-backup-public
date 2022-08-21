@@ -227,7 +227,7 @@ public final class WeaponOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.WeaponOuterClass.internal_static_Weapon_AffixMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.WeaponOuterClass.internal_static_Weapon_AffixMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -254,7 +254,7 @@ public final class WeaponOuterClass {
     @java.lang.Override
     public boolean containsAffixMap(
         int key) {
-      
+
       return internalGetAffixMap().getMap().containsKey(key);
     }
     /**
@@ -281,7 +281,7 @@ public final class WeaponOuterClass {
     public int getAffixMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAffixMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -293,7 +293,7 @@ public final class WeaponOuterClass {
 
     public int getAffixMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAffixMap().getMap();
       if (!map.containsKey(key)) {
@@ -704,7 +704,7 @@ public final class WeaponOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class WeaponOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -735,7 +735,7 @@ public final class WeaponOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExp(int value) {
-        
+
         exp_ = value;
         onChanged();
         return this;
@@ -745,7 +745,7 @@ public final class WeaponOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExp() {
-        
+
         exp_ = 0;
         onChanged();
         return this;
@@ -766,7 +766,7 @@ public final class WeaponOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPromoteLevel(int value) {
-        
+
         promoteLevel_ = value;
         onChanged();
         return this;
@@ -776,7 +776,7 @@ public final class WeaponOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPromoteLevel() {
-        
+
         promoteLevel_ = 0;
         onChanged();
         return this;
@@ -815,7 +815,7 @@ public final class WeaponOuterClass {
       @java.lang.Override
       public boolean containsAffixMap(
           int key) {
-        
+
         return internalGetAffixMap().getMap().containsKey(key);
       }
       /**
@@ -842,7 +842,7 @@ public final class WeaponOuterClass {
       public int getAffixMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAffixMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -854,7 +854,7 @@ public final class WeaponOuterClass {
 
       public int getAffixMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAffixMap().getMap();
         if (!map.containsKey(key)) {
@@ -874,7 +874,7 @@ public final class WeaponOuterClass {
 
       public Builder removeAffixMap(
           int key) {
-        
+
         internalGetMutableAffixMap().getMutableMap()
             .remove(key);
         return this;
@@ -893,8 +893,8 @@ public final class WeaponOuterClass {
       public Builder putAffixMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableAffixMap().getMutableMap()
             .put(key, value);
         return this;
@@ -964,12 +964,12 @@ public final class WeaponOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Weapon_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Weapon_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Weapon_AffixMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Weapon_AffixMapEntry_fieldAccessorTable;
 

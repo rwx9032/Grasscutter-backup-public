@@ -473,7 +473,7 @@ public final class FeatureBlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFeatureType(int value) {
-        
+
         featureType_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class FeatureBlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFeatureType() {
-        
+
         featureType_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class FeatureBlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class FeatureBlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class FeatureBlockInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FeatureBlockInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FeatureBlockInfo_fieldAccessorTable;
 

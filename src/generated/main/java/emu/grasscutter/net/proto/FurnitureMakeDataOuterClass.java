@@ -629,7 +629,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIndex(int value) {
-        
+
         index_ = value;
         onChanged();
         return this;
@@ -639,7 +639,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIndex() {
-        
+
         index_ = 0;
         onChanged();
         return this;
@@ -660,7 +660,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDurTime(int value) {
-        
+
         durTime_ = value;
         onChanged();
         return this;
@@ -670,7 +670,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDurTime() {
-        
+
         durTime_ = 0;
         onChanged();
         return this;
@@ -691,7 +691,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -722,7 +722,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAccelerateTime(int value) {
-        
+
         accelerateTime_ = value;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAccelerateTime() {
-        
+
         accelerateTime_ = 0;
         onChanged();
         return this;
@@ -753,7 +753,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
@@ -763,7 +763,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -784,7 +784,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMakeId(int value) {
-        
+
         makeId_ = value;
         onChanged();
         return this;
@@ -794,7 +794,7 @@ public final class FurnitureMakeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMakeId() {
-        
+
         makeId_ = 0;
         onChanged();
         return this;
@@ -854,7 +854,7 @@ public final class FurnitureMakeDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FurnitureMakeData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FurnitureMakeData_fieldAccessorTable;
 

@@ -512,7 +512,7 @@ public final class ChildQuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQuestConfigId(int value) {
-        
+
         questConfigId_ = value;
         onChanged();
         return this;
@@ -522,7 +522,7 @@ public final class ChildQuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQuestConfigId() {
-        
+
         questConfigId_ = 0;
         onChanged();
         return this;
@@ -543,7 +543,7 @@ public final class ChildQuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setState(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -553,7 +553,7 @@ public final class ChildQuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class ChildQuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQuestId(int value) {
-        
+
         questId_ = value;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class ChildQuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQuestId() {
-        
+
         questId_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class ChildQuestOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChildQuest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChildQuest_fieldAccessorTable;
 

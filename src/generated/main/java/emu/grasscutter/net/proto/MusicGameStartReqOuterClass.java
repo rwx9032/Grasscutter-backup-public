@@ -528,7 +528,7 @@ public final class MusicGameStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicBasicId(int value) {
-        
+
         musicBasicId_ = value;
         onChanged();
         return this;
@@ -538,7 +538,7 @@ public final class MusicGameStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicBasicId() {
-        
+
         musicBasicId_ = 0;
         onChanged();
         return this;
@@ -559,7 +559,7 @@ public final class MusicGameStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicShareId(long value) {
-        
+
         musicShareId_ = value;
         onChanged();
         return this;
@@ -569,7 +569,7 @@ public final class MusicGameStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicShareId() {
-        
+
         musicShareId_ = 0L;
         onChanged();
         return this;
@@ -590,7 +590,7 @@ public final class MusicGameStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setKJNDJLBOJLM(boolean value) {
-        
+
         kJNDJLBOJLM_ = value;
         onChanged();
         return this;
@@ -600,7 +600,7 @@ public final class MusicGameStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearKJNDJLBOJLM() {
-        
+
         kJNDJLBOJLM_ = false;
         onChanged();
         return this;
@@ -660,7 +660,7 @@ public final class MusicGameStartReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameStartReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameStartReq_fieldAccessorTable;
 

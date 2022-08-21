@@ -683,7 +683,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsShowAvatar(boolean value) {
-        
+
         isShowAvatar_ = value;
         onChanged();
         return this;
@@ -693,7 +693,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsShowAvatar() {
-        
+
         isShowAvatar_ = false;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -724,7 +724,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -784,7 +784,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UpdatePlayerShowAvatarListRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UpdatePlayerShowAvatarListRsp_fieldAccessorTable;
 

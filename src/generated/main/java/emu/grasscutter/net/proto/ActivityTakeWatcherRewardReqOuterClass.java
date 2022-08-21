@@ -487,7 +487,7 @@ public final class ActivityTakeWatcherRewardReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setActivityId(int value) {
-        
+
         activityId_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class ActivityTakeWatcherRewardReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearActivityId() {
-        
+
         activityId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class ActivityTakeWatcherRewardReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWatcherId(int value) {
-        
+
         watcherId_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class ActivityTakeWatcherRewardReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWatcherId() {
-        
+
         watcherId_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class ActivityTakeWatcherRewardReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityTakeWatcherRewardReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityTakeWatcherRewardReq_fieldAccessorTable;
 

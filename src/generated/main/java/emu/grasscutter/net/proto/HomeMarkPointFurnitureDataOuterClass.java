@@ -843,7 +843,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(int value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -853,7 +853,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0;
         onChanged();
         return this;
@@ -874,7 +874,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFurnitureId(int value) {
-        
+
         furnitureId_ = value;
         onChanged();
         return this;
@@ -884,7 +884,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFurnitureId() {
-        
+
         furnitureId_ = 0;
         onChanged();
         return this;
@@ -905,7 +905,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFurnitureType(int value) {
-        
+
         furnitureType_ = value;
         onChanged();
         return this;
@@ -915,7 +915,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFurnitureType() {
-        
+
         furnitureType_ = 0;
         onChanged();
         return this;
@@ -1008,7 +1008,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * <code>.Vector pos = 4;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -1027,7 +1027,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * <code>.Vector pos = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1163,7 +1163,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * <code>.HomeMarkPointNPCData npc_data = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData, emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData.Builder, emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCDataOrBuilder> 
+          emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData, emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData.Builder, emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCDataOrBuilder>
           getNpcDataFieldBuilder() {
         if (npcDataBuilder_ == null) {
           if (!(extraCase_ == 6)) {
@@ -1304,7 +1304,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
        * <code>.HomeMarkPointSuiteData suite_data = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeMarkPointSuiteDataOuterClass.HomeMarkPointSuiteData, emu.grasscutter.net.proto.HomeMarkPointSuiteDataOuterClass.HomeMarkPointSuiteData.Builder, emu.grasscutter.net.proto.HomeMarkPointSuiteDataOuterClass.HomeMarkPointSuiteDataOrBuilder> 
+          emu.grasscutter.net.proto.HomeMarkPointSuiteDataOuterClass.HomeMarkPointSuiteData, emu.grasscutter.net.proto.HomeMarkPointSuiteDataOuterClass.HomeMarkPointSuiteData.Builder, emu.grasscutter.net.proto.HomeMarkPointSuiteDataOuterClass.HomeMarkPointSuiteDataOrBuilder>
           getSuiteDataFieldBuilder() {
         if (suiteDataBuilder_ == null) {
           if (!(extraCase_ == 7)) {
@@ -1376,7 +1376,7 @@ public final class HomeMarkPointFurnitureDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeMarkPointFurnitureData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeMarkPointFurnitureData_fieldAccessorTable;
 

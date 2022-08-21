@@ -183,7 +183,7 @@ public final class EntityRendererChangedInfoOuterClass {
           java.lang.String, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.internal_static_EntityRendererChangedInfo_ChangedRenderersEntry_descriptor, 
+                  emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.internal_static_EntityRendererChangedInfo_ChangedRenderersEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -763,7 +763,7 @@ public final class EntityRendererChangedInfoOuterClass {
           java.lang.String key,
           int value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        
+
         internalGetMutableChangedRenderers().getMutableMap()
             .put(key, value);
         return this;
@@ -794,7 +794,7 @@ public final class EntityRendererChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setVisibilityCount(int value) {
-        
+
         visibilityCount_ = value;
         onChanged();
         return this;
@@ -804,7 +804,7 @@ public final class EntityRendererChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearVisibilityCount() {
-        
+
         visibilityCount_ = 0;
         onChanged();
         return this;
@@ -825,7 +825,7 @@ public final class EntityRendererChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsCached(boolean value) {
-        
+
         isCached_ = value;
         onChanged();
         return this;
@@ -835,7 +835,7 @@ public final class EntityRendererChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsCached() {
-        
+
         isCached_ = false;
         onChanged();
         return this;
@@ -895,12 +895,12 @@ public final class EntityRendererChangedInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityRendererChangedInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityRendererChangedInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityRendererChangedInfo_ChangedRenderersEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityRendererChangedInfo_ChangedRenderersEntry_fieldAccessorTable;
 

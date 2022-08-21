@@ -197,7 +197,7 @@ public final class AvatarTeamOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         teamName_ = s;
@@ -213,7 +213,7 @@ public final class AvatarTeamOuterClass {
         getTeamNameBytes() {
       java.lang.Object ref = teamName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         teamName_ = b;
@@ -676,7 +676,7 @@ public final class AvatarTeamOuterClass {
           getTeamNameBytes() {
         java.lang.Object ref = teamName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           teamName_ = b;
@@ -695,7 +695,7 @@ public final class AvatarTeamOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         teamName_ = value;
         onChanged();
         return this;
@@ -705,7 +705,7 @@ public final class AvatarTeamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTeamName() {
-        
+
         teamName_ = getDefaultInstance().getTeamName();
         onChanged();
         return this;
@@ -721,7 +721,7 @@ public final class AvatarTeamOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         teamName_ = value;
         onChanged();
         return this;
@@ -781,7 +781,7 @@ public final class AvatarTeamOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarTeam_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarTeam_fieldAccessorTable;
 

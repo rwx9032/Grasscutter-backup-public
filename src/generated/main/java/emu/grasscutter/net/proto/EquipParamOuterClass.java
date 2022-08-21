@@ -551,7 +551,7 @@ public final class EquipParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
@@ -561,7 +561,7 @@ public final class EquipParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -582,7 +582,7 @@ public final class EquipParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemNum(int value) {
-        
+
         itemNum_ = value;
         onChanged();
         return this;
@@ -592,7 +592,7 @@ public final class EquipParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemNum() {
-        
+
         itemNum_ = 0;
         onChanged();
         return this;
@@ -613,7 +613,7 @@ public final class EquipParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemLevel(int value) {
-        
+
         itemLevel_ = value;
         onChanged();
         return this;
@@ -623,7 +623,7 @@ public final class EquipParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemLevel() {
-        
+
         itemLevel_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class EquipParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPromoteLevel(int value) {
-        
+
         promoteLevel_ = value;
         onChanged();
         return this;
@@ -654,7 +654,7 @@ public final class EquipParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPromoteLevel() {
-        
+
         promoteLevel_ = 0;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class EquipParamOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EquipParam_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EquipParam_fieldAccessorTable;
 

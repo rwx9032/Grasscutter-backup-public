@@ -595,7 +595,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPrefabPathHash(long value) {
-        
+
         prefabPathHash_ = value;
         onChanged();
         return this;
@@ -605,7 +605,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPrefabPathHash() {
-        
+
         prefabPathHash_ = 0L;
         onChanged();
         return this;
@@ -626,7 +626,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPrefabPathRemoteHash(long value) {
-        
+
         prefabPathRemoteHash_ = value;
         onChanged();
         return this;
@@ -636,7 +636,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPrefabPathRemoteHash() {
-        
+
         prefabPathRemoteHash_ = 0L;
         onChanged();
         return this;
@@ -657,7 +657,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setControllerPathHash(long value) {
-        
+
         controllerPathHash_ = value;
         onChanged();
         return this;
@@ -667,7 +667,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearControllerPathHash() {
-        
+
         controllerPathHash_ = 0L;
         onChanged();
         return this;
@@ -688,7 +688,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setControllerPathRemoteHash(long value) {
-        
+
         controllerPathRemoteHash_ = value;
         onChanged();
         return this;
@@ -698,7 +698,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearControllerPathRemoteHash() {
-        
+
         controllerPathRemoteHash_ = 0L;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCombatConfigHash(long value) {
-        
+
         combatConfigHash_ = value;
         onChanged();
         return this;
@@ -729,7 +729,7 @@ public final class AvatarExcelInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCombatConfigHash() {
-        
+
         combatConfigHash_ = 0L;
         onChanged();
         return this;
@@ -789,7 +789,7 @@ public final class AvatarExcelInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarExcelInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarExcelInfo_fieldAccessorTable;
 

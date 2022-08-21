@@ -221,7 +221,7 @@ public final class AdjustTrackingInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         eventToken_ = s;
@@ -237,7 +237,7 @@ public final class AdjustTrackingInfoOuterClass {
         getEventTokenBytes() {
       java.lang.Object ref = eventToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         eventToken_ = b;
@@ -259,7 +259,7 @@ public final class AdjustTrackingInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         adid_ = s;
@@ -275,7 +275,7 @@ public final class AdjustTrackingInfoOuterClass {
         getAdidBytes() {
       java.lang.Object ref = adid_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         adid_ = b;
@@ -297,7 +297,7 @@ public final class AdjustTrackingInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         idfa_ = s;
@@ -313,7 +313,7 @@ public final class AdjustTrackingInfoOuterClass {
         getIdfaBytes() {
       java.lang.Object ref = idfa_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         idfa_ = b;
@@ -335,7 +335,7 @@ public final class AdjustTrackingInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         appToken_ = s;
@@ -351,7 +351,7 @@ public final class AdjustTrackingInfoOuterClass {
         getAppTokenBytes() {
       java.lang.Object ref = appToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         appToken_ = b;
@@ -373,7 +373,7 @@ public final class AdjustTrackingInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gpsAdid_ = s;
@@ -389,7 +389,7 @@ public final class AdjustTrackingInfoOuterClass {
         getGpsAdidBytes() {
       java.lang.Object ref = gpsAdid_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gpsAdid_ = b;
@@ -411,7 +411,7 @@ public final class AdjustTrackingInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         fireAdid_ = s;
@@ -427,7 +427,7 @@ public final class AdjustTrackingInfoOuterClass {
         getFireAdidBytes() {
       java.lang.Object ref = fireAdid_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         fireAdid_ = b;
@@ -849,7 +849,7 @@ public final class AdjustTrackingInfoOuterClass {
           getEventTokenBytes() {
         java.lang.Object ref = eventToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           eventToken_ = b;
@@ -868,7 +868,7 @@ public final class AdjustTrackingInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         eventToken_ = value;
         onChanged();
         return this;
@@ -878,7 +878,7 @@ public final class AdjustTrackingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEventToken() {
-        
+
         eventToken_ = getDefaultInstance().getEventToken();
         onChanged();
         return this;
@@ -894,7 +894,7 @@ public final class AdjustTrackingInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         eventToken_ = value;
         onChanged();
         return this;
@@ -925,7 +925,7 @@ public final class AdjustTrackingInfoOuterClass {
           getAdidBytes() {
         java.lang.Object ref = adid_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           adid_ = b;
@@ -944,7 +944,7 @@ public final class AdjustTrackingInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         adid_ = value;
         onChanged();
         return this;
@@ -954,7 +954,7 @@ public final class AdjustTrackingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAdid() {
-        
+
         adid_ = getDefaultInstance().getAdid();
         onChanged();
         return this;
@@ -970,7 +970,7 @@ public final class AdjustTrackingInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         adid_ = value;
         onChanged();
         return this;
@@ -1001,7 +1001,7 @@ public final class AdjustTrackingInfoOuterClass {
           getIdfaBytes() {
         java.lang.Object ref = idfa_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           idfa_ = b;
@@ -1020,7 +1020,7 @@ public final class AdjustTrackingInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         idfa_ = value;
         onChanged();
         return this;
@@ -1030,7 +1030,7 @@ public final class AdjustTrackingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIdfa() {
-        
+
         idfa_ = getDefaultInstance().getIdfa();
         onChanged();
         return this;
@@ -1046,7 +1046,7 @@ public final class AdjustTrackingInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         idfa_ = value;
         onChanged();
         return this;
@@ -1077,7 +1077,7 @@ public final class AdjustTrackingInfoOuterClass {
           getAppTokenBytes() {
         java.lang.Object ref = appToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           appToken_ = b;
@@ -1096,7 +1096,7 @@ public final class AdjustTrackingInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         appToken_ = value;
         onChanged();
         return this;
@@ -1106,7 +1106,7 @@ public final class AdjustTrackingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAppToken() {
-        
+
         appToken_ = getDefaultInstance().getAppToken();
         onChanged();
         return this;
@@ -1122,7 +1122,7 @@ public final class AdjustTrackingInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         appToken_ = value;
         onChanged();
         return this;
@@ -1153,7 +1153,7 @@ public final class AdjustTrackingInfoOuterClass {
           getGpsAdidBytes() {
         java.lang.Object ref = gpsAdid_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gpsAdid_ = b;
@@ -1172,7 +1172,7 @@ public final class AdjustTrackingInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gpsAdid_ = value;
         onChanged();
         return this;
@@ -1182,7 +1182,7 @@ public final class AdjustTrackingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGpsAdid() {
-        
+
         gpsAdid_ = getDefaultInstance().getGpsAdid();
         onChanged();
         return this;
@@ -1198,7 +1198,7 @@ public final class AdjustTrackingInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gpsAdid_ = value;
         onChanged();
         return this;
@@ -1229,7 +1229,7 @@ public final class AdjustTrackingInfoOuterClass {
           getFireAdidBytes() {
         java.lang.Object ref = fireAdid_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           fireAdid_ = b;
@@ -1248,7 +1248,7 @@ public final class AdjustTrackingInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         fireAdid_ = value;
         onChanged();
         return this;
@@ -1258,7 +1258,7 @@ public final class AdjustTrackingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFireAdid() {
-        
+
         fireAdid_ = getDefaultInstance().getFireAdid();
         onChanged();
         return this;
@@ -1274,7 +1274,7 @@ public final class AdjustTrackingInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         fireAdid_ = value;
         onChanged();
         return this;
@@ -1334,7 +1334,7 @@ public final class AdjustTrackingInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AdjustTrackingInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AdjustTrackingInfo_fieldAccessorTable;
 

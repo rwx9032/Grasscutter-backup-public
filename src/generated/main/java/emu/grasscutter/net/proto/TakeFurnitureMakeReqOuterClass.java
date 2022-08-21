@@ -527,7 +527,7 @@ public final class TakeFurnitureMakeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIndex(int value) {
-        
+
         index_ = value;
         onChanged();
         return this;
@@ -537,7 +537,7 @@ public final class TakeFurnitureMakeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIndex() {
-        
+
         index_ = 0;
         onChanged();
         return this;
@@ -558,7 +558,7 @@ public final class TakeFurnitureMakeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsFastFinish(boolean value) {
-        
+
         isFastFinish_ = value;
         onChanged();
         return this;
@@ -568,7 +568,7 @@ public final class TakeFurnitureMakeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsFastFinish() {
-        
+
         isFastFinish_ = false;
         onChanged();
         return this;
@@ -589,7 +589,7 @@ public final class TakeFurnitureMakeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMakeId(int value) {
-        
+
         makeId_ = value;
         onChanged();
         return this;
@@ -599,7 +599,7 @@ public final class TakeFurnitureMakeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMakeId() {
-        
+
         makeId_ = 0;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class TakeFurnitureMakeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TakeFurnitureMakeReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TakeFurnitureMakeReq_fieldAccessorTable;
 

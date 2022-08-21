@@ -565,7 +565,7 @@ public final class PlayerCookReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRecipeId(int value) {
-        
+
         recipeId_ = value;
         onChanged();
         return this;
@@ -575,7 +575,7 @@ public final class PlayerCookReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRecipeId() {
-        
+
         recipeId_ = 0;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class PlayerCookReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQteQuality(int value) {
-        
+
         qteQuality_ = value;
         onChanged();
         return this;
@@ -606,7 +606,7 @@ public final class PlayerCookReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQteQuality() {
-        
+
         qteQuality_ = 0;
         onChanged();
         return this;
@@ -627,7 +627,7 @@ public final class PlayerCookReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAssistAvatar(int value) {
-        
+
         assistAvatar_ = value;
         onChanged();
         return this;
@@ -637,7 +637,7 @@ public final class PlayerCookReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAssistAvatar() {
-        
+
         assistAvatar_ = 0;
         onChanged();
         return this;
@@ -658,7 +658,7 @@ public final class PlayerCookReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCookCount(int value) {
-        
+
         cookCount_ = value;
         onChanged();
         return this;
@@ -668,7 +668,7 @@ public final class PlayerCookReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCookCount() {
-        
+
         cookCount_ = 0;
         onChanged();
         return this;
@@ -728,7 +728,7 @@ public final class PlayerCookReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerCookReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerCookReq_fieldAccessorTable;
 

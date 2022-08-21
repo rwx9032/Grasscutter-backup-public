@@ -21,7 +21,7 @@ public final class MailChangeNotifyOuterClass {
     /**
      * <code>repeated .MailData mail_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData> 
+    java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData>
         getMailListList();
     /**
      * <code>repeated .MailData mail_list = 14;</code>
@@ -34,7 +34,7 @@ public final class MailChangeNotifyOuterClass {
     /**
      * <code>repeated .MailData mail_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder>
         getMailListOrBuilderList();
     /**
      * <code>repeated .MailData mail_list = 14;</code>
@@ -194,7 +194,7 @@ public final class MailChangeNotifyOuterClass {
      * <code>repeated .MailData mail_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder>
         getMailListOrBuilderList() {
       return mailList_;
     }
@@ -594,7 +594,7 @@ public final class MailChangeNotifyOuterClass {
               mailListBuilder_ = null;
               mailList_ = other.mailList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              mailListBuilder_ = 
+              mailListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMailListFieldBuilder() : null;
             } else {
@@ -837,7 +837,7 @@ public final class MailChangeNotifyOuterClass {
       /**
        * <code>repeated .MailData mail_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder>
            getMailListOrBuilderList() {
         if (mailListBuilder_ != null) {
           return mailListBuilder_.getMessageOrBuilderList();
@@ -863,12 +863,12 @@ public final class MailChangeNotifyOuterClass {
       /**
        * <code>repeated .MailData mail_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder>
            getMailListBuilderList() {
         return getMailListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MailDataOuterClass.MailData, emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder, emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder> 
+          emu.grasscutter.net.proto.MailDataOuterClass.MailData, emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder, emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder>
           getMailListFieldBuilder() {
         if (mailListBuilder_ == null) {
           mailListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1015,7 +1015,7 @@ public final class MailChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MailChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MailChangeNotify_fieldAccessorTable;
 

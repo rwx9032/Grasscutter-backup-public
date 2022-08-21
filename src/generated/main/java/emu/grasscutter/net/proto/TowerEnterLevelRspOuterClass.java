@@ -721,7 +721,7 @@ public final class TowerEnterLevelRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -731,7 +731,7 @@ public final class TowerEnterLevelRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -752,7 +752,7 @@ public final class TowerEnterLevelRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevelIndex(int value) {
-        
+
         levelIndex_ = value;
         onChanged();
         return this;
@@ -762,7 +762,7 @@ public final class TowerEnterLevelRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevelIndex() {
-        
+
         levelIndex_ = 0;
         onChanged();
         return this;
@@ -783,7 +783,7 @@ public final class TowerEnterLevelRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFloorId(int value) {
-        
+
         floorId_ = value;
         onChanged();
         return this;
@@ -793,7 +793,7 @@ public final class TowerEnterLevelRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFloorId() {
-        
+
         floorId_ = 0;
         onChanged();
         return this;
@@ -853,7 +853,7 @@ public final class TowerEnterLevelRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerEnterLevelRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerEnterLevelRsp_fieldAccessorTable;
 

@@ -446,7 +446,7 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTrialAvatarIndexId(int value) {
-        
+
         trialAvatarIndexId_ = value;
         onChanged();
         return this;
@@ -456,7 +456,7 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTrialAvatarIndexId() {
-        
+
         trialAvatarIndexId_ = 0;
         onChanged();
         return this;
@@ -516,7 +516,7 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TrialAvatarFirstPassDungeonNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TrialAvatarFirstPassDungeonNotify_fieldAccessorTable;
 

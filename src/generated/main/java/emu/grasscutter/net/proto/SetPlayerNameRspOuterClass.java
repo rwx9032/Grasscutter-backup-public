@@ -154,7 +154,7 @@ public final class SetPlayerNameRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nickName_ = s;
@@ -170,7 +170,7 @@ public final class SetPlayerNameRspOuterClass {
         getNickNameBytes() {
       java.lang.Object ref = nickName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nickName_ = b;
@@ -520,7 +520,7 @@ public final class SetPlayerNameRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -530,7 +530,7 @@ public final class SetPlayerNameRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -561,7 +561,7 @@ public final class SetPlayerNameRspOuterClass {
           getNickNameBytes() {
         java.lang.Object ref = nickName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nickName_ = b;
@@ -580,7 +580,7 @@ public final class SetPlayerNameRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         nickName_ = value;
         onChanged();
         return this;
@@ -590,7 +590,7 @@ public final class SetPlayerNameRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNickName() {
-        
+
         nickName_ = getDefaultInstance().getNickName();
         onChanged();
         return this;
@@ -606,7 +606,7 @@ public final class SetPlayerNameRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         nickName_ = value;
         onChanged();
         return this;
@@ -666,7 +666,7 @@ public final class SetPlayerNameRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetPlayerNameRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetPlayerNameRsp_fieldAccessorTable;
 

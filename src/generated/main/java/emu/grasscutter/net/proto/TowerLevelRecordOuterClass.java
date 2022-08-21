@@ -631,7 +631,7 @@ public final class TowerLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevelId(int value) {
-        
+
         levelId_ = value;
         onChanged();
         return this;
@@ -641,7 +641,7 @@ public final class TowerLevelRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
-        
+
         levelId_ = 0;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class TowerLevelRecordOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerLevelRecord_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerLevelRecord_fieldAccessorTable;
 

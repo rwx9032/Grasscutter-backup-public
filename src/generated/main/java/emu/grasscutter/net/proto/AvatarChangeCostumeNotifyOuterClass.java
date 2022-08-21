@@ -563,7 +563,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
        * <code>.SceneEntityInfo entity_info = 7;</code>
        */
       public emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder getEntityInfoBuilder() {
-        
+
         onChanged();
         return getEntityInfoFieldBuilder().getBuilder();
       }
@@ -582,7 +582,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
        * <code>.SceneEntityInfo entity_info = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder>
           getEntityInfoFieldBuilder() {
         if (entityInfoBuilder_ == null) {
           entityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarChangeCostumeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarChangeCostumeNotify_fieldAccessorTable;
 

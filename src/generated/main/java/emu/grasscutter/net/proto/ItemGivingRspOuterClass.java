@@ -524,7 +524,7 @@ public final class ItemGivingRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700MHIPHDFEOON(int value) {
-        
+
         unk2700MHIPHDFEOON_ = value;
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class ItemGivingRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700MHIPHDFEOON() {
-        
+
         unk2700MHIPHDFEOON_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class ItemGivingRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGivingId(int value) {
-        
+
         givingId_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class ItemGivingRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGivingId() {
-        
+
         givingId_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class ItemGivingRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class ItemGivingRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class ItemGivingRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ItemGivingRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ItemGivingRsp_fieldAccessorTable;
 

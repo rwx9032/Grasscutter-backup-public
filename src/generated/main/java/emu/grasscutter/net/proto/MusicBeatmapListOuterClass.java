@@ -21,7 +21,7 @@ public final class MusicBeatmapListOuterClass {
     /**
      * <code>repeated .MusicBeatmapNote beatmap_note_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNote> 
+    java.util.List<emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNote>
         getBeatmapNoteListList();
     /**
      * <code>repeated .MusicBeatmapNote beatmap_note_list = 1;</code>
@@ -34,7 +34,7 @@ public final class MusicBeatmapListOuterClass {
     /**
      * <code>repeated .MusicBeatmapNote beatmap_note_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNoteOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNoteOrBuilder>
         getBeatmapNoteListOrBuilderList();
     /**
      * <code>repeated .MusicBeatmapNote beatmap_note_list = 1;</code>
@@ -146,7 +146,7 @@ public final class MusicBeatmapListOuterClass {
      * <code>repeated .MusicBeatmapNote beatmap_note_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNoteOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNoteOrBuilder>
         getBeatmapNoteListOrBuilderList() {
       return beatmapNoteList_;
     }
@@ -477,7 +477,7 @@ public final class MusicBeatmapListOuterClass {
               beatmapNoteListBuilder_ = null;
               beatmapNoteList_ = other.beatmapNoteList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              beatmapNoteListBuilder_ = 
+              beatmapNoteListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getBeatmapNoteListFieldBuilder() : null;
             } else {
@@ -710,7 +710,7 @@ public final class MusicBeatmapListOuterClass {
       /**
        * <code>repeated .MusicBeatmapNote beatmap_note_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNoteOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNoteOrBuilder>
            getBeatmapNoteListOrBuilderList() {
         if (beatmapNoteListBuilder_ != null) {
           return beatmapNoteListBuilder_.getMessageOrBuilderList();
@@ -736,12 +736,12 @@ public final class MusicBeatmapListOuterClass {
       /**
        * <code>repeated .MusicBeatmapNote beatmap_note_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNote.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNote.Builder>
            getBeatmapNoteListBuilderList() {
         return getBeatmapNoteListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNote, emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNote.Builder, emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNoteOrBuilder> 
+          emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNote, emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNote.Builder, emu.grasscutter.net.proto.MusicBeatmapNoteOuterClass.MusicBeatmapNoteOrBuilder>
           getBeatmapNoteListFieldBuilder() {
         if (beatmapNoteListBuilder_ == null) {
           beatmapNoteListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -809,7 +809,7 @@ public final class MusicBeatmapListOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicBeatmapList_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicBeatmapList_fieldAccessorTable;
 

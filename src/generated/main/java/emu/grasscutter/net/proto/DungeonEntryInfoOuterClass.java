@@ -792,7 +792,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -802,7 +802,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -823,7 +823,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDungeonId(int value) {
-        
+
         dungeonId_ = value;
         onChanged();
         return this;
@@ -833,7 +833,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDungeonId() {
-        
+
         dungeonId_ = 0;
         onChanged();
         return this;
@@ -854,7 +854,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBossChestNum(int value) {
-        
+
         bossChestNum_ = value;
         onChanged();
         return this;
@@ -864,7 +864,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBossChestNum() {
-        
+
         bossChestNum_ = 0;
         onChanged();
         return this;
@@ -885,7 +885,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxBossChestNum(int value) {
-        
+
         maxBossChestNum_ = value;
         onChanged();
         return this;
@@ -895,7 +895,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxBossChestNum() {
-        
+
         maxBossChestNum_ = 0;
         onChanged();
         return this;
@@ -916,7 +916,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextRefreshTime(int value) {
-        
+
         nextRefreshTime_ = value;
         onChanged();
         return this;
@@ -926,7 +926,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextRefreshTime() {
-        
+
         nextRefreshTime_ = 0;
         onChanged();
         return this;
@@ -1019,7 +1019,7 @@ public final class DungeonEntryInfoOuterClass {
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 9;</code>
        */
       public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder getWeeklyBossResinDiscountInfoBuilder() {
-        
+
         onChanged();
         return getWeeklyBossResinDiscountInfoFieldBuilder().getBuilder();
       }
@@ -1038,7 +1038,7 @@ public final class DungeonEntryInfoOuterClass {
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder> 
+          emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder>
           getWeeklyBossResinDiscountInfoFieldBuilder() {
         if (weeklyBossResinDiscountInfoBuilder_ == null) {
           weeklyBossResinDiscountInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1066,7 +1066,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartTime(int value) {
-        
+
         startTime_ = value;
         onChanged();
         return this;
@@ -1076,7 +1076,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartTime() {
-        
+
         startTime_ = 0;
         onChanged();
         return this;
@@ -1097,7 +1097,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsPassed(boolean value) {
-        
+
         isPassed_ = value;
         onChanged();
         return this;
@@ -1107,7 +1107,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsPassed() {
-        
+
         isPassed_ = false;
         onChanged();
         return this;
@@ -1128,7 +1128,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLeftTimes(int value) {
-        
+
         leftTimes_ = value;
         onChanged();
         return this;
@@ -1138,7 +1138,7 @@ public final class DungeonEntryInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLeftTimes() {
-        
+
         leftTimes_ = 0;
         onChanged();
         return this;
@@ -1198,7 +1198,7 @@ public final class DungeonEntryInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DungeonEntryInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DungeonEntryInfo_fieldAccessorTable;
 

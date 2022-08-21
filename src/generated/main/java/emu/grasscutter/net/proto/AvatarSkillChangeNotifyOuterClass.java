@@ -642,7 +642,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurLevel(int value) {
-        
+
         curLevel_ = value;
         onChanged();
         return this;
@@ -652,7 +652,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurLevel() {
-        
+
         curLevel_ = 0;
         onChanged();
         return this;
@@ -673,7 +673,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -683,7 +683,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -704,7 +704,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -735,7 +735,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSkillDepotId(int value) {
-        
+
         skillDepotId_ = value;
         onChanged();
         return this;
@@ -745,7 +745,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSkillDepotId() {
-        
+
         skillDepotId_ = 0;
         onChanged();
         return this;
@@ -766,7 +766,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOldLevel(int value) {
-        
+
         oldLevel_ = value;
         onChanged();
         return this;
@@ -776,7 +776,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOldLevel() {
-        
+
         oldLevel_ = 0;
         onChanged();
         return this;
@@ -797,7 +797,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarSkillId(int value) {
-        
+
         avatarSkillId_ = value;
         onChanged();
         return this;
@@ -807,7 +807,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarSkillId() {
-        
+
         avatarSkillId_ = 0;
         onChanged();
         return this;
@@ -867,7 +867,7 @@ public final class AvatarSkillChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillChangeNotify_fieldAccessorTable;
 

@@ -1272,7 +1272,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAlive(boolean value) {
-        
+
         isAlive_ = value;
         onChanged();
         return this;
@@ -1282,7 +1282,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAlive() {
-        
+
         isAlive_ = false;
         onChanged();
         return this;
@@ -1303,7 +1303,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRefreshInterval(int value) {
-        
+
         refreshInterval_ = value;
         onChanged();
         return this;
@@ -1313,7 +1313,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRefreshInterval() {
-        
+
         refreshInterval_ = 0;
         onChanged();
         return this;
@@ -1334,7 +1334,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -1344,7 +1344,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -1365,7 +1365,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
@@ -1375,7 +1375,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -1396,7 +1396,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBossChestNum(int value) {
-        
+
         bossChestNum_ = value;
         onChanged();
         return this;
@@ -1406,7 +1406,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBossChestNum() {
-        
+
         bossChestNum_ = 0;
         onChanged();
         return this;
@@ -1499,7 +1499,7 @@ public final class InvestigationMonsterOuterClass {
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 12;</code>
        */
       public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder getWeeklyBossResinDiscountInfoBuilder() {
-        
+
         onChanged();
         return getWeeklyBossResinDiscountInfoFieldBuilder().getBuilder();
       }
@@ -1518,7 +1518,7 @@ public final class InvestigationMonsterOuterClass {
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder> 
+          emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder>
           getWeeklyBossResinDiscountInfoFieldBuilder() {
         if (weeklyBossResinDiscountInfoBuilder_ == null) {
           weeklyBossResinDiscountInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1546,7 +1546,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMonsterId(int value) {
-        
+
         monsterId_ = value;
         onChanged();
         return this;
@@ -1556,7 +1556,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMonsterId() {
-        
+
         monsterId_ = 0;
         onChanged();
         return this;
@@ -1649,7 +1649,7 @@ public final class InvestigationMonsterOuterClass {
        * <code>.Vector pos = 14;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -1668,7 +1668,7 @@ public final class InvestigationMonsterOuterClass {
        * <code>.Vector pos = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1696,7 +1696,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setResin(int value) {
-        
+
         resin_ = value;
         onChanged();
         return this;
@@ -1706,7 +1706,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearResin() {
-        
+
         resin_ = 0;
         onChanged();
         return this;
@@ -1727,7 +1727,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxBossChestNum(int value) {
-        
+
         maxBossChestNum_ = value;
         onChanged();
         return this;
@@ -1737,7 +1737,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxBossChestNum() {
-        
+
         maxBossChestNum_ = 0;
         onChanged();
         return this;
@@ -1758,7 +1758,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextRefreshTime(int value) {
-        
+
         nextRefreshTime_ = value;
         onChanged();
         return this;
@@ -1768,7 +1768,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextRefreshTime() {
-        
+
         nextRefreshTime_ = 0;
         onChanged();
         return this;
@@ -1789,7 +1789,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGroupId(int value) {
-        
+
         groupId_ = value;
         onChanged();
         return this;
@@ -1799,7 +1799,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGroupId() {
-        
+
         groupId_ = 0;
         onChanged();
         return this;
@@ -1820,7 +1820,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -1830,7 +1830,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -1851,7 +1851,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAreaLocked(boolean value) {
-        
+
         isAreaLocked_ = value;
         onChanged();
         return this;
@@ -1861,7 +1861,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAreaLocked() {
-        
+
         isAreaLocked_ = false;
         onChanged();
         return this;
@@ -1881,7 +1881,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLockStateValue(int value) {
-        
+
         lockState_ = value;
         onChanged();
         return this;
@@ -1905,7 +1905,7 @@ public final class InvestigationMonsterOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         lockState_ = value.getNumber();
         onChanged();
         return this;
@@ -1915,7 +1915,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLockState() {
-        
+
         lockState_ = 0;
         onChanged();
         return this;
@@ -1936,7 +1936,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextBossChestRefreshTime(int value) {
-        
+
         nextBossChestRefreshTime_ = value;
         onChanged();
         return this;
@@ -1946,7 +1946,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextBossChestRefreshTime() {
-        
+
         nextBossChestRefreshTime_ = 0;
         onChanged();
         return this;
@@ -1967,7 +1967,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCityId(int value) {
-        
+
         cityId_ = value;
         onChanged();
         return this;
@@ -1977,7 +1977,7 @@ public final class InvestigationMonsterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCityId() {
-        
+
         cityId_ = 0;
         onChanged();
         return this;
@@ -2037,7 +2037,7 @@ public final class InvestigationMonsterOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_InvestigationMonster_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_InvestigationMonster_fieldAccessorTable;
 

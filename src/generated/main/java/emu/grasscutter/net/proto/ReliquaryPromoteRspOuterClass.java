@@ -796,7 +796,7 @@ public final class ReliquaryPromoteRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOldPromoteLevel(int value) {
-        
+
         oldPromoteLevel_ = value;
         onChanged();
         return this;
@@ -806,7 +806,7 @@ public final class ReliquaryPromoteRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOldPromoteLevel() {
-        
+
         oldPromoteLevel_ = 0;
         onChanged();
         return this;
@@ -827,7 +827,7 @@ public final class ReliquaryPromoteRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetReliquaryGuid(long value) {
-        
+
         targetReliquaryGuid_ = value;
         onChanged();
         return this;
@@ -837,7 +837,7 @@ public final class ReliquaryPromoteRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetReliquaryGuid() {
-        
+
         targetReliquaryGuid_ = 0L;
         onChanged();
         return this;
@@ -937,7 +937,7 @@ public final class ReliquaryPromoteRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -947,7 +947,7 @@ public final class ReliquaryPromoteRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -968,7 +968,7 @@ public final class ReliquaryPromoteRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurPromoteLevel(int value) {
-        
+
         curPromoteLevel_ = value;
         onChanged();
         return this;
@@ -978,7 +978,7 @@ public final class ReliquaryPromoteRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurPromoteLevel() {
-        
+
         curPromoteLevel_ = 0;
         onChanged();
         return this;
@@ -1117,7 +1117,7 @@ public final class ReliquaryPromoteRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ReliquaryPromoteRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ReliquaryPromoteRsp_fieldAccessorTable;
 

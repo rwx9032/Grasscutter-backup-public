@@ -688,7 +688,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
        * <code>.Vector pos = 15;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -707,7 +707,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
        * <code>.Vector pos = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -807,7 +807,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
        * <code>.Vector rot = 12;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
-        
+
         onChanged();
         return getRotFieldBuilder().getBuilder();
       }
@@ -826,7 +826,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
        * <code>.Vector rot = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRotFieldBuilder() {
         if (rotBuilder_ == null) {
           rotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -854,7 +854,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
@@ -864,7 +864,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -924,7 +924,7 @@ public final class UseWidgetCreateGadgetReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UseWidgetCreateGadgetReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UseWidgetCreateGadgetReq_fieldAccessorTable;
 

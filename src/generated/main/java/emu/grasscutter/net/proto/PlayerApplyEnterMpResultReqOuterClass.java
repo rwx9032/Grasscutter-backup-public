@@ -488,7 +488,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setApplyUid(int value) {
-        
+
         applyUid_ = value;
         onChanged();
         return this;
@@ -498,7 +498,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearApplyUid() {
-        
+
         applyUid_ = 0;
         onChanged();
         return this;
@@ -519,7 +519,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAgreed(boolean value) {
-        
+
         isAgreed_ = value;
         onChanged();
         return this;
@@ -529,7 +529,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAgreed() {
-        
+
         isAgreed_ = false;
         onChanged();
         return this;
@@ -589,7 +589,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerApplyEnterMpResultReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerApplyEnterMpResultReq_fieldAccessorTable;
 

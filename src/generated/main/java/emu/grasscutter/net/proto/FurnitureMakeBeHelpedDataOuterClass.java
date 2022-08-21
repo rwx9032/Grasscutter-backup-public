@@ -220,7 +220,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         playerName_ = s;
@@ -236,7 +236,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
         getPlayerNameBytes() {
       java.lang.Object ref = playerName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         playerName_ = b;
@@ -670,7 +670,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTime(int value) {
-        
+
         time_ = value;
         onChanged();
         return this;
@@ -680,7 +680,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTime() {
-        
+
         time_ = 0;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIcon(int value) {
-        
+
         icon_ = value;
         onChanged();
         return this;
@@ -711,7 +711,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIcon() {
-        
+
         icon_ = 0;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -742,7 +742,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -773,7 +773,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
           getPlayerNameBytes() {
         java.lang.Object ref = playerName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           playerName_ = b;
@@ -792,7 +792,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         playerName_ = value;
         onChanged();
         return this;
@@ -802,7 +802,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPlayerName() {
-        
+
         playerName_ = getDefaultInstance().getPlayerName();
         onChanged();
         return this;
@@ -818,7 +818,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         playerName_ = value;
         onChanged();
         return this;
@@ -911,7 +911,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * <code>.ProfilePicture profile_picture = 1;</code>
        */
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder getProfilePictureBuilder() {
-        
+
         onChanged();
         return getProfilePictureFieldBuilder().getBuilder();
       }
@@ -930,7 +930,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
        * <code>.ProfilePicture profile_picture = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> 
+          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder>
           getProfilePictureFieldBuilder() {
         if (profilePictureBuilder_ == null) {
           profilePictureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -997,7 +997,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FurnitureMakeBeHelpedData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FurnitureMakeBeHelpedData_fieldAccessorTable;
 

@@ -682,7 +682,7 @@ public final class EquipOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsLocked(boolean value) {
-        
+
         isLocked_ = value;
         onChanged();
         return this;
@@ -692,7 +692,7 @@ public final class EquipOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsLocked() {
-        
+
         isLocked_ = false;
         onChanged();
         return this;
@@ -821,7 +821,7 @@ public final class EquipOuterClass {
        * <code>.Reliquary reliquary = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder> 
+          emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder>
           getReliquaryFieldBuilder() {
         if (reliquaryBuilder_ == null) {
           if (!(detailCase_ == 1)) {
@@ -962,7 +962,7 @@ public final class EquipOuterClass {
        * <code>.Weapon weapon = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WeaponOuterClass.Weapon, emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder, emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder> 
+          emu.grasscutter.net.proto.WeaponOuterClass.Weapon, emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder, emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder>
           getWeaponFieldBuilder() {
         if (weaponBuilder_ == null) {
           if (!(detailCase_ == 2)) {
@@ -1034,7 +1034,7 @@ public final class EquipOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Equip_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Equip_fieldAccessorTable;
 

@@ -698,7 +698,7 @@ public final class MusicGameSearchBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -708,7 +708,7 @@ public final class MusicGameSearchBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -728,7 +728,7 @@ public final class MusicGameSearchBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnknownEnum1Value(int value) {
-        
+
         unknownEnum1_ = value;
         onChanged();
         return this;
@@ -752,7 +752,7 @@ public final class MusicGameSearchBeatmapRspOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unknownEnum1_ = value.getNumber();
         onChanged();
         return this;
@@ -762,7 +762,7 @@ public final class MusicGameSearchBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnknownEnum1() {
-        
+
         unknownEnum1_ = 0;
         onChanged();
         return this;
@@ -783,7 +783,7 @@ public final class MusicGameSearchBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicShareId(long value) {
-        
+
         musicShareId_ = value;
         onChanged();
         return this;
@@ -793,7 +793,7 @@ public final class MusicGameSearchBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicShareId() {
-        
+
         musicShareId_ = 0L;
         onChanged();
         return this;
@@ -922,7 +922,7 @@ public final class MusicGameSearchBeatmapRspOuterClass {
        * <code>.MusicBriefInfo music_brief_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo.Builder, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo.Builder, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfoOrBuilder>
           getMusicBriefInfoFieldBuilder() {
         if (musicBriefInfoBuilder_ == null) {
           if (!(eLBEIFGDBMMCase_ == 11)) {
@@ -994,7 +994,7 @@ public final class MusicGameSearchBeatmapRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameSearchBeatmapRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameSearchBeatmapRsp_fieldAccessorTable;
 

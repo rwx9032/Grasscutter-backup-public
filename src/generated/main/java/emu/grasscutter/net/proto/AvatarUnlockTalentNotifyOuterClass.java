@@ -564,7 +564,7 @@ public final class AvatarUnlockTalentNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class AvatarUnlockTalentNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -595,7 +595,7 @@ public final class AvatarUnlockTalentNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -605,7 +605,7 @@ public final class AvatarUnlockTalentNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -626,7 +626,7 @@ public final class AvatarUnlockTalentNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTalentId(int value) {
-        
+
         talentId_ = value;
         onChanged();
         return this;
@@ -636,7 +636,7 @@ public final class AvatarUnlockTalentNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTalentId() {
-        
+
         talentId_ = 0;
         onChanged();
         return this;
@@ -657,7 +657,7 @@ public final class AvatarUnlockTalentNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSkillDepotId(int value) {
-        
+
         skillDepotId_ = value;
         onChanged();
         return this;
@@ -667,7 +667,7 @@ public final class AvatarUnlockTalentNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSkillDepotId() {
-        
+
         skillDepotId_ = 0;
         onChanged();
         return this;
@@ -727,7 +727,7 @@ public final class AvatarUnlockTalentNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarUnlockTalentNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarUnlockTalentNotify_fieldAccessorTable;
 

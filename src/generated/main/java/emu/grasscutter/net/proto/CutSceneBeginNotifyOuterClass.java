@@ -486,7 +486,7 @@ public final class CutSceneBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCutsceneId(int value) {
-        
+
         cutsceneId_ = value;
         onChanged();
         return this;
@@ -496,7 +496,7 @@ public final class CutSceneBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCutsceneId() {
-        
+
         cutsceneId_ = 0;
         onChanged();
         return this;
@@ -517,7 +517,7 @@ public final class CutSceneBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsWaitOthers(boolean value) {
-        
+
         isWaitOthers_ = value;
         onChanged();
         return this;
@@ -527,7 +527,7 @@ public final class CutSceneBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsWaitOthers() {
-        
+
         isWaitOthers_ = false;
         onChanged();
         return this;
@@ -587,7 +587,7 @@ public final class CutSceneBeginNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CutSceneBeginNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CutSceneBeginNotify_fieldAccessorTable;
 

@@ -591,7 +591,7 @@ public final class GachaTransferItemOuterClass {
        * <code>.ItemParam item = 3;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getItemBuilder() {
-        
+
         onChanged();
         return getItemFieldBuilder().getBuilder();
       }
@@ -610,7 +610,7 @@ public final class GachaTransferItemOuterClass {
        * <code>.ItemParam item = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getItemFieldBuilder() {
         if (itemBuilder_ == null) {
           itemBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -638,7 +638,7 @@ public final class GachaTransferItemOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsTransferItemNew(boolean value) {
-        
+
         isTransferItemNew_ = value;
         onChanged();
         return this;
@@ -648,7 +648,7 @@ public final class GachaTransferItemOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsTransferItemNew() {
-        
+
         isTransferItemNew_ = false;
         onChanged();
         return this;
@@ -708,7 +708,7 @@ public final class GachaTransferItemOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GachaTransferItem_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GachaTransferItem_fieldAccessorTable;
 

@@ -552,7 +552,7 @@ public final class ActivityWatcherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsTakenReward(boolean value) {
-        
+
         isTakenReward_ = value;
         onChanged();
         return this;
@@ -562,7 +562,7 @@ public final class ActivityWatcherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsTakenReward() {
-        
+
         isTakenReward_ = false;
         onChanged();
         return this;
@@ -583,7 +583,7 @@ public final class ActivityWatcherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurProgress(int value) {
-        
+
         curProgress_ = value;
         onChanged();
         return this;
@@ -593,7 +593,7 @@ public final class ActivityWatcherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurProgress() {
-        
+
         curProgress_ = 0;
         onChanged();
         return this;
@@ -614,7 +614,7 @@ public final class ActivityWatcherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTotalProgress(int value) {
-        
+
         totalProgress_ = value;
         onChanged();
         return this;
@@ -624,7 +624,7 @@ public final class ActivityWatcherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTotalProgress() {
-        
+
         totalProgress_ = 0;
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class ActivityWatcherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWatcherId(int value) {
-        
+
         watcherId_ = value;
         onChanged();
         return this;
@@ -655,7 +655,7 @@ public final class ActivityWatcherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWatcherId() {
-        
+
         watcherId_ = 0;
         onChanged();
         return this;
@@ -715,7 +715,7 @@ public final class ActivityWatcherInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityWatcherInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityWatcherInfo_fieldAccessorTable;
 

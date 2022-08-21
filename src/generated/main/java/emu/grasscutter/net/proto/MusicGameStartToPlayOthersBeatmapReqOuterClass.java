@@ -461,7 +461,7 @@ public final class MusicGameStartToPlayOthersBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnknownEnum1Value(int value) {
-        
+
         unknownEnum1_ = value;
         onChanged();
         return this;
@@ -485,7 +485,7 @@ public final class MusicGameStartToPlayOthersBeatmapReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unknownEnum1_ = value.getNumber();
         onChanged();
         return this;
@@ -495,7 +495,7 @@ public final class MusicGameStartToPlayOthersBeatmapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnknownEnum1() {
-        
+
         unknownEnum1_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class MusicGameStartToPlayOthersBeatmapReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameStartToPlayOthersBeatmapReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameStartToPlayOthersBeatmapReq_fieldAccessorTable;
 

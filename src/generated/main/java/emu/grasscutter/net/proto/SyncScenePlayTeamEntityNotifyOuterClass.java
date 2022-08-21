@@ -27,7 +27,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
     /**
      * <code>repeated .PlayTeamEntityInfo entity_info_list = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo> 
+    java.util.List<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo>
         getEntityInfoListList();
     /**
      * <code>repeated .PlayTeamEntityInfo entity_info_list = 3;</code>
@@ -40,7 +40,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
     /**
      * <code>repeated .PlayTeamEntityInfo entity_info_list = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder>
         getEntityInfoListOrBuilderList();
     /**
      * <code>repeated .PlayTeamEntityInfo entity_info_list = 3;</code>
@@ -174,7 +174,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
      * <code>repeated .PlayTeamEntityInfo entity_info_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder>
         getEntityInfoListOrBuilderList() {
       return entityInfoList_;
     }
@@ -528,7 +528,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
               entityInfoListBuilder_ = null;
               entityInfoList_ = other.entityInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              entityInfoListBuilder_ = 
+              entityInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getEntityInfoListFieldBuilder() : null;
             } else {
@@ -581,7 +581,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -591,7 +591,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -792,7 +792,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       /**
        * <code>repeated .PlayTeamEntityInfo entity_info_list = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder>
            getEntityInfoListOrBuilderList() {
         if (entityInfoListBuilder_ != null) {
           return entityInfoListBuilder_.getMessageOrBuilderList();
@@ -818,12 +818,12 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       /**
        * <code>repeated .PlayTeamEntityInfo entity_info_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo.Builder>
            getEntityInfoListBuilderList() {
         return getEntityInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo, emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo.Builder, emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder> 
+          emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo, emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo.Builder, emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder>
           getEntityInfoListFieldBuilder() {
         if (entityInfoListBuilder_ == null) {
           entityInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -891,7 +891,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SyncScenePlayTeamEntityNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SyncScenePlayTeamEntityNotify_fieldAccessorTable;
 

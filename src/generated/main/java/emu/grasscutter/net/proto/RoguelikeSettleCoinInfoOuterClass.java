@@ -512,7 +512,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCoinC(int value) {
-        
+
         coinC_ = value;
         onChanged();
         return this;
@@ -522,7 +522,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCoinC() {
-        
+
         coinC_ = 0;
         onChanged();
         return this;
@@ -543,7 +543,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCoinB(int value) {
-        
+
         coinB_ = value;
         onChanged();
         return this;
@@ -553,7 +553,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCoinB() {
-        
+
         coinB_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCellNum(int value) {
-        
+
         cellNum_ = value;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCellNum() {
-        
+
         cellNum_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoguelikeSettleCoinInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoguelikeSettleCoinInfo_fieldAccessorTable;
 

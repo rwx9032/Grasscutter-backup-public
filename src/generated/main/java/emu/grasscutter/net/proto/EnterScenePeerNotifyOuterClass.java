@@ -563,7 +563,7 @@ public final class EnterScenePeerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDestSceneId(int value) {
-        
+
         destSceneId_ = value;
         onChanged();
         return this;
@@ -573,7 +573,7 @@ public final class EnterScenePeerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDestSceneId() {
-        
+
         destSceneId_ = 0;
         onChanged();
         return this;
@@ -594,7 +594,7 @@ public final class EnterScenePeerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEnterSceneToken(int value) {
-        
+
         enterSceneToken_ = value;
         onChanged();
         return this;
@@ -604,7 +604,7 @@ public final class EnterScenePeerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEnterSceneToken() {
-        
+
         enterSceneToken_ = 0;
         onChanged();
         return this;
@@ -625,7 +625,7 @@ public final class EnterScenePeerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHostPeerId(int value) {
-        
+
         hostPeerId_ = value;
         onChanged();
         return this;
@@ -635,7 +635,7 @@ public final class EnterScenePeerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHostPeerId() {
-        
+
         hostPeerId_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class EnterScenePeerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPeerId(int value) {
-        
+
         peerId_ = value;
         onChanged();
         return this;
@@ -666,7 +666,7 @@ public final class EnterScenePeerNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPeerId() {
-        
+
         peerId_ = 0;
         onChanged();
         return this;
@@ -726,7 +726,7 @@ public final class EnterScenePeerNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EnterScenePeerNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EnterScenePeerNotify_fieldAccessorTable;
 

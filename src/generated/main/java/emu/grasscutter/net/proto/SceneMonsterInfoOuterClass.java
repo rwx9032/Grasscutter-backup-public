@@ -39,7 +39,7 @@ public final class SceneMonsterInfoOuterClass {
     /**
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> 
+    java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo>
         getWeaponListList();
     /**
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -52,7 +52,7 @@ public final class SceneMonsterInfoOuterClass {
     /**
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder>
         getWeaponListOrBuilderList();
     /**
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -583,7 +583,7 @@ public final class SceneMonsterInfoOuterClass {
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder>
         getWeaponListOrBuilderList() {
       return weaponList_;
     }
@@ -688,7 +688,7 @@ public final class SceneMonsterInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.internal_static_SceneMonsterInfo_SummonTagMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.internal_static_SceneMonsterInfo_SummonTagMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -715,7 +715,7 @@ public final class SceneMonsterInfoOuterClass {
     @java.lang.Override
     public boolean containsSummonTagMap(
         int key) {
-      
+
       return internalGetSummonTagMap().getMap().containsKey(key);
     }
     /**
@@ -742,7 +742,7 @@ public final class SceneMonsterInfoOuterClass {
     public int getSummonTagMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSummonTagMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -754,7 +754,7 @@ public final class SceneMonsterInfoOuterClass {
 
     public int getSummonTagMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSummonTagMap().getMap();
       if (!map.containsKey(key)) {
@@ -1658,7 +1658,7 @@ public final class SceneMonsterInfoOuterClass {
               weaponListBuilder_ = null;
               weaponList_ = other.weaponList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              weaponListBuilder_ = 
+              weaponListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getWeaponListFieldBuilder() : null;
             } else {
@@ -1795,7 +1795,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMonsterId(int value) {
-        
+
         monsterId_ = value;
         onChanged();
         return this;
@@ -1805,7 +1805,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMonsterId() {
-        
+
         monsterId_ = 0;
         onChanged();
         return this;
@@ -1826,7 +1826,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGroupId(int value) {
-        
+
         groupId_ = value;
         onChanged();
         return this;
@@ -1836,7 +1836,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGroupId() {
-        
+
         groupId_ = 0;
         onChanged();
         return this;
@@ -1857,7 +1857,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setConfigId(int value) {
-        
+
         configId_ = value;
         onChanged();
         return this;
@@ -1867,7 +1867,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
-        
+
         configId_ = 0;
         onChanged();
         return this;
@@ -2068,7 +2068,7 @@ public final class SceneMonsterInfoOuterClass {
       /**
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder>
            getWeaponListOrBuilderList() {
         if (weaponListBuilder_ != null) {
           return weaponListBuilder_.getMessageOrBuilderList();
@@ -2094,12 +2094,12 @@ public final class SceneMonsterInfoOuterClass {
       /**
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder>
            getWeaponListBuilderList() {
         return getWeaponListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder>
           getWeaponListFieldBuilder() {
         if (weaponListBuilder_ == null) {
           weaponListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2128,7 +2128,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAuthorityPeerId(int value) {
-        
+
         authorityPeerId_ = value;
         onChanged();
         return this;
@@ -2138,7 +2138,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthorityPeerId() {
-        
+
         authorityPeerId_ = 0;
         onChanged();
         return this;
@@ -2238,7 +2238,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsElite(boolean value) {
-        
+
         isElite_ = value;
         onChanged();
         return this;
@@ -2248,7 +2248,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsElite() {
-        
+
         isElite_ = false;
         onChanged();
         return this;
@@ -2269,7 +2269,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOwnerEntityId(int value) {
-        
+
         ownerEntityId_ = value;
         onChanged();
         return this;
@@ -2279,7 +2279,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOwnerEntityId() {
-        
+
         ownerEntityId_ = 0;
         onChanged();
         return this;
@@ -2300,7 +2300,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSummonedTag(int value) {
-        
+
         summonedTag_ = value;
         onChanged();
         return this;
@@ -2310,7 +2310,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSummonedTag() {
-        
+
         summonedTag_ = 0;
         onChanged();
         return this;
@@ -2349,7 +2349,7 @@ public final class SceneMonsterInfoOuterClass {
       @java.lang.Override
       public boolean containsSummonTagMap(
           int key) {
-        
+
         return internalGetSummonTagMap().getMap().containsKey(key);
       }
       /**
@@ -2376,7 +2376,7 @@ public final class SceneMonsterInfoOuterClass {
       public int getSummonTagMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSummonTagMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -2388,7 +2388,7 @@ public final class SceneMonsterInfoOuterClass {
 
       public int getSummonTagMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSummonTagMap().getMap();
         if (!map.containsKey(key)) {
@@ -2408,7 +2408,7 @@ public final class SceneMonsterInfoOuterClass {
 
       public Builder removeSummonTagMap(
           int key) {
-        
+
         internalGetMutableSummonTagMap().getMutableMap()
             .remove(key);
         return this;
@@ -2427,8 +2427,8 @@ public final class SceneMonsterInfoOuterClass {
       public Builder putSummonTagMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableSummonTagMap().getMutableMap()
             .put(key, value);
         return this;
@@ -2459,7 +2459,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPoseId(int value) {
-        
+
         poseId_ = value;
         onChanged();
         return this;
@@ -2469,7 +2469,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPoseId() {
-        
+
         poseId_ = 0;
         onChanged();
         return this;
@@ -2489,7 +2489,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBornTypeValue(int value) {
-        
+
         bornType_ = value;
         onChanged();
         return this;
@@ -2513,7 +2513,7 @@ public final class SceneMonsterInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         bornType_ = value.getNumber();
         onChanged();
         return this;
@@ -2523,7 +2523,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBornType() {
-        
+
         bornType_ = 0;
         onChanged();
         return this;
@@ -2544,7 +2544,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBlockId(int value) {
-        
+
         blockId_ = value;
         onChanged();
         return this;
@@ -2554,7 +2554,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBlockId() {
-        
+
         blockId_ = 0;
         onChanged();
         return this;
@@ -2575,7 +2575,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMarkFlag(int value) {
-        
+
         markFlag_ = value;
         onChanged();
         return this;
@@ -2585,7 +2585,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMarkFlag() {
-        
+
         markFlag_ = 0;
         onChanged();
         return this;
@@ -2606,7 +2606,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTitleId(int value) {
-        
+
         titleId_ = value;
         onChanged();
         return this;
@@ -2616,7 +2616,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTitleId() {
-        
+
         titleId_ = 0;
         onChanged();
         return this;
@@ -2637,7 +2637,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSpecialNameId(int value) {
-        
+
         specialNameId_ = value;
         onChanged();
         return this;
@@ -2647,7 +2647,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSpecialNameId() {
-        
+
         specialNameId_ = 0;
         onChanged();
         return this;
@@ -2668,7 +2668,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAttackTargetId(int value) {
-        
+
         attackTargetId_ = value;
         onChanged();
         return this;
@@ -2678,7 +2678,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAttackTargetId() {
-        
+
         attackTargetId_ = 0;
         onChanged();
         return this;
@@ -2771,7 +2771,7 @@ public final class SceneMonsterInfoOuterClass {
        * <code>.MonsterRoute monster_route = 18;</code>
        */
       public emu.grasscutter.net.proto.MonsterRouteOuterClass.MonsterRoute.Builder getMonsterRouteBuilder() {
-        
+
         onChanged();
         return getMonsterRouteFieldBuilder().getBuilder();
       }
@@ -2790,7 +2790,7 @@ public final class SceneMonsterInfoOuterClass {
        * <code>.MonsterRoute monster_route = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MonsterRouteOuterClass.MonsterRoute, emu.grasscutter.net.proto.MonsterRouteOuterClass.MonsterRoute.Builder, emu.grasscutter.net.proto.MonsterRouteOuterClass.MonsterRouteOrBuilder> 
+          emu.grasscutter.net.proto.MonsterRouteOuterClass.MonsterRoute, emu.grasscutter.net.proto.MonsterRouteOuterClass.MonsterRoute.Builder, emu.grasscutter.net.proto.MonsterRouteOuterClass.MonsterRouteOrBuilder>
           getMonsterRouteFieldBuilder() {
         if (monsterRouteBuilder_ == null) {
           monsterRouteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2818,7 +2818,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAiConfigId(int value) {
-        
+
         aiConfigId_ = value;
         onChanged();
         return this;
@@ -2828,7 +2828,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAiConfigId() {
-        
+
         aiConfigId_ = 0;
         onChanged();
         return this;
@@ -2849,7 +2849,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevelRouteId(int value) {
-        
+
         levelRouteId_ = value;
         onChanged();
         return this;
@@ -2859,7 +2859,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevelRouteId() {
-        
+
         levelRouteId_ = 0;
         onChanged();
         return this;
@@ -2880,7 +2880,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInitPoseId(int value) {
-        
+
         initPoseId_ = value;
         onChanged();
         return this;
@@ -2890,7 +2890,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInitPoseId() {
-        
+
         initPoseId_ = 0;
         onChanged();
         return this;
@@ -2911,7 +2911,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2800JEGLENPDPNI(boolean value) {
-        
+
         unk2800JEGLENPDPNI_ = value;
         onChanged();
         return this;
@@ -2921,7 +2921,7 @@ public final class SceneMonsterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2800JEGLENPDPNI() {
-        
+
         unk2800JEGLENPDPNI_ = false;
         onChanged();
         return this;
@@ -3050,7 +3050,7 @@ public final class SceneMonsterInfoOuterClass {
        * <code>.SceneFishInfo fish_info = 50;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder>
           getFishInfoFieldBuilder() {
         if (fishInfoBuilder_ == null) {
           if (!(contentCase_ == 50)) {
@@ -3122,12 +3122,12 @@ public final class SceneMonsterInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneMonsterInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneMonsterInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneMonsterInfo_SummonTagMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneMonsterInfo_SummonTagMapEntry_fieldAccessorTable;
 

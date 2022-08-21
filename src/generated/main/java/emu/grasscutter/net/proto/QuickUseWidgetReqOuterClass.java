@@ -940,7 +940,7 @@ public final class QuickUseWidgetReqOuterClass {
        * <code>.WidgetCreateLocationInfo location_info = 676;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfo, emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfo.Builder, emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfoOrBuilder> 
+          emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfo, emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfo.Builder, emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfoOrBuilder>
           getLocationInfoFieldBuilder() {
         if (locationInfoBuilder_ == null) {
           if (!(paramCase_ == 676)) {
@@ -1081,7 +1081,7 @@ public final class QuickUseWidgetReqOuterClass {
        * <code>.WidgetCameraInfo camera_info = 478;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetCameraInfoOuterClass.WidgetCameraInfo, emu.grasscutter.net.proto.WidgetCameraInfoOuterClass.WidgetCameraInfo.Builder, emu.grasscutter.net.proto.WidgetCameraInfoOuterClass.WidgetCameraInfoOrBuilder> 
+          emu.grasscutter.net.proto.WidgetCameraInfoOuterClass.WidgetCameraInfo, emu.grasscutter.net.proto.WidgetCameraInfoOuterClass.WidgetCameraInfo.Builder, emu.grasscutter.net.proto.WidgetCameraInfoOuterClass.WidgetCameraInfoOrBuilder>
           getCameraInfoFieldBuilder() {
         if (cameraInfoBuilder_ == null) {
           if (!(paramCase_ == 478)) {
@@ -1222,7 +1222,7 @@ public final class QuickUseWidgetReqOuterClass {
        * <code>.WidgetCreatorInfo creator_info = 812;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo, emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo.Builder, emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfoOrBuilder> 
+          emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo, emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo.Builder, emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfoOrBuilder>
           getCreatorInfoFieldBuilder() {
         if (creatorInfoBuilder_ == null) {
           if (!(paramCase_ == 812)) {
@@ -1363,7 +1363,7 @@ public final class QuickUseWidgetReqOuterClass {
        * <code>.WidgetThunderBirdFeatherInfo thunder_bird_feather_info = 1859;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetThunderBirdFeatherInfoOuterClass.WidgetThunderBirdFeatherInfo, emu.grasscutter.net.proto.WidgetThunderBirdFeatherInfoOuterClass.WidgetThunderBirdFeatherInfo.Builder, emu.grasscutter.net.proto.WidgetThunderBirdFeatherInfoOuterClass.WidgetThunderBirdFeatherInfoOrBuilder> 
+          emu.grasscutter.net.proto.WidgetThunderBirdFeatherInfoOuterClass.WidgetThunderBirdFeatherInfo, emu.grasscutter.net.proto.WidgetThunderBirdFeatherInfoOuterClass.WidgetThunderBirdFeatherInfo.Builder, emu.grasscutter.net.proto.WidgetThunderBirdFeatherInfoOuterClass.WidgetThunderBirdFeatherInfoOrBuilder>
           getThunderBirdFeatherInfoFieldBuilder() {
         if (thunderBirdFeatherInfoBuilder_ == null) {
           if (!(paramCase_ == 1859)) {
@@ -1435,7 +1435,7 @@ public final class QuickUseWidgetReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QuickUseWidgetReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QuickUseWidgetReq_fieldAccessorTable;
 

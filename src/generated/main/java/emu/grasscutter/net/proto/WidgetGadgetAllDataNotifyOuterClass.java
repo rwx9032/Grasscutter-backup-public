@@ -21,7 +21,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
     /**
      * <code>repeated .WidgetGadgetData widget_gadget_data = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData> 
+    java.util.List<emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData>
         getWidgetGadgetDataList();
     /**
      * <code>repeated .WidgetGadgetData widget_gadget_data = 13;</code>
@@ -34,7 +34,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
     /**
      * <code>repeated .WidgetGadgetData widget_gadget_data = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetDataOrBuilder>
         getWidgetGadgetDataOrBuilderList();
     /**
      * <code>repeated .WidgetGadgetData widget_gadget_data = 13;</code>
@@ -152,7 +152,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
      * <code>repeated .WidgetGadgetData widget_gadget_data = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetDataOrBuilder>
         getWidgetGadgetDataOrBuilderList() {
       return widgetGadgetData_;
     }
@@ -489,7 +489,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
               widgetGadgetDataBuilder_ = null;
               widgetGadgetData_ = other.widgetGadgetData_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              widgetGadgetDataBuilder_ = 
+              widgetGadgetDataBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getWidgetGadgetDataFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
       /**
        * <code>repeated .WidgetGadgetData widget_gadget_data = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetDataOrBuilder>
            getWidgetGadgetDataOrBuilderList() {
         if (widgetGadgetDataBuilder_ != null) {
           return widgetGadgetDataBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
       /**
        * <code>repeated .WidgetGadgetData widget_gadget_data = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData.Builder>
            getWidgetGadgetDataBuilderList() {
         return getWidgetGadgetDataFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData, emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData.Builder, emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData, emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData.Builder, emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetDataOrBuilder>
           getWidgetGadgetDataFieldBuilder() {
         if (widgetGadgetDataBuilder_ == null) {
           widgetGadgetDataBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetGadgetAllDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetGadgetAllDataNotify_fieldAccessorTable;
 

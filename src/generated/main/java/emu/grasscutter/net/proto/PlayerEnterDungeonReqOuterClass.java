@@ -643,7 +643,7 @@ public final class PlayerEnterDungeonReqOuterClass {
        * <code>.Unk2800_JKLFAJKDLDG Unk2800_ANJAHBGBIFD = 2;</code>
        */
       public emu.grasscutter.net.proto.Unk2800JKLFAJKDLDG.Unk2800_JKLFAJKDLDG.Builder getUnk2800ANJAHBGBIFDBuilder() {
-        
+
         onChanged();
         return getUnk2800ANJAHBGBIFDFieldBuilder().getBuilder();
       }
@@ -662,7 +662,7 @@ public final class PlayerEnterDungeonReqOuterClass {
        * <code>.Unk2800_JKLFAJKDLDG Unk2800_ANJAHBGBIFD = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Unk2800JKLFAJKDLDG.Unk2800_JKLFAJKDLDG, emu.grasscutter.net.proto.Unk2800JKLFAJKDLDG.Unk2800_JKLFAJKDLDG.Builder, emu.grasscutter.net.proto.Unk2800JKLFAJKDLDG.Unk2800_JKLFAJKDLDGOrBuilder> 
+          emu.grasscutter.net.proto.Unk2800JKLFAJKDLDG.Unk2800_JKLFAJKDLDG, emu.grasscutter.net.proto.Unk2800JKLFAJKDLDG.Unk2800_JKLFAJKDLDG.Builder, emu.grasscutter.net.proto.Unk2800JKLFAJKDLDG.Unk2800_JKLFAJKDLDGOrBuilder>
           getUnk2800ANJAHBGBIFDFieldBuilder() {
         if (unk2800ANJAHBGBIFDBuilder_ == null) {
           unk2800ANJAHBGBIFDBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -690,7 +690,7 @@ public final class PlayerEnterDungeonReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
@@ -700,7 +700,7 @@ public final class PlayerEnterDungeonReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
@@ -721,7 +721,7 @@ public final class PlayerEnterDungeonReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDungeonId(int value) {
-        
+
         dungeonId_ = value;
         onChanged();
         return this;
@@ -731,7 +731,7 @@ public final class PlayerEnterDungeonReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDungeonId() {
-        
+
         dungeonId_ = 0;
         onChanged();
         return this;
@@ -791,7 +791,7 @@ public final class PlayerEnterDungeonReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerEnterDungeonReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerEnterDungeonReq_fieldAccessorTable;
 

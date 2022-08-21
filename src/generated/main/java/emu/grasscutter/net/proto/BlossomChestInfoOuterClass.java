@@ -783,7 +783,7 @@ public final class BlossomChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setResin(int value) {
-        
+
         resin_ = value;
         onChanged();
         return this;
@@ -793,7 +793,7 @@ public final class BlossomChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearResin() {
-        
+
         resin_ = 0;
         onChanged();
         return this;
@@ -972,7 +972,7 @@ public final class BlossomChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDeadTime(int value) {
-        
+
         deadTime_ = value;
         onChanged();
         return this;
@@ -982,7 +982,7 @@ public final class BlossomChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDeadTime() {
-        
+
         deadTime_ = 0;
         onChanged();
         return this;
@@ -1003,7 +1003,7 @@ public final class BlossomChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBlossomRefreshType(int value) {
-        
+
         blossomRefreshType_ = value;
         onChanged();
         return this;
@@ -1013,7 +1013,7 @@ public final class BlossomChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBlossomRefreshType() {
-        
+
         blossomRefreshType_ = 0;
         onChanged();
         return this;
@@ -1034,7 +1034,7 @@ public final class BlossomChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRefreshId(int value) {
-        
+
         refreshId_ = value;
         onChanged();
         return this;
@@ -1044,7 +1044,7 @@ public final class BlossomChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRefreshId() {
-        
+
         refreshId_ = 0;
         onChanged();
         return this;
@@ -1104,7 +1104,7 @@ public final class BlossomChestInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BlossomChestInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BlossomChestInfo_fieldAccessorTable;
 

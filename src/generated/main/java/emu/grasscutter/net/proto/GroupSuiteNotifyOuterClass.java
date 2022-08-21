@@ -167,7 +167,7 @@ public final class GroupSuiteNotifyOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.GroupSuiteNotifyOuterClass.internal_static_GroupSuiteNotify_GroupMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.GroupSuiteNotifyOuterClass.internal_static_GroupSuiteNotify_GroupMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -194,7 +194,7 @@ public final class GroupSuiteNotifyOuterClass {
     @java.lang.Override
     public boolean containsGroupMap(
         int key) {
-      
+
       return internalGetGroupMap().getMap().containsKey(key);
     }
     /**
@@ -221,7 +221,7 @@ public final class GroupSuiteNotifyOuterClass {
     public int getGroupMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetGroupMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -233,7 +233,7 @@ public final class GroupSuiteNotifyOuterClass {
 
     public int getGroupMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetGroupMap().getMap();
       if (!map.containsKey(key)) {
@@ -617,7 +617,7 @@ public final class GroupSuiteNotifyOuterClass {
       @java.lang.Override
       public boolean containsGroupMap(
           int key) {
-        
+
         return internalGetGroupMap().getMap().containsKey(key);
       }
       /**
@@ -644,7 +644,7 @@ public final class GroupSuiteNotifyOuterClass {
       public int getGroupMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetGroupMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -656,7 +656,7 @@ public final class GroupSuiteNotifyOuterClass {
 
       public int getGroupMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetGroupMap().getMap();
         if (!map.containsKey(key)) {
@@ -676,7 +676,7 @@ public final class GroupSuiteNotifyOuterClass {
 
       public Builder removeGroupMap(
           int key) {
-        
+
         internalGetMutableGroupMap().getMutableMap()
             .remove(key);
         return this;
@@ -695,8 +695,8 @@ public final class GroupSuiteNotifyOuterClass {
       public Builder putGroupMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableGroupMap().getMutableMap()
             .put(key, value);
         return this;
@@ -766,12 +766,12 @@ public final class GroupSuiteNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GroupSuiteNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GroupSuiteNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GroupSuiteNotify_GroupMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GroupSuiteNotify_GroupMapEntry_fieldAccessorTable;
 

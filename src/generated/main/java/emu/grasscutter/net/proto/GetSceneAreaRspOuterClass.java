@@ -27,7 +27,7 @@ public final class GetSceneAreaRspOuterClass {
     /**
      * <code>repeated .CityInfo city_info_list = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo> 
+    java.util.List<emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo>
         getCityInfoListList();
     /**
      * <code>repeated .CityInfo city_info_list = 13;</code>
@@ -40,7 +40,7 @@ public final class GetSceneAreaRspOuterClass {
     /**
      * <code>repeated .CityInfo city_info_list = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder>
         getCityInfoListOrBuilderList();
     /**
      * <code>repeated .CityInfo city_info_list = 13;</code>
@@ -227,7 +227,7 @@ public final class GetSceneAreaRspOuterClass {
      * <code>repeated .CityInfo city_info_list = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder>
         getCityInfoListOrBuilderList() {
       return cityInfoList_;
     }
@@ -669,7 +669,7 @@ public final class GetSceneAreaRspOuterClass {
               cityInfoListBuilder_ = null;
               cityInfoList_ = other.cityInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              cityInfoListBuilder_ = 
+              cityInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCityInfoListFieldBuilder() : null;
             } else {
@@ -735,7 +735,7 @@ public final class GetSceneAreaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -745,7 +745,7 @@ public final class GetSceneAreaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -946,7 +946,7 @@ public final class GetSceneAreaRspOuterClass {
       /**
        * <code>repeated .CityInfo city_info_list = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder>
            getCityInfoListOrBuilderList() {
         if (cityInfoListBuilder_ != null) {
           return cityInfoListBuilder_.getMessageOrBuilderList();
@@ -972,12 +972,12 @@ public final class GetSceneAreaRspOuterClass {
       /**
        * <code>repeated .CityInfo city_info_list = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo.Builder>
            getCityInfoListBuilderList() {
         return getCityInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo, emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo.Builder, emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder> 
+          emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo, emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo.Builder, emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder>
           getCityInfoListFieldBuilder() {
         if (cityInfoListBuilder_ == null) {
           cityInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1006,7 +1006,7 @@ public final class GetSceneAreaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -1016,7 +1016,7 @@ public final class GetSceneAreaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -1155,7 +1155,7 @@ public final class GetSceneAreaRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetSceneAreaRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetSceneAreaRsp_fieldAccessorTable;
 

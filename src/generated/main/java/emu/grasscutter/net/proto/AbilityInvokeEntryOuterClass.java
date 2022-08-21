@@ -782,7 +782,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setArgumentTypeValue(int value) {
-        
+
         argumentType_ = value;
         onChanged();
         return this;
@@ -806,7 +806,7 @@ public final class AbilityInvokeEntryOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         argumentType_ = value.getNumber();
         onChanged();
         return this;
@@ -816,7 +816,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearArgumentType() {
-        
+
         argumentType_ = 0;
         onChanged();
         return this;
@@ -909,7 +909,7 @@ public final class AbilityInvokeEntryOuterClass {
        * <code>.AbilityInvokeEntryHead head = 2;</code>
        */
       public emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead.Builder getHeadBuilder() {
-        
+
         onChanged();
         return getHeadFieldBuilder().getBuilder();
       }
@@ -928,7 +928,7 @@ public final class AbilityInvokeEntryOuterClass {
        * <code>.AbilityInvokeEntryHead head = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead, emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHeadOrBuilder> 
+          emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead, emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHeadOrBuilder>
           getHeadFieldBuilder() {
         if (headBuilder_ == null) {
           headBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -956,7 +956,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForwardPeer(int value) {
-        
+
         forwardPeer_ = value;
         onChanged();
         return this;
@@ -966,7 +966,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForwardPeer() {
-        
+
         forwardPeer_ = 0;
         onChanged();
         return this;
@@ -987,7 +987,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEventId(int value) {
-        
+
         eventId_ = value;
         onChanged();
         return this;
@@ -997,7 +997,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEventId() {
-        
+
         eventId_ = 0;
         onChanged();
         return this;
@@ -1017,7 +1017,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
@@ -1041,7 +1041,7 @@ public final class AbilityInvokeEntryOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
@@ -1051,7 +1051,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
@@ -1075,7 +1075,7 @@ public final class AbilityInvokeEntryOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         abilityData_ = value;
         onChanged();
         return this;
@@ -1085,7 +1085,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAbilityData() {
-        
+
         abilityData_ = getDefaultInstance().getAbilityData();
         onChanged();
         return this;
@@ -1106,7 +1106,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTotalTickTime(double value) {
-        
+
         totalTickTime_ = value;
         onChanged();
         return this;
@@ -1116,7 +1116,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTotalTickTime() {
-        
+
         totalTickTime_ = 0D;
         onChanged();
         return this;
@@ -1137,7 +1137,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -1147,7 +1147,7 @@ public final class AbilityInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -1207,7 +1207,7 @@ public final class AbilityInvokeEntryOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityInvokeEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityInvokeEntry_fieldAccessorTable;
 

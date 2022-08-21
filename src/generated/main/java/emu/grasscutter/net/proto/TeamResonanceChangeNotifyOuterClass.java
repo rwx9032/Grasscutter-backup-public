@@ -21,7 +21,7 @@ public final class TeamResonanceChangeNotifyOuterClass {
     /**
      * <code>repeated .AvatarTeamResonanceInfo info_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfo> 
+    java.util.List<emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfo>
         getInfoListList();
     /**
      * <code>repeated .AvatarTeamResonanceInfo info_list = 1;</code>
@@ -34,7 +34,7 @@ public final class TeamResonanceChangeNotifyOuterClass {
     /**
      * <code>repeated .AvatarTeamResonanceInfo info_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfoOrBuilder>
         getInfoListOrBuilderList();
     /**
      * <code>repeated .AvatarTeamResonanceInfo info_list = 1;</code>
@@ -152,7 +152,7 @@ public final class TeamResonanceChangeNotifyOuterClass {
      * <code>repeated .AvatarTeamResonanceInfo info_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfoOrBuilder>
         getInfoListOrBuilderList() {
       return infoList_;
     }
@@ -489,7 +489,7 @@ public final class TeamResonanceChangeNotifyOuterClass {
               infoListBuilder_ = null;
               infoList_ = other.infoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              infoListBuilder_ = 
+              infoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getInfoListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class TeamResonanceChangeNotifyOuterClass {
       /**
        * <code>repeated .AvatarTeamResonanceInfo info_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfoOrBuilder>
            getInfoListOrBuilderList() {
         if (infoListBuilder_ != null) {
           return infoListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class TeamResonanceChangeNotifyOuterClass {
       /**
        * <code>repeated .AvatarTeamResonanceInfo info_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfo.Builder>
            getInfoListBuilderList() {
         return getInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfo, emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfo.Builder, emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfoOrBuilder> 
+          emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfo, emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfo.Builder, emu.grasscutter.net.proto.AvatarTeamResonanceInfoOuterClass.AvatarTeamResonanceInfoOrBuilder>
           getInfoListFieldBuilder() {
         if (infoListBuilder_ == null) {
           infoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class TeamResonanceChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TeamResonanceChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TeamResonanceChangeNotify_fieldAccessorTable;
 

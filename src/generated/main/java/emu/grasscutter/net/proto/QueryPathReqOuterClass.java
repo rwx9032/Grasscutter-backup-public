@@ -59,7 +59,7 @@ public final class QueryPathReqOuterClass {
     /**
      * <code>repeated .Vector destination_pos = 10;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector> 
+    java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector>
         getDestinationPosList();
     /**
      * <code>repeated .Vector destination_pos = 10;</code>
@@ -72,7 +72,7 @@ public final class QueryPathReqOuterClass {
     /**
      * <code>repeated .Vector destination_pos = 10;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
         getDestinationPosOrBuilderList();
     /**
      * <code>repeated .Vector destination_pos = 10;</code>
@@ -489,7 +489,7 @@ public final class QueryPathReqOuterClass {
      * <code>repeated .Vector destination_pos = 10;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
         getDestinationPosOrBuilderList() {
       return destinationPos_;
     }
@@ -1066,7 +1066,7 @@ public final class QueryPathReqOuterClass {
               destinationPosBuilder_ = null;
               destinationPos_ = other.destinationPos_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              destinationPosBuilder_ = 
+              destinationPosBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDestinationPosFieldBuilder() : null;
             } else {
@@ -1127,7 +1127,7 @@ public final class QueryPathReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQueryTypeValue(int value) {
-        
+
         queryType_ = value;
         onChanged();
         return this;
@@ -1151,7 +1151,7 @@ public final class QueryPathReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         queryType_ = value.getNumber();
         onChanged();
         return this;
@@ -1161,7 +1161,7 @@ public final class QueryPathReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQueryType() {
-        
+
         queryType_ = 0;
         onChanged();
         return this;
@@ -1182,7 +1182,7 @@ public final class QueryPathReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQueryId(int value) {
-        
+
         queryId_ = value;
         onChanged();
         return this;
@@ -1192,7 +1192,7 @@ public final class QueryPathReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQueryId() {
-        
+
         queryId_ = 0;
         onChanged();
         return this;
@@ -1213,7 +1213,7 @@ public final class QueryPathReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -1223,7 +1223,7 @@ public final class QueryPathReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -1316,7 +1316,7 @@ public final class QueryPathReqOuterClass {
        * <code>.Vector source_pos = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSourcePosBuilder() {
-        
+
         onChanged();
         return getSourcePosFieldBuilder().getBuilder();
       }
@@ -1335,7 +1335,7 @@ public final class QueryPathReqOuterClass {
        * <code>.Vector source_pos = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getSourcePosFieldBuilder() {
         if (sourcePosBuilder_ == null) {
           sourcePosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1543,7 +1543,7 @@ public final class QueryPathReqOuterClass {
       /**
        * <code>repeated .Vector destination_pos = 10;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
            getDestinationPosOrBuilderList() {
         if (destinationPosBuilder_ != null) {
           return destinationPosBuilder_.getMessageOrBuilderList();
@@ -1569,12 +1569,12 @@ public final class QueryPathReqOuterClass {
       /**
        * <code>repeated .Vector destination_pos = 10;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder>
            getDestinationPosBuilderList() {
         return getDestinationPosFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getDestinationPosFieldBuilder() {
         if (destinationPosBuilder_ == null) {
           destinationPosBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1675,7 +1675,7 @@ public final class QueryPathReqOuterClass {
        * <code>.QueryFilter filter = 12;</code>
        */
       public emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter.Builder getFilterBuilder() {
-        
+
         onChanged();
         return getFilterFieldBuilder().getBuilder();
       }
@@ -1694,7 +1694,7 @@ public final class QueryPathReqOuterClass {
        * <code>.QueryFilter filter = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter, emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter.Builder, emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilterOrBuilder> 
+          emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter, emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilter.Builder, emu.grasscutter.net.proto.QueryFilterOuterClass.QueryFilterOrBuilder>
           getFilterFieldBuilder() {
         if (filterBuilder_ == null) {
           filterBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1794,7 +1794,7 @@ public final class QueryPathReqOuterClass {
        * <code>.Vector3Int destination_extend = 4;</code>
        */
       public emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int.Builder getDestinationExtendBuilder() {
-        
+
         onChanged();
         return getDestinationExtendFieldBuilder().getBuilder();
       }
@@ -1813,7 +1813,7 @@ public final class QueryPathReqOuterClass {
        * <code>.Vector3Int destination_extend = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int, emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int.Builder, emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3IntOrBuilder> 
+          emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int, emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int.Builder, emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3IntOrBuilder>
           getDestinationExtendFieldBuilder() {
         if (destinationExtendBuilder_ == null) {
           destinationExtendBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1913,7 +1913,7 @@ public final class QueryPathReqOuterClass {
        * <code>.Vector3Int source_extend = 6;</code>
        */
       public emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int.Builder getSourceExtendBuilder() {
-        
+
         onChanged();
         return getSourceExtendFieldBuilder().getBuilder();
       }
@@ -1932,7 +1932,7 @@ public final class QueryPathReqOuterClass {
        * <code>.Vector3Int source_extend = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int, emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int.Builder, emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3IntOrBuilder> 
+          emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int, emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int.Builder, emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3IntOrBuilder>
           getSourceExtendFieldBuilder() {
         if (sourceExtendBuilder_ == null) {
           sourceExtendBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1999,7 +1999,7 @@ public final class QueryPathReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QueryPathReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QueryPathReq_fieldAccessorTable;
 

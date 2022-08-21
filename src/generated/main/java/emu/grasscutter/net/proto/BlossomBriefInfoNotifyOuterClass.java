@@ -21,7 +21,7 @@ public final class BlossomBriefInfoNotifyOuterClass {
     /**
      * <code>repeated .BlossomBriefInfo brief_info_list = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo> 
+    java.util.List<emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo>
         getBriefInfoListList();
     /**
      * <code>repeated .BlossomBriefInfo brief_info_list = 4;</code>
@@ -34,7 +34,7 @@ public final class BlossomBriefInfoNotifyOuterClass {
     /**
      * <code>repeated .BlossomBriefInfo brief_info_list = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfoOrBuilder>
         getBriefInfoListOrBuilderList();
     /**
      * <code>repeated .BlossomBriefInfo brief_info_list = 4;</code>
@@ -153,7 +153,7 @@ public final class BlossomBriefInfoNotifyOuterClass {
      * <code>repeated .BlossomBriefInfo brief_info_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfoOrBuilder>
         getBriefInfoListOrBuilderList() {
       return briefInfoList_;
     }
@@ -491,7 +491,7 @@ public final class BlossomBriefInfoNotifyOuterClass {
               briefInfoListBuilder_ = null;
               briefInfoList_ = other.briefInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              briefInfoListBuilder_ = 
+              briefInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getBriefInfoListFieldBuilder() : null;
             } else {
@@ -724,7 +724,7 @@ public final class BlossomBriefInfoNotifyOuterClass {
       /**
        * <code>repeated .BlossomBriefInfo brief_info_list = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfoOrBuilder>
            getBriefInfoListOrBuilderList() {
         if (briefInfoListBuilder_ != null) {
           return briefInfoListBuilder_.getMessageOrBuilderList();
@@ -750,12 +750,12 @@ public final class BlossomBriefInfoNotifyOuterClass {
       /**
        * <code>repeated .BlossomBriefInfo brief_info_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo.Builder>
            getBriefInfoListBuilderList() {
         return getBriefInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo, emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo.Builder, emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo, emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfo.Builder, emu.grasscutter.net.proto.BlossomBriefInfoOuterClass.BlossomBriefInfoOrBuilder>
           getBriefInfoListFieldBuilder() {
         if (briefInfoListBuilder_ == null) {
           briefInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -823,7 +823,7 @@ public final class BlossomBriefInfoNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BlossomBriefInfoNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BlossomBriefInfoNotify_fieldAccessorTable;
 

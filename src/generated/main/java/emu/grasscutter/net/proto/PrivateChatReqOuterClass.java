@@ -226,7 +226,7 @@ public final class PrivateChatReqOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (contentCase_ == 3) {
@@ -246,7 +246,7 @@ public final class PrivateChatReqOuterClass {
         ref = content_;
       }
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         if (contentCase_ == 3) {
@@ -682,7 +682,7 @@ public final class PrivateChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
@@ -692,7 +692,7 @@ public final class PrivateChatReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
@@ -740,7 +740,7 @@ public final class PrivateChatReqOuterClass {
           ref = content_;
         }
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           if (contentCase_ == 3) {
@@ -890,7 +890,7 @@ public final class PrivateChatReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PrivateChatReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PrivateChatReq_fieldAccessorTable;
 

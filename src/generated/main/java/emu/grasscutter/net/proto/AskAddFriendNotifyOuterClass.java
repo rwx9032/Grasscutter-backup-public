@@ -602,7 +602,7 @@ public final class AskAddFriendNotifyOuterClass {
        * <code>.FriendBrief target_friend_brief = 15;</code>
        */
       public emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder getTargetFriendBriefBuilder() {
-        
+
         onChanged();
         return getTargetFriendBriefFieldBuilder().getBuilder();
       }
@@ -621,7 +621,7 @@ public final class AskAddFriendNotifyOuterClass {
        * <code>.FriendBrief target_friend_brief = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+          emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
           getTargetFriendBriefFieldBuilder() {
         if (targetFriendBriefBuilder_ == null) {
           targetFriendBriefBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class AskAddFriendNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class AskAddFriendNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class AskAddFriendNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AskAddFriendNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AskAddFriendNotify_fieldAccessorTable;
 

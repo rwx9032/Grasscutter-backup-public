@@ -487,7 +487,7 @@ public final class EnterWorldAreaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAreaType(int value) {
-        
+
         areaType_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class EnterWorldAreaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAreaType() {
-        
+
         areaType_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class EnterWorldAreaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAreaId(int value) {
-        
+
         areaId_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class EnterWorldAreaReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAreaId() {
-        
+
         areaId_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class EnterWorldAreaReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EnterWorldAreaReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EnterWorldAreaReq_fieldAccessorTable;
 

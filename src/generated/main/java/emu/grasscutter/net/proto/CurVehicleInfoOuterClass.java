@@ -473,7 +473,7 @@ public final class CurVehicleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class CurVehicleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class CurVehicleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPos(int value) {
-        
+
         pos_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class CurVehicleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPos() {
-        
+
         pos_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class CurVehicleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CurVehicleInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CurVehicleInfo_fieldAccessorTable;
 

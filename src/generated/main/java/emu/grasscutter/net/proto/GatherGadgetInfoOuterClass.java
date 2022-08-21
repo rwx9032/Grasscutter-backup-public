@@ -474,7 +474,7 @@ public final class GatherGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
@@ -484,7 +484,7 @@ public final class GatherGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -505,7 +505,7 @@ public final class GatherGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsForbidGuest(boolean value) {
-        
+
         isForbidGuest_ = value;
         onChanged();
         return this;
@@ -515,7 +515,7 @@ public final class GatherGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsForbidGuest() {
-        
+
         isForbidGuest_ = false;
         onChanged();
         return this;
@@ -575,7 +575,7 @@ public final class GatherGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GatherGadgetInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GatherGadgetInfo_fieldAccessorTable;
 

@@ -526,7 +526,7 @@ public final class ForgeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
@@ -536,7 +536,7 @@ public final class ForgeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -557,7 +557,7 @@ public final class ForgeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForgeId(int value) {
-        
+
         forgeId_ = value;
         onChanged();
         return this;
@@ -567,7 +567,7 @@ public final class ForgeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForgeId() {
-        
+
         forgeId_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class ForgeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForgeCount(int value) {
-        
+
         forgeCount_ = value;
         onChanged();
         return this;
@@ -598,7 +598,7 @@ public final class ForgeStartReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForgeCount() {
-        
+
         forgeCount_ = 0;
         onChanged();
         return this;
@@ -658,7 +658,7 @@ public final class ForgeStartReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForgeStartReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForgeStartReq_fieldAccessorTable;
 

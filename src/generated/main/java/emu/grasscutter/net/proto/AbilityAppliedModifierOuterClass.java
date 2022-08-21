@@ -1086,7 +1086,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setModifierLocalId(int value) {
-        
+
         modifierLocalId_ = value;
         onChanged();
         return this;
@@ -1096,7 +1096,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearModifierLocalId() {
-        
+
         modifierLocalId_ = 0;
         onChanged();
         return this;
@@ -1117,7 +1117,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParentAbilityEntityId(int value) {
-        
+
         parentAbilityEntityId_ = value;
         onChanged();
         return this;
@@ -1127,7 +1127,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParentAbilityEntityId() {
-        
+
         parentAbilityEntityId_ = 0;
         onChanged();
         return this;
@@ -1220,7 +1220,7 @@ public final class AbilityAppliedModifierOuterClass {
        * <code>.AbilityString parent_ability_name = 3;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getParentAbilityNameBuilder() {
-        
+
         onChanged();
         return getParentAbilityNameFieldBuilder().getBuilder();
       }
@@ -1239,7 +1239,7 @@ public final class AbilityAppliedModifierOuterClass {
        * <code>.AbilityString parent_ability_name = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> 
+          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder>
           getParentAbilityNameFieldBuilder() {
         if (parentAbilityNameBuilder_ == null) {
           parentAbilityNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1339,7 +1339,7 @@ public final class AbilityAppliedModifierOuterClass {
        * <code>.AbilityString parent_ability_override = 4;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getParentAbilityOverrideBuilder() {
-        
+
         onChanged();
         return getParentAbilityOverrideFieldBuilder().getBuilder();
       }
@@ -1358,7 +1358,7 @@ public final class AbilityAppliedModifierOuterClass {
        * <code>.AbilityString parent_ability_override = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> 
+          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder>
           getParentAbilityOverrideFieldBuilder() {
         if (parentAbilityOverrideBuilder_ == null) {
           parentAbilityOverrideBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1386,7 +1386,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInstancedAbilityId(int value) {
-        
+
         instancedAbilityId_ = value;
         onChanged();
         return this;
@@ -1396,7 +1396,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInstancedAbilityId() {
-        
+
         instancedAbilityId_ = 0;
         onChanged();
         return this;
@@ -1417,7 +1417,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInstancedModifierId(int value) {
-        
+
         instancedModifierId_ = value;
         onChanged();
         return this;
@@ -1427,7 +1427,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInstancedModifierId() {
-        
+
         instancedModifierId_ = 0;
         onChanged();
         return this;
@@ -1448,7 +1448,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExistDuration(float value) {
-        
+
         existDuration_ = value;
         onChanged();
         return this;
@@ -1458,7 +1458,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExistDuration() {
-        
+
         existDuration_ = 0F;
         onChanged();
         return this;
@@ -1551,7 +1551,7 @@ public final class AbilityAppliedModifierOuterClass {
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
        */
       public emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier.Builder getAttachedInstancedModifierBuilder() {
-        
+
         onChanged();
         return getAttachedInstancedModifierFieldBuilder().getBuilder();
       }
@@ -1570,7 +1570,7 @@ public final class AbilityAppliedModifierOuterClass {
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier, emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier.Builder, emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifierOrBuilder> 
+          emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier, emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier.Builder, emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifierOrBuilder>
           getAttachedInstancedModifierFieldBuilder() {
         if (attachedInstancedModifierBuilder_ == null) {
           attachedInstancedModifierBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1598,7 +1598,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setApplyEntityId(int value) {
-        
+
         applyEntityId_ = value;
         onChanged();
         return this;
@@ -1608,7 +1608,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearApplyEntityId() {
-        
+
         applyEntityId_ = 0;
         onChanged();
         return this;
@@ -1629,7 +1629,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAttachedParentAbility(boolean value) {
-        
+
         isAttachedParentAbility_ = value;
         onChanged();
         return this;
@@ -1639,7 +1639,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAttachedParentAbility() {
-        
+
         isAttachedParentAbility_ = false;
         onChanged();
         return this;
@@ -1732,7 +1732,7 @@ public final class AbilityAppliedModifierOuterClass {
        * <code>.ModifierDurability modifier_durability = 11;</code>
        */
       public emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability.Builder getModifierDurabilityBuilder() {
-        
+
         onChanged();
         return getModifierDurabilityFieldBuilder().getBuilder();
       }
@@ -1751,7 +1751,7 @@ public final class AbilityAppliedModifierOuterClass {
        * <code>.ModifierDurability modifier_durability = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability, emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability.Builder, emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurabilityOrBuilder> 
+          emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability, emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability.Builder, emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurabilityOrBuilder>
           getModifierDurabilityFieldBuilder() {
         if (modifierDurabilityBuilder_ == null) {
           modifierDurabilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1779,7 +1779,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSbuffUid(int value) {
-        
+
         sbuffUid_ = value;
         onChanged();
         return this;
@@ -1789,7 +1789,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSbuffUid() {
-        
+
         sbuffUid_ = 0;
         onChanged();
         return this;
@@ -1810,7 +1810,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsServerbuffModifier(boolean value) {
-        
+
         isServerbuffModifier_ = value;
         onChanged();
         return this;
@@ -1820,7 +1820,7 @@ public final class AbilityAppliedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsServerbuffModifier() {
-        
+
         isServerbuffModifier_ = false;
         onChanged();
         return this;
@@ -1880,7 +1880,7 @@ public final class AbilityAppliedModifierOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityAppliedModifier_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityAppliedModifier_fieldAccessorTable;
 

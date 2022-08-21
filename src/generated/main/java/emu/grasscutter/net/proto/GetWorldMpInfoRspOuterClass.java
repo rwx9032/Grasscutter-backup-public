@@ -525,7 +525,7 @@ public final class GetWorldMpInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -535,7 +535,7 @@ public final class GetWorldMpInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -556,7 +556,7 @@ public final class GetWorldMpInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsInMpMode(boolean value) {
-        
+
         isInMpMode_ = value;
         onChanged();
         return this;
@@ -566,7 +566,7 @@ public final class GetWorldMpInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsInMpMode() {
-        
+
         isInMpMode_ = false;
         onChanged();
         return this;
@@ -587,7 +587,7 @@ public final class GetWorldMpInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQuitMpValidTime(int value) {
-        
+
         quitMpValidTime_ = value;
         onChanged();
         return this;
@@ -597,7 +597,7 @@ public final class GetWorldMpInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQuitMpValidTime() {
-        
+
         quitMpValidTime_ = 0;
         onChanged();
         return this;
@@ -657,7 +657,7 @@ public final class GetWorldMpInfoRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetWorldMpInfoRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetWorldMpInfoRsp_fieldAccessorTable;
 

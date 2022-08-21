@@ -448,7 +448,7 @@ public final class HomeChooseModuleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setModuleId(int value) {
-        
+
         moduleId_ = value;
         onChanged();
         return this;
@@ -458,7 +458,7 @@ public final class HomeChooseModuleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearModuleId() {
-        
+
         moduleId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class HomeChooseModuleReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeChooseModuleReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeChooseModuleReq_fieldAccessorTable;
 

@@ -50,7 +50,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     /**
      * <code>repeated .ServerBuff server_buff_list = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> 
+    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff>
         getServerBuffListList();
     /**
      * <code>repeated .ServerBuff server_buff_list = 12;</code>
@@ -63,7 +63,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     /**
      * <code>repeated .ServerBuff server_buff_list = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList();
     /**
      * <code>repeated .ServerBuff server_buff_list = 12;</code>
@@ -243,7 +243,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         attackTag_ = s;
@@ -259,7 +259,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
         getAttackTagBytes() {
       java.lang.Object ref = attackTag_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         attackTag_ = b;
@@ -301,7 +301,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
      * <code>repeated .ServerBuff server_buff_list = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList() {
       return serverBuffList_;
     }
@@ -764,7 +764,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
               serverBuffListBuilder_ = null;
               serverBuffList_ = other.serverBuffList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              serverBuffListBuilder_ = 
+              serverBuffListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getServerBuffListFieldBuilder() : null;
             } else {
@@ -826,7 +826,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLifeState(int value) {
-        
+
         lifeState_ = value;
         onChanged();
         return this;
@@ -836,7 +836,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLifeState() {
-        
+
         lifeState_ = 0;
         onChanged();
         return this;
@@ -867,7 +867,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
           getAttackTagBytes() {
         java.lang.Object ref = attackTag_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           attackTag_ = b;
@@ -886,7 +886,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         attackTag_ = value;
         onChanged();
         return this;
@@ -896,7 +896,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAttackTag() {
-        
+
         attackTag_ = getDefaultInstance().getAttackTag();
         onChanged();
         return this;
@@ -912,7 +912,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         attackTag_ = value;
         onChanged();
         return this;
@@ -932,7 +932,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDieTypeValue(int value) {
-        
+
         dieType_ = value;
         onChanged();
         return this;
@@ -956,7 +956,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         dieType_ = value.getNumber();
         onChanged();
         return this;
@@ -966,7 +966,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDieType() {
-        
+
         dieType_ = 0;
         onChanged();
         return this;
@@ -1167,7 +1167,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       /**
        * <code>repeated .ServerBuff server_buff_list = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
            getServerBuffListOrBuilderList() {
         if (serverBuffListBuilder_ != null) {
           return serverBuffListBuilder_.getMessageOrBuilderList();
@@ -1193,12 +1193,12 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       /**
        * <code>repeated .ServerBuff server_buff_list = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder>
            getServerBuffListBuilderList() {
         return getServerBuffListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
           getServerBuffListFieldBuilder() {
         if (serverBuffListBuilder_ == null) {
           serverBuffListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1227,7 +1227,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMoveReliableSeq(int value) {
-        
+
         moveReliableSeq_ = value;
         onChanged();
         return this;
@@ -1237,7 +1237,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMoveReliableSeq() {
-        
+
         moveReliableSeq_ = 0;
         onChanged();
         return this;
@@ -1258,7 +1258,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSourceEntityId(int value) {
-        
+
         sourceEntityId_ = value;
         onChanged();
         return this;
@@ -1268,7 +1268,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSourceEntityId() {
-        
+
         sourceEntityId_ = 0;
         onChanged();
         return this;
@@ -1289,7 +1289,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -1299,7 +1299,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -1359,7 +1359,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarLifeStateChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarLifeStateChangeNotify_fieldAccessorTable;
 

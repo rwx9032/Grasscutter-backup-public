@@ -21,7 +21,7 @@ public final class PullRecentChatRspOuterClass {
     /**
      * <code>repeated .ChatInfo chat_info = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo> 
+    java.util.List<emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo>
         getChatInfoList();
     /**
      * <code>repeated .ChatInfo chat_info = 15;</code>
@@ -34,7 +34,7 @@ public final class PullRecentChatRspOuterClass {
     /**
      * <code>repeated .ChatInfo chat_info = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder>
         getChatInfoOrBuilderList();
     /**
      * <code>repeated .ChatInfo chat_info = 15;</code>
@@ -163,7 +163,7 @@ public final class PullRecentChatRspOuterClass {
      * <code>repeated .ChatInfo chat_info = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder>
         getChatInfoOrBuilderList() {
       return chatInfo_;
     }
@@ -525,7 +525,7 @@ public final class PullRecentChatRspOuterClass {
               chatInfoBuilder_ = null;
               chatInfo_ = other.chatInfo_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              chatInfoBuilder_ = 
+              chatInfoBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getChatInfoFieldBuilder() : null;
             } else {
@@ -761,7 +761,7 @@ public final class PullRecentChatRspOuterClass {
       /**
        * <code>repeated .ChatInfo chat_info = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder>
            getChatInfoOrBuilderList() {
         if (chatInfoBuilder_ != null) {
           return chatInfoBuilder_.getMessageOrBuilderList();
@@ -787,12 +787,12 @@ public final class PullRecentChatRspOuterClass {
       /**
        * <code>repeated .ChatInfo chat_info = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder>
            getChatInfoBuilderList() {
         return getChatInfoFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder> 
+          emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder>
           getChatInfoFieldBuilder() {
         if (chatInfoBuilder_ == null) {
           chatInfoBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class PullRecentChatRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class PullRecentChatRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -891,7 +891,7 @@ public final class PullRecentChatRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PullRecentChatRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PullRecentChatRsp_fieldAccessorTable;
 

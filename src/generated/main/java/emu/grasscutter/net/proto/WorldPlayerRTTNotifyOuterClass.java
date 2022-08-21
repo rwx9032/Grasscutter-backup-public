@@ -21,7 +21,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
     /**
      * <code>repeated .PlayerRTTInfo player_rtt_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo> 
+    java.util.List<emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo>
         getPlayerRttListList();
     /**
      * <code>repeated .PlayerRTTInfo player_rtt_list = 1;</code>
@@ -34,7 +34,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
     /**
      * <code>repeated .PlayerRTTInfo player_rtt_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfoOrBuilder>
         getPlayerRttListOrBuilderList();
     /**
      * <code>repeated .PlayerRTTInfo player_rtt_list = 1;</code>
@@ -152,7 +152,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
      * <code>repeated .PlayerRTTInfo player_rtt_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfoOrBuilder>
         getPlayerRttListOrBuilderList() {
       return playerRttList_;
     }
@@ -489,7 +489,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
               playerRttListBuilder_ = null;
               playerRttList_ = other.playerRttList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              playerRttListBuilder_ = 
+              playerRttListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPlayerRttListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
       /**
        * <code>repeated .PlayerRTTInfo player_rtt_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfoOrBuilder>
            getPlayerRttListOrBuilderList() {
         if (playerRttListBuilder_ != null) {
           return playerRttListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class WorldPlayerRTTNotifyOuterClass {
       /**
        * <code>repeated .PlayerRTTInfo player_rtt_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo.Builder>
            getPlayerRttListBuilderList() {
         return getPlayerRttListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo, emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo.Builder, emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfoOrBuilder> 
+          emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo, emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfo.Builder, emu.grasscutter.net.proto.PlayerRTTInfoOuterClass.PlayerRTTInfoOrBuilder>
           getPlayerRttListFieldBuilder() {
         if (playerRttListBuilder_ == null) {
           playerRttListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class WorldPlayerRTTNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldPlayerRTTNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldPlayerRTTNotify_fieldAccessorTable;
 

@@ -446,7 +446,7 @@ public final class DungeonShowReminderNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setReminderId(int value) {
-        
+
         reminderId_ = value;
         onChanged();
         return this;
@@ -456,7 +456,7 @@ public final class DungeonShowReminderNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReminderId() {
-        
+
         reminderId_ = 0;
         onChanged();
         return this;
@@ -516,7 +516,7 @@ public final class DungeonShowReminderNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DungeonShowReminderNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DungeonShowReminderNotify_fieldAccessorTable;
 

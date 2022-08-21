@@ -473,7 +473,7 @@ public final class FurnitureMakeHelpDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTimes(int value) {
-        
+
         times_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class FurnitureMakeHelpDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTimes() {
-        
+
         times_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class FurnitureMakeHelpDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class FurnitureMakeHelpDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class FurnitureMakeHelpDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FurnitureMakeHelpData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FurnitureMakeHelpData_fieldAccessorTable;
 

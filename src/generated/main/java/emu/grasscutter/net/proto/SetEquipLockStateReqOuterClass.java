@@ -489,7 +489,7 @@ public final class SetEquipLockStateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsLocked(boolean value) {
-        
+
         isLocked_ = value;
         onChanged();
         return this;
@@ -499,7 +499,7 @@ public final class SetEquipLockStateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsLocked() {
-        
+
         isLocked_ = false;
         onChanged();
         return this;
@@ -520,7 +520,7 @@ public final class SetEquipLockStateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetEquipGuid(long value) {
-        
+
         targetEquipGuid_ = value;
         onChanged();
         return this;
@@ -530,7 +530,7 @@ public final class SetEquipLockStateReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetEquipGuid() {
-        
+
         targetEquipGuid_ = 0L;
         onChanged();
         return this;
@@ -590,7 +590,7 @@ public final class SetEquipLockStateReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetEquipLockStateReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetEquipLockStateReq_fieldAccessorTable;
 

@@ -345,7 +345,7 @@ public final class BossChestInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo>newDefaultInstance(
-                  emu.grasscutter.net.proto.BossChestInfoOuterClass.internal_static_BossChestInfo_UidDiscountMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.BossChestInfoOuterClass.internal_static_BossChestInfo_UidDiscountMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -372,7 +372,7 @@ public final class BossChestInfoOuterClass {
     @java.lang.Override
     public boolean containsUidDiscountMap(
         int key) {
-      
+
       return internalGetUidDiscountMap().getMap().containsKey(key);
     }
     /**
@@ -399,7 +399,7 @@ public final class BossChestInfoOuterClass {
     public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getUidDiscountMapOrDefault(
         int key,
         emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo> map =
           internalGetUidDiscountMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -411,7 +411,7 @@ public final class BossChestInfoOuterClass {
 
     public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getUidDiscountMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo> map =
           internalGetUidDiscountMap().getMap();
       if (!map.containsKey(key)) {
@@ -894,7 +894,7 @@ public final class BossChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMonsterConfigId(int value) {
-        
+
         monsterConfigId_ = value;
         onChanged();
         return this;
@@ -904,7 +904,7 @@ public final class BossChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMonsterConfigId() {
-        
+
         monsterConfigId_ = 0;
         onChanged();
         return this;
@@ -925,7 +925,7 @@ public final class BossChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setResin(int value) {
-        
+
         resin_ = value;
         onChanged();
         return this;
@@ -935,7 +935,7 @@ public final class BossChestInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearResin() {
-        
+
         resin_ = 0;
         onChanged();
         return this;
@@ -1132,7 +1132,7 @@ public final class BossChestInfoOuterClass {
       @java.lang.Override
       public boolean containsUidDiscountMap(
           int key) {
-        
+
         return internalGetUidDiscountMap().getMap().containsKey(key);
       }
       /**
@@ -1159,7 +1159,7 @@ public final class BossChestInfoOuterClass {
       public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getUidDiscountMapOrDefault(
           int key,
           emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo> map =
             internalGetUidDiscountMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1171,7 +1171,7 @@ public final class BossChestInfoOuterClass {
 
       public emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getUidDiscountMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo> map =
             internalGetUidDiscountMap().getMap();
         if (!map.containsKey(key)) {
@@ -1191,7 +1191,7 @@ public final class BossChestInfoOuterClass {
 
       public Builder removeUidDiscountMap(
           int key) {
-        
+
         internalGetMutableUidDiscountMap().getMutableMap()
             .remove(key);
         return this;
@@ -1210,7 +1210,7 @@ public final class BossChestInfoOuterClass {
       public Builder putUidDiscountMap(
           int key,
           emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableUidDiscountMap().getMutableMap()
             .put(key, value);
@@ -1281,12 +1281,12 @@ public final class BossChestInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BossChestInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BossChestInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BossChestInfo_UidDiscountMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BossChestInfo_UidDiscountMapEntry_fieldAccessorTable;
 

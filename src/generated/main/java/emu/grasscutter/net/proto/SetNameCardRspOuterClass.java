@@ -487,7 +487,7 @@ public final class SetNameCardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNameCardId(int value) {
-        
+
         nameCardId_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class SetNameCardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNameCardId() {
-        
+
         nameCardId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class SetNameCardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class SetNameCardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class SetNameCardRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetNameCardRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetNameCardRsp_fieldAccessorTable;
 

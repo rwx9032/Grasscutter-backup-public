@@ -27,7 +27,7 @@ public final class FireworkSetNotifyOuterClass {
     /**
      * <code>repeated .FireworkSetData data = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData> 
+    java.util.List<emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData>
         getDataList();
     /**
      * <code>repeated .FireworkSetData data = 9;</code>
@@ -40,7 +40,7 @@ public final class FireworkSetNotifyOuterClass {
     /**
      * <code>repeated .FireworkSetData data = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder>
         getDataOrBuilderList();
     /**
      * <code>repeated .FireworkSetData data = 9;</code>
@@ -174,7 +174,7 @@ public final class FireworkSetNotifyOuterClass {
      * <code>repeated .FireworkSetData data = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder>
         getDataOrBuilderList() {
       return data_;
     }
@@ -528,7 +528,7 @@ public final class FireworkSetNotifyOuterClass {
               dataBuilder_ = null;
               data_ = other.data_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              dataBuilder_ = 
+              dataBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDataFieldBuilder() : null;
             } else {
@@ -581,7 +581,7 @@ public final class FireworkSetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCode(int value) {
-        
+
         code_ = value;
         onChanged();
         return this;
@@ -591,7 +591,7 @@ public final class FireworkSetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCode() {
-        
+
         code_ = 0;
         onChanged();
         return this;
@@ -792,7 +792,7 @@ public final class FireworkSetNotifyOuterClass {
       /**
        * <code>repeated .FireworkSetData data = 9;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder>
            getDataOrBuilderList() {
         if (dataBuilder_ != null) {
           return dataBuilder_.getMessageOrBuilderList();
@@ -818,12 +818,12 @@ public final class FireworkSetNotifyOuterClass {
       /**
        * <code>repeated .FireworkSetData data = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData.Builder>
            getDataBuilderList() {
         return getDataFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData, emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData.Builder, emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder> 
+          emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData, emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetData.Builder, emu.grasscutter.net.proto.FireworkSetDataOuterClass.FireworkSetDataOrBuilder>
           getDataFieldBuilder() {
         if (dataBuilder_ == null) {
           dataBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -891,7 +891,7 @@ public final class FireworkSetNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FireworkSetNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FireworkSetNotify_fieldAccessorTable;
 

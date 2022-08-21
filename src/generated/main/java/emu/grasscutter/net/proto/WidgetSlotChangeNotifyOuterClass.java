@@ -543,7 +543,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOpValue(int value) {
-        
+
         op_ = value;
         onChanged();
         return this;
@@ -567,7 +567,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         op_ = value.getNumber();
         onChanged();
         return this;
@@ -577,7 +577,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOp() {
-        
+
         op_ = 0;
         onChanged();
         return this;
@@ -670,7 +670,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        * <code>.WidgetSlotData slot = 8;</code>
        */
       public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder getSlotBuilder() {
-        
+
         onChanged();
         return getSlotFieldBuilder().getBuilder();
       }
@@ -689,7 +689,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        * <code>.WidgetSlotData slot = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
           getSlotFieldBuilder() {
         if (slotBuilder_ == null) {
           slotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -756,7 +756,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetSlotChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetSlotChangeNotify_fieldAccessorTable;
 

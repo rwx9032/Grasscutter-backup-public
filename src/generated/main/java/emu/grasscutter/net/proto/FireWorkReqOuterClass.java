@@ -565,7 +565,7 @@ public final class FireWorkReqOuterClass {
        * <code>.FireWorkData fireWorkData = 7;</code>
        */
       public emu.grasscutter.net.proto.FireWorkDataOuterClass.FireWorkData.Builder getFireWorkDataBuilder() {
-        
+
         onChanged();
         return getFireWorkDataFieldBuilder().getBuilder();
       }
@@ -584,7 +584,7 @@ public final class FireWorkReqOuterClass {
        * <code>.FireWorkData fireWorkData = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FireWorkDataOuterClass.FireWorkData, emu.grasscutter.net.proto.FireWorkDataOuterClass.FireWorkData.Builder, emu.grasscutter.net.proto.FireWorkDataOuterClass.FireWorkDataOrBuilder> 
+          emu.grasscutter.net.proto.FireWorkDataOuterClass.FireWorkData, emu.grasscutter.net.proto.FireWorkDataOuterClass.FireWorkData.Builder, emu.grasscutter.net.proto.FireWorkDataOuterClass.FireWorkDataOrBuilder>
           getFireWorkDataFieldBuilder() {
         if (fireWorkDataBuilder_ == null) {
           fireWorkDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -651,7 +651,7 @@ public final class FireWorkReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FireWorkReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FireWorkReq_fieldAccessorTable;
 

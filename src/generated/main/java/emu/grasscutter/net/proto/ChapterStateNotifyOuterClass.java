@@ -646,7 +646,7 @@ public final class ChapterStateNotifyOuterClass {
          * @return This builder for chaining.
          */
         public Builder setIsLimit(boolean value) {
-          
+
           isLimit_ = value;
           onChanged();
           return this;
@@ -656,7 +656,7 @@ public final class ChapterStateNotifyOuterClass {
          * @return This builder for chaining.
          */
         public Builder clearIsLimit() {
-          
+
           isLimit_ = false;
           onChanged();
           return this;
@@ -677,7 +677,7 @@ public final class ChapterStateNotifyOuterClass {
          * @return This builder for chaining.
          */
         public Builder setConfigNeedPlayerLevel(int value) {
-          
+
           configNeedPlayerLevel_ = value;
           onChanged();
           return this;
@@ -687,7 +687,7 @@ public final class ChapterStateNotifyOuterClass {
          * @return This builder for chaining.
          */
         public Builder clearConfigNeedPlayerLevel() {
-          
+
           configNeedPlayerLevel_ = 0;
           onChanged();
           return this;
@@ -1205,7 +1205,7 @@ public final class ChapterStateNotifyOuterClass {
          * @return This builder for chaining.
          */
         public Builder setIsLimit(boolean value) {
-          
+
           isLimit_ = value;
           onChanged();
           return this;
@@ -1215,7 +1215,7 @@ public final class ChapterStateNotifyOuterClass {
          * @return This builder for chaining.
          */
         public Builder clearIsLimit() {
-          
+
           isLimit_ = false;
           onChanged();
           return this;
@@ -1236,7 +1236,7 @@ public final class ChapterStateNotifyOuterClass {
          * @return This builder for chaining.
          */
         public Builder setConfigNeedBeginTime(int value) {
-          
+
           configNeedBeginTime_ = value;
           onChanged();
           return this;
@@ -1246,7 +1246,7 @@ public final class ChapterStateNotifyOuterClass {
          * @return This builder for chaining.
          */
         public Builder clearConfigNeedBeginTime() {
-          
+
           configNeedBeginTime_ = 0;
           onChanged();
           return this;
@@ -1785,7 +1785,7 @@ public final class ChapterStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChapterId(int value) {
-        
+
         chapterId_ = value;
         onChanged();
         return this;
@@ -1795,7 +1795,7 @@ public final class ChapterStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChapterId() {
-        
+
         chapterId_ = 0;
         onChanged();
         return this;
@@ -1815,7 +1815,7 @@ public final class ChapterStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChapterStateValue(int value) {
-        
+
         chapterState_ = value;
         onChanged();
         return this;
@@ -1839,7 +1839,7 @@ public final class ChapterStateNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         chapterState_ = value.getNumber();
         onChanged();
         return this;
@@ -1849,7 +1849,7 @@ public final class ChapterStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChapterState() {
-        
+
         chapterState_ = 0;
         onChanged();
         return this;
@@ -1942,7 +1942,7 @@ public final class ChapterStateNotifyOuterClass {
        * <code>.ChapterStateNotify.NeedPlayerLevel need_player_level = 10;</code>
        */
       public emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedPlayerLevel.Builder getNeedPlayerLevelBuilder() {
-        
+
         onChanged();
         return getNeedPlayerLevelFieldBuilder().getBuilder();
       }
@@ -1961,7 +1961,7 @@ public final class ChapterStateNotifyOuterClass {
        * <code>.ChapterStateNotify.NeedPlayerLevel need_player_level = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedPlayerLevel, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedPlayerLevel.Builder, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedPlayerLevelOrBuilder> 
+          emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedPlayerLevel, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedPlayerLevel.Builder, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedPlayerLevelOrBuilder>
           getNeedPlayerLevelFieldBuilder() {
         if (needPlayerLevelBuilder_ == null) {
           needPlayerLevelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2061,7 +2061,7 @@ public final class ChapterStateNotifyOuterClass {
        * <code>.ChapterStateNotify.NeedBeginTime need_begin_time = 1;</code>
        */
       public emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedBeginTime.Builder getNeedBeginTimeBuilder() {
-        
+
         onChanged();
         return getNeedBeginTimeFieldBuilder().getBuilder();
       }
@@ -2080,7 +2080,7 @@ public final class ChapterStateNotifyOuterClass {
        * <code>.ChapterStateNotify.NeedBeginTime need_begin_time = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedBeginTime, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedBeginTime.Builder, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedBeginTimeOrBuilder> 
+          emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedBeginTime, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedBeginTime.Builder, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.NeedBeginTimeOrBuilder>
           getNeedBeginTimeFieldBuilder() {
         if (needBeginTimeBuilder_ == null) {
           needBeginTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2147,17 +2147,17 @@ public final class ChapterStateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChapterStateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChapterStateNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChapterStateNotify_NeedPlayerLevel_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChapterStateNotify_NeedPlayerLevel_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChapterStateNotify_NeedBeginTime_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChapterStateNotify_NeedBeginTime_fieldAccessorTable;
 

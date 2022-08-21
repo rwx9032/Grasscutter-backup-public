@@ -473,7 +473,7 @@ public final class StrengthenPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBasePoint(int value) {
-        
+
         basePoint_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class StrengthenPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBasePoint() {
-        
+
         basePoint_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class StrengthenPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurPoint(int value) {
-        
+
         curPoint_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class StrengthenPointDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurPoint() {
-        
+
         curPoint_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class StrengthenPointDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StrengthenPointData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StrengthenPointData_fieldAccessorTable;
 

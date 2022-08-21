@@ -792,7 +792,7 @@ public final class LockedPersonallineDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPersonalLineId(int value) {
-        
+
         personalLineId_ = value;
         onChanged();
         return this;
@@ -802,7 +802,7 @@ public final class LockedPersonallineDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPersonalLineId() {
-        
+
         personalLineId_ = 0;
         onChanged();
         return this;
@@ -822,7 +822,7 @@ public final class LockedPersonallineDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLockReasonValue(int value) {
-        
+
         lockReason_ = value;
         onChanged();
         return this;
@@ -846,7 +846,7 @@ public final class LockedPersonallineDataOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         lockReason_ = value.getNumber();
         onChanged();
         return this;
@@ -856,7 +856,7 @@ public final class LockedPersonallineDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLockReason() {
-        
+
         lockReason_ = 0;
         onChanged();
         return this;
@@ -998,7 +998,7 @@ public final class LockedPersonallineDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_LockedPersonallineData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_LockedPersonallineData_fieldAccessorTable;
 

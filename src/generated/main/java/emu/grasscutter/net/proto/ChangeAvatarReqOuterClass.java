@@ -684,7 +684,7 @@ public final class ChangeAvatarReqOuterClass {
        * <code>.Vector move_pos = 15;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getMovePosBuilder() {
-        
+
         onChanged();
         return getMovePosFieldBuilder().getBuilder();
       }
@@ -703,7 +703,7 @@ public final class ChangeAvatarReqOuterClass {
        * <code>.Vector move_pos = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getMovePosFieldBuilder() {
         if (movePosBuilder_ == null) {
           movePosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -731,7 +731,7 @@ public final class ChangeAvatarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSkillId(int value) {
-        
+
         skillId_ = value;
         onChanged();
         return this;
@@ -741,7 +741,7 @@ public final class ChangeAvatarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSkillId() {
-        
+
         skillId_ = 0;
         onChanged();
         return this;
@@ -762,7 +762,7 @@ public final class ChangeAvatarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(long value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -772,7 +772,7 @@ public final class ChangeAvatarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0L;
         onChanged();
         return this;
@@ -793,7 +793,7 @@ public final class ChangeAvatarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsMove(boolean value) {
-        
+
         isMove_ = value;
         onChanged();
         return this;
@@ -803,7 +803,7 @@ public final class ChangeAvatarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsMove() {
-        
+
         isMove_ = false;
         onChanged();
         return this;
@@ -863,7 +863,7 @@ public final class ChangeAvatarReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChangeAvatarReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChangeAvatarReq_fieldAccessorTable;
 

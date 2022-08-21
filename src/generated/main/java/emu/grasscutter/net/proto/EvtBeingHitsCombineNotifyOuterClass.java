@@ -32,7 +32,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     /**
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo> 
+    java.util.List<emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo>
         getEvtBeingHitInfoListList();
     /**
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 7;</code>
@@ -45,7 +45,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     /**
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder>
         getEvtBeingHitInfoListOrBuilderList();
     /**
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 7;</code>
@@ -190,7 +190,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder>
         getEvtBeingHitInfoListOrBuilderList() {
       return evtBeingHitInfoList_;
     }
@@ -544,7 +544,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
               evtBeingHitInfoListBuilder_ = null;
               evtBeingHitInfoList_ = other.evtBeingHitInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              evtBeingHitInfoListBuilder_ = 
+              evtBeingHitInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getEvtBeingHitInfoListFieldBuilder() : null;
             } else {
@@ -596,7 +596,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
@@ -620,7 +620,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
@@ -630,7 +630,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       /**
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder>
            getEvtBeingHitInfoListOrBuilderList() {
         if (evtBeingHitInfoListBuilder_ != null) {
           return evtBeingHitInfoListBuilder_.getMessageOrBuilderList();
@@ -857,12 +857,12 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       /**
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder>
            getEvtBeingHitInfoListBuilderList() {
         return getEvtBeingHitInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder> 
+          emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder>
           getEvtBeingHitInfoListFieldBuilder() {
         if (evtBeingHitInfoListBuilder_ == null) {
           evtBeingHitInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -930,7 +930,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtBeingHitsCombineNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtBeingHitsCombineNotify_fieldAccessorTable;
 

@@ -291,7 +291,7 @@ public final class CodexTypeDataOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.CodexTypeDataOuterClass.internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.CodexTypeDataOuterClass.internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -318,7 +318,7 @@ public final class CodexTypeDataOuterClass {
     @java.lang.Override
     public boolean containsWeaponMaxPromoteLevelMap(
         int key) {
-      
+
       return internalGetWeaponMaxPromoteLevelMap().getMap().containsKey(key);
     }
     /**
@@ -345,7 +345,7 @@ public final class CodexTypeDataOuterClass {
     public int getWeaponMaxPromoteLevelMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetWeaponMaxPromoteLevelMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -357,7 +357,7 @@ public final class CodexTypeDataOuterClass {
 
     public int getWeaponMaxPromoteLevelMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetWeaponMaxPromoteLevelMap().getMap();
       if (!map.containsKey(key)) {
@@ -963,7 +963,7 @@ public final class CodexTypeDataOuterClass {
       @java.lang.Override
       public boolean containsWeaponMaxPromoteLevelMap(
           int key) {
-        
+
         return internalGetWeaponMaxPromoteLevelMap().getMap().containsKey(key);
       }
       /**
@@ -990,7 +990,7 @@ public final class CodexTypeDataOuterClass {
       public int getWeaponMaxPromoteLevelMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetWeaponMaxPromoteLevelMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1002,7 +1002,7 @@ public final class CodexTypeDataOuterClass {
 
       public int getWeaponMaxPromoteLevelMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetWeaponMaxPromoteLevelMap().getMap();
         if (!map.containsKey(key)) {
@@ -1022,7 +1022,7 @@ public final class CodexTypeDataOuterClass {
 
       public Builder removeWeaponMaxPromoteLevelMap(
           int key) {
-        
+
         internalGetMutableWeaponMaxPromoteLevelMap().getMutableMap()
             .remove(key);
         return this;
@@ -1041,8 +1041,8 @@ public final class CodexTypeDataOuterClass {
       public Builder putWeaponMaxPromoteLevelMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableWeaponMaxPromoteLevelMap().getMutableMap()
             .put(key, value);
         return this;
@@ -1072,7 +1072,7 @@ public final class CodexTypeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTypeValue(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
@@ -1096,7 +1096,7 @@ public final class CodexTypeDataOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         type_ = value.getNumber();
         onChanged();
         return this;
@@ -1106,7 +1106,7 @@ public final class CodexTypeDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -1245,12 +1245,12 @@ public final class CodexTypeDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CodexTypeData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CodexTypeData_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CodexTypeData_WeaponMaxPromoteLevelMapEntry_fieldAccessorTable;
 

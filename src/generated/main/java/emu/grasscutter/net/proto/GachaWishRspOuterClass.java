@@ -641,7 +641,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaType(int value) {
-        
+
         gachaType_ = value;
         onChanged();
         return this;
@@ -651,7 +651,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaType() {
-        
+
         gachaType_ = 0;
         onChanged();
         return this;
@@ -672,7 +672,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaScheduleId(int value) {
-        
+
         gachaScheduleId_ = value;
         onChanged();
         return this;
@@ -682,7 +682,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaScheduleId() {
-        
+
         gachaScheduleId_ = 0;
         onChanged();
         return this;
@@ -703,7 +703,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWishMaxProgress(int value) {
-        
+
         wishMaxProgress_ = value;
         onChanged();
         return this;
@@ -713,7 +713,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWishMaxProgress() {
-        
+
         wishMaxProgress_ = 0;
         onChanged();
         return this;
@@ -734,7 +734,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWishProgress(int value) {
-        
+
         wishProgress_ = value;
         onChanged();
         return this;
@@ -744,7 +744,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWishProgress() {
-        
+
         wishProgress_ = 0;
         onChanged();
         return this;
@@ -765,7 +765,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWishItemId(int value) {
-        
+
         wishItemId_ = value;
         onChanged();
         return this;
@@ -775,7 +775,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWishItemId() {
-        
+
         wishItemId_ = 0;
         onChanged();
         return this;
@@ -796,7 +796,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -806,7 +806,7 @@ public final class GachaWishRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -866,7 +866,7 @@ public final class GachaWishRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GachaWishRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GachaWishRsp_fieldAccessorTable;
 

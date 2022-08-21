@@ -473,7 +473,7 @@ public final class Unk2800JKLFAJKDLDG {
        * @return This builder for chaining.
        */
       public Builder setQuestId(int value) {
-        
+
         questId_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class Unk2800JKLFAJKDLDG {
        * @return This builder for chaining.
        */
       public Builder clearQuestId() {
-        
+
         questId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class Unk2800JKLFAJKDLDG {
        * @return This builder for chaining.
        */
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class Unk2800JKLFAJKDLDG {
        * @return This builder for chaining.
        */
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class Unk2800JKLFAJKDLDG {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Unk2800_JKLFAJKDLDG_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Unk2800_JKLFAJKDLDG_fieldAccessorTable;
 

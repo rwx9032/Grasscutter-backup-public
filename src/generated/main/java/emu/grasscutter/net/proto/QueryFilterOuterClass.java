@@ -473,7 +473,7 @@ public final class QueryFilterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTypeId(int value) {
-        
+
         typeId_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class QueryFilterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTypeId() {
-        
+
         typeId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class QueryFilterOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAreaMask(int value) {
-        
+
         areaMask_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class QueryFilterOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAreaMask() {
-        
+
         areaMask_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class QueryFilterOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QueryFilter_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QueryFilter_fieldAccessorTable;
 

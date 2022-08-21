@@ -565,7 +565,7 @@ public final class SceneForceUnlockNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAdd(boolean value) {
-        
+
         isAdd_ = value;
         onChanged();
         return this;
@@ -575,7 +575,7 @@ public final class SceneForceUnlockNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAdd() {
-        
+
         isAdd_ = false;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class SceneForceUnlockNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneForceUnlockNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneForceUnlockNotify_fieldAccessorTable;
 

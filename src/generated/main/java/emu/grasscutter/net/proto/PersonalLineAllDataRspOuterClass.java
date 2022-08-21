@@ -73,7 +73,7 @@ public final class PersonalLineAllDataRspOuterClass {
     /**
      * <code>repeated .LockedPersonallineData locked_personal_line_list = 10;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData> 
+    java.util.List<emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData>
         getLockedPersonalLineListList();
     /**
      * <code>repeated .LockedPersonallineData locked_personal_line_list = 10;</code>
@@ -86,7 +86,7 @@ public final class PersonalLineAllDataRspOuterClass {
     /**
      * <code>repeated .LockedPersonallineData locked_personal_line_list = 10;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineDataOrBuilder>
         getLockedPersonalLineListOrBuilderList();
     /**
      * <code>repeated .LockedPersonallineData locked_personal_line_list = 10;</code>
@@ -358,7 +358,7 @@ public final class PersonalLineAllDataRspOuterClass {
      * <code>repeated .LockedPersonallineData locked_personal_line_list = 10;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineDataOrBuilder>
         getLockedPersonalLineListOrBuilderList() {
       return lockedPersonalLineList_;
     }
@@ -835,7 +835,7 @@ public final class PersonalLineAllDataRspOuterClass {
               lockedPersonalLineListBuilder_ = null;
               lockedPersonalLineList_ = other.lockedPersonalLineList_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              lockedPersonalLineListBuilder_ = 
+              lockedPersonalLineListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getLockedPersonalLineListFieldBuilder() : null;
             } else {
@@ -888,7 +888,7 @@ public final class PersonalLineAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -898,7 +898,7 @@ public final class PersonalLineAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -919,7 +919,7 @@ public final class PersonalLineAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurFinishedDailyTaskCount(int value) {
-        
+
         curFinishedDailyTaskCount_ = value;
         onChanged();
         return this;
@@ -929,7 +929,7 @@ public final class PersonalLineAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurFinishedDailyTaskCount() {
-        
+
         curFinishedDailyTaskCount_ = 0;
         onChanged();
         return this;
@@ -950,7 +950,7 @@ public final class PersonalLineAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLegendaryKeyCount(int value) {
-        
+
         legendaryKeyCount_ = value;
         onChanged();
         return this;
@@ -960,7 +960,7 @@ public final class PersonalLineAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLegendaryKeyCount() {
-        
+
         legendaryKeyCount_ = 0;
         onChanged();
         return this;
@@ -1319,7 +1319,7 @@ public final class PersonalLineAllDataRspOuterClass {
       /**
        * <code>repeated .LockedPersonallineData locked_personal_line_list = 10;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineDataOrBuilder>
            getLockedPersonalLineListOrBuilderList() {
         if (lockedPersonalLineListBuilder_ != null) {
           return lockedPersonalLineListBuilder_.getMessageOrBuilderList();
@@ -1345,12 +1345,12 @@ public final class PersonalLineAllDataRspOuterClass {
       /**
        * <code>repeated .LockedPersonallineData locked_personal_line_list = 10;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData.Builder>
            getLockedPersonalLineListBuilderList() {
         return getLockedPersonalLineListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData, emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData.Builder, emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineDataOrBuilder> 
+          emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData, emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData.Builder, emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineDataOrBuilder>
           getLockedPersonalLineListFieldBuilder() {
         if (lockedPersonalLineListBuilder_ == null) {
           lockedPersonalLineListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1418,7 +1418,7 @@ public final class PersonalLineAllDataRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PersonalLineAllDataRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PersonalLineAllDataRsp_fieldAccessorTable;
 

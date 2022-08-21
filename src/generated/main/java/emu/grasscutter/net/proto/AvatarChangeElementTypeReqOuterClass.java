@@ -487,7 +487,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAreaId(int value) {
-        
+
         areaId_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAreaId() {
-        
+
         areaId_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class AvatarChangeElementTypeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarChangeElementTypeReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarChangeElementTypeReq_fieldAccessorTable;
 

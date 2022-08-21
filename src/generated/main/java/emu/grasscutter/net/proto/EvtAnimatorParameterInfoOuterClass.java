@@ -597,7 +597,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -607,7 +607,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -628,7 +628,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsServerCache(boolean value) {
-        
+
         isServerCache_ = value;
         onChanged();
         return this;
@@ -638,7 +638,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsServerCache() {
-        
+
         isServerCache_ = false;
         onChanged();
         return this;
@@ -731,7 +731,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
        * <code>.AnimatorParameterValueInfo value = 7;</code>
        */
       public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder getValueBuilder() {
-        
+
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
@@ -750,7 +750,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
        * <code>.AnimatorParameterValueInfo value = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder> 
+          emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder>
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -778,7 +778,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNameId(int value) {
-        
+
         nameId_ = value;
         onChanged();
         return this;
@@ -788,7 +788,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNameId() {
-        
+
         nameId_ = 0;
         onChanged();
         return this;
@@ -848,7 +848,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtAnimatorParameterInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtAnimatorParameterInfo_fieldAccessorTable;
 

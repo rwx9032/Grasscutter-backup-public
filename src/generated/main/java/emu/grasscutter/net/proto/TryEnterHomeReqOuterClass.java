@@ -487,7 +487,7 @@ public final class TryEnterHomeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class TryEnterHomeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class TryEnterHomeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetPoint(int value) {
-        
+
         targetPoint_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class TryEnterHomeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetPoint() {
-        
+
         targetPoint_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class TryEnterHomeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TryEnterHomeReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TryEnterHomeReq_fieldAccessorTable;
 

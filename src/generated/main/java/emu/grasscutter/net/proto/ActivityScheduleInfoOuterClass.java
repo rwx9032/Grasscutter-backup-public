@@ -591,7 +591,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setActivityId(int value) {
-        
+
         activityId_ = value;
         onChanged();
         return this;
@@ -601,7 +601,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearActivityId() {
-        
+
         activityId_ = 0;
         onChanged();
         return this;
@@ -622,7 +622,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsOpen(boolean value) {
-        
+
         isOpen_ = value;
         onChanged();
         return this;
@@ -632,7 +632,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
-        
+
         isOpen_ = false;
         onChanged();
         return this;
@@ -653,7 +653,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScheduleId(int value) {
-        
+
         scheduleId_ = value;
         onChanged();
         return this;
@@ -663,7 +663,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScheduleId() {
-        
+
         scheduleId_ = 0;
         onChanged();
         return this;
@@ -684,7 +684,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
@@ -694,7 +694,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -715,7 +715,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -725,7 +725,7 @@ public final class ActivityScheduleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -785,7 +785,7 @@ public final class ActivityScheduleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityScheduleInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityScheduleInfo_fieldAccessorTable;
 

@@ -33,7 +33,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
     /**
      * <code>repeated .ItemParam item_list = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
         getItemListList();
     /**
      * <code>repeated .ItemParam item_list = 9;</code>
@@ -46,7 +46,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
     /**
      * <code>repeated .ItemParam item_list = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getItemListOrBuilderList();
     /**
      * <code>repeated .ItemParam item_list = 9;</code>
@@ -207,7 +207,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
      * <code>repeated .ItemParam item_list = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getItemListOrBuilderList() {
       return itemList_;
     }
@@ -603,7 +603,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
               itemListBuilder_ = null;
               itemList_ = other.itemList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              itemListBuilder_ = 
+              itemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getItemListFieldBuilder() : null;
             } else {
@@ -659,7 +659,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScheduleId(int value) {
-        
+
         scheduleId_ = value;
         onChanged();
         return this;
@@ -669,7 +669,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScheduleId() {
-        
+
         scheduleId_ = 0;
         onChanged();
         return this;
@@ -690,7 +690,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setProductPlayType(int value) {
-        
+
         productPlayType_ = value;
         onChanged();
         return this;
@@ -700,7 +700,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearProductPlayType() {
-        
+
         productPlayType_ = 0;
         onChanged();
         return this;
@@ -901,7 +901,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
       /**
        * <code>repeated .ItemParam item_list = 9;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
            getItemListOrBuilderList() {
         if (itemListBuilder_ != null) {
           return itemListBuilder_.getMessageOrBuilderList();
@@ -927,12 +927,12 @@ public final class BattlePassBuySuccNotifyOuterClass {
       /**
        * <code>repeated .ItemParam item_list = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
            getItemListBuilderList() {
         return getItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getItemListFieldBuilder() {
         if (itemListBuilder_ == null) {
           itemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -961,7 +961,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAddPoint(int value) {
-        
+
         addPoint_ = value;
         onChanged();
         return this;
@@ -971,7 +971,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAddPoint() {
-        
+
         addPoint_ = 0;
         onChanged();
         return this;
@@ -1031,7 +1031,7 @@ public final class BattlePassBuySuccNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BattlePassBuySuccNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BattlePassBuySuccNotify_fieldAccessorTable;
 

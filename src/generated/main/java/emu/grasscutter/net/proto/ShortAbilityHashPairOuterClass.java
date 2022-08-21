@@ -473,7 +473,7 @@ public final class ShortAbilityHashPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAbilityConfigHash(int value) {
-        
+
         abilityConfigHash_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class ShortAbilityHashPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAbilityConfigHash() {
-        
+
         abilityConfigHash_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class ShortAbilityHashPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAbilityNameHash(int value) {
-        
+
         abilityNameHash_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class ShortAbilityHashPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAbilityNameHash() {
-        
+
         abilityNameHash_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class ShortAbilityHashPairOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShortAbilityHashPair_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShortAbilityHashPair_fieldAccessorTable;
 

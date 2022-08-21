@@ -500,7 +500,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
@@ -524,7 +524,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -625,7 +625,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtDestroyGadgetNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtDestroyGadgetNotify_fieldAccessorTable;
 

@@ -551,7 +551,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCellConfigId(int value) {
-        
+
         cellConfigId_ = value;
         onChanged();
         return this;
@@ -561,7 +561,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCellConfigId() {
-        
+
         cellConfigId_ = 0;
         onChanged();
         return this;
@@ -582,7 +582,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCellType(int value) {
-        
+
         cellType_ = value;
         onChanged();
         return this;
@@ -592,7 +592,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCellType() {
-        
+
         cellType_ = 0;
         onChanged();
         return this;
@@ -613,7 +613,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCellState(int value) {
-        
+
         cellState_ = value;
         onChanged();
         return this;
@@ -623,7 +623,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCellState() {
-        
+
         cellState_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCellId(int value) {
-        
+
         cellId_ = value;
         onChanged();
         return this;
@@ -654,7 +654,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCellId() {
-        
+
         cellId_ = 0;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class RoguelikeGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoguelikeGadgetInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoguelikeGadgetInfo_fieldAccessorTable;
 

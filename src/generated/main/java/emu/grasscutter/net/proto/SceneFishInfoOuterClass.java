@@ -635,7 +635,7 @@ public final class SceneFishInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFishId(int value) {
-        
+
         fishId_ = value;
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class SceneFishInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFishId() {
-        
+
         fishId_ = 0;
         onChanged();
         return this;
@@ -666,7 +666,7 @@ public final class SceneFishInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFishPoolEntityId(int value) {
-        
+
         fishPoolEntityId_ = value;
         onChanged();
         return this;
@@ -676,7 +676,7 @@ public final class SceneFishInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFishPoolEntityId() {
-        
+
         fishPoolEntityId_ = 0;
         onChanged();
         return this;
@@ -769,7 +769,7 @@ public final class SceneFishInfoOuterClass {
        * <code>.Vector fish_pool_pos = 3;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getFishPoolPosBuilder() {
-        
+
         onChanged();
         return getFishPoolPosFieldBuilder().getBuilder();
       }
@@ -788,7 +788,7 @@ public final class SceneFishInfoOuterClass {
        * <code>.Vector fish_pool_pos = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getFishPoolPosFieldBuilder() {
         if (fishPoolPosBuilder_ == null) {
           fishPoolPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -816,7 +816,7 @@ public final class SceneFishInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFishPoolGadgetId(int value) {
-        
+
         fishPoolGadgetId_ = value;
         onChanged();
         return this;
@@ -826,7 +826,7 @@ public final class SceneFishInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFishPoolGadgetId() {
-        
+
         fishPoolGadgetId_ = 0;
         onChanged();
         return this;
@@ -847,7 +847,7 @@ public final class SceneFishInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700HIPFHKFMBBE(int value) {
-        
+
         unk2700HIPFHKFMBBE_ = value;
         onChanged();
         return this;
@@ -857,7 +857,7 @@ public final class SceneFishInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700HIPFHKFMBBE() {
-        
+
         unk2700HIPFHKFMBBE_ = 0;
         onChanged();
         return this;
@@ -917,7 +917,7 @@ public final class SceneFishInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneFishInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneFishInfo_fieldAccessorTable;
 

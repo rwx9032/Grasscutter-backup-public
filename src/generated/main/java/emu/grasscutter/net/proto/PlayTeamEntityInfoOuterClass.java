@@ -635,7 +635,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -666,7 +666,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPlayerUid(int value) {
-        
+
         playerUid_ = value;
         onChanged();
         return this;
@@ -676,7 +676,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPlayerUid() {
-        
+
         playerUid_ = 0;
         onChanged();
         return this;
@@ -697,7 +697,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAuthorityPeerId(int value) {
-        
+
         authorityPeerId_ = value;
         onChanged();
         return this;
@@ -707,7 +707,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthorityPeerId() {
-        
+
         authorityPeerId_ = 0;
         onChanged();
         return this;
@@ -728,7 +728,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetConfigId(int value) {
-        
+
         gadgetConfigId_ = value;
         onChanged();
         return this;
@@ -738,7 +738,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetConfigId() {
-        
+
         gadgetConfigId_ = 0;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        */
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getAbilityInfoBuilder() {
-        
+
         onChanged();
         return getAbilityInfoFieldBuilder().getBuilder();
       }
@@ -850,7 +850,7 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
+          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>
           getAbilityInfoFieldBuilder() {
         if (abilityInfoBuilder_ == null) {
           abilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -917,7 +917,7 @@ public final class PlayTeamEntityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayTeamEntityInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayTeamEntityInfo_fieldAccessorTable;
 

@@ -255,7 +255,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
           java.lang.Integer, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.String>newDefaultInstance(
-                  emu.grasscutter.net.proto.SceneAreaWeatherNotifyOuterClass.internal_static_SceneAreaWeatherNotify_WeatherValueMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.SceneAreaWeatherNotifyOuterClass.internal_static_SceneAreaWeatherNotify_WeatherValueMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -282,7 +282,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     @java.lang.Override
     public boolean containsWeatherValueMap(
         int key) {
-      
+
       return internalGetWeatherValueMap().getMap().containsKey(key);
     }
     /**
@@ -309,7 +309,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     public java.lang.String getWeatherValueMapOrDefault(
         int key,
         java.lang.String defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.String> map =
           internalGetWeatherValueMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -321,7 +321,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
 
     public java.lang.String getWeatherValueMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.String> map =
           internalGetWeatherValueMap().getMap();
       if (!map.containsKey(key)) {
@@ -757,7 +757,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWeatherAreaId(int value) {
-        
+
         weatherAreaId_ = value;
         onChanged();
         return this;
@@ -767,7 +767,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWeatherAreaId() {
-        
+
         weatherAreaId_ = 0;
         onChanged();
         return this;
@@ -788,7 +788,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWeatherGadgetId(int value) {
-        
+
         weatherGadgetId_ = value;
         onChanged();
         return this;
@@ -798,7 +798,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWeatherGadgetId() {
-        
+
         weatherGadgetId_ = 0;
         onChanged();
         return this;
@@ -819,7 +819,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setClimateType(int value) {
-        
+
         climateType_ = value;
         onChanged();
         return this;
@@ -829,7 +829,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearClimateType() {
-        
+
         climateType_ = 0;
         onChanged();
         return this;
@@ -850,7 +850,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTransDuration(float value) {
-        
+
         transDuration_ = value;
         onChanged();
         return this;
@@ -860,7 +860,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTransDuration() {
-        
+
         transDuration_ = 0F;
         onChanged();
         return this;
@@ -899,7 +899,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       @java.lang.Override
       public boolean containsWeatherValueMap(
           int key) {
-        
+
         return internalGetWeatherValueMap().getMap().containsKey(key);
       }
       /**
@@ -926,7 +926,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       public java.lang.String getWeatherValueMapOrDefault(
           int key,
           java.lang.String defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.String> map =
             internalGetWeatherValueMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -938,7 +938,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
 
       public java.lang.String getWeatherValueMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.String> map =
             internalGetWeatherValueMap().getMap();
         if (!map.containsKey(key)) {
@@ -958,7 +958,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
 
       public Builder removeWeatherValueMap(
           int key) {
-        
+
         internalGetMutableWeatherValueMap().getMutableMap()
             .remove(key);
         return this;
@@ -977,7 +977,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       public Builder putWeatherValueMap(
           int key,
           java.lang.String value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableWeatherValueMap().getMutableMap()
             .put(key, value);
@@ -1048,12 +1048,12 @@ public final class SceneAreaWeatherNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneAreaWeatherNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneAreaWeatherNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneAreaWeatherNotify_WeatherValueMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneAreaWeatherNotify_WeatherValueMapEntry_fieldAccessorTable;
 

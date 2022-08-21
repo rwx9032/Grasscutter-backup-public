@@ -21,7 +21,7 @@ public final class FurnitureMakeSlotOuterClass {
     /**
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData> 
+    java.util.List<emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData>
         getFurnitureMakeDataListList();
     /**
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 14;</code>
@@ -34,7 +34,7 @@ public final class FurnitureMakeSlotOuterClass {
     /**
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeDataOrBuilder>
         getFurnitureMakeDataListOrBuilderList();
     /**
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 14;</code>
@@ -146,7 +146,7 @@ public final class FurnitureMakeSlotOuterClass {
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeDataOrBuilder>
         getFurnitureMakeDataListOrBuilderList() {
       return furnitureMakeDataList_;
     }
@@ -477,7 +477,7 @@ public final class FurnitureMakeSlotOuterClass {
               furnitureMakeDataListBuilder_ = null;
               furnitureMakeDataList_ = other.furnitureMakeDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              furnitureMakeDataListBuilder_ = 
+              furnitureMakeDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFurnitureMakeDataListFieldBuilder() : null;
             } else {
@@ -710,7 +710,7 @@ public final class FurnitureMakeSlotOuterClass {
       /**
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeDataOrBuilder>
            getFurnitureMakeDataListOrBuilderList() {
         if (furnitureMakeDataListBuilder_ != null) {
           return furnitureMakeDataListBuilder_.getMessageOrBuilderList();
@@ -736,12 +736,12 @@ public final class FurnitureMakeSlotOuterClass {
       /**
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData.Builder>
            getFurnitureMakeDataListBuilderList() {
         return getFurnitureMakeDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData, emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData.Builder, emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeDataOrBuilder> 
+          emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData, emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData.Builder, emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeDataOrBuilder>
           getFurnitureMakeDataListFieldBuilder() {
         if (furnitureMakeDataListBuilder_ == null) {
           furnitureMakeDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -809,7 +809,7 @@ public final class FurnitureMakeSlotOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FurnitureMakeSlot_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FurnitureMakeSlot_fieldAccessorTable;
 

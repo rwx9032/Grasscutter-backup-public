@@ -170,7 +170,7 @@ public final class CustomCommonNodeInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         slotIdentifier_ = s;
@@ -186,7 +186,7 @@ public final class CustomCommonNodeInfoOuterClass {
         getSlotIdentifierBytes() {
       java.lang.Object ref = slotIdentifier_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         slotIdentifier_ = b;
@@ -547,7 +547,7 @@ public final class CustomCommonNodeInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParentIndex(int value) {
-        
+
         parentIndex_ = value;
         onChanged();
         return this;
@@ -557,7 +557,7 @@ public final class CustomCommonNodeInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParentIndex() {
-        
+
         parentIndex_ = 0;
         onChanged();
         return this;
@@ -578,7 +578,7 @@ public final class CustomCommonNodeInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setConfigId(int value) {
-        
+
         configId_ = value;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class CustomCommonNodeInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
-        
+
         configId_ = 0;
         onChanged();
         return this;
@@ -619,7 +619,7 @@ public final class CustomCommonNodeInfoOuterClass {
           getSlotIdentifierBytes() {
         java.lang.Object ref = slotIdentifier_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           slotIdentifier_ = b;
@@ -638,7 +638,7 @@ public final class CustomCommonNodeInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         slotIdentifier_ = value;
         onChanged();
         return this;
@@ -648,7 +648,7 @@ public final class CustomCommonNodeInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSlotIdentifier() {
-        
+
         slotIdentifier_ = getDefaultInstance().getSlotIdentifier();
         onChanged();
         return this;
@@ -664,7 +664,7 @@ public final class CustomCommonNodeInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         slotIdentifier_ = value;
         onChanged();
         return this;
@@ -724,7 +724,7 @@ public final class CustomCommonNodeInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CustomCommonNodeInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CustomCommonNodeInfo_fieldAccessorTable;
 

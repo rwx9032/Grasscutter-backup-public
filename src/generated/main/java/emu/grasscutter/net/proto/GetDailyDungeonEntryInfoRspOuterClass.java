@@ -21,7 +21,7 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
     /**
      * <code>repeated .DailyDungeonEntryInfo daily_dungeon_info_list = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo> 
+    java.util.List<emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo>
         getDailyDungeonInfoListList();
     /**
      * <code>repeated .DailyDungeonEntryInfo daily_dungeon_info_list = 2;</code>
@@ -34,7 +34,7 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
     /**
      * <code>repeated .DailyDungeonEntryInfo daily_dungeon_info_list = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfoOrBuilder>
         getDailyDungeonInfoListOrBuilderList();
     /**
      * <code>repeated .DailyDungeonEntryInfo daily_dungeon_info_list = 2;</code>
@@ -163,7 +163,7 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
      * <code>repeated .DailyDungeonEntryInfo daily_dungeon_info_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfoOrBuilder>
         getDailyDungeonInfoListOrBuilderList() {
       return dailyDungeonInfoList_;
     }
@@ -525,7 +525,7 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
               dailyDungeonInfoListBuilder_ = null;
               dailyDungeonInfoList_ = other.dailyDungeonInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              dailyDungeonInfoListBuilder_ = 
+              dailyDungeonInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDailyDungeonInfoListFieldBuilder() : null;
             } else {
@@ -761,7 +761,7 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
       /**
        * <code>repeated .DailyDungeonEntryInfo daily_dungeon_info_list = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfoOrBuilder>
            getDailyDungeonInfoListOrBuilderList() {
         if (dailyDungeonInfoListBuilder_ != null) {
           return dailyDungeonInfoListBuilder_.getMessageOrBuilderList();
@@ -787,12 +787,12 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
       /**
        * <code>repeated .DailyDungeonEntryInfo daily_dungeon_info_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo.Builder>
            getDailyDungeonInfoListBuilderList() {
         return getDailyDungeonInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo, emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo.Builder, emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfoOrBuilder> 
+          emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo, emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfo.Builder, emu.grasscutter.net.proto.DailyDungeonEntryInfoOuterClass.DailyDungeonEntryInfoOrBuilder>
           getDailyDungeonInfoListFieldBuilder() {
         if (dailyDungeonInfoListBuilder_ == null) {
           dailyDungeonInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -891,7 +891,7 @@ public final class GetDailyDungeonEntryInfoRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetDailyDungeonEntryInfoRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetDailyDungeonEntryInfoRsp_fieldAccessorTable;
 

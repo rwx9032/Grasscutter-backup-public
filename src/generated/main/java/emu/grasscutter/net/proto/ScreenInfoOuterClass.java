@@ -473,7 +473,7 @@ public final class ScreenInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLiveId(int value) {
-        
+
         liveId_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class ScreenInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLiveId() {
-        
+
         liveId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class ScreenInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setProjectorEntityId(int value) {
-        
+
         projectorEntityId_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class ScreenInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearProjectorEntityId() {
-        
+
         projectorEntityId_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class ScreenInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ScreenInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ScreenInfo_fieldAccessorTable;
 

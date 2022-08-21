@@ -44,7 +44,7 @@ public final class QueryPathRspOuterClass {
     /**
      * <code>repeated .Vector corners = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector> 
+    java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector>
         getCornersList();
     /**
      * <code>repeated .Vector corners = 6;</code>
@@ -57,7 +57,7 @@ public final class QueryPathRspOuterClass {
     /**
      * <code>repeated .Vector corners = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
         getCornersOrBuilderList();
     /**
      * <code>repeated .Vector corners = 6;</code>
@@ -350,7 +350,7 @@ public final class QueryPathRspOuterClass {
      * <code>repeated .Vector corners = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
         getCornersOrBuilderList() {
       return corners_;
     }
@@ -737,7 +737,7 @@ public final class QueryPathRspOuterClass {
               cornersBuilder_ = null;
               corners_ = other.corners_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              cornersBuilder_ = 
+              cornersBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCornersFieldBuilder() : null;
             } else {
@@ -790,7 +790,7 @@ public final class QueryPathRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -800,7 +800,7 @@ public final class QueryPathRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -821,7 +821,7 @@ public final class QueryPathRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQueryId(int value) {
-        
+
         queryId_ = value;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class QueryPathRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQueryId() {
-        
+
         queryId_ = 0;
         onChanged();
         return this;
@@ -851,7 +851,7 @@ public final class QueryPathRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQueryStatusValue(int value) {
-        
+
         queryStatus_ = value;
         onChanged();
         return this;
@@ -875,7 +875,7 @@ public final class QueryPathRspOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         queryStatus_ = value.getNumber();
         onChanged();
         return this;
@@ -885,7 +885,7 @@ public final class QueryPathRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQueryStatus() {
-        
+
         queryStatus_ = 0;
         onChanged();
         return this;
@@ -1086,7 +1086,7 @@ public final class QueryPathRspOuterClass {
       /**
        * <code>repeated .Vector corners = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
            getCornersOrBuilderList() {
         if (cornersBuilder_ != null) {
           return cornersBuilder_.getMessageOrBuilderList();
@@ -1112,12 +1112,12 @@ public final class QueryPathRspOuterClass {
       /**
        * <code>repeated .Vector corners = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder>
            getCornersBuilderList() {
         return getCornersFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getCornersFieldBuilder() {
         if (cornersBuilder_ == null) {
           cornersBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1185,7 +1185,7 @@ public final class QueryPathRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QueryPathRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QueryPathRsp_fieldAccessorTable;
 

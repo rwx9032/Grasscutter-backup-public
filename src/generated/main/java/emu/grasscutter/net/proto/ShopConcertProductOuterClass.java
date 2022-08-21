@@ -200,7 +200,7 @@ public final class ShopConcertProductOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         productId_ = s;
@@ -216,7 +216,7 @@ public final class ShopConcertProductOuterClass {
         getProductIdBytes() {
       java.lang.Object ref = productId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         productId_ = b;
@@ -238,7 +238,7 @@ public final class ShopConcertProductOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         priceTier_ = s;
@@ -254,7 +254,7 @@ public final class ShopConcertProductOuterClass {
         getPriceTierBytes() {
       java.lang.Object ref = priceTier_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         priceTier_ = b;
@@ -748,7 +748,7 @@ public final class ShopConcertProductOuterClass {
           getProductIdBytes() {
         java.lang.Object ref = productId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           productId_ = b;
@@ -767,7 +767,7 @@ public final class ShopConcertProductOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         productId_ = value;
         onChanged();
         return this;
@@ -777,7 +777,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearProductId() {
-        
+
         productId_ = getDefaultInstance().getProductId();
         onChanged();
         return this;
@@ -793,7 +793,7 @@ public final class ShopConcertProductOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         productId_ = value;
         onChanged();
         return this;
@@ -824,7 +824,7 @@ public final class ShopConcertProductOuterClass {
           getPriceTierBytes() {
         java.lang.Object ref = priceTier_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           priceTier_ = b;
@@ -843,7 +843,7 @@ public final class ShopConcertProductOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         priceTier_ = value;
         onChanged();
         return this;
@@ -853,7 +853,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPriceTier() {
-        
+
         priceTier_ = getDefaultInstance().getPriceTier();
         onChanged();
         return this;
@@ -869,7 +869,7 @@ public final class ShopConcertProductOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         priceTier_ = value;
         onChanged();
         return this;
@@ -890,7 +890,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setObtainCount(int value) {
-        
+
         obtainCount_ = value;
         onChanged();
         return this;
@@ -900,7 +900,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearObtainCount() {
-        
+
         obtainCount_ = 0;
         onChanged();
         return this;
@@ -921,7 +921,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setObtainLimit(int value) {
-        
+
         obtainLimit_ = value;
         onChanged();
         return this;
@@ -931,7 +931,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearObtainLimit() {
-        
+
         obtainLimit_ = 0;
         onChanged();
         return this;
@@ -952,7 +952,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
@@ -962,7 +962,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -983,7 +983,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -993,7 +993,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -1014,7 +1014,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBuyTimes(int value) {
-        
+
         buyTimes_ = value;
         onChanged();
         return this;
@@ -1024,7 +1024,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBuyTimes() {
-        
+
         buyTimes_ = 0;
         onChanged();
         return this;
@@ -1084,7 +1084,7 @@ public final class ShopConcertProductOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShopConcertProduct_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShopConcertProduct_fieldAccessorTable;
 

@@ -592,7 +592,7 @@ public final class PlayerWorldSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -602,7 +602,7 @@ public final class PlayerWorldSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -702,7 +702,7 @@ public final class PlayerWorldSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsLocked(boolean value) {
-        
+
         isLocked_ = value;
         onChanged();
         return this;
@@ -712,7 +712,7 @@ public final class PlayerWorldSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsLocked() {
-        
+
         isLocked_ = false;
         onChanged();
         return this;
@@ -772,7 +772,7 @@ public final class PlayerWorldSceneInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerWorldSceneInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerWorldSceneInfo_fieldAccessorTable;
 

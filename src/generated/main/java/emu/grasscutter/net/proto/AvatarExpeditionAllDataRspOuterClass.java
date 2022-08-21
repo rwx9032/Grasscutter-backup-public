@@ -281,7 +281,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
           java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarExpeditionAllDataRspOuterClass.internal_static_AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarExpeditionAllDataRspOuterClass.internal_static_AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT64,
                   0L,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -308,7 +308,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     @java.lang.Override
     public boolean containsExpeditionInfoMap(
         long key) {
-      
+
       return internalGetExpeditionInfoMap().getMap().containsKey(key);
     }
     /**
@@ -335,7 +335,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     public emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo getExpeditionInfoMapOrDefault(
         long key,
         emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo defaultValue) {
-      
+
       java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> map =
           internalGetExpeditionInfoMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -347,7 +347,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
 
     public emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo getExpeditionInfoMapOrThrow(
         long key) {
-      
+
       java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> map =
           internalGetExpeditionInfoMap().getMap();
       if (!map.containsKey(key)) {
@@ -871,7 +871,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -881,7 +881,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -902,7 +902,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExpeditionCountLimit(int value) {
-        
+
         expeditionCountLimit_ = value;
         onChanged();
         return this;
@@ -912,7 +912,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExpeditionCountLimit() {
-        
+
         expeditionCountLimit_ = 0;
         onChanged();
         return this;
@@ -951,7 +951,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       @java.lang.Override
       public boolean containsExpeditionInfoMap(
           long key) {
-        
+
         return internalGetExpeditionInfoMap().getMap().containsKey(key);
       }
       /**
@@ -978,7 +978,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       public emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo getExpeditionInfoMapOrDefault(
           long key,
           emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo defaultValue) {
-        
+
         java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> map =
             internalGetExpeditionInfoMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -990,7 +990,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
 
       public emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo getExpeditionInfoMapOrThrow(
           long key) {
-        
+
         java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo> map =
             internalGetExpeditionInfoMap().getMap();
         if (!map.containsKey(key)) {
@@ -1010,7 +1010,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
 
       public Builder removeExpeditionInfoMap(
           long key) {
-        
+
         internalGetMutableExpeditionInfoMap().getMutableMap()
             .remove(key);
         return this;
@@ -1029,7 +1029,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       public Builder putExpeditionInfoMap(
           long key,
           emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableExpeditionInfoMap().getMutableMap()
             .put(key, value);
@@ -1100,12 +1100,12 @@ public final class AvatarExpeditionAllDataRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarExpeditionAllDataRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarExpeditionAllDataRsp_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_fieldAccessorTable;
 

@@ -1311,7 +1311,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicBasicId(int value) {
-        
+
         musicBasicId_ = value;
         onChanged();
         return this;
@@ -1321,7 +1321,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicBasicId() {
-        
+
         musicBasicId_ = 0;
         onChanged();
         return this;
@@ -1342,7 +1342,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScore(int value) {
-        
+
         score_ = value;
         onChanged();
         return this;
@@ -1352,7 +1352,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScore() {
-        
+
         score_ = 0;
         onChanged();
         return this;
@@ -1373,7 +1373,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCombo(int value) {
-        
+
         combo_ = value;
         onChanged();
         return this;
@@ -1383,7 +1383,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCombo() {
-        
+
         combo_ = 0;
         onChanged();
         return this;
@@ -1404,7 +1404,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCorrectHit(int value) {
-        
+
         correctHit_ = value;
         onChanged();
         return this;
@@ -1414,7 +1414,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCorrectHit() {
-        
+
         correctHit_ = 0;
         onChanged();
         return this;
@@ -1435,7 +1435,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicShareId(long value) {
-        
+
         musicShareId_ = value;
         onChanged();
         return this;
@@ -1445,7 +1445,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicShareId() {
-        
+
         musicShareId_ = 0L;
         onChanged();
         return this;
@@ -1474,7 +1474,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setKJNDJLBOJLM(boolean value) {
-        
+
         kJNDJLBOJLM_ = value;
         onChanged();
         return this;
@@ -1488,7 +1488,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearKJNDJLBOJLM() {
-        
+
         kJNDJLBOJLM_ = false;
         onChanged();
         return this;
@@ -1509,7 +1509,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFBELCAFFGIJ(int value) {
-        
+
         fBELCAFFGIJ_ = value;
         onChanged();
         return this;
@@ -1519,7 +1519,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFBELCAFFGIJ() {
-        
+
         fBELCAFFGIJ_ = 0;
         onChanged();
         return this;
@@ -1540,7 +1540,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOOFMAKIDFOL(int value) {
-        
+
         oOFMAKIDFOL_ = value;
         onChanged();
         return this;
@@ -1550,7 +1550,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOOFMAKIDFOL() {
-        
+
         oOFMAKIDFOL_ = 0;
         onChanged();
         return this;
@@ -1579,7 +1579,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHJPDEIMECHB(int value) {
-        
+
         hJPDEIMECHB_ = value;
         onChanged();
         return this;
@@ -1593,7 +1593,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHJPDEIMECHB() {
-        
+
         hJPDEIMECHB_ = 0;
         onChanged();
         return this;
@@ -1693,7 +1693,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxCombo(int value) {
-        
+
         maxCombo_ = value;
         onChanged();
         return this;
@@ -1703,7 +1703,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxCombo() {
-        
+
         maxCombo_ = 0;
         onChanged();
         return this;
@@ -1724,7 +1724,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJJADNMELLAH(int value) {
-        
+
         jJADNMELLAH_ = value;
         onChanged();
         return this;
@@ -1734,7 +1734,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJJADNMELLAH() {
-        
+
         jJADNMELLAH_ = 0;
         onChanged();
         return this;
@@ -1862,7 +1862,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCPIFLFBHNJP(int value) {
-        
+
         cPIFLFBHNJP_ = value;
         onChanged();
         return this;
@@ -1872,7 +1872,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCPIFLFBHNJP() {
-        
+
         cPIFLFBHNJP_ = 0;
         onChanged();
         return this;
@@ -1893,7 +1893,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSuccess(boolean value) {
-        
+
         success_ = value;
         onChanged();
         return this;
@@ -1903,7 +1903,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSuccess() {
-        
+
         success_ = false;
         onChanged();
         return this;
@@ -1924,7 +1924,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGGHBOMGJGFP(int value) {
-        
+
         gGHBOMGJGFP_ = value;
         onChanged();
         return this;
@@ -1934,7 +1934,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGGHBOMGJGFP() {
-        
+
         gGHBOMGJGFP_ = 0;
         onChanged();
         return this;
@@ -1955,7 +1955,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPFHCIHKCJFJ(boolean value) {
-        
+
         pFHCIHKCJFJ_ = value;
         onChanged();
         return this;
@@ -1965,7 +1965,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPFHCIHKCJFJ() {
-        
+
         pFHCIHKCJFJ_ = false;
         onChanged();
         return this;
@@ -1986,7 +1986,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSpeed(float value) {
-        
+
         speed_ = value;
         onChanged();
         return this;
@@ -1996,7 +1996,7 @@ public final class MusicGameSettleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSpeed() {
-        
+
         speed_ = 0F;
         onChanged();
         return this;
@@ -2056,7 +2056,7 @@ public final class MusicGameSettleReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameSettleReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameSettleReq_fieldAccessorTable;
 

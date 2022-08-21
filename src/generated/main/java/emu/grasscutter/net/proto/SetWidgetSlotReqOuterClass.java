@@ -142,7 +142,7 @@ public final class SetWidgetSlotReqOuterClass {
             case 122: {
               int length = input.readRawVarint32();
               int oldLimit = input.pushLimit(length);
-              while(input.getBytesUntilLimit() > 0) {
+              while (input.getBytesUntilLimit() > 0) {
                 int rawValue = input.readEnum();
                 if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                   tagList_ = new java.util.ArrayList<java.lang.Integer>();
@@ -800,7 +800,7 @@ public final class SetWidgetSlotReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
@@ -810,7 +810,7 @@ public final class SetWidgetSlotReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -830,7 +830,7 @@ public final class SetWidgetSlotReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOpValue(int value) {
-        
+
         op_ = value;
         onChanged();
         return this;
@@ -854,7 +854,7 @@ public final class SetWidgetSlotReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         op_ = value.getNumber();
         onChanged();
         return this;
@@ -864,7 +864,7 @@ public final class SetWidgetSlotReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOp() {
-        
+
         op_ = 0;
         onChanged();
         return this;
@@ -924,7 +924,7 @@ public final class SetWidgetSlotReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetWidgetSlotReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetWidgetSlotReq_fieldAccessorTable;
 

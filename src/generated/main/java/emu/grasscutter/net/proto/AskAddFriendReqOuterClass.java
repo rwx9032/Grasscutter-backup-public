@@ -448,7 +448,7 @@ public final class AskAddFriendReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
@@ -458,7 +458,7 @@ public final class AskAddFriendReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class AskAddFriendReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AskAddFriendReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AskAddFriendReq_fieldAccessorTable;
 

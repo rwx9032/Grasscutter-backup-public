@@ -165,7 +165,7 @@ public final class ChangeTeamNameRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         teamName_ = s;
@@ -181,7 +181,7 @@ public final class ChangeTeamNameRspOuterClass {
         getTeamNameBytes() {
       java.lang.Object ref = teamName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         teamName_ = b;
@@ -559,7 +559,7 @@ public final class ChangeTeamNameRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -569,7 +569,7 @@ public final class ChangeTeamNameRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -600,7 +600,7 @@ public final class ChangeTeamNameRspOuterClass {
           getTeamNameBytes() {
         java.lang.Object ref = teamName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           teamName_ = b;
@@ -619,7 +619,7 @@ public final class ChangeTeamNameRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         teamName_ = value;
         onChanged();
         return this;
@@ -629,7 +629,7 @@ public final class ChangeTeamNameRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTeamName() {
-        
+
         teamName_ = getDefaultInstance().getTeamName();
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class ChangeTeamNameRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         teamName_ = value;
         onChanged();
         return this;
@@ -666,7 +666,7 @@ public final class ChangeTeamNameRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTeamId(int value) {
-        
+
         teamId_ = value;
         onChanged();
         return this;
@@ -676,7 +676,7 @@ public final class ChangeTeamNameRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTeamId() {
-        
+
         teamId_ = 0;
         onChanged();
         return this;
@@ -736,7 +736,7 @@ public final class ChangeTeamNameRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChangeTeamNameRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChangeTeamNameRsp_fieldAccessorTable;
 

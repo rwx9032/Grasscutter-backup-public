@@ -695,7 +695,7 @@ public final class WorldPlayerDieNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDieTypeValue(int value) {
-        
+
         dieType_ = value;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class WorldPlayerDieNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         dieType_ = value.getNumber();
         onChanged();
         return this;
@@ -729,7 +729,7 @@ public final class WorldPlayerDieNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDieType() {
-        
+
         dieType_ = 0;
         onChanged();
         return this;
@@ -750,7 +750,7 @@ public final class WorldPlayerDieNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMurdererEntityId(int value) {
-        
+
         murdererEntityId_ = value;
         onChanged();
         return this;
@@ -760,7 +760,7 @@ public final class WorldPlayerDieNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMurdererEntityId() {
-        
+
         murdererEntityId_ = 0;
         onChanged();
         return this;
@@ -902,7 +902,7 @@ public final class WorldPlayerDieNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldPlayerDieNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldPlayerDieNotify_fieldAccessorTable;
 

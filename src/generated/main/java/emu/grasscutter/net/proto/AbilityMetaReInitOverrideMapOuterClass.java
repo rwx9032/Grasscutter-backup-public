@@ -21,7 +21,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     /**
      * <code>repeated .AbilityScalarValueEntry override_map = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry> 
+    java.util.List<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry>
         getOverrideMapList();
     /**
      * <code>repeated .AbilityScalarValueEntry override_map = 7;</code>
@@ -34,7 +34,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     /**
      * <code>repeated .AbilityScalarValueEntry override_map = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntryOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntryOrBuilder>
         getOverrideMapOrBuilderList();
     /**
      * <code>repeated .AbilityScalarValueEntry override_map = 7;</code>
@@ -146,7 +146,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
      * <code>repeated .AbilityScalarValueEntry override_map = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntryOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntryOrBuilder>
         getOverrideMapOrBuilderList() {
       return overrideMap_;
     }
@@ -477,7 +477,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
               overrideMapBuilder_ = null;
               overrideMap_ = other.overrideMap_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              overrideMapBuilder_ = 
+              overrideMapBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getOverrideMapFieldBuilder() : null;
             } else {
@@ -710,7 +710,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       /**
        * <code>repeated .AbilityScalarValueEntry override_map = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntryOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntryOrBuilder>
            getOverrideMapOrBuilderList() {
         if (overrideMapBuilder_ != null) {
           return overrideMapBuilder_.getMessageOrBuilderList();
@@ -736,12 +736,12 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       /**
        * <code>repeated .AbilityScalarValueEntry override_map = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry.Builder>
            getOverrideMapBuilderList() {
         return getOverrideMapFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry, emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry.Builder, emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntryOrBuilder> 
+          emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry, emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry.Builder, emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntryOrBuilder>
           getOverrideMapFieldBuilder() {
         if (overrideMapBuilder_ == null) {
           overrideMapBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -809,7 +809,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityMetaReInitOverrideMap_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityMetaReInitOverrideMap_fieldAccessorTable;
 

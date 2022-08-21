@@ -21,7 +21,7 @@ public final class MarkMapRspOuterClass {
     /**
      * <code>repeated .MapMarkPoint mark_list = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint> 
+    java.util.List<emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint>
         getMarkListList();
     /**
      * <code>repeated .MapMarkPoint mark_list = 8;</code>
@@ -34,7 +34,7 @@ public final class MarkMapRspOuterClass {
     /**
      * <code>repeated .MapMarkPoint mark_list = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder>
         getMarkListOrBuilderList();
     /**
      * <code>repeated .MapMarkPoint mark_list = 8;</code>
@@ -163,7 +163,7 @@ public final class MarkMapRspOuterClass {
      * <code>repeated .MapMarkPoint mark_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder>
         getMarkListOrBuilderList() {
       return markList_;
     }
@@ -525,7 +525,7 @@ public final class MarkMapRspOuterClass {
               markListBuilder_ = null;
               markList_ = other.markList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              markListBuilder_ = 
+              markListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMarkListFieldBuilder() : null;
             } else {
@@ -761,7 +761,7 @@ public final class MarkMapRspOuterClass {
       /**
        * <code>repeated .MapMarkPoint mark_list = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder>
            getMarkListOrBuilderList() {
         if (markListBuilder_ != null) {
           return markListBuilder_.getMessageOrBuilderList();
@@ -787,12 +787,12 @@ public final class MarkMapRspOuterClass {
       /**
        * <code>repeated .MapMarkPoint mark_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder>
            getMarkListBuilderList() {
         return getMarkListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder> 
+          emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder>
           getMarkListFieldBuilder() {
         if (markListBuilder_ == null) {
           markListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class MarkMapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -831,7 +831,7 @@ public final class MarkMapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -891,7 +891,7 @@ public final class MarkMapRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MarkMapRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MarkMapRsp_fieldAccessorTable;
 

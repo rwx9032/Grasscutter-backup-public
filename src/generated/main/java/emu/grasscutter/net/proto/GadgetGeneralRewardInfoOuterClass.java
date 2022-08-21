@@ -789,7 +789,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setResin(int value) {
-        
+
         resin_ = value;
         onChanged();
         return this;
@@ -799,7 +799,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearResin() {
-        
+
         resin_ = 0;
         onChanged();
         return this;
@@ -820,7 +820,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDeadTime(int value) {
-        
+
         deadTime_ = value;
         onChanged();
         return this;
@@ -830,7 +830,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDeadTime() {
-        
+
         deadTime_ = 0;
         onChanged();
         return this;
@@ -1081,7 +1081,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
        * <code>.ItemParam item_param = 5;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getItemParamBuilder() {
-        
+
         onChanged();
         return getItemParamFieldBuilder().getBuilder();
       }
@@ -1100,7 +1100,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
        * <code>.ItemParam item_param = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getItemParamFieldBuilder() {
         if (itemParamBuilder_ == null) {
           itemParamBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1167,7 +1167,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GadgetGeneralRewardInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GadgetGeneralRewardInfo_fieldAccessorTable;
 

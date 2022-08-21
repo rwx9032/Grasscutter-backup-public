@@ -75,7 +75,7 @@ public final class GachaInfoOuterClass {
     /**
      * <code>repeated .GachaUpInfo gacha_up_info_list = 1233;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo> 
+    java.util.List<emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo>
         getGachaUpInfoListList();
     /**
      * <code>repeated .GachaUpInfo gacha_up_info_list = 1233;</code>
@@ -88,7 +88,7 @@ public final class GachaInfoOuterClass {
     /**
      * <code>repeated .GachaUpInfo gacha_up_info_list = 1233;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfoOrBuilder>
         getGachaUpInfoListOrBuilderList();
     /**
      * <code>repeated .GachaUpInfo gacha_up_info_list = 1233;</code>
@@ -527,7 +527,7 @@ public final class GachaInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gachaPreviewPrefabPath_ = s;
@@ -543,7 +543,7 @@ public final class GachaInfoOuterClass {
         getGachaPreviewPrefabPathBytes() {
       java.lang.Object ref = gachaPreviewPrefabPath_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gachaPreviewPrefabPath_ = b;
@@ -587,7 +587,7 @@ public final class GachaInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gachaProbUrl_ = s;
@@ -603,7 +603,7 @@ public final class GachaInfoOuterClass {
         getGachaProbUrlBytes() {
       java.lang.Object ref = gachaProbUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gachaProbUrl_ = b;
@@ -625,7 +625,7 @@ public final class GachaInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gachaRecordUrlOversea_ = s;
@@ -641,7 +641,7 @@ public final class GachaInfoOuterClass {
         getGachaRecordUrlOverseaBytes() {
       java.lang.Object ref = gachaRecordUrlOversea_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gachaRecordUrlOversea_ = b;
@@ -675,7 +675,7 @@ public final class GachaInfoOuterClass {
      * <code>repeated .GachaUpInfo gacha_up_info_list = 1233;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfoOrBuilder>
         getGachaUpInfoListOrBuilderList() {
       return gachaUpInfoList_;
     }
@@ -786,7 +786,7 @@ public final class GachaInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gachaPrefabPath_ = s;
@@ -802,7 +802,7 @@ public final class GachaInfoOuterClass {
         getGachaPrefabPathBytes() {
       java.lang.Object ref = gachaPrefabPath_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gachaPrefabPath_ = b;
@@ -824,7 +824,7 @@ public final class GachaInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         titleTextmap_ = s;
@@ -840,7 +840,7 @@ public final class GachaInfoOuterClass {
         getTitleTextmapBytes() {
       java.lang.Object ref = titleTextmap_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         titleTextmap_ = b;
@@ -917,7 +917,7 @@ public final class GachaInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gachaRecordUrl_ = s;
@@ -933,7 +933,7 @@ public final class GachaInfoOuterClass {
         getGachaRecordUrlBytes() {
       java.lang.Object ref = gachaRecordUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gachaRecordUrl_ = b;
@@ -977,7 +977,7 @@ public final class GachaInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gachaProbUrlOversea_ = s;
@@ -993,7 +993,7 @@ public final class GachaInfoOuterClass {
         getGachaProbUrlOverseaBytes() {
       java.lang.Object ref = gachaProbUrlOversea_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gachaProbUrlOversea_ = b;
@@ -1738,7 +1738,7 @@ public final class GachaInfoOuterClass {
               gachaUpInfoListBuilder_ = null;
               gachaUpInfoList_ = other.gachaUpInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              gachaUpInfoListBuilder_ = 
+              gachaUpInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getGachaUpInfoListFieldBuilder() : null;
             } else {
@@ -1873,7 +1873,7 @@ public final class GachaInfoOuterClass {
           getGachaPreviewPrefabPathBytes() {
         java.lang.Object ref = gachaPreviewPrefabPath_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gachaPreviewPrefabPath_ = b;
@@ -1892,7 +1892,7 @@ public final class GachaInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gachaPreviewPrefabPath_ = value;
         onChanged();
         return this;
@@ -1902,7 +1902,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaPreviewPrefabPath() {
-        
+
         gachaPreviewPrefabPath_ = getDefaultInstance().getGachaPreviewPrefabPath();
         onChanged();
         return this;
@@ -1918,7 +1918,7 @@ public final class GachaInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gachaPreviewPrefabPath_ = value;
         onChanged();
         return this;
@@ -1939,7 +1939,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCostItemId(int value) {
-        
+
         costItemId_ = value;
         onChanged();
         return this;
@@ -1949,7 +1949,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCostItemId() {
-        
+
         costItemId_ = 0;
         onChanged();
         return this;
@@ -1970,7 +1970,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsNewWish(boolean value) {
-        
+
         isNewWish_ = value;
         onChanged();
         return this;
@@ -1980,7 +1980,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsNewWish() {
-        
+
         isNewWish_ = false;
         onChanged();
         return this;
@@ -2011,7 +2011,7 @@ public final class GachaInfoOuterClass {
           getGachaProbUrlBytes() {
         java.lang.Object ref = gachaProbUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gachaProbUrl_ = b;
@@ -2030,7 +2030,7 @@ public final class GachaInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gachaProbUrl_ = value;
         onChanged();
         return this;
@@ -2040,7 +2040,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaProbUrl() {
-        
+
         gachaProbUrl_ = getDefaultInstance().getGachaProbUrl();
         onChanged();
         return this;
@@ -2056,7 +2056,7 @@ public final class GachaInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gachaProbUrl_ = value;
         onChanged();
         return this;
@@ -2087,7 +2087,7 @@ public final class GachaInfoOuterClass {
           getGachaRecordUrlOverseaBytes() {
         java.lang.Object ref = gachaRecordUrlOversea_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gachaRecordUrlOversea_ = b;
@@ -2106,7 +2106,7 @@ public final class GachaInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gachaRecordUrlOversea_ = value;
         onChanged();
         return this;
@@ -2116,7 +2116,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaRecordUrlOversea() {
-        
+
         gachaRecordUrlOversea_ = getDefaultInstance().getGachaRecordUrlOversea();
         onChanged();
         return this;
@@ -2132,7 +2132,7 @@ public final class GachaInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gachaRecordUrlOversea_ = value;
         onChanged();
         return this;
@@ -2153,7 +2153,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCostItemNum(int value) {
-        
+
         costItemNum_ = value;
         onChanged();
         return this;
@@ -2163,7 +2163,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCostItemNum() {
-        
+
         costItemNum_ = 0;
         onChanged();
         return this;
@@ -2364,7 +2364,7 @@ public final class GachaInfoOuterClass {
       /**
        * <code>repeated .GachaUpInfo gacha_up_info_list = 1233;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfoOrBuilder>
            getGachaUpInfoListOrBuilderList() {
         if (gachaUpInfoListBuilder_ != null) {
           return gachaUpInfoListBuilder_.getMessageOrBuilderList();
@@ -2390,12 +2390,12 @@ public final class GachaInfoOuterClass {
       /**
        * <code>repeated .GachaUpInfo gacha_up_info_list = 1233;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.Builder>
            getGachaUpInfoListBuilderList() {
         return getGachaUpInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo, emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.Builder, emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfoOrBuilder> 
+          emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo, emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.Builder, emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfoOrBuilder>
           getGachaUpInfoListFieldBuilder() {
         if (gachaUpInfoListBuilder_ == null) {
           gachaUpInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2503,7 +2503,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWishProgress(int value) {
-        
+
         wishProgress_ = value;
         onChanged();
         return this;
@@ -2513,7 +2513,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWishProgress() {
-        
+
         wishProgress_ = 0;
         onChanged();
         return this;
@@ -2534,7 +2534,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScheduleId(int value) {
-        
+
         scheduleId_ = value;
         onChanged();
         return this;
@@ -2544,7 +2544,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScheduleId() {
-        
+
         scheduleId_ = 0;
         onChanged();
         return this;
@@ -2565,7 +2565,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaSortId(int value) {
-        
+
         gachaSortId_ = value;
         onChanged();
         return this;
@@ -2575,7 +2575,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaSortId() {
-        
+
         gachaSortId_ = 0;
         onChanged();
         return this;
@@ -2596,7 +2596,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLeftGachaTimes(int value) {
-        
+
         leftGachaTimes_ = value;
         onChanged();
         return this;
@@ -2606,7 +2606,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLeftGachaTimes() {
-        
+
         leftGachaTimes_ = 0;
         onChanged();
         return this;
@@ -2637,7 +2637,7 @@ public final class GachaInfoOuterClass {
           getGachaPrefabPathBytes() {
         java.lang.Object ref = gachaPrefabPath_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gachaPrefabPath_ = b;
@@ -2656,7 +2656,7 @@ public final class GachaInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gachaPrefabPath_ = value;
         onChanged();
         return this;
@@ -2666,7 +2666,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaPrefabPath() {
-        
+
         gachaPrefabPath_ = getDefaultInstance().getGachaPrefabPath();
         onChanged();
         return this;
@@ -2682,7 +2682,7 @@ public final class GachaInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gachaPrefabPath_ = value;
         onChanged();
         return this;
@@ -2713,7 +2713,7 @@ public final class GachaInfoOuterClass {
           getTitleTextmapBytes() {
         java.lang.Object ref = titleTextmap_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           titleTextmap_ = b;
@@ -2732,7 +2732,7 @@ public final class GachaInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         titleTextmap_ = value;
         onChanged();
         return this;
@@ -2742,7 +2742,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTitleTextmap() {
-        
+
         titleTextmap_ = getDefaultInstance().getTitleTextmap();
         onChanged();
         return this;
@@ -2758,7 +2758,7 @@ public final class GachaInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         titleTextmap_ = value;
         onChanged();
         return this;
@@ -2779,7 +2779,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTenCostItemNum(int value) {
-        
+
         tenCostItemNum_ = value;
         onChanged();
         return this;
@@ -2789,7 +2789,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTenCostItemNum() {
-        
+
         tenCostItemNum_ = 0;
         onChanged();
         return this;
@@ -2810,7 +2810,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaType(int value) {
-        
+
         gachaType_ = value;
         onChanged();
         return this;
@@ -2820,7 +2820,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaType() {
-        
+
         gachaType_ = 0;
         onChanged();
         return this;
@@ -2841,7 +2841,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWishMaxProgress(int value) {
-        
+
         wishMaxProgress_ = value;
         onChanged();
         return this;
@@ -2851,7 +2851,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWishMaxProgress() {
-        
+
         wishMaxProgress_ = 0;
         onChanged();
         return this;
@@ -2872,7 +2872,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -2882,7 +2882,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -2903,7 +2903,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTenCostItemId(int value) {
-        
+
         tenCostItemId_ = value;
         onChanged();
         return this;
@@ -2913,7 +2913,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTenCostItemId() {
-        
+
         tenCostItemId_ = 0;
         onChanged();
         return this;
@@ -2944,7 +2944,7 @@ public final class GachaInfoOuterClass {
           getGachaRecordUrlBytes() {
         java.lang.Object ref = gachaRecordUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gachaRecordUrl_ = b;
@@ -2963,7 +2963,7 @@ public final class GachaInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gachaRecordUrl_ = value;
         onChanged();
         return this;
@@ -2973,7 +2973,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaRecordUrl() {
-        
+
         gachaRecordUrl_ = getDefaultInstance().getGachaRecordUrl();
         onChanged();
         return this;
@@ -2989,7 +2989,7 @@ public final class GachaInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gachaRecordUrl_ = value;
         onChanged();
         return this;
@@ -3010,7 +3010,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWishItemId(int value) {
-        
+
         wishItemId_ = value;
         onChanged();
         return this;
@@ -3020,7 +3020,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWishItemId() {
-        
+
         wishItemId_ = 0;
         onChanged();
         return this;
@@ -3041,7 +3041,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
@@ -3051,7 +3051,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -3082,7 +3082,7 @@ public final class GachaInfoOuterClass {
           getGachaProbUrlOverseaBytes() {
         java.lang.Object ref = gachaProbUrlOversea_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gachaProbUrlOversea_ = b;
@@ -3101,7 +3101,7 @@ public final class GachaInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gachaProbUrlOversea_ = value;
         onChanged();
         return this;
@@ -3111,7 +3111,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaProbUrlOversea() {
-        
+
         gachaProbUrlOversea_ = getDefaultInstance().getGachaProbUrlOversea();
         onChanged();
         return this;
@@ -3127,7 +3127,7 @@ public final class GachaInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gachaProbUrlOversea_ = value;
         onChanged();
         return this;
@@ -3148,7 +3148,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaTimesLimit(int value) {
-        
+
         gachaTimesLimit_ = value;
         onChanged();
         return this;
@@ -3158,7 +3158,7 @@ public final class GachaInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaTimesLimit() {
-        
+
         gachaTimesLimit_ = 0;
         onChanged();
         return this;
@@ -3297,7 +3297,7 @@ public final class GachaInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GachaInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GachaInfo_fieldAccessorTable;
 

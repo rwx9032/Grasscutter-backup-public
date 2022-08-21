@@ -21,7 +21,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     /**
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 11;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar> 
+    java.util.List<emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar>
         getSceneTeamAvatarListList();
     /**
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 11;</code>
@@ -34,7 +34,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     /**
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 11;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatarOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatarOrBuilder>
         getSceneTeamAvatarListOrBuilderList();
     /**
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 11;</code>
@@ -163,7 +163,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 11;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatarOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatarOrBuilder>
         getSceneTeamAvatarListOrBuilderList() {
       return sceneTeamAvatarList_;
     }
@@ -526,7 +526,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
               sceneTeamAvatarListBuilder_ = null;
               sceneTeamAvatarList_ = other.sceneTeamAvatarList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              sceneTeamAvatarListBuilder_ = 
+              sceneTeamAvatarListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getSceneTeamAvatarListFieldBuilder() : null;
             } else {
@@ -762,7 +762,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       /**
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 11;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatarOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatarOrBuilder>
            getSceneTeamAvatarListOrBuilderList() {
         if (sceneTeamAvatarListBuilder_ != null) {
           return sceneTeamAvatarListBuilder_.getMessageOrBuilderList();
@@ -788,12 +788,12 @@ public final class SceneTeamUpdateNotifyOuterClass {
       /**
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 11;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar.Builder>
            getSceneTeamAvatarListBuilderList() {
         return getSceneTeamAvatarListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar, emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar.Builder, emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatarOrBuilder> 
+          emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar, emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar.Builder, emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatarOrBuilder>
           getSceneTeamAvatarListFieldBuilder() {
         if (sceneTeamAvatarListBuilder_ == null) {
           sceneTeamAvatarListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -822,7 +822,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsInMp(boolean value) {
-        
+
         isInMp_ = value;
         onChanged();
         return this;
@@ -832,7 +832,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsInMp() {
-        
+
         isInMp_ = false;
         onChanged();
         return this;
@@ -892,7 +892,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneTeamUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneTeamUpdateNotify_fieldAccessorTable;
 

@@ -525,7 +525,7 @@ public final class GadgetStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetEntityId(int value) {
-        
+
         gadgetEntityId_ = value;
         onChanged();
         return this;
@@ -535,7 +535,7 @@ public final class GadgetStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetEntityId() {
-        
+
         gadgetEntityId_ = 0;
         onChanged();
         return this;
@@ -556,7 +556,7 @@ public final class GadgetStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetState(int value) {
-        
+
         gadgetState_ = value;
         onChanged();
         return this;
@@ -566,7 +566,7 @@ public final class GadgetStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetState() {
-        
+
         gadgetState_ = 0;
         onChanged();
         return this;
@@ -587,7 +587,7 @@ public final class GadgetStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsEnableInteract(boolean value) {
-        
+
         isEnableInteract_ = value;
         onChanged();
         return this;
@@ -597,7 +597,7 @@ public final class GadgetStateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsEnableInteract() {
-        
+
         isEnableInteract_ = false;
         onChanged();
         return this;
@@ -657,7 +657,7 @@ public final class GadgetStateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GadgetStateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GadgetStateNotify_fieldAccessorTable;
 

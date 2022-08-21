@@ -545,7 +545,7 @@ public final class EvtBeingHitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
@@ -569,7 +569,7 @@ public final class EvtBeingHitNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
@@ -579,7 +579,7 @@ public final class EvtBeingHitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
@@ -672,7 +672,7 @@ public final class EvtBeingHitNotifyOuterClass {
        * <code>.EvtBeingHitInfo being_hit_info = 3;</code>
        */
       public emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder getBeingHitInfoBuilder() {
-        
+
         onChanged();
         return getBeingHitInfoFieldBuilder().getBuilder();
       }
@@ -691,7 +691,7 @@ public final class EvtBeingHitNotifyOuterClass {
        * <code>.EvtBeingHitInfo being_hit_info = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder> 
+          emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder>
           getBeingHitInfoFieldBuilder() {
         if (beingHitInfoBuilder_ == null) {
           beingHitInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -758,7 +758,7 @@ public final class EvtBeingHitNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtBeingHitNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtBeingHitNotify_fieldAccessorTable;
 

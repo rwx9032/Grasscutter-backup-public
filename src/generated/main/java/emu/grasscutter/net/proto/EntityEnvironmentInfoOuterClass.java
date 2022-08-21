@@ -473,7 +473,7 @@ public final class EntityEnvironmentInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJsonClimateType(int value) {
-        
+
         jsonClimateType_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class EntityEnvironmentInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJsonClimateType() {
-        
+
         jsonClimateType_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class EntityEnvironmentInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setClimateAreaId(int value) {
-        
+
         climateAreaId_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class EntityEnvironmentInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearClimateAreaId() {
-        
+
         climateAreaId_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class EntityEnvironmentInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityEnvironmentInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityEnvironmentInfo_fieldAccessorTable;
 

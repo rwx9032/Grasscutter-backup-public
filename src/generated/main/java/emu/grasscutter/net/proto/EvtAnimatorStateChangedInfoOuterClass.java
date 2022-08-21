@@ -795,7 +795,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFaceAngleCompact(int value) {
-        
+
         faceAngleCompact_ = value;
         onChanged();
         return this;
@@ -805,7 +805,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFaceAngleCompact() {
-        
+
         faceAngleCompact_ = 0;
         onChanged();
         return this;
@@ -826,7 +826,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setToStateHash(int value) {
-        
+
         toStateHash_ = value;
         onChanged();
         return this;
@@ -836,7 +836,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearToStateHash() {
-        
+
         toStateHash_ = 0;
         onChanged();
         return this;
@@ -857,7 +857,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNormalizedTimeCompact(int value) {
-        
+
         normalizedTimeCompact_ = value;
         onChanged();
         return this;
@@ -867,7 +867,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNormalizedTimeCompact() {
-        
+
         normalizedTimeCompact_ = 0;
         onChanged();
         return this;
@@ -888,7 +888,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700HEMGNDKMAFO(int value) {
-        
+
         unk2700HEMGNDKMAFO_ = value;
         onChanged();
         return this;
@@ -898,7 +898,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700HEMGNDKMAFO() {
-        
+
         unk2700HEMGNDKMAFO_ = 0;
         onChanged();
         return this;
@@ -991,7 +991,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * <code>.Vector pos = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -1010,7 +1010,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * <code>.Vector pos = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1038,7 +1038,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFadeDuration(float value) {
-        
+
         fadeDuration_ = value;
         onChanged();
         return this;
@@ -1048,7 +1048,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFadeDuration() {
-        
+
         fadeDuration_ = 0F;
         onChanged();
         return this;
@@ -1069,7 +1069,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700CJCJLGHIBPK(boolean value) {
-        
+
         unk2700CJCJLGHIBPK_ = value;
         onChanged();
         return this;
@@ -1079,7 +1079,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700CJCJLGHIBPK() {
-        
+
         unk2700CJCJLGHIBPK_ = false;
         onChanged();
         return this;
@@ -1100,7 +1100,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -1110,7 +1110,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -1131,7 +1131,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700JECBLPNLJMJ(boolean value) {
-        
+
         unk2700JECBLPNLJMJ_ = value;
         onChanged();
         return this;
@@ -1141,7 +1141,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700JECBLPNLJMJ() {
-        
+
         unk2700JECBLPNLJMJ_ = false;
         onChanged();
         return this;
@@ -1201,7 +1201,7 @@ public final class EvtAnimatorStateChangedInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtAnimatorStateChangedInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtAnimatorStateChangedInfo_fieldAccessorTable;
 

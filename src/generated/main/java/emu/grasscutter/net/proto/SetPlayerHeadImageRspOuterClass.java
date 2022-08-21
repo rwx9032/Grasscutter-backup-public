@@ -641,7 +641,7 @@ public final class SetPlayerHeadImageRspOuterClass {
        * <code>.ProfilePicture profile_picture = 6;</code>
        */
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder getProfilePictureBuilder() {
-        
+
         onChanged();
         return getProfilePictureFieldBuilder().getBuilder();
       }
@@ -660,7 +660,7 @@ public final class SetPlayerHeadImageRspOuterClass {
        * <code>.ProfilePicture profile_picture = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> 
+          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder>
           getProfilePictureFieldBuilder() {
         if (profilePictureBuilder_ == null) {
           profilePictureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -688,7 +688,7 @@ public final class SetPlayerHeadImageRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
@@ -698,7 +698,7 @@ public final class SetPlayerHeadImageRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class SetPlayerHeadImageRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -729,7 +729,7 @@ public final class SetPlayerHeadImageRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -789,7 +789,7 @@ public final class SetPlayerHeadImageRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetPlayerHeadImageRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetPlayerHeadImageRsp_fieldAccessorTable;
 

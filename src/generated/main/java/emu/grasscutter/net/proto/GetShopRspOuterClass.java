@@ -602,7 +602,7 @@ public final class GetShopRspOuterClass {
        * <code>.Shop shop = 11;</code>
        */
       public emu.grasscutter.net.proto.ShopOuterClass.Shop.Builder getShopBuilder() {
-        
+
         onChanged();
         return getShopFieldBuilder().getBuilder();
       }
@@ -621,7 +621,7 @@ public final class GetShopRspOuterClass {
        * <code>.Shop shop = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ShopOuterClass.Shop, emu.grasscutter.net.proto.ShopOuterClass.Shop.Builder, emu.grasscutter.net.proto.ShopOuterClass.ShopOrBuilder> 
+          emu.grasscutter.net.proto.ShopOuterClass.Shop, emu.grasscutter.net.proto.ShopOuterClass.Shop.Builder, emu.grasscutter.net.proto.ShopOuterClass.ShopOrBuilder>
           getShopFieldBuilder() {
         if (shopBuilder_ == null) {
           shopBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class GetShopRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class GetShopRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class GetShopRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetShopRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetShopRsp_fieldAccessorTable;
 

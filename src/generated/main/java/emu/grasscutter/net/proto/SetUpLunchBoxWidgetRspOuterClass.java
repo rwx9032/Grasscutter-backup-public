@@ -602,7 +602,7 @@ public final class SetUpLunchBoxWidgetRspOuterClass {
        * <code>.LunchBoxData lunch_box_data = 3;</code>
        */
       public emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder getLunchBoxDataBuilder() {
-        
+
         onChanged();
         return getLunchBoxDataFieldBuilder().getBuilder();
       }
@@ -621,7 +621,7 @@ public final class SetUpLunchBoxWidgetRspOuterClass {
        * <code>.LunchBoxData lunch_box_data = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder> 
+          emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder>
           getLunchBoxDataFieldBuilder() {
         if (lunchBoxDataBuilder_ == null) {
           lunchBoxDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class SetUpLunchBoxWidgetRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class SetUpLunchBoxWidgetRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class SetUpLunchBoxWidgetRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetUpLunchBoxWidgetRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetUpLunchBoxWidgetRsp_fieldAccessorTable;
 

@@ -719,7 +719,7 @@ public final class HomeFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setVersion(int value) {
-        
+
         version_ = value;
         onChanged();
         return this;
@@ -729,7 +729,7 @@ public final class HomeFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearVersion() {
-        
+
         version_ = 0;
         onChanged();
         return this;
@@ -750,7 +750,7 @@ public final class HomeFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParentFurnitureIndex(int value) {
-        
+
         parentFurnitureIndex_ = value;
         onChanged();
         return this;
@@ -760,7 +760,7 @@ public final class HomeFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParentFurnitureIndex() {
-        
+
         parentFurnitureIndex_ = 0;
         onChanged();
         return this;
@@ -781,7 +781,7 @@ public final class HomeFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFurnitureId(int value) {
-        
+
         furnitureId_ = value;
         onChanged();
         return this;
@@ -791,7 +791,7 @@ public final class HomeFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFurnitureId() {
-        
+
         furnitureId_ = 0;
         onChanged();
         return this;
@@ -812,7 +812,7 @@ public final class HomeFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(int value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -822,7 +822,7 @@ public final class HomeFurnitureDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0;
         onChanged();
         return this;
@@ -915,7 +915,7 @@ public final class HomeFurnitureDataOuterClass {
        * <code>.Vector spawn_rot = 10;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSpawnRotBuilder() {
-        
+
         onChanged();
         return getSpawnRotFieldBuilder().getBuilder();
       }
@@ -934,7 +934,7 @@ public final class HomeFurnitureDataOuterClass {
        * <code>.Vector spawn_rot = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getSpawnRotFieldBuilder() {
         if (spawnRotBuilder_ == null) {
           spawnRotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1034,7 +1034,7 @@ public final class HomeFurnitureDataOuterClass {
        * <code>.Vector spawn_pos = 8;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSpawnPosBuilder() {
-        
+
         onChanged();
         return getSpawnPosFieldBuilder().getBuilder();
       }
@@ -1053,7 +1053,7 @@ public final class HomeFurnitureDataOuterClass {
        * <code>.Vector spawn_pos = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getSpawnPosFieldBuilder() {
         if (spawnPosBuilder_ == null) {
           spawnPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1120,7 +1120,7 @@ public final class HomeFurnitureDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeFurnitureData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeFurnitureData_fieldAccessorTable;
 

@@ -146,7 +146,7 @@ public final class FriendBriefOuterClass {
     /**
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo> 
+    java.util.List<emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo>
         getShowAvatarInfoListList();
     /**
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -159,7 +159,7 @@ public final class FriendBriefOuterClass {
     /**
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder>
         getShowAvatarInfoListOrBuilderList();
     /**
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -457,7 +457,7 @@ public final class FriendBriefOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nickname_ = s;
@@ -473,7 +473,7 @@ public final class FriendBriefOuterClass {
         getNicknameBytes() {
       java.lang.Object ref = nickname_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nickname_ = b;
@@ -528,7 +528,7 @@ public final class FriendBriefOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         signature_ = s;
@@ -544,7 +544,7 @@ public final class FriendBriefOuterClass {
         getSignatureBytes() {
       java.lang.Object ref = signature_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         signature_ = b;
@@ -607,7 +607,7 @@ public final class FriendBriefOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         onlineId_ = s;
@@ -623,7 +623,7 @@ public final class FriendBriefOuterClass {
         getOnlineIdBytes() {
       java.lang.Object ref = onlineId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         onlineId_ = b;
@@ -700,7 +700,7 @@ public final class FriendBriefOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         remarkName_ = s;
@@ -716,7 +716,7 @@ public final class FriendBriefOuterClass {
         getRemarkNameBytes() {
       java.lang.Object ref = remarkName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         remarkName_ = b;
@@ -739,7 +739,7 @@ public final class FriendBriefOuterClass {
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder>
         getShowAvatarInfoListOrBuilderList() {
       return showAvatarInfoList_;
     }
@@ -1512,7 +1512,7 @@ public final class FriendBriefOuterClass {
               showAvatarInfoListBuilder_ = null;
               showAvatarInfoList_ = other.showAvatarInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              showAvatarInfoListBuilder_ = 
+              showAvatarInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getShowAvatarInfoListFieldBuilder() : null;
             } else {
@@ -1580,7 +1580,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -1590,7 +1590,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -1621,7 +1621,7 @@ public final class FriendBriefOuterClass {
           getNicknameBytes() {
         java.lang.Object ref = nickname_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nickname_ = b;
@@ -1640,7 +1640,7 @@ public final class FriendBriefOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         nickname_ = value;
         onChanged();
         return this;
@@ -1650,7 +1650,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNickname() {
-        
+
         nickname_ = getDefaultInstance().getNickname();
         onChanged();
         return this;
@@ -1666,7 +1666,7 @@ public final class FriendBriefOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         nickname_ = value;
         onChanged();
         return this;
@@ -1687,7 +1687,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
@@ -1697,7 +1697,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -1718,7 +1718,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
@@ -1728,7 +1728,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -1749,7 +1749,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWorldLevel(int value) {
-        
+
         worldLevel_ = value;
         onChanged();
         return this;
@@ -1759,7 +1759,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWorldLevel() {
-        
+
         worldLevel_ = 0;
         onChanged();
         return this;
@@ -1790,7 +1790,7 @@ public final class FriendBriefOuterClass {
           getSignatureBytes() {
         java.lang.Object ref = signature_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           signature_ = b;
@@ -1809,7 +1809,7 @@ public final class FriendBriefOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         signature_ = value;
         onChanged();
         return this;
@@ -1819,7 +1819,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSignature() {
-        
+
         signature_ = getDefaultInstance().getSignature();
         onChanged();
         return this;
@@ -1835,7 +1835,7 @@ public final class FriendBriefOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         signature_ = value;
         onChanged();
         return this;
@@ -1855,7 +1855,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOnlineStateValue(int value) {
-        
+
         onlineState_ = value;
         onChanged();
         return this;
@@ -1879,7 +1879,7 @@ public final class FriendBriefOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         onlineState_ = value.getNumber();
         onChanged();
         return this;
@@ -1889,7 +1889,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOnlineState() {
-        
+
         onlineState_ = 0;
         onChanged();
         return this;
@@ -1910,7 +1910,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParam(int value) {
-        
+
         param_ = value;
         onChanged();
         return this;
@@ -1920,7 +1920,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParam() {
-        
+
         param_ = 0;
         onChanged();
         return this;
@@ -1941,7 +1941,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsMpModeAvailable(boolean value) {
-        
+
         isMpModeAvailable_ = value;
         onChanged();
         return this;
@@ -1951,7 +1951,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsMpModeAvailable() {
-        
+
         isMpModeAvailable_ = false;
         onChanged();
         return this;
@@ -1982,7 +1982,7 @@ public final class FriendBriefOuterClass {
           getOnlineIdBytes() {
         java.lang.Object ref = onlineId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           onlineId_ = b;
@@ -2001,7 +2001,7 @@ public final class FriendBriefOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         onlineId_ = value;
         onChanged();
         return this;
@@ -2011,7 +2011,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOnlineId() {
-        
+
         onlineId_ = getDefaultInstance().getOnlineId();
         onChanged();
         return this;
@@ -2027,7 +2027,7 @@ public final class FriendBriefOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         onlineId_ = value;
         onChanged();
         return this;
@@ -2048,7 +2048,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLastActiveTime(int value) {
-        
+
         lastActiveTime_ = value;
         onChanged();
         return this;
@@ -2058,7 +2058,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLastActiveTime() {
-        
+
         lastActiveTime_ = 0;
         onChanged();
         return this;
@@ -2079,7 +2079,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNameCardId(int value) {
-        
+
         nameCardId_ = value;
         onChanged();
         return this;
@@ -2089,7 +2089,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNameCardId() {
-        
+
         nameCardId_ = 0;
         onChanged();
         return this;
@@ -2110,7 +2110,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMpPlayerNum(int value) {
-        
+
         mpPlayerNum_ = value;
         onChanged();
         return this;
@@ -2120,7 +2120,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMpPlayerNum() {
-        
+
         mpPlayerNum_ = 0;
         onChanged();
         return this;
@@ -2141,7 +2141,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsChatNoDisturb(boolean value) {
-        
+
         isChatNoDisturb_ = value;
         onChanged();
         return this;
@@ -2151,7 +2151,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsChatNoDisturb() {
-        
+
         isChatNoDisturb_ = false;
         onChanged();
         return this;
@@ -2172,7 +2172,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChatSequence(int value) {
-        
+
         chatSequence_ = value;
         onChanged();
         return this;
@@ -2182,7 +2182,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChatSequence() {
-        
+
         chatSequence_ = 0;
         onChanged();
         return this;
@@ -2213,7 +2213,7 @@ public final class FriendBriefOuterClass {
           getRemarkNameBytes() {
         java.lang.Object ref = remarkName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           remarkName_ = b;
@@ -2232,7 +2232,7 @@ public final class FriendBriefOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         remarkName_ = value;
         onChanged();
         return this;
@@ -2242,7 +2242,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRemarkName() {
-        
+
         remarkName_ = getDefaultInstance().getRemarkName();
         onChanged();
         return this;
@@ -2258,7 +2258,7 @@ public final class FriendBriefOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         remarkName_ = value;
         onChanged();
         return this;
@@ -2459,7 +2459,7 @@ public final class FriendBriefOuterClass {
       /**
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder>
            getShowAvatarInfoListOrBuilderList() {
         if (showAvatarInfoListBuilder_ != null) {
           return showAvatarInfoListBuilder_.getMessageOrBuilderList();
@@ -2485,12 +2485,12 @@ public final class FriendBriefOuterClass {
       /**
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder>
            getShowAvatarInfoListBuilderList() {
         return getShowAvatarInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo.Builder, emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfoOrBuilder>
           getShowAvatarInfoListFieldBuilder() {
         if (showAvatarInfoListBuilder_ == null) {
           showAvatarInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2518,7 +2518,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFriendEnterHomeOptionValue(int value) {
-        
+
         friendEnterHomeOption_ = value;
         onChanged();
         return this;
@@ -2542,7 +2542,7 @@ public final class FriendBriefOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         friendEnterHomeOption_ = value.getNumber();
         onChanged();
         return this;
@@ -2552,7 +2552,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFriendEnterHomeOption() {
-        
+
         friendEnterHomeOption_ = 0;
         onChanged();
         return this;
@@ -2645,7 +2645,7 @@ public final class FriendBriefOuterClass {
        * <code>.ProfilePicture profile_picture = 24;</code>
        */
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder getProfilePictureBuilder() {
-        
+
         onChanged();
         return getProfilePictureFieldBuilder().getBuilder();
       }
@@ -2664,7 +2664,7 @@ public final class FriendBriefOuterClass {
        * <code>.ProfilePicture profile_picture = 24;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> 
+          emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder>
           getProfilePictureFieldBuilder() {
         if (profilePictureBuilder_ == null) {
           profilePictureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2692,7 +2692,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsGameSource(boolean value) {
-        
+
         isGameSource_ = value;
         onChanged();
         return this;
@@ -2702,7 +2702,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsGameSource() {
-        
+
         isGameSource_ = false;
         onChanged();
         return this;
@@ -2723,7 +2723,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsPsnSource(boolean value) {
-        
+
         isPsnSource_ = value;
         onChanged();
         return this;
@@ -2733,7 +2733,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsPsnSource() {
-        
+
         isPsnSource_ = false;
         onChanged();
         return this;
@@ -2753,7 +2753,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPlatformTypeValue(int value) {
-        
+
         platformType_ = value;
         onChanged();
         return this;
@@ -2777,7 +2777,7 @@ public final class FriendBriefOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         platformType_ = value.getNumber();
         onChanged();
         return this;
@@ -2787,7 +2787,7 @@ public final class FriendBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPlatformType() {
-        
+
         platformType_ = 0;
         onChanged();
         return this;
@@ -2847,7 +2847,7 @@ public final class FriendBriefOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FriendBrief_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FriendBrief_fieldAccessorTable;
 

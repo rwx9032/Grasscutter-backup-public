@@ -84,7 +84,7 @@ public final class AvatarFetterInfoOuterClass {
     /**
      * <code>repeated .FetterData fetter_list = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.FetterDataOuterClass.FetterData> 
+    java.util.List<emu.grasscutter.net.proto.FetterDataOuterClass.FetterData>
         getFetterListList();
     /**
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -97,7 +97,7 @@ public final class AvatarFetterInfoOuterClass {
     /**
      * <code>repeated .FetterData fetter_list = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder>
         getFetterListOrBuilderList();
     /**
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -400,7 +400,7 @@ public final class AvatarFetterInfoOuterClass {
      * <code>repeated .FetterData fetter_list = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder>
         getFetterListOrBuilderList() {
       return fetterList_;
     }
@@ -898,7 +898,7 @@ public final class AvatarFetterInfoOuterClass {
               fetterListBuilder_ = null;
               fetterList_ = other.fetterList_;
               bitField0_ = (bitField0_ & ~0x00000008);
-              fetterListBuilder_ = 
+              fetterListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFetterListFieldBuilder() : null;
             } else {
@@ -951,7 +951,7 @@ public final class AvatarFetterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExpNumber(int value) {
-        
+
         expNumber_ = value;
         onChanged();
         return this;
@@ -961,7 +961,7 @@ public final class AvatarFetterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExpNumber() {
-        
+
         expNumber_ = 0;
         onChanged();
         return this;
@@ -982,7 +982,7 @@ public final class AvatarFetterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExpLevel(int value) {
-        
+
         expLevel_ = value;
         onChanged();
         return this;
@@ -992,7 +992,7 @@ public final class AvatarFetterInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExpLevel() {
-        
+
         expLevel_ = 0;
         onChanged();
         return this;
@@ -1430,7 +1430,7 @@ public final class AvatarFetterInfoOuterClass {
       /**
        * <code>repeated .FetterData fetter_list = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder>
            getFetterListOrBuilderList() {
         if (fetterListBuilder_ != null) {
           return fetterListBuilder_.getMessageOrBuilderList();
@@ -1456,12 +1456,12 @@ public final class AvatarFetterInfoOuterClass {
       /**
        * <code>repeated .FetterData fetter_list = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.FetterDataOuterClass.FetterData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.FetterDataOuterClass.FetterData.Builder>
            getFetterListBuilderList() {
         return getFetterListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FetterDataOuterClass.FetterData, emu.grasscutter.net.proto.FetterDataOuterClass.FetterData.Builder, emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder> 
+          emu.grasscutter.net.proto.FetterDataOuterClass.FetterData, emu.grasscutter.net.proto.FetterDataOuterClass.FetterData.Builder, emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder>
           getFetterListFieldBuilder() {
         if (fetterListBuilder_ == null) {
           fetterListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1529,7 +1529,7 @@ public final class AvatarFetterInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarFetterInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarFetterInfo_fieldAccessorTable;
 

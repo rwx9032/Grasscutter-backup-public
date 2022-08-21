@@ -524,7 +524,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setActivityId(int value) {
-        
+
         activityId_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearActivityId() {
-        
+
         activityId_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWatcherId(int value) {
-        
+
         watcherId_ = value;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWatcherId() {
-        
+
         watcherId_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class ActivityTakeWatcherRewardRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityTakeWatcherRewardRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityTakeWatcherRewardRsp_fieldAccessorTable;
 

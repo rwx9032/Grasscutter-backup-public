@@ -27,7 +27,7 @@ public final class GetPlayerFriendListRspOuterClass {
     /**
      * <code>repeated .FriendBrief ask_friend_list = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> 
+    java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief>
         getAskFriendListList();
     /**
      * <code>repeated .FriendBrief ask_friend_list = 8;</code>
@@ -40,7 +40,7 @@ public final class GetPlayerFriendListRspOuterClass {
     /**
      * <code>repeated .FriendBrief ask_friend_list = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
         getAskFriendListOrBuilderList();
     /**
      * <code>repeated .FriendBrief ask_friend_list = 8;</code>
@@ -51,7 +51,7 @@ public final class GetPlayerFriendListRspOuterClass {
     /**
      * <code>repeated .FriendBrief friend_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> 
+    java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief>
         getFriendListList();
     /**
      * <code>repeated .FriendBrief friend_list = 14;</code>
@@ -64,7 +64,7 @@ public final class GetPlayerFriendListRspOuterClass {
     /**
      * <code>repeated .FriendBrief friend_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
         getFriendListOrBuilderList();
     /**
      * <code>repeated .FriendBrief friend_list = 14;</code>
@@ -212,7 +212,7 @@ public final class GetPlayerFriendListRspOuterClass {
      * <code>repeated .FriendBrief ask_friend_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
         getAskFriendListOrBuilderList() {
       return askFriendList_;
     }
@@ -252,7 +252,7 @@ public final class GetPlayerFriendListRspOuterClass {
      * <code>repeated .FriendBrief friend_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
         getFriendListOrBuilderList() {
       return friendList_;
     }
@@ -636,7 +636,7 @@ public final class GetPlayerFriendListRspOuterClass {
               askFriendListBuilder_ = null;
               askFriendList_ = other.askFriendList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              askFriendListBuilder_ = 
+              askFriendListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAskFriendListFieldBuilder() : null;
             } else {
@@ -662,7 +662,7 @@ public final class GetPlayerFriendListRspOuterClass {
               friendListBuilder_ = null;
               friendList_ = other.friendList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              friendListBuilder_ = 
+              friendListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFriendListFieldBuilder() : null;
             } else {
@@ -715,7 +715,7 @@ public final class GetPlayerFriendListRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -725,7 +725,7 @@ public final class GetPlayerFriendListRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -926,7 +926,7 @@ public final class GetPlayerFriendListRspOuterClass {
       /**
        * <code>repeated .FriendBrief ask_friend_list = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
            getAskFriendListOrBuilderList() {
         if (askFriendListBuilder_ != null) {
           return askFriendListBuilder_.getMessageOrBuilderList();
@@ -952,12 +952,12 @@ public final class GetPlayerFriendListRspOuterClass {
       /**
        * <code>repeated .FriendBrief ask_friend_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder>
            getAskFriendListBuilderList() {
         return getAskFriendListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+          emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
           getAskFriendListFieldBuilder() {
         if (askFriendListBuilder_ == null) {
           askFriendListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1166,7 +1166,7 @@ public final class GetPlayerFriendListRspOuterClass {
       /**
        * <code>repeated .FriendBrief friend_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
            getFriendListOrBuilderList() {
         if (friendListBuilder_ != null) {
           return friendListBuilder_.getMessageOrBuilderList();
@@ -1192,12 +1192,12 @@ public final class GetPlayerFriendListRspOuterClass {
       /**
        * <code>repeated .FriendBrief friend_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder>
            getFriendListBuilderList() {
         return getFriendListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+          emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
           getFriendListFieldBuilder() {
         if (friendListBuilder_ == null) {
           friendListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1265,7 +1265,7 @@ public final class GetPlayerFriendListRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetPlayerFriendListRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetPlayerFriendListRsp_fieldAccessorTable;
 

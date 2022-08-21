@@ -44,7 +44,7 @@ public final class FireworkSetDataOuterClass {
     /**
      * <code>repeated .FireWorkInstance fireWorkInstance = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstance> 
+    java.util.List<emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstance>
         getFireWorkInstanceList();
     /**
      * <code>repeated .FireWorkInstance fireWorkInstance = 3;</code>
@@ -57,7 +57,7 @@ public final class FireworkSetDataOuterClass {
     /**
      * <code>repeated .FireWorkInstance fireWorkInstance = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstanceOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstanceOrBuilder>
         getFireWorkInstanceOrBuilderList();
     /**
      * <code>repeated .FireWorkInstance fireWorkInstance = 3;</code>
@@ -238,7 +238,7 @@ public final class FireworkSetDataOuterClass {
      * <code>repeated .FireWorkInstance fireWorkInstance = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstanceOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstanceOrBuilder>
         getFireWorkInstanceOrBuilderList() {
       return fireWorkInstance_;
     }
@@ -631,7 +631,7 @@ public final class FireworkSetDataOuterClass {
               fireWorkInstanceBuilder_ = null;
               fireWorkInstance_ = other.fireWorkInstance_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              fireWorkInstanceBuilder_ = 
+              fireWorkInstanceBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFireWorkInstanceFieldBuilder() : null;
             } else {
@@ -684,7 +684,7 @@ public final class FireworkSetDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -694,7 +694,7 @@ public final class FireworkSetDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -974,7 +974,7 @@ public final class FireworkSetDataOuterClass {
       /**
        * <code>repeated .FireWorkInstance fireWorkInstance = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstanceOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstanceOrBuilder>
            getFireWorkInstanceOrBuilderList() {
         if (fireWorkInstanceBuilder_ != null) {
           return fireWorkInstanceBuilder_.getMessageOrBuilderList();
@@ -1000,12 +1000,12 @@ public final class FireworkSetDataOuterClass {
       /**
        * <code>repeated .FireWorkInstance fireWorkInstance = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstance.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstance.Builder>
            getFireWorkInstanceBuilderList() {
         return getFireWorkInstanceFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstance, emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstance.Builder, emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstanceOrBuilder> 
+          emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstance, emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstance.Builder, emu.grasscutter.net.proto.FireWorkInstanceOuterClass.FireWorkInstanceOrBuilder>
           getFireWorkInstanceFieldBuilder() {
         if (fireWorkInstanceBuilder_ == null) {
           fireWorkInstanceBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1073,7 +1073,7 @@ public final class FireworkSetDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FireworkSetData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FireworkSetData_fieldAccessorTable;
 

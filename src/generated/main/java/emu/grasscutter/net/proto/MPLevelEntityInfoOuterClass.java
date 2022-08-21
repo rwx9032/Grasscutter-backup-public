@@ -629,7 +629,7 @@ public final class MPLevelEntityInfoOuterClass {
        * <code>.AbilitySyncStateInfo ability_info = 2;</code>
        */
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getAbilityInfoBuilder() {
-        
+
         onChanged();
         return getAbilityInfoFieldBuilder().getBuilder();
       }
@@ -648,7 +648,7 @@ public final class MPLevelEntityInfoOuterClass {
        * <code>.AbilitySyncStateInfo ability_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
+          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>
           getAbilityInfoFieldBuilder() {
         if (abilityInfoBuilder_ == null) {
           abilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -676,7 +676,7 @@ public final class MPLevelEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -686,7 +686,7 @@ public final class MPLevelEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -707,7 +707,7 @@ public final class MPLevelEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAuthorityPeerId(int value) {
-        
+
         authorityPeerId_ = value;
         onChanged();
         return this;
@@ -717,7 +717,7 @@ public final class MPLevelEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthorityPeerId() {
-        
+
         authorityPeerId_ = 0;
         onChanged();
         return this;
@@ -777,7 +777,7 @@ public final class MPLevelEntityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MPLevelEntityInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MPLevelEntityInfo_fieldAccessorTable;
 

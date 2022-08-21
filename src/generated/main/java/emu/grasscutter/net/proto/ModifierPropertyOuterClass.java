@@ -592,7 +592,7 @@ public final class ModifierPropertyOuterClass {
        * <code>.AbilityString key = 15;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getKeyBuilder() {
-        
+
         onChanged();
         return getKeyFieldBuilder().getBuilder();
       }
@@ -611,7 +611,7 @@ public final class ModifierPropertyOuterClass {
        * <code>.AbilityString key = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> 
+          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder>
           getKeyFieldBuilder() {
         if (keyBuilder_ == null) {
           keyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -639,7 +639,7 @@ public final class ModifierPropertyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setValue(float value) {
-        
+
         value_ = value;
         onChanged();
         return this;
@@ -649,7 +649,7 @@ public final class ModifierPropertyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearValue() {
-        
+
         value_ = 0F;
         onChanged();
         return this;
@@ -709,7 +709,7 @@ public final class ModifierPropertyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ModifierProperty_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ModifierProperty_fieldAccessorTable;
 

@@ -602,7 +602,7 @@ public final class FurnitureMakeStartRspOuterClass {
        * <code>.FurnitureMakeSlot furniture_make_slot = 5;</code>
        */
       public emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.Builder getFurnitureMakeSlotBuilder() {
-        
+
         onChanged();
         return getFurnitureMakeSlotFieldBuilder().getBuilder();
       }
@@ -621,7 +621,7 @@ public final class FurnitureMakeStartRspOuterClass {
        * <code>.FurnitureMakeSlot furniture_make_slot = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot, emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.Builder, emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlotOrBuilder> 
+          emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot, emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlot.Builder, emu.grasscutter.net.proto.FurnitureMakeSlotOuterClass.FurnitureMakeSlotOrBuilder>
           getFurnitureMakeSlotFieldBuilder() {
         if (furnitureMakeSlotBuilder_ == null) {
           furnitureMakeSlotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class FurnitureMakeStartRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class FurnitureMakeStartRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class FurnitureMakeStartRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FurnitureMakeStartRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FurnitureMakeStartRsp_fieldAccessorTable;
 

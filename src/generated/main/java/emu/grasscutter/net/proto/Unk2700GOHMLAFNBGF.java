@@ -27,7 +27,7 @@ public final class Unk2700GOHMLAFNBGF {
     /**
      * <code>repeated .HomeFurnitureData Unk2700_CKPNCKDIJMB = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData> 
+    java.util.List<emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData>
         getUnk2700CKPNCKDIJMBList();
     /**
      * <code>repeated .HomeFurnitureData Unk2700_CKPNCKDIJMB = 3;</code>
@@ -40,7 +40,7 @@ public final class Unk2700GOHMLAFNBGF {
     /**
      * <code>repeated .HomeFurnitureData Unk2700_CKPNCKDIJMB = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureDataOrBuilder>
         getUnk2700CKPNCKDIJMBOrBuilderList();
     /**
      * <code>repeated .HomeFurnitureData Unk2700_CKPNCKDIJMB = 3;</code>
@@ -168,7 +168,7 @@ public final class Unk2700GOHMLAFNBGF {
      * <code>repeated .HomeFurnitureData Unk2700_CKPNCKDIJMB = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureDataOrBuilder>
         getUnk2700CKPNCKDIJMBOrBuilderList() {
       return unk2700CKPNCKDIJMB_;
     }
@@ -516,7 +516,7 @@ public final class Unk2700GOHMLAFNBGF {
               unk2700CKPNCKDIJMBBuilder_ = null;
               unk2700CKPNCKDIJMB_ = other.unk2700CKPNCKDIJMB_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              unk2700CKPNCKDIJMBBuilder_ = 
+              unk2700CKPNCKDIJMBBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getUnk2700CKPNCKDIJMBFieldBuilder() : null;
             } else {
@@ -569,7 +569,7 @@ public final class Unk2700GOHMLAFNBGF {
        * @return This builder for chaining.
        */
       public Builder setUnk2700OALCFEGIBOL(int value) {
-        
+
         unk2700OALCFEGIBOL_ = value;
         onChanged();
         return this;
@@ -579,7 +579,7 @@ public final class Unk2700GOHMLAFNBGF {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700OALCFEGIBOL() {
-        
+
         unk2700OALCFEGIBOL_ = 0;
         onChanged();
         return this;
@@ -780,7 +780,7 @@ public final class Unk2700GOHMLAFNBGF {
       /**
        * <code>repeated .HomeFurnitureData Unk2700_CKPNCKDIJMB = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureDataOrBuilder>
            getUnk2700CKPNCKDIJMBOrBuilderList() {
         if (unk2700CKPNCKDIJMBBuilder_ != null) {
           return unk2700CKPNCKDIJMBBuilder_.getMessageOrBuilderList();
@@ -806,12 +806,12 @@ public final class Unk2700GOHMLAFNBGF {
       /**
        * <code>repeated .HomeFurnitureData Unk2700_CKPNCKDIJMB = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData.Builder>
            getUnk2700CKPNCKDIJMBBuilderList() {
         return getUnk2700CKPNCKDIJMBFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData, emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData.Builder, emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureDataOrBuilder> 
+          emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData, emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureData.Builder, emu.grasscutter.net.proto.HomeFurnitureDataOuterClass.HomeFurnitureDataOrBuilder>
           getUnk2700CKPNCKDIJMBFieldBuilder() {
         if (unk2700CKPNCKDIJMBBuilder_ == null) {
           unk2700CKPNCKDIJMBBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -879,7 +879,7 @@ public final class Unk2700GOHMLAFNBGF {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Unk2700_GOHMLAFNBGF_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Unk2700_GOHMLAFNBGF_fieldAccessorTable;
 

@@ -448,7 +448,7 @@ public final class GetFriendShowAvatarInfoReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -458,7 +458,7 @@ public final class GetFriendShowAvatarInfoReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class GetFriendShowAvatarInfoReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetFriendShowAvatarInfoReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetFriendShowAvatarInfoReq_fieldAccessorTable;
 

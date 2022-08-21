@@ -533,7 +533,7 @@ public final class EvtAvatarLockChairReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChairId(long value) {
-        
+
         chairId_ = value;
         onChanged();
         return this;
@@ -543,7 +543,7 @@ public final class EvtAvatarLockChairReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChairId() {
-        
+
         chairId_ = 0L;
         onChanged();
         return this;
@@ -636,7 +636,7 @@ public final class EvtAvatarLockChairReqOuterClass {
        * <code>.Vector position = 8;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPositionBuilder() {
-        
+
         onChanged();
         return getPositionFieldBuilder().getBuilder();
       }
@@ -655,7 +655,7 @@ public final class EvtAvatarLockChairReqOuterClass {
        * <code>.Vector position = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPositionFieldBuilder() {
         if (positionBuilder_ == null) {
           positionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -722,7 +722,7 @@ public final class EvtAvatarLockChairReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtAvatarLockChairReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtAvatarLockChairReq_fieldAccessorTable;
 

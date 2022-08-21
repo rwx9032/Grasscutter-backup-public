@@ -644,7 +644,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
        * <code>.Vector position = 9;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPositionBuilder() {
-        
+
         onChanged();
         return getPositionFieldBuilder().getBuilder();
       }
@@ -663,7 +663,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
        * <code>.Vector position = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPositionFieldBuilder() {
         if (positionBuilder_ == null) {
           positionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -691,7 +691,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -722,7 +722,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChairId(long value) {
-        
+
         chairId_ = value;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChairId() {
-        
+
         chairId_ = 0L;
         onChanged();
         return this;
@@ -792,7 +792,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtAvatarSitDownNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtAvatarSitDownNotify_fieldAccessorTable;
 

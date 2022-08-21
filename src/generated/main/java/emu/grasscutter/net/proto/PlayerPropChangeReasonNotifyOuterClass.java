@@ -581,7 +581,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPropType(int value) {
-        
+
         propType_ = value;
         onChanged();
         return this;
@@ -591,7 +591,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPropType() {
-        
+
         propType_ = 0;
         onChanged();
         return this;
@@ -612,7 +612,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOldValue(float value) {
-        
+
         oldValue_ = value;
         onChanged();
         return this;
@@ -622,7 +622,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOldValue() {
-        
+
         oldValue_ = 0F;
         onChanged();
         return this;
@@ -642,7 +642,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setReasonValue(int value) {
-        
+
         reason_ = value;
         onChanged();
         return this;
@@ -666,7 +666,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         reason_ = value.getNumber();
         onChanged();
         return this;
@@ -676,7 +676,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReason() {
-        
+
         reason_ = 0;
         onChanged();
         return this;
@@ -697,7 +697,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurValue(float value) {
-        
+
         curValue_ = value;
         onChanged();
         return this;
@@ -707,7 +707,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurValue() {
-        
+
         curValue_ = 0F;
         onChanged();
         return this;
@@ -767,7 +767,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerPropChangeReasonNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerPropChangeReasonNotify_fieldAccessorTable;
 

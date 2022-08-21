@@ -530,7 +530,7 @@ public final class AbilityChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -540,7 +540,7 @@ public final class AbilityChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -633,7 +633,7 @@ public final class AbilityChangeNotifyOuterClass {
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
        */
       public emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder getAbilityControlBlockBuilder() {
-        
+
         onChanged();
         return getAbilityControlBlockFieldBuilder().getBuilder();
       }
@@ -652,7 +652,7 @@ public final class AbilityChangeNotifyOuterClass {
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder> 
+          emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder>
           getAbilityControlBlockFieldBuilder() {
         if (abilityControlBlockBuilder_ == null) {
           abilityControlBlockBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -719,7 +719,7 @@ public final class AbilityChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityChangeNotify_fieldAccessorTable;
 

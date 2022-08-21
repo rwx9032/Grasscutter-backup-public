@@ -449,7 +449,7 @@ public final class HomeSceneJumpReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsEnterRoomScene(boolean value) {
-        
+
         isEnterRoomScene_ = value;
         onChanged();
         return this;
@@ -459,7 +459,7 @@ public final class HomeSceneJumpReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsEnterRoomScene() {
-        
+
         isEnterRoomScene_ = false;
         onChanged();
         return this;
@@ -519,7 +519,7 @@ public final class HomeSceneJumpReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeSceneJumpReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeSceneJumpReq_fieldAccessorTable;
 

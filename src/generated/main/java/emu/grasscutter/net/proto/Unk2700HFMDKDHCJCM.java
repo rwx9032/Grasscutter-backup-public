@@ -551,7 +551,7 @@ public final class Unk2700HFMDKDHCJCM {
        * <code>.Vector Unk2700_CMOMNFNGCGB = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getUnk2700CMOMNFNGCGBBuilder() {
-        
+
         onChanged();
         return getUnk2700CMOMNFNGCGBFieldBuilder().getBuilder();
       }
@@ -570,7 +570,7 @@ public final class Unk2700HFMDKDHCJCM {
        * <code>.Vector Unk2700_CMOMNFNGCGB = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getUnk2700CMOMNFNGCGBFieldBuilder() {
         if (unk2700CMOMNFNGCGBBuilder_ == null) {
           unk2700CMOMNFNGCGBBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -637,7 +637,7 @@ public final class Unk2700HFMDKDHCJCM {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Unk2700_HFMDKDHCJCM_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Unk2700_HFMDKDHCJCM_fieldAccessorTable;
 

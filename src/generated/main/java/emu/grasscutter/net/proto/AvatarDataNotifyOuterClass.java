@@ -44,7 +44,7 @@ public final class AvatarDataNotifyOuterClass {
     /**
      * <code>repeated .AvatarInfo avatar_list = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo> 
+    java.util.List<emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo>
         getAvatarListList();
     /**
      * <code>repeated .AvatarInfo avatar_list = 6;</code>
@@ -57,7 +57,7 @@ public final class AvatarDataNotifyOuterClass {
     /**
      * <code>repeated .AvatarInfo avatar_list = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder>
         getAvatarListOrBuilderList();
     /**
      * <code>repeated .AvatarInfo avatar_list = 6;</code>
@@ -398,7 +398,7 @@ public final class AvatarDataNotifyOuterClass {
      * <code>repeated .AvatarInfo avatar_list = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder>
         getAvatarListOrBuilderList() {
       return avatarList_;
     }
@@ -487,7 +487,7 @@ public final class AvatarDataNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarDataNotifyOuterClass.internal_static_AvatarDataNotify_AvatarTeamMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarDataNotifyOuterClass.internal_static_AvatarDataNotify_AvatarTeamMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -514,7 +514,7 @@ public final class AvatarDataNotifyOuterClass {
     @java.lang.Override
     public boolean containsAvatarTeamMap(
         int key) {
-      
+
       return internalGetAvatarTeamMap().getMap().containsKey(key);
     }
     /**
@@ -541,7 +541,7 @@ public final class AvatarDataNotifyOuterClass {
     public emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam getAvatarTeamMapOrDefault(
         int key,
         emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> map =
           internalGetAvatarTeamMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -553,7 +553,7 @@ public final class AvatarDataNotifyOuterClass {
 
     public emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam getAvatarTeamMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> map =
           internalGetAvatarTeamMap().getMap();
       if (!map.containsKey(key)) {
@@ -1075,7 +1075,7 @@ public final class AvatarDataNotifyOuterClass {
               avatarListBuilder_ = null;
               avatarList_ = other.avatarList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              avatarListBuilder_ = 
+              avatarListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAvatarListFieldBuilder() : null;
             } else {
@@ -1232,7 +1232,7 @@ public final class AvatarDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurAvatarTeamId(int value) {
-        
+
         curAvatarTeamId_ = value;
         onChanged();
         return this;
@@ -1242,7 +1242,7 @@ public final class AvatarDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurAvatarTeamId() {
-        
+
         curAvatarTeamId_ = 0;
         onChanged();
         return this;
@@ -1443,7 +1443,7 @@ public final class AvatarDataNotifyOuterClass {
       /**
        * <code>repeated .AvatarInfo avatar_list = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder>
            getAvatarListOrBuilderList() {
         if (avatarListBuilder_ != null) {
           return avatarListBuilder_.getMessageOrBuilderList();
@@ -1469,12 +1469,12 @@ public final class AvatarDataNotifyOuterClass {
       /**
        * <code>repeated .AvatarInfo avatar_list = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder>
            getAvatarListBuilderList() {
         return getAvatarListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder>
           getAvatarListFieldBuilder() {
         if (avatarListBuilder_ == null) {
           avatarListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1679,7 +1679,7 @@ public final class AvatarDataNotifyOuterClass {
       @java.lang.Override
       public boolean containsAvatarTeamMap(
           int key) {
-        
+
         return internalGetAvatarTeamMap().getMap().containsKey(key);
       }
       /**
@@ -1706,7 +1706,7 @@ public final class AvatarDataNotifyOuterClass {
       public emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam getAvatarTeamMapOrDefault(
           int key,
           emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> map =
             internalGetAvatarTeamMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1718,7 +1718,7 @@ public final class AvatarDataNotifyOuterClass {
 
       public emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam getAvatarTeamMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> map =
             internalGetAvatarTeamMap().getMap();
         if (!map.containsKey(key)) {
@@ -1738,7 +1738,7 @@ public final class AvatarDataNotifyOuterClass {
 
       public Builder removeAvatarTeamMap(
           int key) {
-        
+
         internalGetMutableAvatarTeamMap().getMutableMap()
             .remove(key);
         return this;
@@ -1757,7 +1757,7 @@ public final class AvatarDataNotifyOuterClass {
       public Builder putAvatarTeamMap(
           int key,
           emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableAvatarTeamMap().getMutableMap()
             .put(key, value);
@@ -1789,7 +1789,7 @@ public final class AvatarDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChooseAvatarGuid(long value) {
-        
+
         chooseAvatarGuid_ = value;
         onChanged();
         return this;
@@ -1799,7 +1799,7 @@ public final class AvatarDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChooseAvatarGuid() {
-        
+
         chooseAvatarGuid_ = 0L;
         onChanged();
         return this;
@@ -1859,12 +1859,12 @@ public final class AvatarDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarDataNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarDataNotify_AvatarTeamMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarDataNotify_AvatarTeamMapEntry_fieldAccessorTable;
 

@@ -165,7 +165,7 @@ public final class CardProductRewardNotifyOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         productId_ = s;
@@ -181,7 +181,7 @@ public final class CardProductRewardNotifyOuterClass {
         getProductIdBytes() {
       java.lang.Object ref = productId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         productId_ = b;
@@ -559,7 +559,7 @@ public final class CardProductRewardNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHcoin(int value) {
-        
+
         hcoin_ = value;
         onChanged();
         return this;
@@ -569,7 +569,7 @@ public final class CardProductRewardNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHcoin() {
-        
+
         hcoin_ = 0;
         onChanged();
         return this;
@@ -600,7 +600,7 @@ public final class CardProductRewardNotifyOuterClass {
           getProductIdBytes() {
         java.lang.Object ref = productId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           productId_ = b;
@@ -619,7 +619,7 @@ public final class CardProductRewardNotifyOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         productId_ = value;
         onChanged();
         return this;
@@ -629,7 +629,7 @@ public final class CardProductRewardNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearProductId() {
-        
+
         productId_ = getDefaultInstance().getProductId();
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class CardProductRewardNotifyOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         productId_ = value;
         onChanged();
         return this;
@@ -666,7 +666,7 @@ public final class CardProductRewardNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRemainDays(int value) {
-        
+
         remainDays_ = value;
         onChanged();
         return this;
@@ -676,7 +676,7 @@ public final class CardProductRewardNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRemainDays() {
-        
+
         remainDays_ = 0;
         onChanged();
         return this;
@@ -736,7 +736,7 @@ public final class CardProductRewardNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CardProductRewardNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CardProductRewardNotify_fieldAccessorTable;
 

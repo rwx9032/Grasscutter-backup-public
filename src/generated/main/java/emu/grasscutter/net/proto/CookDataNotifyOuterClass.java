@@ -27,7 +27,7 @@ public final class CookDataNotifyOuterClass {
     /**
      * <code>repeated .CookRecipeData recipe_data_list = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData> 
+    java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData>
         getRecipeDataListList();
     /**
      * <code>repeated .CookRecipeData recipe_data_list = 2;</code>
@@ -40,7 +40,7 @@ public final class CookDataNotifyOuterClass {
     /**
      * <code>repeated .CookRecipeData recipe_data_list = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder>
         getRecipeDataListOrBuilderList();
     /**
      * <code>repeated .CookRecipeData recipe_data_list = 2;</code>
@@ -174,7 +174,7 @@ public final class CookDataNotifyOuterClass {
      * <code>repeated .CookRecipeData recipe_data_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder>
         getRecipeDataListOrBuilderList() {
       return recipeDataList_;
     }
@@ -528,7 +528,7 @@ public final class CookDataNotifyOuterClass {
               recipeDataListBuilder_ = null;
               recipeDataList_ = other.recipeDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              recipeDataListBuilder_ = 
+              recipeDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRecipeDataListFieldBuilder() : null;
             } else {
@@ -581,7 +581,7 @@ public final class CookDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGrade(int value) {
-        
+
         grade_ = value;
         onChanged();
         return this;
@@ -591,7 +591,7 @@ public final class CookDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGrade() {
-        
+
         grade_ = 0;
         onChanged();
         return this;
@@ -792,7 +792,7 @@ public final class CookDataNotifyOuterClass {
       /**
        * <code>repeated .CookRecipeData recipe_data_list = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder>
            getRecipeDataListOrBuilderList() {
         if (recipeDataListBuilder_ != null) {
           return recipeDataListBuilder_.getMessageOrBuilderList();
@@ -818,12 +818,12 @@ public final class CookDataNotifyOuterClass {
       /**
        * <code>repeated .CookRecipeData recipe_data_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder>
            getRecipeDataListBuilderList() {
         return getRecipeDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder> 
+          emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder>
           getRecipeDataListFieldBuilder() {
         if (recipeDataListBuilder_ == null) {
           recipeDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -891,7 +891,7 @@ public final class CookDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CookDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CookDataNotify_fieldAccessorTable;
 

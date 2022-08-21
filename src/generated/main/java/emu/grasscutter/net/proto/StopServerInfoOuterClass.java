@@ -189,7 +189,7 @@ public final class StopServerInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         url_ = s;
@@ -205,7 +205,7 @@ public final class StopServerInfoOuterClass {
         getUrlBytes() {
       java.lang.Object ref = url_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         url_ = b;
@@ -227,7 +227,7 @@ public final class StopServerInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         contentMsg_ = s;
@@ -243,7 +243,7 @@ public final class StopServerInfoOuterClass {
         getContentMsgBytes() {
       java.lang.Object ref = contentMsg_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         contentMsg_ = b;
@@ -621,7 +621,7 @@ public final class StopServerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStopBeginTime(int value) {
-        
+
         stopBeginTime_ = value;
         onChanged();
         return this;
@@ -631,7 +631,7 @@ public final class StopServerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStopBeginTime() {
-        
+
         stopBeginTime_ = 0;
         onChanged();
         return this;
@@ -652,7 +652,7 @@ public final class StopServerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStopEndTime(int value) {
-        
+
         stopEndTime_ = value;
         onChanged();
         return this;
@@ -662,7 +662,7 @@ public final class StopServerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStopEndTime() {
-        
+
         stopEndTime_ = 0;
         onChanged();
         return this;
@@ -693,7 +693,7 @@ public final class StopServerInfoOuterClass {
           getUrlBytes() {
         java.lang.Object ref = url_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           url_ = b;
@@ -712,7 +712,7 @@ public final class StopServerInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         url_ = value;
         onChanged();
         return this;
@@ -722,7 +722,7 @@ public final class StopServerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUrl() {
-        
+
         url_ = getDefaultInstance().getUrl();
         onChanged();
         return this;
@@ -738,7 +738,7 @@ public final class StopServerInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         url_ = value;
         onChanged();
         return this;
@@ -769,7 +769,7 @@ public final class StopServerInfoOuterClass {
           getContentMsgBytes() {
         java.lang.Object ref = contentMsg_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           contentMsg_ = b;
@@ -788,7 +788,7 @@ public final class StopServerInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         contentMsg_ = value;
         onChanged();
         return this;
@@ -798,7 +798,7 @@ public final class StopServerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearContentMsg() {
-        
+
         contentMsg_ = getDefaultInstance().getContentMsg();
         onChanged();
         return this;
@@ -814,7 +814,7 @@ public final class StopServerInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         contentMsg_ = value;
         onChanged();
         return this;
@@ -874,7 +874,7 @@ public final class StopServerInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StopServerInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StopServerInfo_fieldAccessorTable;
 

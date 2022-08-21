@@ -21,7 +21,7 @@ public final class ResinCardOuterClass {
     /**
      * <code>repeated .ItemParam baseItemList = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
         getBaseItemListList();
     /**
      * <code>repeated .ItemParam baseItemList = 1;</code>
@@ -34,7 +34,7 @@ public final class ResinCardOuterClass {
     /**
      * <code>repeated .ItemParam baseItemList = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getBaseItemListOrBuilderList();
     /**
      * <code>repeated .ItemParam baseItemList = 1;</code>
@@ -45,7 +45,7 @@ public final class ResinCardOuterClass {
     /**
      * <code>repeated .ItemParam perDayItemList = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
         getPerDayItemListList();
     /**
      * <code>repeated .ItemParam perDayItemList = 2;</code>
@@ -58,7 +58,7 @@ public final class ResinCardOuterClass {
     /**
      * <code>repeated .ItemParam perDayItemList = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getPerDayItemListOrBuilderList();
     /**
      * <code>repeated .ItemParam perDayItemList = 2;</code>
@@ -183,7 +183,7 @@ public final class ResinCardOuterClass {
      * <code>repeated .ItemParam baseItemList = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getBaseItemListOrBuilderList() {
       return baseItemList_;
     }
@@ -223,7 +223,7 @@ public final class ResinCardOuterClass {
      * <code>repeated .ItemParam perDayItemList = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getPerDayItemListOrBuilderList() {
       return perDayItemList_;
     }
@@ -583,7 +583,7 @@ public final class ResinCardOuterClass {
               baseItemListBuilder_ = null;
               baseItemList_ = other.baseItemList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              baseItemListBuilder_ = 
+              baseItemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getBaseItemListFieldBuilder() : null;
             } else {
@@ -609,7 +609,7 @@ public final class ResinCardOuterClass {
               perDayItemListBuilder_ = null;
               perDayItemList_ = other.perDayItemList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              perDayItemListBuilder_ = 
+              perDayItemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPerDayItemListFieldBuilder() : null;
             } else {
@@ -842,7 +842,7 @@ public final class ResinCardOuterClass {
       /**
        * <code>repeated .ItemParam baseItemList = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
            getBaseItemListOrBuilderList() {
         if (baseItemListBuilder_ != null) {
           return baseItemListBuilder_.getMessageOrBuilderList();
@@ -868,12 +868,12 @@ public final class ResinCardOuterClass {
       /**
        * <code>repeated .ItemParam baseItemList = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
            getBaseItemListBuilderList() {
         return getBaseItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getBaseItemListFieldBuilder() {
         if (baseItemListBuilder_ == null) {
           baseItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1082,7 +1082,7 @@ public final class ResinCardOuterClass {
       /**
        * <code>repeated .ItemParam perDayItemList = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
            getPerDayItemListOrBuilderList() {
         if (perDayItemListBuilder_ != null) {
           return perDayItemListBuilder_.getMessageOrBuilderList();
@@ -1108,12 +1108,12 @@ public final class ResinCardOuterClass {
       /**
        * <code>repeated .ItemParam perDayItemList = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
            getPerDayItemListBuilderList() {
         return getPerDayItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getPerDayItemListFieldBuilder() {
         if (perDayItemListBuilder_ == null) {
           perDayItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1181,7 +1181,7 @@ public final class ResinCardOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResinCard_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResinCard_fieldAccessorTable;
 

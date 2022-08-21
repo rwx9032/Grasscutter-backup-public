@@ -21,7 +21,7 @@ public final class QuestListNotifyOuterClass {
     /**
      * <code>repeated .Quest quest_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest> 
+    java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest>
         getQuestListList();
     /**
      * <code>repeated .Quest quest_list = 1;</code>
@@ -34,7 +34,7 @@ public final class QuestListNotifyOuterClass {
     /**
      * <code>repeated .Quest quest_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder>
         getQuestListOrBuilderList();
     /**
      * <code>repeated .Quest quest_list = 1;</code>
@@ -152,7 +152,7 @@ public final class QuestListNotifyOuterClass {
      * <code>repeated .Quest quest_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder>
         getQuestListOrBuilderList() {
       return questList_;
     }
@@ -489,7 +489,7 @@ public final class QuestListNotifyOuterClass {
               questListBuilder_ = null;
               questList_ = other.questList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              questListBuilder_ = 
+              questListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getQuestListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class QuestListNotifyOuterClass {
       /**
        * <code>repeated .Quest quest_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder>
            getQuestListOrBuilderList() {
         if (questListBuilder_ != null) {
           return questListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class QuestListNotifyOuterClass {
       /**
        * <code>repeated .Quest quest_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder>
            getQuestListBuilderList() {
         return getQuestListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.QuestOuterClass.Quest, emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder, emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder> 
+          emu.grasscutter.net.proto.QuestOuterClass.Quest, emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder, emu.grasscutter.net.proto.QuestOuterClass.QuestOrBuilder>
           getQuestListFieldBuilder() {
         if (questListBuilder_ == null) {
           questListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class QuestListNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QuestListNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QuestListNotify_fieldAccessorTable;
 

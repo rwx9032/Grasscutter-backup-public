@@ -489,7 +489,7 @@ public final class ReliquaryPromoteReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemGuid(long value) {
-        
+
         itemGuid_ = value;
         onChanged();
         return this;
@@ -499,7 +499,7 @@ public final class ReliquaryPromoteReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemGuid() {
-        
+
         itemGuid_ = 0L;
         onChanged();
         return this;
@@ -520,7 +520,7 @@ public final class ReliquaryPromoteReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetGuid(long value) {
-        
+
         targetGuid_ = value;
         onChanged();
         return this;
@@ -530,7 +530,7 @@ public final class ReliquaryPromoteReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetGuid() {
-        
+
         targetGuid_ = 0L;
         onChanged();
         return this;
@@ -590,7 +590,7 @@ public final class ReliquaryPromoteReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ReliquaryPromoteReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ReliquaryPromoteReq_fieldAccessorTable;
 

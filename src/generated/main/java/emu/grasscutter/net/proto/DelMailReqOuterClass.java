@@ -645,7 +645,7 @@ public final class DelMailReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DelMailReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DelMailReq_fieldAccessorTable;
 

@@ -592,7 +592,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDungeonIndex(int value) {
-        
+
         dungeonIndex_ = value;
         onChanged();
         return this;
@@ -602,7 +602,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDungeonIndex() {
-        
+
         dungeonIndex_ = 0;
         onChanged();
         return this;
@@ -623,7 +623,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSuccess(boolean value) {
-        
+
         isSuccess_ = value;
         onChanged();
         return this;
@@ -633,7 +633,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSuccess() {
-        
+
         isSuccess_ = false;
         onChanged();
         return this;
@@ -654,7 +654,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChallengeScore(int value) {
-        
+
         challengeScore_ = value;
         onChanged();
         return this;
@@ -664,7 +664,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChallengeScore() {
-        
+
         challengeScore_ = 0;
         onChanged();
         return this;
@@ -685,7 +685,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChallengeMaxScore(int value) {
-        
+
         challengeMaxScore_ = value;
         onChanged();
         return this;
@@ -695,7 +695,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChallengeMaxScore() {
-        
+
         challengeMaxScore_ = 0;
         onChanged();
         return this;
@@ -716,7 +716,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsInTimeLimit(boolean value) {
-        
+
         isInTimeLimit_ = value;
         onChanged();
         return this;
@@ -726,7 +726,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsInTimeLimit() {
-        
+
         isInTimeLimit_ = false;
         onChanged();
         return this;
@@ -786,7 +786,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChannellerSlabLoopDungeonResultInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChannellerSlabLoopDungeonResultInfo_fieldAccessorTable;
 

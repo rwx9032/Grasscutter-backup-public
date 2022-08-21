@@ -621,7 +621,7 @@ public final class VehicleInteractRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInteractTypeValue(int value) {
-        
+
         interactType_ = value;
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class VehicleInteractRspOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         interactType_ = value.getNumber();
         onChanged();
         return this;
@@ -655,7 +655,7 @@ public final class VehicleInteractRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInteractType() {
-        
+
         interactType_ = 0;
         onChanged();
         return this;
@@ -748,7 +748,7 @@ public final class VehicleInteractRspOuterClass {
        * <code>.VehicleMember member = 3;</code>
        */
       public emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember.Builder getMemberBuilder() {
-        
+
         onChanged();
         return getMemberFieldBuilder().getBuilder();
       }
@@ -767,7 +767,7 @@ public final class VehicleInteractRspOuterClass {
        * <code>.VehicleMember member = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember.Builder, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder> 
+          emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember.Builder, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder>
           getMemberFieldBuilder() {
         if (memberBuilder_ == null) {
           memberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -795,7 +795,7 @@ public final class VehicleInteractRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -805,7 +805,7 @@ public final class VehicleInteractRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -826,7 +826,7 @@ public final class VehicleInteractRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -836,7 +836,7 @@ public final class VehicleInteractRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -896,7 +896,7 @@ public final class VehicleInteractRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VehicleInteractRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VehicleInteractRsp_fieldAccessorTable;
 

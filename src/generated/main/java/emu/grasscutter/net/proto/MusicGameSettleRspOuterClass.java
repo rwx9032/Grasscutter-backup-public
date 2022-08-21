@@ -605,7 +605,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -615,7 +615,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -636,7 +636,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicBasicId(int value) {
-        
+
         musicBasicId_ = value;
         onChanged();
         return this;
@@ -646,7 +646,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicBasicId() {
-        
+
         musicBasicId_ = 0;
         onChanged();
         return this;
@@ -667,7 +667,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsUnlockNextLevel(boolean value) {
-        
+
         isUnlockNextLevel_ = value;
         onChanged();
         return this;
@@ -677,7 +677,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsUnlockNextLevel() {
-        
+
         isUnlockNextLevel_ = false;
         onChanged();
         return this;
@@ -698,7 +698,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsNewRecord(boolean value) {
-        
+
         isNewRecord_ = value;
         onChanged();
         return this;
@@ -708,7 +708,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
-        
+
         isNewRecord_ = false;
         onChanged();
         return this;
@@ -729,7 +729,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicShareId(long value) {
-        
+
         musicShareId_ = value;
         onChanged();
         return this;
@@ -739,7 +739,7 @@ public final class MusicGameSettleRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicShareId() {
-        
+
         musicShareId_ = 0L;
         onChanged();
         return this;
@@ -799,7 +799,7 @@ public final class MusicGameSettleRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameSettleRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameSettleRsp_fieldAccessorTable;
 

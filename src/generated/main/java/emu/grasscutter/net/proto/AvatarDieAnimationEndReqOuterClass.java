@@ -644,7 +644,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
        * <code>.Vector reborn_pos = 3;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRebornPosBuilder() {
-        
+
         onChanged();
         return getRebornPosFieldBuilder().getBuilder();
       }
@@ -663,7 +663,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
        * <code>.Vector reborn_pos = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRebornPosFieldBuilder() {
         if (rebornPosBuilder_ == null) {
           rebornPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -691,7 +691,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDieGuid(long value) {
-        
+
         dieGuid_ = value;
         onChanged();
         return this;
@@ -701,7 +701,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDieGuid() {
-        
+
         dieGuid_ = 0L;
         onChanged();
         return this;
@@ -722,7 +722,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSkillId(int value) {
-        
+
         skillId_ = value;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSkillId() {
-        
+
         skillId_ = 0;
         onChanged();
         return this;
@@ -792,7 +792,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarDieAnimationEndReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarDieAnimationEndReq_fieldAccessorTable;
 

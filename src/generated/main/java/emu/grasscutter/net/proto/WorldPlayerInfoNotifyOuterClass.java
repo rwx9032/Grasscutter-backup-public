@@ -38,7 +38,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     /**
      * <code>repeated .OnlinePlayerInfo player_info_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> 
+    java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo>
         getPlayerInfoListList();
     /**
      * <code>repeated .OnlinePlayerInfo player_info_list = 14;</code>
@@ -51,7 +51,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     /**
      * <code>repeated .OnlinePlayerInfo player_info_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
         getPlayerInfoListOrBuilderList();
     /**
      * <code>repeated .OnlinePlayerInfo player_info_list = 14;</code>
@@ -223,7 +223,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
      * <code>repeated .OnlinePlayerInfo player_info_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
         getPlayerInfoListOrBuilderList() {
       return playerInfoList_;
     }
@@ -606,7 +606,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
               playerInfoListBuilder_ = null;
               playerInfoList_ = other.playerInfoList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              playerInfoListBuilder_ = 
+              playerInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPlayerInfoListFieldBuilder() : null;
             } else {
@@ -918,7 +918,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       /**
        * <code>repeated .OnlinePlayerInfo player_info_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
            getPlayerInfoListOrBuilderList() {
         if (playerInfoListBuilder_ != null) {
           return playerInfoListBuilder_.getMessageOrBuilderList();
@@ -944,12 +944,12 @@ public final class WorldPlayerInfoNotifyOuterClass {
       /**
        * <code>repeated .OnlinePlayerInfo player_info_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder>
            getPlayerInfoListBuilderList() {
         return getPlayerInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
           getPlayerInfoListFieldBuilder() {
         if (playerInfoListBuilder_ == null) {
           playerInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1017,7 +1017,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldPlayerInfoNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldPlayerInfoNotify_fieldAccessorTable;
 

@@ -590,7 +590,7 @@ public final class EvtHittingOtherInfoOuterClass {
        * <code>.AttackResult attack_result = 2;</code>
        */
       public emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult.Builder getAttackResultBuilder() {
-        
+
         onChanged();
         return getAttackResultFieldBuilder().getBuilder();
       }
@@ -609,7 +609,7 @@ public final class EvtHittingOtherInfoOuterClass {
        * <code>.AttackResult attack_result = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult.Builder, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResultOrBuilder> 
+          emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult.Builder, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResultOrBuilder>
           getAttackResultFieldBuilder() {
         if (attackResultBuilder_ == null) {
           attackResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -637,7 +637,7 @@ public final class EvtHittingOtherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPeerId(int value) {
-        
+
         peerId_ = value;
         onChanged();
         return this;
@@ -647,7 +647,7 @@ public final class EvtHittingOtherInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPeerId() {
-        
+
         peerId_ = 0;
         onChanged();
         return this;
@@ -707,7 +707,7 @@ public final class EvtHittingOtherInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtHittingOtherInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtHittingOtherInfo_fieldAccessorTable;
 

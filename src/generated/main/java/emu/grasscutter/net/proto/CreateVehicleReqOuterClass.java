@@ -727,7 +727,7 @@ public final class CreateVehicleReqOuterClass {
        * <code>.Vector pos = 11;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -746,7 +746,7 @@ public final class CreateVehicleReqOuterClass {
        * <code>.Vector pos = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -774,7 +774,7 @@ public final class CreateVehicleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setVehicleId(int value) {
-        
+
         vehicleId_ = value;
         onChanged();
         return this;
@@ -784,7 +784,7 @@ public final class CreateVehicleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearVehicleId() {
-        
+
         vehicleId_ = 0;
         onChanged();
         return this;
@@ -805,7 +805,7 @@ public final class CreateVehicleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScenePointId(int value) {
-        
+
         scenePointId_ = value;
         onChanged();
         return this;
@@ -815,7 +815,7 @@ public final class CreateVehicleReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScenePointId() {
-        
+
         scenePointId_ = 0;
         onChanged();
         return this;
@@ -908,7 +908,7 @@ public final class CreateVehicleReqOuterClass {
        * <code>.Vector rot = 5;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
-        
+
         onChanged();
         return getRotFieldBuilder().getBuilder();
       }
@@ -927,7 +927,7 @@ public final class CreateVehicleReqOuterClass {
        * <code>.Vector rot = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRotFieldBuilder() {
         if (rotBuilder_ == null) {
           rotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -994,7 +994,7 @@ public final class CreateVehicleReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CreateVehicleReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CreateVehicleReq_fieldAccessorTable;
 

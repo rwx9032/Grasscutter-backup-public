@@ -448,7 +448,7 @@ public final class SetBattlePassViewedReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScheduleId(int value) {
-        
+
         scheduleId_ = value;
         onChanged();
         return this;
@@ -458,7 +458,7 @@ public final class SetBattlePassViewedReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScheduleId() {
-        
+
         scheduleId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class SetBattlePassViewedReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetBattlePassViewedReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetBattlePassViewedReq_fieldAccessorTable;
 

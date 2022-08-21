@@ -448,7 +448,7 @@ public final class BuyBattlePassLevelReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBuyLevel(int value) {
-        
+
         buyLevel_ = value;
         onChanged();
         return this;
@@ -458,7 +458,7 @@ public final class BuyBattlePassLevelReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBuyLevel() {
-        
+
         buyLevel_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class BuyBattlePassLevelReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BuyBattlePassLevelReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BuyBattlePassLevelReq_fieldAccessorTable;
 

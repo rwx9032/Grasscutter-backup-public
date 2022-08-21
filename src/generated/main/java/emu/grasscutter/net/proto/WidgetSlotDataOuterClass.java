@@ -566,7 +566,7 @@ public final class WidgetSlotDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCdOverTime(int value) {
-        
+
         cdOverTime_ = value;
         onChanged();
         return this;
@@ -576,7 +576,7 @@ public final class WidgetSlotDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCdOverTime() {
-        
+
         cdOverTime_ = 0;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class WidgetSlotDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTagValue(int value) {
-        
+
         tag_ = value;
         onChanged();
         return this;
@@ -620,7 +620,7 @@ public final class WidgetSlotDataOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         tag_ = value.getNumber();
         onChanged();
         return this;
@@ -630,7 +630,7 @@ public final class WidgetSlotDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTag() {
-        
+
         tag_ = 0;
         onChanged();
         return this;
@@ -651,7 +651,7 @@ public final class WidgetSlotDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
@@ -661,7 +661,7 @@ public final class WidgetSlotDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -682,7 +682,7 @@ public final class WidgetSlotDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsActive(boolean value) {
-        
+
         isActive_ = value;
         onChanged();
         return this;
@@ -692,7 +692,7 @@ public final class WidgetSlotDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsActive() {
-        
+
         isActive_ = false;
         onChanged();
         return this;
@@ -752,7 +752,7 @@ public final class WidgetSlotDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetSlotData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetSlotData_fieldAccessorTable;
 

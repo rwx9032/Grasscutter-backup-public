@@ -209,7 +209,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarTeamUpdateNotifyOuterClass.internal_static_AvatarTeamUpdateNotify_AvatarTeamMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarTeamUpdateNotifyOuterClass.internal_static_AvatarTeamUpdateNotify_AvatarTeamMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -236,7 +236,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     @java.lang.Override
     public boolean containsAvatarTeamMap(
         int key) {
-      
+
       return internalGetAvatarTeamMap().getMap().containsKey(key);
     }
     /**
@@ -263,7 +263,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     public emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam getAvatarTeamMapOrDefault(
         int key,
         emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> map =
           internalGetAvatarTeamMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -275,7 +275,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
 
     public emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam getAvatarTeamMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> map =
           internalGetAvatarTeamMap().getMap();
       if (!map.containsKey(key)) {
@@ -732,7 +732,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       @java.lang.Override
       public boolean containsAvatarTeamMap(
           int key) {
-        
+
         return internalGetAvatarTeamMap().getMap().containsKey(key);
       }
       /**
@@ -759,7 +759,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       public emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam getAvatarTeamMapOrDefault(
           int key,
           emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> map =
             internalGetAvatarTeamMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -771,7 +771,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
 
       public emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam getAvatarTeamMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam> map =
             internalGetAvatarTeamMap().getMap();
         if (!map.containsKey(key)) {
@@ -791,7 +791,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
 
       public Builder removeAvatarTeamMap(
           int key) {
-        
+
         internalGetMutableAvatarTeamMap().getMutableMap()
             .remove(key);
         return this;
@@ -810,7 +810,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       public Builder putAvatarTeamMap(
           int key,
           emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableAvatarTeamMap().getMutableMap()
             .put(key, value);
@@ -960,12 +960,12 @@ public final class AvatarTeamUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarTeamUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarTeamUpdateNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarTeamUpdateNotify_AvatarTeamMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarTeamUpdateNotify_AvatarTeamMapEntry_fieldAccessorTable;
 

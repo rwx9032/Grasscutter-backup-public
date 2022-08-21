@@ -563,7 +563,7 @@ public final class PlayerHomeCompInfoNotifyOuterClass {
        * <code>.PlayerHomeCompInfo comp_info = 4;</code>
        */
       public emu.grasscutter.net.proto.PlayerHomeCompInfoOuterClass.PlayerHomeCompInfo.Builder getCompInfoBuilder() {
-        
+
         onChanged();
         return getCompInfoFieldBuilder().getBuilder();
       }
@@ -582,7 +582,7 @@ public final class PlayerHomeCompInfoNotifyOuterClass {
        * <code>.PlayerHomeCompInfo comp_info = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerHomeCompInfoOuterClass.PlayerHomeCompInfo, emu.grasscutter.net.proto.PlayerHomeCompInfoOuterClass.PlayerHomeCompInfo.Builder, emu.grasscutter.net.proto.PlayerHomeCompInfoOuterClass.PlayerHomeCompInfoOrBuilder> 
+          emu.grasscutter.net.proto.PlayerHomeCompInfoOuterClass.PlayerHomeCompInfo, emu.grasscutter.net.proto.PlayerHomeCompInfoOuterClass.PlayerHomeCompInfo.Builder, emu.grasscutter.net.proto.PlayerHomeCompInfoOuterClass.PlayerHomeCompInfoOrBuilder>
           getCompInfoFieldBuilder() {
         if (compInfoBuilder_ == null) {
           compInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class PlayerHomeCompInfoNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerHomeCompInfoNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerHomeCompInfoNotify_fieldAccessorTable;
 

@@ -189,7 +189,7 @@ public final class H5ActivityIdsNotifyOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.H5ActivityIdsNotifyOuterClass.internal_static_H5ActivityIdsNotify_H5ActivityMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.H5ActivityIdsNotifyOuterClass.internal_static_H5ActivityIdsNotify_H5ActivityMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -216,7 +216,7 @@ public final class H5ActivityIdsNotifyOuterClass {
     @java.lang.Override
     public boolean containsH5ActivityMap(
         int key) {
-      
+
       return internalGetH5ActivityMap().getMap().containsKey(key);
     }
     /**
@@ -243,7 +243,7 @@ public final class H5ActivityIdsNotifyOuterClass {
     public int getH5ActivityMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetH5ActivityMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -255,7 +255,7 @@ public final class H5ActivityIdsNotifyOuterClass {
 
     public int getH5ActivityMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetH5ActivityMap().getMap();
       if (!map.containsKey(key)) {
@@ -638,7 +638,7 @@ public final class H5ActivityIdsNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setClientRedDotTimestamp(int value) {
-        
+
         clientRedDotTimestamp_ = value;
         onChanged();
         return this;
@@ -648,7 +648,7 @@ public final class H5ActivityIdsNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearClientRedDotTimestamp() {
-        
+
         clientRedDotTimestamp_ = 0;
         onChanged();
         return this;
@@ -687,7 +687,7 @@ public final class H5ActivityIdsNotifyOuterClass {
       @java.lang.Override
       public boolean containsH5ActivityMap(
           int key) {
-        
+
         return internalGetH5ActivityMap().getMap().containsKey(key);
       }
       /**
@@ -714,7 +714,7 @@ public final class H5ActivityIdsNotifyOuterClass {
       public int getH5ActivityMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetH5ActivityMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -726,7 +726,7 @@ public final class H5ActivityIdsNotifyOuterClass {
 
       public int getH5ActivityMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetH5ActivityMap().getMap();
         if (!map.containsKey(key)) {
@@ -746,7 +746,7 @@ public final class H5ActivityIdsNotifyOuterClass {
 
       public Builder removeH5ActivityMap(
           int key) {
-        
+
         internalGetMutableH5ActivityMap().getMutableMap()
             .remove(key);
         return this;
@@ -765,8 +765,8 @@ public final class H5ActivityIdsNotifyOuterClass {
       public Builder putH5ActivityMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableH5ActivityMap().getMutableMap()
             .put(key, value);
         return this;
@@ -836,12 +836,12 @@ public final class H5ActivityIdsNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_H5ActivityIdsNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_H5ActivityIdsNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_H5ActivityIdsNotify_H5ActivityMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_H5ActivityIdsNotify_H5ActivityMapEntry_fieldAccessorTable;
 

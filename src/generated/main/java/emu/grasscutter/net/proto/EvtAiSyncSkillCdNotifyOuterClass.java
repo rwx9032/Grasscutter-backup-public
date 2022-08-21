@@ -168,7 +168,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo>newDefaultInstance(
-                  emu.grasscutter.net.proto.EvtAiSyncSkillCdNotifyOuterClass.internal_static_EvtAiSyncSkillCdNotify_AiCdMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.EvtAiSyncSkillCdNotifyOuterClass.internal_static_EvtAiSyncSkillCdNotify_AiCdMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -195,7 +195,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
     @java.lang.Override
     public boolean containsAiCdMap(
         int key) {
-      
+
       return internalGetAiCdMap().getMap().containsKey(key);
     }
     /**
@@ -222,7 +222,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
     public emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo getAiCdMapOrDefault(
         int key,
         emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo> map =
           internalGetAiCdMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -234,7 +234,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
 
     public emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo getAiCdMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo> map =
           internalGetAiCdMap().getMap();
       if (!map.containsKey(key)) {
@@ -619,7 +619,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
       @java.lang.Override
       public boolean containsAiCdMap(
           int key) {
-        
+
         return internalGetAiCdMap().getMap().containsKey(key);
       }
       /**
@@ -646,7 +646,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
       public emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo getAiCdMapOrDefault(
           int key,
           emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo> map =
             internalGetAiCdMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -658,7 +658,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
 
       public emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo getAiCdMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo> map =
             internalGetAiCdMap().getMap();
         if (!map.containsKey(key)) {
@@ -678,7 +678,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
 
       public Builder removeAiCdMap(
           int key) {
-        
+
         internalGetMutableAiCdMap().getMutableMap()
             .remove(key);
         return this;
@@ -697,7 +697,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
       public Builder putAiCdMap(
           int key,
           emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableAiCdMap().getMutableMap()
             .put(key, value);
@@ -768,12 +768,12 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtAiSyncSkillCdNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtAiSyncSkillCdNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtAiSyncSkillCdNotify_AiCdMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtAiSyncSkillCdNotify_AiCdMapEntry_fieldAccessorTable;
 

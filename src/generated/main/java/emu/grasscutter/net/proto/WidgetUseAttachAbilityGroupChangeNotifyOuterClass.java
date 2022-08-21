@@ -486,7 +486,7 @@ public final class WidgetUseAttachAbilityGroupChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAttach(boolean value) {
-        
+
         isAttach_ = value;
         onChanged();
         return this;
@@ -496,7 +496,7 @@ public final class WidgetUseAttachAbilityGroupChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAttach() {
-        
+
         isAttach_ = false;
         onChanged();
         return this;
@@ -517,7 +517,7 @@ public final class WidgetUseAttachAbilityGroupChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
@@ -527,7 +527,7 @@ public final class WidgetUseAttachAbilityGroupChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -587,7 +587,7 @@ public final class WidgetUseAttachAbilityGroupChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetUseAttachAbilityGroupChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetUseAttachAbilityGroupChangeNotify_fieldAccessorTable;
 

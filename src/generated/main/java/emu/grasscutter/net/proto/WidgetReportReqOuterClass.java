@@ -568,7 +568,7 @@ public final class WidgetReportReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700MFEHMLBNNAG(boolean value) {
-        
+
         unk2700MFEHMLBNNAG_ = value;
         onChanged();
         return this;
@@ -578,7 +578,7 @@ public final class WidgetReportReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700MFEHMLBNNAG() {
-        
+
         unk2700MFEHMLBNNAG_ = false;
         onChanged();
         return this;
@@ -599,7 +599,7 @@ public final class WidgetReportReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsClientCollect(boolean value) {
-        
+
         isClientCollect_ = value;
         onChanged();
         return this;
@@ -609,7 +609,7 @@ public final class WidgetReportReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsClientCollect() {
-        
+
         isClientCollect_ = false;
         onChanged();
         return this;
@@ -630,7 +630,7 @@ public final class WidgetReportReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsClearHint(boolean value) {
-        
+
         isClearHint_ = value;
         onChanged();
         return this;
@@ -640,7 +640,7 @@ public final class WidgetReportReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsClearHint() {
-        
+
         isClearHint_ = false;
         onChanged();
         return this;
@@ -661,7 +661,7 @@ public final class WidgetReportReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
@@ -671,7 +671,7 @@ public final class WidgetReportReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -731,7 +731,7 @@ public final class WidgetReportReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetReportReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetReportReq_fieldAccessorTable;
 

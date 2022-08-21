@@ -512,7 +512,7 @@ public final class ExhibitionDisplayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -522,7 +522,7 @@ public final class ExhibitionDisplayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -543,7 +543,7 @@ public final class ExhibitionDisplayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParam(int value) {
-        
+
         param_ = value;
         onChanged();
         return this;
@@ -553,7 +553,7 @@ public final class ExhibitionDisplayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParam() {
-        
+
         param_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class ExhibitionDisplayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDetailParam(int value) {
-        
+
         detailParam_ = value;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class ExhibitionDisplayInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDetailParam() {
-        
+
         detailParam_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class ExhibitionDisplayInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ExhibitionDisplayInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ExhibitionDisplayInfo_fieldAccessorTable;
 

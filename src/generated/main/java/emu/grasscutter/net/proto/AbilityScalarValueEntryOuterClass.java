@@ -345,7 +345,7 @@ public final class AbilityScalarValueEntryOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (valueCase_ == 4) {
@@ -365,7 +365,7 @@ public final class AbilityScalarValueEntryOuterClass {
         ref = value_;
       }
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         if (valueCase_ == 4) {
@@ -966,7 +966,7 @@ public final class AbilityScalarValueEntryOuterClass {
        * <code>.AbilityString key = 1;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getKeyBuilder() {
-        
+
         onChanged();
         return getKeyFieldBuilder().getBuilder();
       }
@@ -985,7 +985,7 @@ public final class AbilityScalarValueEntryOuterClass {
        * <code>.AbilityString key = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> 
+          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder>
           getKeyFieldBuilder() {
         if (keyBuilder_ == null) {
           keyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1012,7 +1012,7 @@ public final class AbilityScalarValueEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setValueTypeValue(int value) {
-        
+
         valueType_ = value;
         onChanged();
         return this;
@@ -1036,7 +1036,7 @@ public final class AbilityScalarValueEntryOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         valueType_ = value.getNumber();
         onChanged();
         return this;
@@ -1046,7 +1046,7 @@ public final class AbilityScalarValueEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearValueType() {
-        
+
         valueType_ = 0;
         onChanged();
         return this;
@@ -1135,7 +1135,7 @@ public final class AbilityScalarValueEntryOuterClass {
           ref = value_;
         }
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           if (valueCase_ == 4) {
@@ -1326,7 +1326,7 @@ public final class AbilityScalarValueEntryOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityScalarValueEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityScalarValueEntry_fieldAccessorTable;
 

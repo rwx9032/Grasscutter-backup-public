@@ -551,7 +551,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDiscountNum(int value) {
-        
+
         discountNum_ = value;
         onChanged();
         return this;
@@ -561,7 +561,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDiscountNum() {
-        
+
         discountNum_ = 0;
         onChanged();
         return this;
@@ -582,7 +582,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDiscountNumLimit(int value) {
-        
+
         discountNumLimit_ = value;
         onChanged();
         return this;
@@ -592,7 +592,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDiscountNumLimit() {
-        
+
         discountNumLimit_ = 0;
         onChanged();
         return this;
@@ -613,7 +613,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setResinCost(int value) {
-        
+
         resinCost_ = value;
         onChanged();
         return this;
@@ -623,7 +623,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearResinCost() {
-        
+
         resinCost_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOriginalResinCost(int value) {
-        
+
         originalResinCost_ = value;
         onChanged();
         return this;
@@ -654,7 +654,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOriginalResinCost() {
-        
+
         originalResinCost_ = 0;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeeklyBossResinDiscountInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeeklyBossResinDiscountInfo_fieldAccessorTable;
 

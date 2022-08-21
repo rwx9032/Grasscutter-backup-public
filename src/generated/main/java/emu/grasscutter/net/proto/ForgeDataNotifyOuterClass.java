@@ -248,7 +248,7 @@ public final class ForgeDataNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData>newDefaultInstance(
-                  emu.grasscutter.net.proto.ForgeDataNotifyOuterClass.internal_static_ForgeDataNotify_ForgeQueueMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.ForgeDataNotifyOuterClass.internal_static_ForgeDataNotify_ForgeQueueMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -275,7 +275,7 @@ public final class ForgeDataNotifyOuterClass {
     @java.lang.Override
     public boolean containsForgeQueueMap(
         int key) {
-      
+
       return internalGetForgeQueueMap().getMap().containsKey(key);
     }
     /**
@@ -302,7 +302,7 @@ public final class ForgeDataNotifyOuterClass {
     public emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData getForgeQueueMapOrDefault(
         int key,
         emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> map =
           internalGetForgeQueueMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -314,7 +314,7 @@ public final class ForgeDataNotifyOuterClass {
 
     public emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData getForgeQueueMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> map =
           internalGetForgeQueueMap().getMap();
       if (!map.containsKey(key)) {
@@ -850,7 +850,7 @@ public final class ForgeDataNotifyOuterClass {
       @java.lang.Override
       public boolean containsForgeQueueMap(
           int key) {
-        
+
         return internalGetForgeQueueMap().getMap().containsKey(key);
       }
       /**
@@ -877,7 +877,7 @@ public final class ForgeDataNotifyOuterClass {
       public emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData getForgeQueueMapOrDefault(
           int key,
           emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> map =
             internalGetForgeQueueMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -889,7 +889,7 @@ public final class ForgeDataNotifyOuterClass {
 
       public emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData getForgeQueueMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> map =
             internalGetForgeQueueMap().getMap();
         if (!map.containsKey(key)) {
@@ -909,7 +909,7 @@ public final class ForgeDataNotifyOuterClass {
 
       public Builder removeForgeQueueMap(
           int key) {
-        
+
         internalGetMutableForgeQueueMap().getMutableMap()
             .remove(key);
         return this;
@@ -928,7 +928,7 @@ public final class ForgeDataNotifyOuterClass {
       public Builder putForgeQueueMap(
           int key,
           emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableForgeQueueMap().getMutableMap()
             .put(key, value);
@@ -960,7 +960,7 @@ public final class ForgeDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxQueueNum(int value) {
-        
+
         maxQueueNum_ = value;
         onChanged();
         return this;
@@ -970,7 +970,7 @@ public final class ForgeDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxQueueNum() {
-        
+
         maxQueueNum_ = 0;
         onChanged();
         return this;
@@ -1030,12 +1030,12 @@ public final class ForgeDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForgeDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForgeDataNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForgeDataNotify_ForgeQueueMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForgeDataNotify_ForgeQueueMapEntry_fieldAccessorTable;
 

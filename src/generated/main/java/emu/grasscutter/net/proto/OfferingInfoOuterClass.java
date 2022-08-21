@@ -434,7 +434,7 @@ public final class OfferingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOfferingId(int value) {
-        
+
         offeringId_ = value;
         onChanged();
         return this;
@@ -444,7 +444,7 @@ public final class OfferingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOfferingId() {
-        
+
         offeringId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class OfferingInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_OfferingInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_OfferingInfo_fieldAccessorTable;
 

@@ -576,7 +576,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         birthday_ = s;
@@ -592,7 +592,7 @@ public final class GetPlayerTokenRspOuterClass {
         getBirthdayBytes() {
       java.lang.Object ref = birthday_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         birthday_ = b;
@@ -647,7 +647,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         countryCode_ = s;
@@ -663,7 +663,7 @@ public final class GetPlayerTokenRspOuterClass {
         getCountryCodeBytes() {
       java.lang.Object ref = countryCode_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         countryCode_ = b;
@@ -696,7 +696,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         secretKey_ = s;
@@ -712,7 +712,7 @@ public final class GetPlayerTokenRspOuterClass {
         getSecretKeyBytes() {
       java.lang.Object ref = secretKey_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         secretKey_ = b;
@@ -767,7 +767,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         token_ = s;
@@ -783,7 +783,7 @@ public final class GetPlayerTokenRspOuterClass {
         getTokenBytes() {
       java.lang.Object ref = token_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         token_ = b;
@@ -827,7 +827,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         psnId_ = s;
@@ -843,7 +843,7 @@ public final class GetPlayerTokenRspOuterClass {
         getPsnIdBytes() {
       java.lang.Object ref = psnId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         psnId_ = b;
@@ -865,7 +865,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         clientIpStr_ = s;
@@ -881,7 +881,7 @@ public final class GetPlayerTokenRspOuterClass {
         getClientIpStrBytes() {
       java.lang.Object ref = clientIpStr_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         clientIpStr_ = b;
@@ -903,7 +903,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         msg_ = s;
@@ -919,7 +919,7 @@ public final class GetPlayerTokenRspOuterClass {
         getMsgBytes() {
       java.lang.Object ref = msg_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         msg_ = b;
@@ -974,7 +974,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         encryptedSeed_ = s;
@@ -990,7 +990,7 @@ public final class GetPlayerTokenRspOuterClass {
         getEncryptedSeedBytes() {
       java.lang.Object ref = encryptedSeed_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         encryptedSeed_ = b;
@@ -1045,7 +1045,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         accountUid_ = s;
@@ -1061,7 +1061,7 @@ public final class GetPlayerTokenRspOuterClass {
         getAccountUidBytes() {
       java.lang.Object ref = accountUid_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         accountUid_ = b;
@@ -1094,7 +1094,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         clientVersionRandomKey_ = s;
@@ -1110,7 +1110,7 @@ public final class GetPlayerTokenRspOuterClass {
         getClientVersionRandomKeyBytes() {
       java.lang.Object ref = clientVersionRandomKey_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         clientVersionRandomKey_ = b;
@@ -1193,7 +1193,7 @@ public final class GetPlayerTokenRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         seedSignature_ = s;
@@ -1209,7 +1209,7 @@ public final class GetPlayerTokenRspOuterClass {
         getSeedSignatureBytes() {
       java.lang.Object ref = seedSignature_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         seedSignature_ = b;
@@ -2097,7 +2097,7 @@ public final class GetPlayerTokenRspOuterClass {
           getBirthdayBytes() {
         java.lang.Object ref = birthday_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           birthday_ = b;
@@ -2116,7 +2116,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         birthday_ = value;
         onChanged();
         return this;
@@ -2126,7 +2126,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBirthday() {
-        
+
         birthday_ = getDefaultInstance().getBirthday();
         onChanged();
         return this;
@@ -2142,7 +2142,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         birthday_ = value;
         onChanged();
         return this;
@@ -2163,7 +2163,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -2173,7 +2173,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -2197,7 +2197,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         securityCmdBuffer_ = value;
         onChanged();
         return this;
@@ -2207,7 +2207,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSecurityCmdBuffer() {
-        
+
         securityCmdBuffer_ = getDefaultInstance().getSecurityCmdBuffer();
         onChanged();
         return this;
@@ -2228,7 +2228,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSecretKeySeed(long value) {
-        
+
         secretKeySeed_ = value;
         onChanged();
         return this;
@@ -2238,7 +2238,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSecretKeySeed() {
-        
+
         secretKeySeed_ = 0L;
         onChanged();
         return this;
@@ -2269,7 +2269,7 @@ public final class GetPlayerTokenRspOuterClass {
           getCountryCodeBytes() {
         java.lang.Object ref = countryCode_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           countryCode_ = b;
@@ -2288,7 +2288,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         countryCode_ = value;
         onChanged();
         return this;
@@ -2298,7 +2298,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCountryCode() {
-        
+
         countryCode_ = getDefaultInstance().getCountryCode();
         onChanged();
         return this;
@@ -2314,7 +2314,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         countryCode_ = value;
         onChanged();
         return this;
@@ -2338,7 +2338,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         extraBinData_ = value;
         onChanged();
         return this;
@@ -2348,7 +2348,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExtraBinData() {
-        
+
         extraBinData_ = getDefaultInstance().getExtraBinData();
         onChanged();
         return this;
@@ -2379,7 +2379,7 @@ public final class GetPlayerTokenRspOuterClass {
           getSecretKeyBytes() {
         java.lang.Object ref = secretKey_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           secretKey_ = b;
@@ -2398,7 +2398,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         secretKey_ = value;
         onChanged();
         return this;
@@ -2408,7 +2408,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSecretKey() {
-        
+
         secretKey_ = getDefaultInstance().getSecretKey();
         onChanged();
         return this;
@@ -2424,7 +2424,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         secretKey_ = value;
         onChanged();
         return this;
@@ -2445,7 +2445,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700NOJPEHIBDJH(int value) {
-        
+
         unk2700NOJPEHIBDJH_ = value;
         onChanged();
         return this;
@@ -2455,7 +2455,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700NOJPEHIBDJH() {
-        
+
         unk2700NOJPEHIBDJH_ = 0;
         onChanged();
         return this;
@@ -2476,7 +2476,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBlackUidEndTime(int value) {
-        
+
         blackUidEndTime_ = value;
         onChanged();
         return this;
@@ -2486,7 +2486,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBlackUidEndTime() {
-        
+
         blackUidEndTime_ = 0;
         onChanged();
         return this;
@@ -2507,7 +2507,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTag(int value) {
-        
+
         tag_ = value;
         onChanged();
         return this;
@@ -2517,7 +2517,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTag() {
-        
+
         tag_ = 0;
         onChanged();
         return this;
@@ -2548,7 +2548,7 @@ public final class GetPlayerTokenRspOuterClass {
           getTokenBytes() {
         java.lang.Object ref = token_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           token_ = b;
@@ -2567,7 +2567,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         token_ = value;
         onChanged();
         return this;
@@ -2577,7 +2577,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearToken() {
-        
+
         token_ = getDefaultInstance().getToken();
         onChanged();
         return this;
@@ -2593,7 +2593,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         token_ = value;
         onChanged();
         return this;
@@ -2614,7 +2614,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGmUid(int value) {
-        
+
         gmUid_ = value;
         onChanged();
         return this;
@@ -2624,7 +2624,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGmUid() {
-        
+
         gmUid_ = 0;
         onChanged();
         return this;
@@ -2645,7 +2645,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChannelId(int value) {
-        
+
         channelId_ = value;
         onChanged();
         return this;
@@ -2655,7 +2655,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChannelId() {
-        
+
         channelId_ = 0;
         onChanged();
         return this;
@@ -2686,7 +2686,7 @@ public final class GetPlayerTokenRspOuterClass {
           getPsnIdBytes() {
         java.lang.Object ref = psnId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           psnId_ = b;
@@ -2705,7 +2705,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         psnId_ = value;
         onChanged();
         return this;
@@ -2715,7 +2715,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPsnId() {
-        
+
         psnId_ = getDefaultInstance().getPsnId();
         onChanged();
         return this;
@@ -2731,7 +2731,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         psnId_ = value;
         onChanged();
         return this;
@@ -2762,7 +2762,7 @@ public final class GetPlayerTokenRspOuterClass {
           getClientIpStrBytes() {
         java.lang.Object ref = clientIpStr_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           clientIpStr_ = b;
@@ -2781,7 +2781,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         clientIpStr_ = value;
         onChanged();
         return this;
@@ -2791,7 +2791,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearClientIpStr() {
-        
+
         clientIpStr_ = getDefaultInstance().getClientIpStr();
         onChanged();
         return this;
@@ -2807,7 +2807,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         clientIpStr_ = value;
         onChanged();
         return this;
@@ -2838,7 +2838,7 @@ public final class GetPlayerTokenRspOuterClass {
           getMsgBytes() {
         java.lang.Object ref = msg_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           msg_ = b;
@@ -2857,7 +2857,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         msg_ = value;
         onChanged();
         return this;
@@ -2867,7 +2867,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMsg() {
-        
+
         msg_ = getDefaultInstance().getMsg();
         onChanged();
         return this;
@@ -2883,7 +2883,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         msg_ = value;
         onChanged();
         return this;
@@ -2904,7 +2904,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAccountType(int value) {
-        
+
         accountType_ = value;
         onChanged();
         return this;
@@ -2914,7 +2914,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAccountType() {
-        
+
         accountType_ = 0;
         onChanged();
         return this;
@@ -2935,7 +2935,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSubChannelId(int value) {
-        
+
         subChannelId_ = value;
         onChanged();
         return this;
@@ -2945,7 +2945,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSubChannelId() {
-        
+
         subChannelId_ = 0;
         onChanged();
         return this;
@@ -2966,7 +2966,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700FLBKPCPGPDH(boolean value) {
-        
+
         unk2700FLBKPCPGPDH_ = value;
         onChanged();
         return this;
@@ -2976,7 +2976,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700FLBKPCPGPDH() {
-        
+
         unk2700FLBKPCPGPDH_ = false;
         onChanged();
         return this;
@@ -3007,7 +3007,7 @@ public final class GetPlayerTokenRspOuterClass {
           getEncryptedSeedBytes() {
         java.lang.Object ref = encryptedSeed_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           encryptedSeed_ = b;
@@ -3026,7 +3026,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         encryptedSeed_ = value;
         onChanged();
         return this;
@@ -3036,7 +3036,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEncryptedSeed() {
-        
+
         encryptedSeed_ = getDefaultInstance().getEncryptedSeed();
         onChanged();
         return this;
@@ -3052,7 +3052,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         encryptedSeed_ = value;
         onChanged();
         return this;
@@ -3073,7 +3073,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsProficientPlayer(boolean value) {
-        
+
         isProficientPlayer_ = value;
         onChanged();
         return this;
@@ -3083,7 +3083,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsProficientPlayer() {
-        
+
         isProficientPlayer_ = false;
         onChanged();
         return this;
@@ -3104,7 +3104,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2800BPJOBLNCBEI(int value) {
-        
+
         unk2800BPJOBLNCBEI_ = value;
         onChanged();
         return this;
@@ -3114,7 +3114,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2800BPJOBLNCBEI() {
-        
+
         unk2800BPJOBLNCBEI_ = 0;
         onChanged();
         return this;
@@ -3135,7 +3135,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -3145,7 +3145,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -3176,7 +3176,7 @@ public final class GetPlayerTokenRspOuterClass {
           getAccountUidBytes() {
         java.lang.Object ref = accountUid_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           accountUid_ = b;
@@ -3195,7 +3195,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         accountUid_ = value;
         onChanged();
         return this;
@@ -3205,7 +3205,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAccountUid() {
-        
+
         accountUid_ = getDefaultInstance().getAccountUid();
         onChanged();
         return this;
@@ -3221,7 +3221,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         accountUid_ = value;
         onChanged();
         return this;
@@ -3242,7 +3242,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsGuest(boolean value) {
-        
+
         isGuest_ = value;
         onChanged();
         return this;
@@ -3252,7 +3252,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsGuest() {
-        
+
         isGuest_ = false;
         onChanged();
         return this;
@@ -3283,7 +3283,7 @@ public final class GetPlayerTokenRspOuterClass {
           getClientVersionRandomKeyBytes() {
         java.lang.Object ref = clientVersionRandomKey_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           clientVersionRandomKey_ = b;
@@ -3302,7 +3302,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         clientVersionRandomKey_ = value;
         onChanged();
         return this;
@@ -3312,7 +3312,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearClientVersionRandomKey() {
-        
+
         clientVersionRandomKey_ = getDefaultInstance().getClientVersionRandomKey();
         onChanged();
         return this;
@@ -3328,7 +3328,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         clientVersionRandomKey_ = value;
         onChanged();
         return this;
@@ -3428,7 +3428,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPlatformType(int value) {
-        
+
         platformType_ = value;
         onChanged();
         return this;
@@ -3438,7 +3438,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPlatformType() {
-        
+
         platformType_ = 0;
         onChanged();
         return this;
@@ -3459,7 +3459,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRegPlatform(int value) {
-        
+
         regPlatform_ = value;
         onChanged();
         return this;
@@ -3469,7 +3469,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRegPlatform() {
-        
+
         regPlatform_ = 0;
         onChanged();
         return this;
@@ -3490,7 +3490,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsLoginWhiteList(boolean value) {
-        
+
         isLoginWhiteList_ = value;
         onChanged();
         return this;
@@ -3500,7 +3500,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsLoginWhiteList() {
-        
+
         isLoginWhiteList_ = false;
         onChanged();
         return this;
@@ -3531,7 +3531,7 @@ public final class GetPlayerTokenRspOuterClass {
           getSeedSignatureBytes() {
         java.lang.Object ref = seedSignature_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           seedSignature_ = b;
@@ -3550,7 +3550,7 @@ public final class GetPlayerTokenRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         seedSignature_ = value;
         onChanged();
         return this;
@@ -3560,7 +3560,7 @@ public final class GetPlayerTokenRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSeedSignature() {
-        
+
         seedSignature_ = getDefaultInstance().getSeedSignature();
         onChanged();
         return this;
@@ -3576,7 +3576,7 @@ public final class GetPlayerTokenRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         seedSignature_ = value;
         onChanged();
         return this;
@@ -3636,7 +3636,7 @@ public final class GetPlayerTokenRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetPlayerTokenRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetPlayerTokenRsp_fieldAccessorTable;
 

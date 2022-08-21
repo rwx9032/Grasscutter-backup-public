@@ -624,7 +624,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
@@ -648,7 +648,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
@@ -658,7 +658,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
@@ -679,7 +679,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -689,7 +689,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -710,7 +710,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsServerCache(boolean value) {
-        
+
         isServerCache_ = value;
         onChanged();
         return this;
@@ -720,7 +720,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsServerCache() {
-        
+
         isServerCache_ = false;
         onChanged();
         return this;
@@ -813,7 +813,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
        * <code>.EntityRendererChangedInfo renderer_changed_info = 5;</code>
        */
       public emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.Builder getRendererChangedInfoBuilder() {
-        
+
         onChanged();
         return getRendererChangedInfoFieldBuilder().getBuilder();
       }
@@ -832,7 +832,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
        * <code>.EntityRendererChangedInfo renderer_changed_info = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.Builder, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfoOrBuilder> 
+          emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.Builder, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfoOrBuilder>
           getRendererChangedInfoFieldBuilder() {
         if (rendererChangedInfoBuilder_ == null) {
           rendererChangedInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -899,7 +899,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtEntityRenderersChangedNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtEntityRenderersChangedNotify_fieldAccessorTable;
 

@@ -551,7 +551,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTowerScheduleId(int value) {
-        
+
         towerScheduleId_ = value;
         onChanged();
         return this;
@@ -561,7 +561,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTowerScheduleId() {
-        
+
         towerScheduleId_ = 0;
         onChanged();
         return this;
@@ -582,7 +582,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBestFloorIndex(int value) {
-        
+
         bestFloorIndex_ = value;
         onChanged();
         return this;
@@ -592,7 +592,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBestFloorIndex() {
-        
+
         bestFloorIndex_ = 0;
         onChanged();
         return this;
@@ -613,7 +613,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBestLevelIndex(int value) {
-        
+
         bestLevelIndex_ = value;
         onChanged();
         return this;
@@ -623,7 +623,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBestLevelIndex() {
-        
+
         bestLevelIndex_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTotalStarCount(int value) {
-        
+
         totalStarCount_ = value;
         onChanged();
         return this;
@@ -654,7 +654,7 @@ public final class TowerMonthlyBriefOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTotalStarCount() {
-        
+
         totalStarCount_ = 0;
         onChanged();
         return this;
@@ -714,7 +714,7 @@ public final class TowerMonthlyBriefOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerMonthlyBrief_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerMonthlyBrief_fieldAccessorTable;
 

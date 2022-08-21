@@ -164,7 +164,7 @@ public final class MailTextContentOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         title_ = s;
@@ -180,7 +180,7 @@ public final class MailTextContentOuterClass {
         getTitleBytes() {
       java.lang.Object ref = title_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         title_ = b;
@@ -202,7 +202,7 @@ public final class MailTextContentOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         content_ = s;
@@ -218,7 +218,7 @@ public final class MailTextContentOuterClass {
         getContentBytes() {
       java.lang.Object ref = content_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         content_ = b;
@@ -240,7 +240,7 @@ public final class MailTextContentOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         sender_ = s;
@@ -256,7 +256,7 @@ public final class MailTextContentOuterClass {
         getSenderBytes() {
       java.lang.Object ref = sender_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         sender_ = b;
@@ -627,7 +627,7 @@ public final class MailTextContentOuterClass {
           getTitleBytes() {
         java.lang.Object ref = title_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           title_ = b;
@@ -646,7 +646,7 @@ public final class MailTextContentOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         title_ = value;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class MailTextContentOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTitle() {
-        
+
         title_ = getDefaultInstance().getTitle();
         onChanged();
         return this;
@@ -672,7 +672,7 @@ public final class MailTextContentOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         title_ = value;
         onChanged();
         return this;
@@ -703,7 +703,7 @@ public final class MailTextContentOuterClass {
           getContentBytes() {
         java.lang.Object ref = content_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           content_ = b;
@@ -722,7 +722,7 @@ public final class MailTextContentOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         content_ = value;
         onChanged();
         return this;
@@ -732,7 +732,7 @@ public final class MailTextContentOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearContent() {
-        
+
         content_ = getDefaultInstance().getContent();
         onChanged();
         return this;
@@ -748,7 +748,7 @@ public final class MailTextContentOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         content_ = value;
         onChanged();
         return this;
@@ -779,7 +779,7 @@ public final class MailTextContentOuterClass {
           getSenderBytes() {
         java.lang.Object ref = sender_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           sender_ = b;
@@ -798,7 +798,7 @@ public final class MailTextContentOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         sender_ = value;
         onChanged();
         return this;
@@ -808,7 +808,7 @@ public final class MailTextContentOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSender() {
-        
+
         sender_ = getDefaultInstance().getSender();
         onChanged();
         return this;
@@ -824,7 +824,7 @@ public final class MailTextContentOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         sender_ = value;
         onChanged();
         return this;
@@ -884,7 +884,7 @@ public final class MailTextContentOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MailTextContent_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MailTextContent_fieldAccessorTable;
 

@@ -569,7 +569,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSrcThreadIndex(int value) {
-        
+
         srcThreadIndex_ = value;
         onChanged();
         return this;
@@ -579,7 +579,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSrcThreadIndex() {
-        
+
         srcThreadIndex_ = 0;
         onChanged();
         return this;
@@ -600,7 +600,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSrcAppId(int value) {
-        
+
         srcAppId_ = value;
         onChanged();
         return this;
@@ -610,7 +610,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSrcAppId() {
-        
+
         srcAppId_ = 0;
         onChanged();
         return this;
@@ -703,7 +703,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
        * <code>.OnlinePlayerInfo src_player_info = 2;</code>
        */
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder getSrcPlayerInfoBuilder() {
-        
+
         onChanged();
         return getSrcPlayerInfoFieldBuilder().getBuilder();
       }
@@ -722,7 +722,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
        * <code>.OnlinePlayerInfo src_player_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
           getSrcPlayerInfoFieldBuilder() {
         if (srcPlayerInfoBuilder_ == null) {
           srcPlayerInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -789,7 +789,7 @@ public final class PlayerApplyEnterMpNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerApplyEnterMpNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerApplyEnterMpNotify_fieldAccessorTable;
 

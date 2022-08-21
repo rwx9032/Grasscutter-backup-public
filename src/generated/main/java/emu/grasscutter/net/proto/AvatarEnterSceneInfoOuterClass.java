@@ -21,7 +21,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     /**
      * <code>repeated .ServerBuff server_buff_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> 
+    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff>
         getServerBuffListList();
     /**
      * <code>repeated .ServerBuff server_buff_list = 14;</code>
@@ -34,7 +34,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     /**
      * <code>repeated .ServerBuff server_buff_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList();
     /**
      * <code>repeated .ServerBuff server_buff_list = 14;</code>
@@ -288,7 +288,7 @@ public final class AvatarEnterSceneInfoOuterClass {
      * <code>repeated .ServerBuff server_buff_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList() {
       return serverBuffList_;
     }
@@ -890,7 +890,7 @@ public final class AvatarEnterSceneInfoOuterClass {
               serverBuffListBuilder_ = null;
               serverBuffList_ = other.serverBuffList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              serverBuffListBuilder_ = 
+              serverBuffListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getServerBuffListFieldBuilder() : null;
             } else {
@@ -1151,7 +1151,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       /**
        * <code>repeated .ServerBuff server_buff_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
            getServerBuffListOrBuilderList() {
         if (serverBuffListBuilder_ != null) {
           return serverBuffListBuilder_.getMessageOrBuilderList();
@@ -1177,12 +1177,12 @@ public final class AvatarEnterSceneInfoOuterClass {
       /**
        * <code>repeated .ServerBuff server_buff_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder>
            getServerBuffListBuilderList() {
         return getServerBuffListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
           getServerBuffListFieldBuilder() {
         if (serverBuffListBuilder_ == null) {
           serverBuffListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1211,7 +1211,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarEntityId(int value) {
-        
+
         avatarEntityId_ = value;
         onChanged();
         return this;
@@ -1221,7 +1221,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarEntityId() {
-        
+
         avatarEntityId_ = 0;
         onChanged();
         return this;
@@ -1314,7 +1314,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * <code>.AbilitySyncStateInfo weapon_ability_info = 12;</code>
        */
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getWeaponAbilityInfoBuilder() {
-        
+
         onChanged();
         return getWeaponAbilityInfoFieldBuilder().getBuilder();
       }
@@ -1333,7 +1333,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * <code>.AbilitySyncStateInfo weapon_ability_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
+          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>
           getWeaponAbilityInfoFieldBuilder() {
         if (weaponAbilityInfoBuilder_ == null) {
           weaponAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1361,7 +1361,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWeaponEntityId(int value) {
-        
+
         weaponEntityId_ = value;
         onChanged();
         return this;
@@ -1371,7 +1371,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWeaponEntityId() {
-        
+
         weaponEntityId_ = 0;
         onChanged();
         return this;
@@ -1464,7 +1464,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * <code>.AbilitySyncStateInfo avatar_ability_info = 2;</code>
        */
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getAvatarAbilityInfoBuilder() {
-        
+
         onChanged();
         return getAvatarAbilityInfoFieldBuilder().getBuilder();
       }
@@ -1483,7 +1483,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * <code>.AbilitySyncStateInfo avatar_ability_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
+          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>
           getAvatarAbilityInfoFieldBuilder() {
         if (avatarAbilityInfoBuilder_ == null) {
           avatarAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1511,7 +1511,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -1521,7 +1521,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -1542,7 +1542,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWeaponGuid(long value) {
-        
+
         weaponGuid_ = value;
         onChanged();
         return this;
@@ -1552,7 +1552,7 @@ public final class AvatarEnterSceneInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWeaponGuid() {
-        
+
         weaponGuid_ = 0L;
         onChanged();
         return this;
@@ -1691,7 +1691,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarEnterSceneInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarEnterSceneInfo_fieldAccessorTable;
 

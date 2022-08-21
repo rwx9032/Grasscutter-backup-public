@@ -674,7 +674,7 @@ public final class PropValueOuterClass {
        * @return This builder for chaining.
        */
       public Builder setType(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
@@ -684,7 +684,7 @@ public final class PropValueOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -705,7 +705,7 @@ public final class PropValueOuterClass {
        * @return This builder for chaining.
        */
       public Builder setVal(long value) {
-        
+
         val_ = value;
         onChanged();
         return this;
@@ -715,7 +715,7 @@ public final class PropValueOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearVal() {
-        
+
         val_ = 0L;
         onChanged();
         return this;
@@ -857,7 +857,7 @@ public final class PropValueOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PropValue_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PropValue_fieldAccessorTable;
 

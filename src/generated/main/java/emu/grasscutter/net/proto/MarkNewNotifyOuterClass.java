@@ -643,7 +643,7 @@ public final class MarkNewNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMarkNewType(int value) {
-        
+
         markNewType_ = value;
         onChanged();
         return this;
@@ -653,7 +653,7 @@ public final class MarkNewNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMarkNewType() {
-        
+
         markNewType_ = 0;
         onChanged();
         return this;
@@ -713,7 +713,7 @@ public final class MarkNewNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MarkNewNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MarkNewNotify_fieldAccessorTable;
 

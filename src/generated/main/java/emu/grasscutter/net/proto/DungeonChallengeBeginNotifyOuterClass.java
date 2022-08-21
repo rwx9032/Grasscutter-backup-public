@@ -795,7 +795,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFatherIndex(int value) {
-        
+
         fatherIndex_ = value;
         onChanged();
         return this;
@@ -805,7 +805,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFatherIndex() {
-        
+
         fatherIndex_ = 0;
         onChanged();
         return this;
@@ -905,7 +905,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChallengeIndex(int value) {
-        
+
         challengeIndex_ = value;
         onChanged();
         return this;
@@ -915,7 +915,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChallengeIndex() {
-        
+
         challengeIndex_ = 0;
         onChanged();
         return this;
@@ -936,7 +936,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChallengeId(int value) {
-        
+
         challengeId_ = value;
         onChanged();
         return this;
@@ -946,7 +946,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChallengeId() {
-        
+
         challengeId_ = 0;
         onChanged();
         return this;
@@ -967,7 +967,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGroupId(int value) {
-        
+
         groupId_ = value;
         onChanged();
         return this;
@@ -977,7 +977,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGroupId() {
-        
+
         groupId_ = 0;
         onChanged();
         return this;
@@ -1116,7 +1116,7 @@ public final class DungeonChallengeBeginNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DungeonChallengeBeginNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DungeonChallengeBeginNotify_fieldAccessorTable;
 

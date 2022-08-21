@@ -21,7 +21,7 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
     /**
      * <code>repeated .BattlePassMission mission_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission> 
+    java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission>
         getMissionListList();
     /**
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -34,7 +34,7 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
     /**
      * <code>repeated .BattlePassMission mission_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder>
         getMissionListOrBuilderList();
     /**
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -152,7 +152,7 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
      * <code>repeated .BattlePassMission mission_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder>
         getMissionListOrBuilderList() {
       return missionList_;
     }
@@ -489,7 +489,7 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
               missionListBuilder_ = null;
               missionList_ = other.missionList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              missionListBuilder_ = 
+              missionListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMissionListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
       /**
        * <code>repeated .BattlePassMission mission_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder>
            getMissionListOrBuilderList() {
         if (missionListBuilder_ != null) {
           return missionListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
       /**
        * <code>repeated .BattlePassMission mission_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.Builder>
            getMissionListBuilderList() {
         return getMissionListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission, emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.Builder, emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder> 
+          emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission, emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.Builder, emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMissionOrBuilder>
           getMissionListFieldBuilder() {
         if (missionListBuilder_ == null) {
           missionListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BattlePassMissionUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BattlePassMissionUpdateNotify_fieldAccessorTable;
 

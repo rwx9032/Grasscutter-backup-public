@@ -434,7 +434,7 @@ public final class AbilityMixinWidgetMpSupportOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetEntityId(int value) {
-        
+
         targetEntityId_ = value;
         onChanged();
         return this;
@@ -444,7 +444,7 @@ public final class AbilityMixinWidgetMpSupportOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetEntityId() {
-        
+
         targetEntityId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class AbilityMixinWidgetMpSupportOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityMixinWidgetMpSupport_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityMixinWidgetMpSupport_fieldAccessorTable;
 

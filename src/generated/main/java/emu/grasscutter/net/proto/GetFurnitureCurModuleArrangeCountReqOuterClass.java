@@ -448,7 +448,7 @@ public final class GetFurnitureCurModuleArrangeCountReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetFurnitureCurModuleArrangeCountReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetFurnitureCurModuleArrangeCountReq_fieldAccessorTable;
 

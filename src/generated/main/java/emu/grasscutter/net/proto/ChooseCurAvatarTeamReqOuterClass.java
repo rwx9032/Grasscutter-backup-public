@@ -448,7 +448,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTeamId(int value) {
-        
+
         teamId_ = value;
         onChanged();
         return this;
@@ -458,7 +458,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTeamId() {
-        
+
         teamId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChooseCurAvatarTeamReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChooseCurAvatarTeamReq_fieldAccessorTable;
 

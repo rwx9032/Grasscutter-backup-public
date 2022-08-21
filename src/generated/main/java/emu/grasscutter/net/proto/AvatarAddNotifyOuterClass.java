@@ -603,7 +603,7 @@ public final class AvatarAddNotifyOuterClass {
        * <code>.AvatarInfo avatar = 13;</code>
        */
       public emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder getAvatarBuilder() {
-        
+
         onChanged();
         return getAvatarFieldBuilder().getBuilder();
       }
@@ -622,7 +622,7 @@ public final class AvatarAddNotifyOuterClass {
        * <code>.AvatarInfo avatar = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder> 
+          emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder>
           getAvatarFieldBuilder() {
         if (avatarBuilder_ == null) {
           avatarBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -650,7 +650,7 @@ public final class AvatarAddNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsInTeam(boolean value) {
-        
+
         isInTeam_ = value;
         onChanged();
         return this;
@@ -660,7 +660,7 @@ public final class AvatarAddNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsInTeam() {
-        
+
         isInTeam_ = false;
         onChanged();
         return this;
@@ -720,7 +720,7 @@ public final class AvatarAddNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarAddNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarAddNotify_fieldAccessorTable;
 

@@ -38,7 +38,7 @@ public final class WeaponUpgradeReqOuterClass {
     /**
      * <code>repeated .ItemParam item_param_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
         getItemParamListList();
     /**
      * <code>repeated .ItemParam item_param_list = 15;</code>
@@ -51,7 +51,7 @@ public final class WeaponUpgradeReqOuterClass {
     /**
      * <code>repeated .ItemParam item_param_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getItemParamListOrBuilderList();
     /**
      * <code>repeated .ItemParam item_param_list = 15;</code>
@@ -234,7 +234,7 @@ public final class WeaponUpgradeReqOuterClass {
      * <code>repeated .ItemParam item_param_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getItemParamListOrBuilderList() {
       return itemParamList_;
     }
@@ -643,7 +643,7 @@ public final class WeaponUpgradeReqOuterClass {
               itemParamListBuilder_ = null;
               itemParamList_ = other.itemParamList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              itemParamListBuilder_ = 
+              itemParamListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getItemParamListFieldBuilder() : null;
             } else {
@@ -958,7 +958,7 @@ public final class WeaponUpgradeReqOuterClass {
       /**
        * <code>repeated .ItemParam item_param_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
            getItemParamListOrBuilderList() {
         if (itemParamListBuilder_ != null) {
           return itemParamListBuilder_.getMessageOrBuilderList();
@@ -984,12 +984,12 @@ public final class WeaponUpgradeReqOuterClass {
       /**
        * <code>repeated .ItemParam item_param_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
            getItemParamListBuilderList() {
         return getItemParamListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getItemParamListFieldBuilder() {
         if (itemParamListBuilder_ == null) {
           itemParamListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1018,7 +1018,7 @@ public final class WeaponUpgradeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetWeaponGuid(long value) {
-        
+
         targetWeaponGuid_ = value;
         onChanged();
         return this;
@@ -1028,7 +1028,7 @@ public final class WeaponUpgradeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetWeaponGuid() {
-        
+
         targetWeaponGuid_ = 0L;
         onChanged();
         return this;
@@ -1088,7 +1088,7 @@ public final class WeaponUpgradeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeaponUpgradeReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeaponUpgradeReq_fieldAccessorTable;
 

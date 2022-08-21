@@ -616,7 +616,7 @@ public final class HitTreeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTreeType(int value) {
-        
+
         treeType_ = value;
         onChanged();
         return this;
@@ -626,7 +626,7 @@ public final class HitTreeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTreeType() {
-        
+
         treeType_ = 0;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class HitTreeNotifyOuterClass {
        * <code>.Vector tree_pos = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getTreePosBuilder() {
-        
+
         onChanged();
         return getTreePosFieldBuilder().getBuilder();
       }
@@ -738,7 +738,7 @@ public final class HitTreeNotifyOuterClass {
        * <code>.Vector tree_pos = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getTreePosFieldBuilder() {
         if (treePosBuilder_ == null) {
           treePosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -838,7 +838,7 @@ public final class HitTreeNotifyOuterClass {
        * <code>.Vector drop_pos = 8;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getDropPosBuilder() {
-        
+
         onChanged();
         return getDropPosFieldBuilder().getBuilder();
       }
@@ -857,7 +857,7 @@ public final class HitTreeNotifyOuterClass {
        * <code>.Vector drop_pos = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getDropPosFieldBuilder() {
         if (dropPosBuilder_ == null) {
           dropPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -924,7 +924,7 @@ public final class HitTreeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HitTreeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HitTreeNotify_fieldAccessorTable;
 

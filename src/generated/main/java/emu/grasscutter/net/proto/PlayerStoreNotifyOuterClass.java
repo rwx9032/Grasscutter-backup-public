@@ -21,7 +21,7 @@ public final class PlayerStoreNotifyOuterClass {
     /**
      * <code>repeated .Item item_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> 
+    java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item>
         getItemListList();
     /**
      * <code>repeated .Item item_list = 15;</code>
@@ -34,7 +34,7 @@ public final class PlayerStoreNotifyOuterClass {
     /**
      * <code>repeated .Item item_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder>
         getItemListOrBuilderList();
     /**
      * <code>repeated .Item item_list = 15;</code>
@@ -181,7 +181,7 @@ public final class PlayerStoreNotifyOuterClass {
      * <code>repeated .Item item_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder>
         getItemListOrBuilderList() {
       return itemList_;
     }
@@ -575,7 +575,7 @@ public final class PlayerStoreNotifyOuterClass {
               itemListBuilder_ = null;
               itemList_ = other.itemList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              itemListBuilder_ = 
+              itemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getItemListFieldBuilder() : null;
             } else {
@@ -814,7 +814,7 @@ public final class PlayerStoreNotifyOuterClass {
       /**
        * <code>repeated .Item item_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder>
            getItemListOrBuilderList() {
         if (itemListBuilder_ != null) {
           return itemListBuilder_.getMessageOrBuilderList();
@@ -840,12 +840,12 @@ public final class PlayerStoreNotifyOuterClass {
       /**
        * <code>repeated .Item item_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item.Builder>
            getItemListBuilderList() {
         return getItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
+          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder>
           getItemListFieldBuilder() {
         if (itemListBuilder_ == null) {
           itemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -874,7 +874,7 @@ public final class PlayerStoreNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWeightLimit(int value) {
-        
+
         weightLimit_ = value;
         onChanged();
         return this;
@@ -884,7 +884,7 @@ public final class PlayerStoreNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWeightLimit() {
-        
+
         weightLimit_ = 0;
         onChanged();
         return this;
@@ -904,7 +904,7 @@ public final class PlayerStoreNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStoreTypeValue(int value) {
-        
+
         storeType_ = value;
         onChanged();
         return this;
@@ -928,7 +928,7 @@ public final class PlayerStoreNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         storeType_ = value.getNumber();
         onChanged();
         return this;
@@ -938,7 +938,7 @@ public final class PlayerStoreNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStoreType() {
-        
+
         storeType_ = 0;
         onChanged();
         return this;
@@ -998,7 +998,7 @@ public final class PlayerStoreNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerStoreNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerStoreNotify_fieldAccessorTable;
 

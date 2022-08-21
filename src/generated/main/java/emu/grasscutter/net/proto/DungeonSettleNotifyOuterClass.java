@@ -107,7 +107,7 @@ public final class DungeonSettleNotifyOuterClass {
     /**
      * <code>repeated .DungeonSettleExhibitionInfo exhibition_info_list = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo> 
+    java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo>
         getExhibitionInfoListList();
     /**
      * <code>repeated .DungeonSettleExhibitionInfo exhibition_info_list = 8;</code>
@@ -120,7 +120,7 @@ public final class DungeonSettleNotifyOuterClass {
     /**
      * <code>repeated .DungeonSettleExhibitionInfo exhibition_info_list = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder>
         getExhibitionInfoListOrBuilderList();
     /**
      * <code>repeated .DungeonSettleExhibitionInfo exhibition_info_list = 8;</code>
@@ -606,7 +606,7 @@ public final class DungeonSettleNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData>newDefaultInstance(
-                  emu.grasscutter.net.proto.DungeonSettleNotifyOuterClass.internal_static_DungeonSettleNotify_StrengthenPointDataMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.DungeonSettleNotifyOuterClass.internal_static_DungeonSettleNotify_StrengthenPointDataMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -633,7 +633,7 @@ public final class DungeonSettleNotifyOuterClass {
     @java.lang.Override
     public boolean containsStrengthenPointDataMap(
         int key) {
-      
+
       return internalGetStrengthenPointDataMap().getMap().containsKey(key);
     }
     /**
@@ -660,7 +660,7 @@ public final class DungeonSettleNotifyOuterClass {
     public emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData getStrengthenPointDataMapOrDefault(
         int key,
         emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> map =
           internalGetStrengthenPointDataMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -672,7 +672,7 @@ public final class DungeonSettleNotifyOuterClass {
 
     public emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData getStrengthenPointDataMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> map =
           internalGetStrengthenPointDataMap().getMap();
       if (!map.containsKey(key)) {
@@ -720,7 +720,7 @@ public final class DungeonSettleNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.ParamListOuterClass.ParamList> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.ParamListOuterClass.ParamList>newDefaultInstance(
-                  emu.grasscutter.net.proto.DungeonSettleNotifyOuterClass.internal_static_DungeonSettleNotify_SettleShowEntry_descriptor, 
+                  emu.grasscutter.net.proto.DungeonSettleNotifyOuterClass.internal_static_DungeonSettleNotify_SettleShowEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -747,7 +747,7 @@ public final class DungeonSettleNotifyOuterClass {
     @java.lang.Override
     public boolean containsSettleShow(
         int key) {
-      
+
       return internalGetSettleShow().getMap().containsKey(key);
     }
     /**
@@ -774,7 +774,7 @@ public final class DungeonSettleNotifyOuterClass {
     public emu.grasscutter.net.proto.ParamListOuterClass.ParamList getSettleShowOrDefault(
         int key,
         emu.grasscutter.net.proto.ParamListOuterClass.ParamList defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ParamListOuterClass.ParamList> map =
           internalGetSettleShow().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -786,7 +786,7 @@ public final class DungeonSettleNotifyOuterClass {
 
     public emu.grasscutter.net.proto.ParamListOuterClass.ParamList getSettleShowOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ParamListOuterClass.ParamList> map =
           internalGetSettleShow().getMap();
       if (!map.containsKey(key)) {
@@ -808,7 +808,7 @@ public final class DungeonSettleNotifyOuterClass {
      * <code>repeated .DungeonSettleExhibitionInfo exhibition_info_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder>
         getExhibitionInfoListOrBuilderList() {
       return exhibitionInfoList_;
     }
@@ -1773,7 +1773,7 @@ public final class DungeonSettleNotifyOuterClass {
               exhibitionInfoListBuilder_ = null;
               exhibitionInfoList_ = other.exhibitionInfoList_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              exhibitionInfoListBuilder_ = 
+              exhibitionInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getExhibitionInfoListFieldBuilder() : null;
             } else {
@@ -1908,7 +1908,7 @@ public final class DungeonSettleNotifyOuterClass {
       @java.lang.Override
       public boolean containsStrengthenPointDataMap(
           int key) {
-        
+
         return internalGetStrengthenPointDataMap().getMap().containsKey(key);
       }
       /**
@@ -1935,7 +1935,7 @@ public final class DungeonSettleNotifyOuterClass {
       public emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData getStrengthenPointDataMapOrDefault(
           int key,
           emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> map =
             internalGetStrengthenPointDataMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1947,7 +1947,7 @@ public final class DungeonSettleNotifyOuterClass {
 
       public emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData getStrengthenPointDataMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData> map =
             internalGetStrengthenPointDataMap().getMap();
         if (!map.containsKey(key)) {
@@ -1967,7 +1967,7 @@ public final class DungeonSettleNotifyOuterClass {
 
       public Builder removeStrengthenPointDataMap(
           int key) {
-        
+
         internalGetMutableStrengthenPointDataMap().getMutableMap()
             .remove(key);
         return this;
@@ -1986,7 +1986,7 @@ public final class DungeonSettleNotifyOuterClass {
       public Builder putStrengthenPointDataMap(
           int key,
           emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableStrengthenPointDataMap().getMutableMap()
             .put(key, value);
@@ -2018,7 +2018,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSuccess(boolean value) {
-        
+
         isSuccess_ = value;
         onChanged();
         return this;
@@ -2028,7 +2028,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSuccess() {
-        
+
         isSuccess_ = false;
         onChanged();
         return this;
@@ -2049,7 +2049,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCloseTime(int value) {
-        
+
         closeTime_ = value;
         onChanged();
         return this;
@@ -2059,7 +2059,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCloseTime() {
-        
+
         closeTime_ = 0;
         onChanged();
         return this;
@@ -2080,7 +2080,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700OMCCFBBDJMI(int value) {
-        
+
         unk2700OMCCFBBDJMI_ = value;
         onChanged();
         return this;
@@ -2090,7 +2090,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700OMCCFBBDJMI() {
-        
+
         unk2700OMCCFBBDJMI_ = 0;
         onChanged();
         return this;
@@ -2129,7 +2129,7 @@ public final class DungeonSettleNotifyOuterClass {
       @java.lang.Override
       public boolean containsSettleShow(
           int key) {
-        
+
         return internalGetSettleShow().getMap().containsKey(key);
       }
       /**
@@ -2156,7 +2156,7 @@ public final class DungeonSettleNotifyOuterClass {
       public emu.grasscutter.net.proto.ParamListOuterClass.ParamList getSettleShowOrDefault(
           int key,
           emu.grasscutter.net.proto.ParamListOuterClass.ParamList defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ParamListOuterClass.ParamList> map =
             internalGetSettleShow().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -2168,7 +2168,7 @@ public final class DungeonSettleNotifyOuterClass {
 
       public emu.grasscutter.net.proto.ParamListOuterClass.ParamList getSettleShowOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ParamListOuterClass.ParamList> map =
             internalGetSettleShow().getMap();
         if (!map.containsKey(key)) {
@@ -2188,7 +2188,7 @@ public final class DungeonSettleNotifyOuterClass {
 
       public Builder removeSettleShow(
           int key) {
-        
+
         internalGetMutableSettleShow().getMutableMap()
             .remove(key);
         return this;
@@ -2207,7 +2207,7 @@ public final class DungeonSettleNotifyOuterClass {
       public Builder putSettleShow(
           int key,
           emu.grasscutter.net.proto.ParamListOuterClass.ParamList value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableSettleShow().getMutableMap()
             .put(key, value);
@@ -2419,7 +2419,7 @@ public final class DungeonSettleNotifyOuterClass {
       /**
        * <code>repeated .DungeonSettleExhibitionInfo exhibition_info_list = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder>
            getExhibitionInfoListOrBuilderList() {
         if (exhibitionInfoListBuilder_ != null) {
           return exhibitionInfoListBuilder_.getMessageOrBuilderList();
@@ -2445,12 +2445,12 @@ public final class DungeonSettleNotifyOuterClass {
       /**
        * <code>repeated .DungeonSettleExhibitionInfo exhibition_info_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder>
            getExhibitionInfoListBuilderList() {
         return getExhibitionInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder> 
+          emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder>
           getExhibitionInfoListFieldBuilder() {
         if (exhibitionInfoListBuilder_ == null) {
           exhibitionInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2558,7 +2558,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDungeonId(int value) {
-        
+
         dungeonId_ = value;
         onChanged();
         return this;
@@ -2568,7 +2568,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDungeonId() {
-        
+
         dungeonId_ = 0;
         onChanged();
         return this;
@@ -2589,7 +2589,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setResult(int value) {
-        
+
         result_ = value;
         onChanged();
         return this;
@@ -2599,7 +2599,7 @@ public final class DungeonSettleNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearResult() {
-        
+
         result_ = 0;
         onChanged();
         return this;
@@ -2728,7 +2728,7 @@ public final class DungeonSettleNotifyOuterClass {
        * <code>.TowerLevelEndNotify tower_level_end_notify = 351;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify, emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify.Builder, emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotifyOrBuilder> 
+          emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify, emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify.Builder, emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotifyOrBuilder>
           getTowerLevelEndNotifyFieldBuilder() {
         if (towerLevelEndNotifyBuilder_ == null) {
           if (!(detailCase_ == 351)) {
@@ -2869,7 +2869,7 @@ public final class DungeonSettleNotifyOuterClass {
        * <code>.TrialAvatarFirstPassDungeonNotify trial_avatar_first_pass_dungeon_notify = 635;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TrialAvatarFirstPassDungeonNotifyOuterClass.TrialAvatarFirstPassDungeonNotify, emu.grasscutter.net.proto.TrialAvatarFirstPassDungeonNotifyOuterClass.TrialAvatarFirstPassDungeonNotify.Builder, emu.grasscutter.net.proto.TrialAvatarFirstPassDungeonNotifyOuterClass.TrialAvatarFirstPassDungeonNotifyOrBuilder> 
+          emu.grasscutter.net.proto.TrialAvatarFirstPassDungeonNotifyOuterClass.TrialAvatarFirstPassDungeonNotify, emu.grasscutter.net.proto.TrialAvatarFirstPassDungeonNotifyOuterClass.TrialAvatarFirstPassDungeonNotify.Builder, emu.grasscutter.net.proto.TrialAvatarFirstPassDungeonNotifyOuterClass.TrialAvatarFirstPassDungeonNotifyOrBuilder>
           getTrialAvatarFirstPassDungeonNotifyFieldBuilder() {
         if (trialAvatarFirstPassDungeonNotifyBuilder_ == null) {
           if (!(detailCase_ == 635)) {
@@ -3010,7 +3010,7 @@ public final class DungeonSettleNotifyOuterClass {
        * <code>.ChannelerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 686;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfo, emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfo.Builder, emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfoOrBuilder> 
+          emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfo, emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfo.Builder, emu.grasscutter.net.proto.ChannelerSlabLoopDungeonResultInfoOuterClass.ChannelerSlabLoopDungeonResultInfoOrBuilder>
           getChannellerSlabLoopDungeonResultInfoFieldBuilder() {
         if (channellerSlabLoopDungeonResultInfoBuilder_ == null) {
           if (!(detailCase_ == 686)) {
@@ -3151,7 +3151,7 @@ public final class DungeonSettleNotifyOuterClass {
        * <code>.EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 328;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfoOrBuilder> 
+          emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeDungeonResultInfoOuterClass.EffigyChallengeDungeonResultInfoOrBuilder>
           getEffigyChallengeDungeonResultInfoFieldBuilder() {
         if (effigyChallengeDungeonResultInfoBuilder_ == null) {
           if (!(detailCase_ == 328)) {
@@ -3292,7 +3292,7 @@ public final class DungeonSettleNotifyOuterClass {
        * <code>.RoguelikeDungeonSettleInfo roguelike_dungeon_settle_info = 1482;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RoguelikeDungeonSettleInfoOuterClass.RoguelikeDungeonSettleInfo, emu.grasscutter.net.proto.RoguelikeDungeonSettleInfoOuterClass.RoguelikeDungeonSettleInfo.Builder, emu.grasscutter.net.proto.RoguelikeDungeonSettleInfoOuterClass.RoguelikeDungeonSettleInfoOrBuilder> 
+          emu.grasscutter.net.proto.RoguelikeDungeonSettleInfoOuterClass.RoguelikeDungeonSettleInfo, emu.grasscutter.net.proto.RoguelikeDungeonSettleInfoOuterClass.RoguelikeDungeonSettleInfo.Builder, emu.grasscutter.net.proto.RoguelikeDungeonSettleInfoOuterClass.RoguelikeDungeonSettleInfoOrBuilder>
           getRoguelikeDungeonSettleInfoFieldBuilder() {
         if (roguelikeDungeonSettleInfoBuilder_ == null) {
           if (!(detailCase_ == 1482)) {
@@ -3433,7 +3433,7 @@ public final class DungeonSettleNotifyOuterClass {
        * <code>.CrystalLinkSettleInfo crystal_link_settle_info = 112;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CrystalLinkSettleInfoOuterClass.CrystalLinkSettleInfo, emu.grasscutter.net.proto.CrystalLinkSettleInfoOuterClass.CrystalLinkSettleInfo.Builder, emu.grasscutter.net.proto.CrystalLinkSettleInfoOuterClass.CrystalLinkSettleInfoOrBuilder> 
+          emu.grasscutter.net.proto.CrystalLinkSettleInfoOuterClass.CrystalLinkSettleInfo, emu.grasscutter.net.proto.CrystalLinkSettleInfoOuterClass.CrystalLinkSettleInfo.Builder, emu.grasscutter.net.proto.CrystalLinkSettleInfoOuterClass.CrystalLinkSettleInfoOrBuilder>
           getCrystalLinkSettleInfoFieldBuilder() {
         if (crystalLinkSettleInfoBuilder_ == null) {
           if (!(detailCase_ == 112)) {
@@ -3574,7 +3574,7 @@ public final class DungeonSettleNotifyOuterClass {
        * <code>.SummerTimeV2DungeonSettleInfo summer_time_v_2_dungeon_settle_info = 1882;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfo, emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfo.Builder, emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfoOrBuilder> 
+          emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfo, emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfo.Builder, emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfoOrBuilder>
           getSummerTimeV2DungeonSettleInfoFieldBuilder() {
         if (summerTimeV2DungeonSettleInfoBuilder_ == null) {
           if (!(detailCase_ == 1882)) {
@@ -3646,17 +3646,17 @@ public final class DungeonSettleNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DungeonSettleNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DungeonSettleNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DungeonSettleNotify_StrengthenPointDataMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DungeonSettleNotify_StrengthenPointDataMapEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DungeonSettleNotify_SettleShowEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DungeonSettleNotify_SettleShowEntry_fieldAccessorTable;
 

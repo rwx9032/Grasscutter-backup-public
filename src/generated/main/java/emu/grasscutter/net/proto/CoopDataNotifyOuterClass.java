@@ -21,7 +21,7 @@ public final class CoopDataNotifyOuterClass {
     /**
      * <code>repeated .CoopChapter chapter_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter> 
+    java.util.List<emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter>
         getChapterListList();
     /**
      * <code>repeated .CoopChapter chapter_list = 15;</code>
@@ -34,7 +34,7 @@ public final class CoopDataNotifyOuterClass {
     /**
      * <code>repeated .CoopChapter chapter_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapterOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapterOrBuilder>
         getChapterListOrBuilderList();
     /**
      * <code>repeated .CoopChapter chapter_list = 15;</code>
@@ -216,7 +216,7 @@ public final class CoopDataNotifyOuterClass {
      * <code>repeated .CoopChapter chapter_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapterOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapterOrBuilder>
         getChapterListOrBuilderList() {
       return chapterList_;
     }
@@ -667,7 +667,7 @@ public final class CoopDataNotifyOuterClass {
               chapterListBuilder_ = null;
               chapterList_ = other.chapterList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              chapterListBuilder_ = 
+              chapterListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getChapterListFieldBuilder() : null;
             } else {
@@ -916,7 +916,7 @@ public final class CoopDataNotifyOuterClass {
       /**
        * <code>repeated .CoopChapter chapter_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapterOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapterOrBuilder>
            getChapterListOrBuilderList() {
         if (chapterListBuilder_ != null) {
           return chapterListBuilder_.getMessageOrBuilderList();
@@ -942,12 +942,12 @@ public final class CoopDataNotifyOuterClass {
       /**
        * <code>repeated .CoopChapter chapter_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.Builder>
            getChapterListBuilderList() {
         return getChapterListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter, emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.Builder, emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapterOrBuilder> 
+          emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter, emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapter.Builder, emu.grasscutter.net.proto.CoopChapterOuterClass.CoopChapterOrBuilder>
           getChapterListFieldBuilder() {
         if (chapterListBuilder_ == null) {
           chapterListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1055,7 +1055,7 @@ public final class CoopDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsHaveProgress(boolean value) {
-        
+
         isHaveProgress_ = value;
         onChanged();
         return this;
@@ -1065,7 +1065,7 @@ public final class CoopDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsHaveProgress() {
-        
+
         isHaveProgress_ = false;
         onChanged();
         return this;
@@ -1086,7 +1086,7 @@ public final class CoopDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurCoopPoint(int value) {
-        
+
         curCoopPoint_ = value;
         onChanged();
         return this;
@@ -1096,7 +1096,7 @@ public final class CoopDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurCoopPoint() {
-        
+
         curCoopPoint_ = 0;
         onChanged();
         return this;
@@ -1156,7 +1156,7 @@ public final class CoopDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CoopDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CoopDataNotify_fieldAccessorTable;
 

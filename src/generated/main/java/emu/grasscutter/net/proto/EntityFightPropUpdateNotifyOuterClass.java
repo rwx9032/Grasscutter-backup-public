@@ -178,7 +178,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
           java.lang.Integer, java.lang.Float> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Float>newDefaultInstance(
-                  emu.grasscutter.net.proto.EntityFightPropUpdateNotifyOuterClass.internal_static_EntityFightPropUpdateNotify_FightPropMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.EntityFightPropUpdateNotifyOuterClass.internal_static_EntityFightPropUpdateNotify_FightPropMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.FLOAT,
@@ -205,7 +205,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
     @java.lang.Override
     public boolean containsFightPropMap(
         int key) {
-      
+
       return internalGetFightPropMap().getMap().containsKey(key);
     }
     /**
@@ -232,7 +232,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
     public float getFightPropMapOrDefault(
         int key,
         float defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Float> map =
           internalGetFightPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -244,7 +244,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
 
     public float getFightPropMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Float> map =
           internalGetFightPropMap().getMap();
       if (!map.containsKey(key)) {
@@ -656,7 +656,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
       @java.lang.Override
       public boolean containsFightPropMap(
           int key) {
-        
+
         return internalGetFightPropMap().getMap().containsKey(key);
       }
       /**
@@ -683,7 +683,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
       public float getFightPropMapOrDefault(
           int key,
           float defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Float> map =
             internalGetFightPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -695,7 +695,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
 
       public float getFightPropMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Float> map =
             internalGetFightPropMap().getMap();
         if (!map.containsKey(key)) {
@@ -715,7 +715,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
 
       public Builder removeFightPropMap(
           int key) {
-        
+
         internalGetMutableFightPropMap().getMutableMap()
             .remove(key);
         return this;
@@ -734,8 +734,8 @@ public final class EntityFightPropUpdateNotifyOuterClass {
       public Builder putFightPropMap(
           int key,
           float value) {
-        
-        
+
+
         internalGetMutableFightPropMap().getMutableMap()
             .put(key, value);
         return this;
@@ -766,7 +766,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -776,7 +776,7 @@ public final class EntityFightPropUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -836,12 +836,12 @@ public final class EntityFightPropUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityFightPropUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityFightPropUpdateNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityFightPropUpdateNotify_FightPropMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityFightPropUpdateNotify_FightPropMapEntry_fieldAccessorTable;
 

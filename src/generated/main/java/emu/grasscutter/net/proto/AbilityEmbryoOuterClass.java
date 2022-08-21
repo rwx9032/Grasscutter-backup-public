@@ -512,7 +512,7 @@ public final class AbilityEmbryoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAbilityId(int value) {
-        
+
         abilityId_ = value;
         onChanged();
         return this;
@@ -522,7 +522,7 @@ public final class AbilityEmbryoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAbilityId() {
-        
+
         abilityId_ = 0;
         onChanged();
         return this;
@@ -543,7 +543,7 @@ public final class AbilityEmbryoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAbilityNameHash(int value) {
-        
+
         abilityNameHash_ = value;
         onChanged();
         return this;
@@ -553,7 +553,7 @@ public final class AbilityEmbryoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAbilityNameHash() {
-        
+
         abilityNameHash_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class AbilityEmbryoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAbilityOverrideNameHash(int value) {
-        
+
         abilityOverrideNameHash_ = value;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class AbilityEmbryoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAbilityOverrideNameHash() {
-        
+
         abilityOverrideNameHash_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class AbilityEmbryoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityEmbryo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityEmbryo_fieldAccessorTable;
 

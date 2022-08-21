@@ -514,7 +514,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -524,7 +524,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -545,7 +545,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSelfKilling(boolean value) {
-        
+
         isSelfKilling_ = value;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSelfKilling() {
-        
+
         isSelfKilling_ = false;
         onChanged();
         return this;
@@ -576,7 +576,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHasPathToTarget(boolean value) {
-        
+
         hasPathToTarget_ = value;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHasPathToTarget() {
-        
+
         hasPathToTarget_ = false;
         onChanged();
         return this;
@@ -646,7 +646,7 @@ public final class AiSyncInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AiSyncInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AiSyncInfo_fieldAccessorTable;
 

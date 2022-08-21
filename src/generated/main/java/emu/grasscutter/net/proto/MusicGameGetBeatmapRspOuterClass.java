@@ -910,7 +910,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -920,7 +920,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -940,7 +940,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnknownEnum1Value(int value) {
-        
+
         unknownEnum1_ = value;
         onChanged();
         return this;
@@ -964,7 +964,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unknownEnum1_ = value.getNumber();
         onChanged();
         return this;
@@ -974,7 +974,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnknownEnum1() {
-        
+
         unknownEnum1_ = 0;
         onChanged();
         return this;
@@ -995,7 +995,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicShareId(long value) {
-        
+
         musicShareId_ = value;
         onChanged();
         return this;
@@ -1005,7 +1005,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicShareId() {
-        
+
         musicShareId_ = 0L;
         onChanged();
         return this;
@@ -1025,7 +1025,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setReqTypeValue(int value) {
-        
+
         reqType_ = value;
         onChanged();
         return this;
@@ -1049,7 +1049,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         reqType_ = value.getNumber();
         onChanged();
         return this;
@@ -1059,7 +1059,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReqType() {
-        
+
         reqType_ = 0;
         onChanged();
         return this;
@@ -1188,7 +1188,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * <code>.MusicBeatmap music_record = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmap, emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmap.Builder, emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmapOrBuilder> 
+          emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmap, emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmap.Builder, emu.grasscutter.net.proto.MusicBeatmapOuterClass.MusicBeatmapOrBuilder>
           getMusicRecordFieldBuilder() {
         if (musicRecordBuilder_ == null) {
           if (!(beatmapCase_ == 9)) {
@@ -1329,7 +1329,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
        * <code>.MusicBriefInfo music_brief_info = 953;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo.Builder, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfo.Builder, emu.grasscutter.net.proto.MusicBriefInfoOuterClass.MusicBriefInfoOrBuilder>
           getMusicBriefInfoFieldBuilder() {
         if (musicBriefInfoBuilder_ == null) {
           if (!(briefInfoCase_ == 953)) {
@@ -1401,7 +1401,7 @@ public final class MusicGameGetBeatmapRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameGetBeatmapRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameGetBeatmapRsp_fieldAccessorTable;
 

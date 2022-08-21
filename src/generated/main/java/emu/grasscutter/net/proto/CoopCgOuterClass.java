@@ -474,7 +474,7 @@ public final class CoopCgOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsUnlock(boolean value) {
-        
+
         isUnlock_ = value;
         onChanged();
         return this;
@@ -484,7 +484,7 @@ public final class CoopCgOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsUnlock() {
-        
+
         isUnlock_ = false;
         onChanged();
         return this;
@@ -505,7 +505,7 @@ public final class CoopCgOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -515,7 +515,7 @@ public final class CoopCgOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -575,7 +575,7 @@ public final class CoopCgOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CoopCg_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CoopCg_fieldAccessorTable;
 

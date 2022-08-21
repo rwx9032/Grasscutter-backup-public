@@ -3113,7 +3113,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetId(int value) {
-        
+
         gadgetId_ = value;
         onChanged();
         return this;
@@ -3123,7 +3123,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetId() {
-        
+
         gadgetId_ = 0;
         onChanged();
         return this;
@@ -3144,7 +3144,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGroupId(int value) {
-        
+
         groupId_ = value;
         onChanged();
         return this;
@@ -3154,7 +3154,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGroupId() {
-        
+
         groupId_ = 0;
         onChanged();
         return this;
@@ -3175,7 +3175,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setConfigId(int value) {
-        
+
         configId_ = value;
         onChanged();
         return this;
@@ -3185,7 +3185,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
-        
+
         configId_ = 0;
         onChanged();
         return this;
@@ -3206,7 +3206,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOwnerEntityId(int value) {
-        
+
         ownerEntityId_ = value;
         onChanged();
         return this;
@@ -3216,7 +3216,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOwnerEntityId() {
-        
+
         ownerEntityId_ = 0;
         onChanged();
         return this;
@@ -3236,7 +3236,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBornTypeValue(int value) {
-        
+
         bornType_ = value;
         onChanged();
         return this;
@@ -3260,7 +3260,7 @@ public final class SceneGadgetInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         bornType_ = value.getNumber();
         onChanged();
         return this;
@@ -3270,7 +3270,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBornType() {
-        
+
         bornType_ = 0;
         onChanged();
         return this;
@@ -3291,7 +3291,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetState(int value) {
-        
+
         gadgetState_ = value;
         onChanged();
         return this;
@@ -3301,7 +3301,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetState() {
-        
+
         gadgetState_ = 0;
         onChanged();
         return this;
@@ -3322,7 +3322,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetType(int value) {
-        
+
         gadgetType_ = value;
         onChanged();
         return this;
@@ -3332,7 +3332,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetType() {
-        
+
         gadgetType_ = 0;
         onChanged();
         return this;
@@ -3353,7 +3353,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsShowCutscene(boolean value) {
-        
+
         isShowCutscene_ = value;
         onChanged();
         return this;
@@ -3363,7 +3363,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsShowCutscene() {
-        
+
         isShowCutscene_ = false;
         onChanged();
         return this;
@@ -3384,7 +3384,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAuthorityPeerId(int value) {
-        
+
         authorityPeerId_ = value;
         onChanged();
         return this;
@@ -3394,7 +3394,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthorityPeerId() {
-        
+
         authorityPeerId_ = 0;
         onChanged();
         return this;
@@ -3415,7 +3415,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsEnableInteract(boolean value) {
-        
+
         isEnableInteract_ = value;
         onChanged();
         return this;
@@ -3425,7 +3425,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsEnableInteract() {
-        
+
         isEnableInteract_ = false;
         onChanged();
         return this;
@@ -3446,7 +3446,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInteractId(int value) {
-        
+
         interactId_ = value;
         onChanged();
         return this;
@@ -3456,7 +3456,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInteractId() {
-        
+
         interactId_ = 0;
         onChanged();
         return this;
@@ -3477,7 +3477,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMarkFlag(int value) {
-        
+
         markFlag_ = value;
         onChanged();
         return this;
@@ -3487,7 +3487,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMarkFlag() {
-        
+
         markFlag_ = 0;
         onChanged();
         return this;
@@ -3508,7 +3508,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPropOwnerEntityId(int value) {
-        
+
         propOwnerEntityId_ = value;
         onChanged();
         return this;
@@ -3518,7 +3518,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPropOwnerEntityId() {
-        
+
         propOwnerEntityId_ = 0;
         onChanged();
         return this;
@@ -3611,7 +3611,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.PlatformInfo platform = 23;</code>
        */
       public emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo.Builder getPlatformBuilder() {
-        
+
         onChanged();
         return getPlatformFieldBuilder().getBuilder();
       }
@@ -3630,7 +3630,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.PlatformInfo platform = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo, emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo.Builder, emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfoOrBuilder> 
+          emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo, emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo.Builder, emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfoOrBuilder>
           getPlatformFieldBuilder() {
         if (platformBuilder_ == null) {
           platformBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3737,7 +3737,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDraftId(int value) {
-        
+
         draftId_ = value;
         onChanged();
         return this;
@@ -3747,7 +3747,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDraftId() {
-        
+
         draftId_ = 0;
         onChanged();
         return this;
@@ -3768,7 +3768,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetTalkState(int value) {
-        
+
         gadgetTalkState_ = value;
         onChanged();
         return this;
@@ -3778,7 +3778,7 @@ public final class SceneGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetTalkState() {
-        
+
         gadgetTalkState_ = 0;
         onChanged();
         return this;
@@ -3871,7 +3871,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.GadgetPlayInfo play_info = 100;</code>
        */
       public emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfo.Builder getPlayInfoBuilder() {
-        
+
         onChanged();
         return getPlayInfoFieldBuilder().getBuilder();
       }
@@ -3890,7 +3890,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.GadgetPlayInfo play_info = 100;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfo, emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfo.Builder, emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfoOrBuilder> 
+          emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfo, emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfo.Builder, emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfoOrBuilder>
           getPlayInfoFieldBuilder() {
         if (playInfoBuilder_ == null) {
           playInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4026,7 +4026,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.Item trifle_item = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
+          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder>
           getTrifleItemFieldBuilder() {
         if (trifleItemBuilder_ == null) {
           if (!(contentCase_ == 12)) {
@@ -4167,7 +4167,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo, emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo.Builder, emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfoOrBuilder> 
+          emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo, emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo.Builder, emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfoOrBuilder>
           getGatherGadgetFieldBuilder() {
         if (gatherGadgetBuilder_ == null) {
           if (!(contentCase_ == 13)) {
@@ -4308,7 +4308,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.WorktopInfo worktop = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.Builder, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfoOrBuilder> 
+          emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.Builder, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfoOrBuilder>
           getWorktopFieldBuilder() {
         if (worktopBuilder_ == null) {
           if (!(contentCase_ == 14)) {
@@ -4449,7 +4449,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfo, emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfo.Builder, emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfoOrBuilder> 
+          emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfo, emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfo.Builder, emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfoOrBuilder>
           getClientGadgetFieldBuilder() {
         if (clientGadgetBuilder_ == null) {
           if (!(contentCase_ == 15)) {
@@ -4590,7 +4590,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.WeatherInfo weather = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfo, emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfo.Builder, emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfoOrBuilder> 
+          emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfo, emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfo.Builder, emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfoOrBuilder>
           getWeatherFieldBuilder() {
         if (weatherBuilder_ == null) {
           if (!(contentCase_ == 17)) {
@@ -4731,7 +4731,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo, emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo.Builder, emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfoOrBuilder> 
+          emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo, emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo.Builder, emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfoOrBuilder>
           getAbilityGadgetFieldBuilder() {
         if (abilityGadgetBuilder_ == null) {
           if (!(contentCase_ == 18)) {
@@ -4872,7 +4872,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo, emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo.Builder, emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfoOrBuilder> 
+          emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo, emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo.Builder, emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfoOrBuilder>
           getStatueGadgetFieldBuilder() {
         if (statueGadgetBuilder_ == null) {
           if (!(contentCase_ == 19)) {
@@ -5013,7 +5013,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.BossChestInfo boss_chest = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfoOrBuilder> 
+          emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfoOrBuilder>
           getBossChestFieldBuilder() {
         if (bossChestBuilder_ == null) {
           if (!(contentCase_ == 20)) {
@@ -5154,7 +5154,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo, emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo.Builder, emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfoOrBuilder> 
+          emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo, emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo.Builder, emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfoOrBuilder>
           getBlossomChestFieldBuilder() {
         if (blossomChestBuilder_ == null) {
           if (!(contentCase_ == 41)) {
@@ -5295,7 +5295,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo, emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo.Builder, emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfoOrBuilder> 
+          emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo, emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo.Builder, emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfoOrBuilder>
           getMpPlayRewardFieldBuilder() {
         if (mpPlayRewardBuilder_ == null) {
           if (!(contentCase_ == 42)) {
@@ -5436,7 +5436,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfo, emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfo.Builder, emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfoOrBuilder> 
+          emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfo, emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfo.Builder, emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfoOrBuilder>
           getGeneralRewardFieldBuilder() {
         if (generalRewardBuilder_ == null) {
           if (!(contentCase_ == 43)) {
@@ -5577,7 +5577,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.OfferingInfo offering_info = 44;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfo, emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfo.Builder, emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfoOrBuilder> 
+          emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfo, emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfo.Builder, emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfoOrBuilder>
           getOfferingInfoFieldBuilder() {
         if (offeringInfoBuilder_ == null) {
           if (!(contentCase_ == 44)) {
@@ -5718,7 +5718,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.FoundationInfo foundation_info = 45;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo, emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo.Builder, emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfoOrBuilder> 
+          emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo, emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo.Builder, emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfoOrBuilder>
           getFoundationInfoFieldBuilder() {
         if (foundationInfoBuilder_ == null) {
           if (!(contentCase_ == 45)) {
@@ -5859,7 +5859,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.VehicleInfo vehicle_info = 46;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfo, emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfo.Builder, emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfoOrBuilder> 
+          emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfo, emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfo.Builder, emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfoOrBuilder>
           getVehicleInfoFieldBuilder() {
         if (vehicleInfoBuilder_ == null) {
           if (!(contentCase_ == 46)) {
@@ -6000,7 +6000,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.EchoShellInfo shell_info = 47;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo, emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo.Builder, emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfoOrBuilder> 
+          emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo, emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo.Builder, emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfoOrBuilder>
           getShellInfoFieldBuilder() {
         if (shellInfoBuilder_ == null) {
           if (!(contentCase_ == 47)) {
@@ -6141,7 +6141,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.ScreenInfo screen_info = 48;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfo, emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfo.Builder, emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfoOrBuilder> 
+          emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfo, emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfo.Builder, emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfoOrBuilder>
           getScreenInfoFieldBuilder() {
         if (screenInfoBuilder_ == null) {
           if (!(contentCase_ == 48)) {
@@ -6282,7 +6282,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo, emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo.Builder, emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfoOrBuilder> 
+          emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo, emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo.Builder, emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfoOrBuilder>
           getFishPoolInfoFieldBuilder() {
         if (fishPoolInfoBuilder_ == null) {
           if (!(contentCase_ == 59)) {
@@ -6423,7 +6423,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfo, emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfo.Builder, emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfoOrBuilder> 
+          emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfo, emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfo.Builder, emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfoOrBuilder>
           getCustomGadgetTreeInfoFieldBuilder() {
         if (customGadgetTreeInfoBuilder_ == null) {
           if (!(contentCase_ == 60)) {
@@ -6564,7 +6564,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo, emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo.Builder, emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfoOrBuilder> 
+          emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo, emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo.Builder, emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfoOrBuilder>
           getRoguelikeGadgetInfoFieldBuilder() {
         if (roguelikeGadgetInfoBuilder_ == null) {
           if (!(contentCase_ == 61)) {
@@ -6705,7 +6705,7 @@ public final class SceneGadgetInfoOuterClass {
        * <code>.Unk2800_FHMOLALLEEN night_crow_gadget_info = 62;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Unk2800FHMOLALLEEN.Unk2800_FHMOLALLEEN, emu.grasscutter.net.proto.Unk2800FHMOLALLEEN.Unk2800_FHMOLALLEEN.Builder, emu.grasscutter.net.proto.Unk2800FHMOLALLEEN.Unk2800_FHMOLALLEENOrBuilder> 
+          emu.grasscutter.net.proto.Unk2800FHMOLALLEEN.Unk2800_FHMOLALLEEN, emu.grasscutter.net.proto.Unk2800FHMOLALLEEN.Unk2800_FHMOLALLEEN.Builder, emu.grasscutter.net.proto.Unk2800FHMOLALLEEN.Unk2800_FHMOLALLEENOrBuilder>
           getNightCrowGadgetInfoFieldBuilder() {
         if (nightCrowGadgetInfoBuilder_ == null) {
           if (!(contentCase_ == 62)) {
@@ -6777,7 +6777,7 @@ public final class SceneGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneGadgetInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneGadgetInfo_fieldAccessorTable;
 

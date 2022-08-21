@@ -820,7 +820,7 @@ public final class QuickUseWidgetRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
@@ -830,7 +830,7 @@ public final class QuickUseWidgetRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -851,7 +851,7 @@ public final class QuickUseWidgetRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -861,7 +861,7 @@ public final class QuickUseWidgetRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -990,7 +990,7 @@ public final class QuickUseWidgetRspOuterClass {
        * <code>.OneofGatherPointDetectorData detector_data = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData, emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData.Builder, emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder> 
+          emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData, emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorData.Builder, emu.grasscutter.net.proto.OneofGatherPointDetectorDataOuterClass.OneofGatherPointDetectorDataOrBuilder>
           getDetectorDataFieldBuilder() {
         if (detectorDataBuilder_ == null) {
           if (!(paramCase_ == 3)) {
@@ -1131,7 +1131,7 @@ public final class QuickUseWidgetRspOuterClass {
        * <code>.ClientCollectorData client_collector_data = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder> 
+          emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData.Builder, emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorDataOrBuilder>
           getClientCollectorDataFieldBuilder() {
         if (clientCollectorDataBuilder_ == null) {
           if (!(paramCase_ == 15)) {
@@ -1272,7 +1272,7 @@ public final class QuickUseWidgetRspOuterClass {
        * <code>.SkyCrystalDetectorQuickUseResult sky_crystal_detector_quick_use_result = 168922;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SkyCrystalDetectorQuickUseResultOuterClass.SkyCrystalDetectorQuickUseResult, emu.grasscutter.net.proto.SkyCrystalDetectorQuickUseResultOuterClass.SkyCrystalDetectorQuickUseResult.Builder, emu.grasscutter.net.proto.SkyCrystalDetectorQuickUseResultOuterClass.SkyCrystalDetectorQuickUseResultOrBuilder> 
+          emu.grasscutter.net.proto.SkyCrystalDetectorQuickUseResultOuterClass.SkyCrystalDetectorQuickUseResult, emu.grasscutter.net.proto.SkyCrystalDetectorQuickUseResultOuterClass.SkyCrystalDetectorQuickUseResult.Builder, emu.grasscutter.net.proto.SkyCrystalDetectorQuickUseResultOuterClass.SkyCrystalDetectorQuickUseResultOrBuilder>
           getSkyCrystalDetectorQuickUseResultFieldBuilder() {
         if (skyCrystalDetectorQuickUseResultBuilder_ == null) {
           if (!(paramCase_ == 168922)) {
@@ -1344,7 +1344,7 @@ public final class QuickUseWidgetRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QuickUseWidgetRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QuickUseWidgetRsp_fieldAccessorTable;
 

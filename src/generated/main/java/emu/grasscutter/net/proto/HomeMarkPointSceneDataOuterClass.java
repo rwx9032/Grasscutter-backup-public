@@ -21,7 +21,7 @@ public final class HomeMarkPointSceneDataOuterClass {
     /**
      * <code>repeated .HomeMarkPointFurnitureData furniture_list = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureData> 
+    java.util.List<emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureData>
         getFurnitureListList();
     /**
      * <code>repeated .HomeMarkPointFurnitureData furniture_list = 6;</code>
@@ -34,7 +34,7 @@ public final class HomeMarkPointSceneDataOuterClass {
     /**
      * <code>repeated .HomeMarkPointFurnitureData furniture_list = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureDataOrBuilder>
         getFurnitureListOrBuilderList();
     /**
      * <code>repeated .HomeMarkPointFurnitureData furniture_list = 6;</code>
@@ -196,7 +196,7 @@ public final class HomeMarkPointSceneDataOuterClass {
      * <code>repeated .HomeMarkPointFurnitureData furniture_list = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureDataOrBuilder>
         getFurnitureListOrBuilderList() {
       return furnitureList_;
     }
@@ -630,7 +630,7 @@ public final class HomeMarkPointSceneDataOuterClass {
               furnitureListBuilder_ = null;
               furnitureList_ = other.furnitureList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              furnitureListBuilder_ = 
+              furnitureListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFurnitureListFieldBuilder() : null;
             } else {
@@ -872,7 +872,7 @@ public final class HomeMarkPointSceneDataOuterClass {
       /**
        * <code>repeated .HomeMarkPointFurnitureData furniture_list = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureDataOrBuilder>
            getFurnitureListOrBuilderList() {
         if (furnitureListBuilder_ != null) {
           return furnitureListBuilder_.getMessageOrBuilderList();
@@ -898,12 +898,12 @@ public final class HomeMarkPointSceneDataOuterClass {
       /**
        * <code>repeated .HomeMarkPointFurnitureData furniture_list = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureData.Builder>
            getFurnitureListBuilderList() {
         return getFurnitureListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureData, emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureData.Builder, emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureDataOrBuilder> 
+          emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureData, emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureData.Builder, emu.grasscutter.net.proto.HomeMarkPointFurnitureDataOuterClass.HomeMarkPointFurnitureDataOrBuilder>
           getFurnitureListFieldBuilder() {
         if (furnitureListBuilder_ == null) {
           furnitureListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -932,7 +932,7 @@ public final class HomeMarkPointSceneDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setModuleId(int value) {
-        
+
         moduleId_ = value;
         onChanged();
         return this;
@@ -942,7 +942,7 @@ public final class HomeMarkPointSceneDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearModuleId() {
-        
+
         moduleId_ = 0;
         onChanged();
         return this;
@@ -963,7 +963,7 @@ public final class HomeMarkPointSceneDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -973,7 +973,7 @@ public final class HomeMarkPointSceneDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -1066,7 +1066,7 @@ public final class HomeMarkPointSceneDataOuterClass {
        * <code>.Vector teapot_spirit_pos = 4;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getTeapotSpiritPosBuilder() {
-        
+
         onChanged();
         return getTeapotSpiritPosFieldBuilder().getBuilder();
       }
@@ -1085,7 +1085,7 @@ public final class HomeMarkPointSceneDataOuterClass {
        * <code>.Vector teapot_spirit_pos = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getTeapotSpiritPosFieldBuilder() {
         if (teapotSpiritPosBuilder_ == null) {
           teapotSpiritPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1152,7 +1152,7 @@ public final class HomeMarkPointSceneDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeMarkPointSceneData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeMarkPointSceneData_fieldAccessorTable;
 

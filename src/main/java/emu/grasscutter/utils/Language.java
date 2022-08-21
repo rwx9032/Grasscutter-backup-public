@@ -322,7 +322,7 @@ public final class Language {
         Map<Integer, Int2ObjectMap<String>> mapLanguageMaps =  // Separate step to process the textmaps in parallel
             TextStrings.LIST_LANGUAGES.parallelStream().collect(
             Collectors.toConcurrentMap(s -> TextStrings.MAP_LANGUAGES.getInt(s), s -> loadTextMapFile(s, nameHashes)));
-        List<Int2ObjectMap<String>> languageMaps = 
+        List<Int2ObjectMap<String>> languageMaps =
             IntStream.range(0, TextStrings.NUM_LANGUAGES)
             .mapToObj(i -> mapLanguageMaps.get(i))
             .collect(Collectors.toList());

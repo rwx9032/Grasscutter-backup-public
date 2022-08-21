@@ -203,7 +203,7 @@ public final class GetAuthkeyRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         authAppid_ = s;
@@ -219,7 +219,7 @@ public final class GetAuthkeyRspOuterClass {
         getAuthAppidBytes() {
       java.lang.Object ref = authAppid_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         authAppid_ = b;
@@ -274,7 +274,7 @@ public final class GetAuthkeyRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gameBiz_ = s;
@@ -290,7 +290,7 @@ public final class GetAuthkeyRspOuterClass {
         getGameBizBytes() {
       java.lang.Object ref = gameBiz_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gameBiz_ = b;
@@ -312,7 +312,7 @@ public final class GetAuthkeyRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         authkey_ = s;
@@ -328,7 +328,7 @@ public final class GetAuthkeyRspOuterClass {
         getAuthkeyBytes() {
       java.lang.Object ref = authkey_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         authkey_ = b;
@@ -756,7 +756,7 @@ public final class GetAuthkeyRspOuterClass {
           getAuthAppidBytes() {
         java.lang.Object ref = authAppid_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           authAppid_ = b;
@@ -775,7 +775,7 @@ public final class GetAuthkeyRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         authAppid_ = value;
         onChanged();
         return this;
@@ -785,7 +785,7 @@ public final class GetAuthkeyRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthAppid() {
-        
+
         authAppid_ = getDefaultInstance().getAuthAppid();
         onChanged();
         return this;
@@ -801,7 +801,7 @@ public final class GetAuthkeyRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         authAppid_ = value;
         onChanged();
         return this;
@@ -822,7 +822,7 @@ public final class GetAuthkeyRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSignType(int value) {
-        
+
         signType_ = value;
         onChanged();
         return this;
@@ -832,7 +832,7 @@ public final class GetAuthkeyRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSignType() {
-        
+
         signType_ = 0;
         onChanged();
         return this;
@@ -853,7 +853,7 @@ public final class GetAuthkeyRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -863,7 +863,7 @@ public final class GetAuthkeyRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -884,7 +884,7 @@ public final class GetAuthkeyRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAuthkeyVer(int value) {
-        
+
         authkeyVer_ = value;
         onChanged();
         return this;
@@ -894,7 +894,7 @@ public final class GetAuthkeyRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthkeyVer() {
-        
+
         authkeyVer_ = 0;
         onChanged();
         return this;
@@ -925,7 +925,7 @@ public final class GetAuthkeyRspOuterClass {
           getGameBizBytes() {
         java.lang.Object ref = gameBiz_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gameBiz_ = b;
@@ -944,7 +944,7 @@ public final class GetAuthkeyRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gameBiz_ = value;
         onChanged();
         return this;
@@ -954,7 +954,7 @@ public final class GetAuthkeyRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGameBiz() {
-        
+
         gameBiz_ = getDefaultInstance().getGameBiz();
         onChanged();
         return this;
@@ -970,7 +970,7 @@ public final class GetAuthkeyRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gameBiz_ = value;
         onChanged();
         return this;
@@ -1001,7 +1001,7 @@ public final class GetAuthkeyRspOuterClass {
           getAuthkeyBytes() {
         java.lang.Object ref = authkey_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           authkey_ = b;
@@ -1020,7 +1020,7 @@ public final class GetAuthkeyRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         authkey_ = value;
         onChanged();
         return this;
@@ -1030,7 +1030,7 @@ public final class GetAuthkeyRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthkey() {
-        
+
         authkey_ = getDefaultInstance().getAuthkey();
         onChanged();
         return this;
@@ -1046,7 +1046,7 @@ public final class GetAuthkeyRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         authkey_ = value;
         onChanged();
         return this;
@@ -1106,7 +1106,7 @@ public final class GetAuthkeyRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAuthkeyRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAuthkeyRsp_fieldAccessorTable;
 

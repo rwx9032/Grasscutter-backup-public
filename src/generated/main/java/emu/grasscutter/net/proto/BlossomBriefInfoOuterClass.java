@@ -831,7 +831,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRefreshId(int value) {
-        
+
         refreshId_ = value;
         onChanged();
         return this;
@@ -841,7 +841,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRefreshId() {
-        
+
         refreshId_ = 0;
         onChanged();
         return this;
@@ -862,7 +862,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRewardId(int value) {
-        
+
         rewardId_ = value;
         onChanged();
         return this;
@@ -872,7 +872,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRewardId() {
-        
+
         rewardId_ = 0;
         onChanged();
         return this;
@@ -893,7 +893,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCityId(int value) {
-        
+
         cityId_ = value;
         onChanged();
         return this;
@@ -903,7 +903,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCityId() {
-        
+
         cityId_ = 0;
         onChanged();
         return this;
@@ -924,7 +924,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setResin(int value) {
-        
+
         resin_ = value;
         onChanged();
         return this;
@@ -934,7 +934,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearResin() {
-        
+
         resin_ = 0;
         onChanged();
         return this;
@@ -955,7 +955,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setState(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -965,7 +965,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -986,7 +986,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsGuideOpened(boolean value) {
-        
+
         isGuideOpened_ = value;
         onChanged();
         return this;
@@ -996,7 +996,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsGuideOpened() {
-        
+
         isGuideOpened_ = false;
         onChanged();
         return this;
@@ -1017,7 +1017,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMonsterLevel(int value) {
-        
+
         monsterLevel_ = value;
         onChanged();
         return this;
@@ -1027,7 +1027,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMonsterLevel() {
-        
+
         monsterLevel_ = 0;
         onChanged();
         return this;
@@ -1048,7 +1048,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCircleCampId(int value) {
-        
+
         circleCampId_ = value;
         onChanged();
         return this;
@@ -1058,7 +1058,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCircleCampId() {
-        
+
         circleCampId_ = 0;
         onChanged();
         return this;
@@ -1151,7 +1151,7 @@ public final class BlossomBriefInfoOuterClass {
        * <code>.Vector pos = 12;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -1170,7 +1170,7 @@ public final class BlossomBriefInfoOuterClass {
        * <code>.Vector pos = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1198,7 +1198,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -1208,7 +1208,7 @@ public final class BlossomBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -1268,7 +1268,7 @@ public final class BlossomBriefInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BlossomBriefInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BlossomBriefInfo_fieldAccessorTable;
 

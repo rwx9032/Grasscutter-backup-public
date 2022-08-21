@@ -201,7 +201,7 @@ public final class WeaponAwakenReqOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.WeaponAwakenReqOuterClass.internal_static_WeaponAwakenReq_AffixLevelMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.WeaponAwakenReqOuterClass.internal_static_WeaponAwakenReq_AffixLevelMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -228,7 +228,7 @@ public final class WeaponAwakenReqOuterClass {
     @java.lang.Override
     public boolean containsAffixLevelMap(
         int key) {
-      
+
       return internalGetAffixLevelMap().getMap().containsKey(key);
     }
     /**
@@ -255,7 +255,7 @@ public final class WeaponAwakenReqOuterClass {
     public int getAffixLevelMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAffixLevelMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -267,7 +267,7 @@ public final class WeaponAwakenReqOuterClass {
 
     public int getAffixLevelMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetAffixLevelMap().getMap();
       if (!map.containsKey(key)) {
@@ -681,7 +681,7 @@ public final class WeaponAwakenReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemGuid(long value) {
-        
+
         itemGuid_ = value;
         onChanged();
         return this;
@@ -691,7 +691,7 @@ public final class WeaponAwakenReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemGuid() {
-        
+
         itemGuid_ = 0L;
         onChanged();
         return this;
@@ -730,7 +730,7 @@ public final class WeaponAwakenReqOuterClass {
       @java.lang.Override
       public boolean containsAffixLevelMap(
           int key) {
-        
+
         return internalGetAffixLevelMap().getMap().containsKey(key);
       }
       /**
@@ -757,7 +757,7 @@ public final class WeaponAwakenReqOuterClass {
       public int getAffixLevelMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAffixLevelMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -769,7 +769,7 @@ public final class WeaponAwakenReqOuterClass {
 
       public int getAffixLevelMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetAffixLevelMap().getMap();
         if (!map.containsKey(key)) {
@@ -789,7 +789,7 @@ public final class WeaponAwakenReqOuterClass {
 
       public Builder removeAffixLevelMap(
           int key) {
-        
+
         internalGetMutableAffixLevelMap().getMutableMap()
             .remove(key);
         return this;
@@ -808,8 +808,8 @@ public final class WeaponAwakenReqOuterClass {
       public Builder putAffixLevelMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableAffixLevelMap().getMutableMap()
             .put(key, value);
         return this;
@@ -840,7 +840,7 @@ public final class WeaponAwakenReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetWeaponGuid(long value) {
-        
+
         targetWeaponGuid_ = value;
         onChanged();
         return this;
@@ -850,7 +850,7 @@ public final class WeaponAwakenReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetWeaponGuid() {
-        
+
         targetWeaponGuid_ = 0L;
         onChanged();
         return this;
@@ -910,12 +910,12 @@ public final class WeaponAwakenReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeaponAwakenReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeaponAwakenReq_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeaponAwakenReq_AffixLevelMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeaponAwakenReq_AffixLevelMapEntry_fieldAccessorTable;
 

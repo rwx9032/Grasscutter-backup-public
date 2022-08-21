@@ -100,7 +100,7 @@ public final class SceneAvatarInfoOuterClass {
     /**
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo> 
+    java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo>
         getReliquaryListList();
     /**
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -113,7 +113,7 @@ public final class SceneAvatarInfoOuterClass {
     /**
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder>
         getReliquaryListOrBuilderList();
     /**
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -215,7 +215,7 @@ public final class SceneAvatarInfoOuterClass {
     /**
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> 
+    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff>
         getServerBuffListList();
     /**
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -228,7 +228,7 @@ public final class SceneAvatarInfoOuterClass {
     /**
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList();
     /**
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -790,7 +790,7 @@ public final class SceneAvatarInfoOuterClass {
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder>
         getReliquaryListOrBuilderList() {
       return reliquaryList_;
     }
@@ -862,7 +862,7 @@ public final class SceneAvatarInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.internal_static_SceneAvatarInfo_SkillLevelMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.internal_static_SceneAvatarInfo_SkillLevelMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -889,7 +889,7 @@ public final class SceneAvatarInfoOuterClass {
     @java.lang.Override
     public boolean containsSkillLevelMap(
         int key) {
-      
+
       return internalGetSkillLevelMap().getMap().containsKey(key);
     }
     /**
@@ -916,7 +916,7 @@ public final class SceneAvatarInfoOuterClass {
     public int getSkillLevelMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSkillLevelMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -928,7 +928,7 @@ public final class SceneAvatarInfoOuterClass {
 
     public int getSkillLevelMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSkillLevelMap().getMap();
       if (!map.containsKey(key)) {
@@ -943,7 +943,7 @@ public final class SceneAvatarInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.internal_static_SceneAvatarInfo_ProudSkillExtraLevelMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.internal_static_SceneAvatarInfo_ProudSkillExtraLevelMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -970,7 +970,7 @@ public final class SceneAvatarInfoOuterClass {
     @java.lang.Override
     public boolean containsProudSkillExtraLevelMap(
         int key) {
-      
+
       return internalGetProudSkillExtraLevelMap().getMap().containsKey(key);
     }
     /**
@@ -997,7 +997,7 @@ public final class SceneAvatarInfoOuterClass {
     public int getProudSkillExtraLevelMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetProudSkillExtraLevelMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1009,7 +1009,7 @@ public final class SceneAvatarInfoOuterClass {
 
     public int getProudSkillExtraLevelMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetProudSkillExtraLevelMap().getMap();
       if (!map.containsKey(key)) {
@@ -1031,7 +1031,7 @@ public final class SceneAvatarInfoOuterClass {
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList() {
       return serverBuffList_;
     }
@@ -1988,7 +1988,7 @@ public final class SceneAvatarInfoOuterClass {
               reliquaryListBuilder_ = null;
               reliquaryList_ = other.reliquaryList_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              reliquaryListBuilder_ = 
+              reliquaryListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getReliquaryListFieldBuilder() : null;
             } else {
@@ -2031,7 +2031,7 @@ public final class SceneAvatarInfoOuterClass {
               serverBuffListBuilder_ = null;
               serverBuffList_ = other.serverBuffList_;
               bitField0_ = (bitField0_ & ~0x00000040);
-              serverBuffListBuilder_ = 
+              serverBuffListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getServerBuffListFieldBuilder() : null;
             } else {
@@ -2112,7 +2112,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -2122,7 +2122,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -2143,7 +2143,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
@@ -2153,7 +2153,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -2174,7 +2174,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(long value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -2184,7 +2184,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0L;
         onChanged();
         return this;
@@ -2205,7 +2205,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPeerId(int value) {
-        
+
         peerId_ = value;
         onChanged();
         return this;
@@ -2215,7 +2215,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPeerId() {
-        
+
         peerId_ = 0;
         onChanged();
         return this;
@@ -2315,7 +2315,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSkillDepotId(int value) {
-        
+
         skillDepotId_ = value;
         onChanged();
         return this;
@@ -2325,7 +2325,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSkillDepotId() {
-        
+
         skillDepotId_ = 0;
         onChanged();
         return this;
@@ -2497,7 +2497,7 @@ public final class SceneAvatarInfoOuterClass {
        * <code>.SceneWeaponInfo weapon = 8;</code>
        */
       public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder getWeaponBuilder() {
-        
+
         onChanged();
         return getWeaponFieldBuilder().getBuilder();
       }
@@ -2516,7 +2516,7 @@ public final class SceneAvatarInfoOuterClass {
        * <code>.SceneWeaponInfo weapon = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder>
           getWeaponFieldBuilder() {
         if (weaponBuilder_ == null) {
           weaponBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2724,7 +2724,7 @@ public final class SceneAvatarInfoOuterClass {
       /**
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder>
            getReliquaryListOrBuilderList() {
         if (reliquaryListBuilder_ != null) {
           return reliquaryListBuilder_.getMessageOrBuilderList();
@@ -2750,12 +2750,12 @@ public final class SceneAvatarInfoOuterClass {
       /**
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder>
            getReliquaryListBuilderList() {
         return getReliquaryListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder>
           getReliquaryListFieldBuilder() {
         if (reliquaryListBuilder_ == null) {
           reliquaryListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2784,7 +2784,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCoreProudSkillLevel(int value) {
-        
+
         coreProudSkillLevel_ = value;
         onChanged();
         return this;
@@ -2794,7 +2794,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCoreProudSkillLevel() {
-        
+
         coreProudSkillLevel_ = 0;
         onChanged();
         return this;
@@ -2912,7 +2912,7 @@ public final class SceneAvatarInfoOuterClass {
       @java.lang.Override
       public boolean containsSkillLevelMap(
           int key) {
-        
+
         return internalGetSkillLevelMap().getMap().containsKey(key);
       }
       /**
@@ -2939,7 +2939,7 @@ public final class SceneAvatarInfoOuterClass {
       public int getSkillLevelMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSkillLevelMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -2951,7 +2951,7 @@ public final class SceneAvatarInfoOuterClass {
 
       public int getSkillLevelMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSkillLevelMap().getMap();
         if (!map.containsKey(key)) {
@@ -2971,7 +2971,7 @@ public final class SceneAvatarInfoOuterClass {
 
       public Builder removeSkillLevelMap(
           int key) {
-        
+
         internalGetMutableSkillLevelMap().getMutableMap()
             .remove(key);
         return this;
@@ -2990,8 +2990,8 @@ public final class SceneAvatarInfoOuterClass {
       public Builder putSkillLevelMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableSkillLevelMap().getMutableMap()
             .put(key, value);
         return this;
@@ -3040,7 +3040,7 @@ public final class SceneAvatarInfoOuterClass {
       @java.lang.Override
       public boolean containsProudSkillExtraLevelMap(
           int key) {
-        
+
         return internalGetProudSkillExtraLevelMap().getMap().containsKey(key);
       }
       /**
@@ -3067,7 +3067,7 @@ public final class SceneAvatarInfoOuterClass {
       public int getProudSkillExtraLevelMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetProudSkillExtraLevelMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -3079,7 +3079,7 @@ public final class SceneAvatarInfoOuterClass {
 
       public int getProudSkillExtraLevelMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetProudSkillExtraLevelMap().getMap();
         if (!map.containsKey(key)) {
@@ -3099,7 +3099,7 @@ public final class SceneAvatarInfoOuterClass {
 
       public Builder removeProudSkillExtraLevelMap(
           int key) {
-        
+
         internalGetMutableProudSkillExtraLevelMap().getMutableMap()
             .remove(key);
         return this;
@@ -3118,8 +3118,8 @@ public final class SceneAvatarInfoOuterClass {
       public Builder putProudSkillExtraLevelMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableProudSkillExtraLevelMap().getMutableMap()
             .put(key, value);
         return this;
@@ -3330,7 +3330,7 @@ public final class SceneAvatarInfoOuterClass {
       /**
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
            getServerBuffListOrBuilderList() {
         if (serverBuffListBuilder_ != null) {
           return serverBuffListBuilder_.getMessageOrBuilderList();
@@ -3356,12 +3356,12 @@ public final class SceneAvatarInfoOuterClass {
       /**
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder>
            getServerBuffListBuilderList() {
         return getServerBuffListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
           getServerBuffListFieldBuilder() {
         if (serverBuffListBuilder_ == null) {
           serverBuffListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3469,7 +3469,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWearingFlycloakId(int value) {
-        
+
         wearingFlycloakId_ = value;
         onChanged();
         return this;
@@ -3479,7 +3479,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWearingFlycloakId() {
-        
+
         wearingFlycloakId_ = 0;
         onChanged();
         return this;
@@ -3500,7 +3500,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBornTime(int value) {
-        
+
         bornTime_ = value;
         onChanged();
         return this;
@@ -3510,7 +3510,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBornTime() {
-        
+
         bornTime_ = 0;
         onChanged();
         return this;
@@ -3531,7 +3531,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCostumeId(int value) {
-        
+
         costumeId_ = value;
         onChanged();
         return this;
@@ -3541,7 +3541,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCostumeId() {
-        
+
         costumeId_ = 0;
         onChanged();
         return this;
@@ -3634,7 +3634,7 @@ public final class SceneAvatarInfoOuterClass {
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
        */
       public emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.Builder getCurVehicleInfoBuilder() {
-        
+
         onChanged();
         return getCurVehicleInfoFieldBuilder().getBuilder();
       }
@@ -3653,7 +3653,7 @@ public final class SceneAvatarInfoOuterClass {
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.Builder, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfoOrBuilder> 
+          emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.Builder, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfoOrBuilder>
           getCurVehicleInfoFieldBuilder() {
         if (curVehicleInfoBuilder_ == null) {
           curVehicleInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3753,7 +3753,7 @@ public final class SceneAvatarInfoOuterClass {
        * <code>.AvatarExcelInfo excel_info = 21;</code>
        */
       public emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder getExcelInfoBuilder() {
-        
+
         onChanged();
         return getExcelInfoFieldBuilder().getBuilder();
       }
@@ -3772,7 +3772,7 @@ public final class SceneAvatarInfoOuterClass {
        * <code>.AvatarExcelInfo excel_info = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder> 
+          emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder>
           getExcelInfoFieldBuilder() {
         if (excelInfoBuilder_ == null) {
           excelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3800,7 +3800,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAnimHash(int value) {
-        
+
         animHash_ = value;
         onChanged();
         return this;
@@ -3810,7 +3810,7 @@ public final class SceneAvatarInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAnimHash() {
-        
+
         animHash_ = 0;
         onChanged();
         return this;
@@ -3870,17 +3870,17 @@ public final class SceneAvatarInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneAvatarInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneAvatarInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneAvatarInfo_SkillLevelMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneAvatarInfo_SkillLevelMapEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneAvatarInfo_ProudSkillExtraLevelMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneAvatarInfo_ProudSkillExtraLevelMapEntry_fieldAccessorTable;
 

@@ -27,7 +27,7 @@ public final class QueryRegionListHttpRspOuterClass {
     /**
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo> 
+    java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo>
         getRegionListList();
     /**
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -40,7 +40,7 @@ public final class QueryRegionListHttpRspOuterClass {
     /**
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder>
         getRegionListOrBuilderList();
     /**
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -203,7 +203,7 @@ public final class QueryRegionListHttpRspOuterClass {
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder>
         getRegionListOrBuilderList() {
       return regionList_;
     }
@@ -627,7 +627,7 @@ public final class QueryRegionListHttpRspOuterClass {
               regionListBuilder_ = null;
               regionList_ = other.regionList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              regionListBuilder_ = 
+              regionListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRegionListFieldBuilder() : null;
             } else {
@@ -689,7 +689,7 @@ public final class QueryRegionListHttpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -699,7 +699,7 @@ public final class QueryRegionListHttpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -900,7 +900,7 @@ public final class QueryRegionListHttpRspOuterClass {
       /**
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder>
            getRegionListOrBuilderList() {
         if (regionListBuilder_ != null) {
           return regionListBuilder_.getMessageOrBuilderList();
@@ -926,12 +926,12 @@ public final class QueryRegionListHttpRspOuterClass {
       /**
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder>
            getRegionListBuilderList() {
         return getRegionListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder> 
+          emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo.Builder, emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfoOrBuilder>
           getRegionListFieldBuilder() {
         if (regionListBuilder_ == null) {
           regionListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -963,7 +963,7 @@ public final class QueryRegionListHttpRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         clientSecretKey_ = value;
         onChanged();
         return this;
@@ -973,7 +973,7 @@ public final class QueryRegionListHttpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearClientSecretKey() {
-        
+
         clientSecretKey_ = getDefaultInstance().getClientSecretKey();
         onChanged();
         return this;
@@ -997,7 +997,7 @@ public final class QueryRegionListHttpRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         clientCustomConfigEncrypted_ = value;
         onChanged();
         return this;
@@ -1007,7 +1007,7 @@ public final class QueryRegionListHttpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearClientCustomConfigEncrypted() {
-        
+
         clientCustomConfigEncrypted_ = getDefaultInstance().getClientCustomConfigEncrypted();
         onChanged();
         return this;
@@ -1028,7 +1028,7 @@ public final class QueryRegionListHttpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEnableLoginPc(boolean value) {
-        
+
         enableLoginPc_ = value;
         onChanged();
         return this;
@@ -1038,7 +1038,7 @@ public final class QueryRegionListHttpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEnableLoginPc() {
-        
+
         enableLoginPc_ = false;
         onChanged();
         return this;
@@ -1098,7 +1098,7 @@ public final class QueryRegionListHttpRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QueryRegionListHttpRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QueryRegionListHttpRsp_fieldAccessorTable;
 

@@ -21,7 +21,7 @@ public final class WidgetActiveChangeNotifyOuterClass {
     /**
      * <code>repeated .WidgetSlotData widget_data_list = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> 
+    java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData>
         getWidgetDataListList();
     /**
      * <code>repeated .WidgetSlotData widget_data_list = 5;</code>
@@ -34,7 +34,7 @@ public final class WidgetActiveChangeNotifyOuterClass {
     /**
      * <code>repeated .WidgetSlotData widget_data_list = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
         getWidgetDataListOrBuilderList();
     /**
      * <code>repeated .WidgetSlotData widget_data_list = 5;</code>
@@ -152,7 +152,7 @@ public final class WidgetActiveChangeNotifyOuterClass {
      * <code>repeated .WidgetSlotData widget_data_list = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
         getWidgetDataListOrBuilderList() {
       return widgetDataList_;
     }
@@ -489,7 +489,7 @@ public final class WidgetActiveChangeNotifyOuterClass {
               widgetDataListBuilder_ = null;
               widgetDataList_ = other.widgetDataList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              widgetDataListBuilder_ = 
+              widgetDataListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getWidgetDataListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class WidgetActiveChangeNotifyOuterClass {
       /**
        * <code>repeated .WidgetSlotData widget_data_list = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
            getWidgetDataListOrBuilderList() {
         if (widgetDataListBuilder_ != null) {
           return widgetDataListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class WidgetActiveChangeNotifyOuterClass {
       /**
        * <code>repeated .WidgetSlotData widget_data_list = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder>
            getWidgetDataListBuilderList() {
         return getWidgetDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
           getWidgetDataListFieldBuilder() {
         if (widgetDataListBuilder_ == null) {
           widgetDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class WidgetActiveChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetActiveChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetActiveChangeNotify_fieldAccessorTable;
 

@@ -178,7 +178,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarSkillInfoNotifyOuterClass.internal_static_AvatarSkillInfoNotify_SkillMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarSkillInfoNotifyOuterClass.internal_static_AvatarSkillInfoNotify_SkillMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -205,7 +205,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     @java.lang.Override
     public boolean containsSkillMap(
         int key) {
-      
+
       return internalGetSkillMap().getMap().containsKey(key);
     }
     /**
@@ -232,7 +232,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     public emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrDefault(
         int key,
         emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> map =
           internalGetSkillMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -244,7 +244,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
 
     public emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> map =
           internalGetSkillMap().getMap();
       if (!map.containsKey(key)) {
@@ -657,7 +657,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       @java.lang.Override
       public boolean containsSkillMap(
           int key) {
-        
+
         return internalGetSkillMap().getMap().containsKey(key);
       }
       /**
@@ -684,7 +684,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       public emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrDefault(
           int key,
           emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> map =
             internalGetSkillMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -696,7 +696,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
 
       public emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo getSkillMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo> map =
             internalGetSkillMap().getMap();
         if (!map.containsKey(key)) {
@@ -716,7 +716,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
 
       public Builder removeSkillMap(
           int key) {
-        
+
         internalGetMutableSkillMap().getMutableMap()
             .remove(key);
         return this;
@@ -735,7 +735,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       public Builder putSkillMap(
           int key,
           emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableSkillMap().getMutableMap()
             .put(key, value);
@@ -767,7 +767,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(long value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -777,7 +777,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0L;
         onChanged();
         return this;
@@ -837,12 +837,12 @@ public final class AvatarSkillInfoNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillInfoNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillInfoNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillInfoNotify_SkillMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillInfoNotify_SkillMapEntry_fieldAccessorTable;
 

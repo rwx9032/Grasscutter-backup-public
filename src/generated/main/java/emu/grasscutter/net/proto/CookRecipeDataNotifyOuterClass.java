@@ -563,7 +563,7 @@ public final class CookRecipeDataNotifyOuterClass {
        * <code>.CookRecipeData recipe_data = 4;</code>
        */
       public emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder getRecipeDataBuilder() {
-        
+
         onChanged();
         return getRecipeDataFieldBuilder().getBuilder();
       }
@@ -582,7 +582,7 @@ public final class CookRecipeDataNotifyOuterClass {
        * <code>.CookRecipeData recipe_data = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder> 
+          emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder>
           getRecipeDataFieldBuilder() {
         if (recipeDataBuilder_ == null) {
           recipeDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class CookRecipeDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CookRecipeDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CookRecipeDataNotify_fieldAccessorTable;
 

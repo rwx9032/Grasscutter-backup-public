@@ -553,7 +553,7 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBlockId(int value) {
-        
+
         blockId_ = value;
         onChanged();
         return this;
@@ -563,7 +563,7 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBlockId() {
-        
+
         blockId_ = 0;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDataVersion(int value) {
-        
+
         dataVersion_ = value;
         onChanged();
         return this;
@@ -594,7 +594,7 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDataVersion() {
-        
+
         dataVersion_ = 0;
         onChanged();
         return this;
@@ -618,7 +618,7 @@ public final class BlockInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         binData_ = value;
         onChanged();
         return this;
@@ -628,7 +628,7 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBinData() {
-        
+
         binData_ = getDefaultInstance().getBinData();
         onChanged();
         return this;
@@ -649,7 +649,7 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsDirty(boolean value) {
-        
+
         isDirty_ = value;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsDirty() {
-        
+
         isDirty_ = false;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class BlockInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BlockInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BlockInfo_fieldAccessorTable;
 

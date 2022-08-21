@@ -126,7 +126,7 @@ public final class ForceUpdateInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         forceUpdateUrl_ = s;
@@ -142,7 +142,7 @@ public final class ForceUpdateInfoOuterClass {
         getForceUpdateUrlBytes() {
       java.lang.Object ref = forceUpdateUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         forceUpdateUrl_ = b;
@@ -479,7 +479,7 @@ public final class ForceUpdateInfoOuterClass {
           getForceUpdateUrlBytes() {
         java.lang.Object ref = forceUpdateUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           forceUpdateUrl_ = b;
@@ -498,7 +498,7 @@ public final class ForceUpdateInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         forceUpdateUrl_ = value;
         onChanged();
         return this;
@@ -508,7 +508,7 @@ public final class ForceUpdateInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForceUpdateUrl() {
-        
+
         forceUpdateUrl_ = getDefaultInstance().getForceUpdateUrl();
         onChanged();
         return this;
@@ -524,7 +524,7 @@ public final class ForceUpdateInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         forceUpdateUrl_ = value;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class ForceUpdateInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForceUpdateInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForceUpdateInfo_fieldAccessorTable;
 

@@ -667,7 +667,7 @@ public final class AttackResultOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         animEventId_ = s;
@@ -683,7 +683,7 @@ public final class AttackResultOuterClass {
         getAnimEventIdBytes() {
       java.lang.Object ref = animEventId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         animEventId_ = b;
@@ -1794,7 +1794,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsResistText(boolean value) {
-        
+
         isResistText_ = value;
         onChanged();
         return this;
@@ -1804,7 +1804,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsResistText() {
-        
+
         isResistText_ = false;
         onChanged();
         return this;
@@ -1825,7 +1825,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700GBANCFEPPIM(int value) {
-        
+
         unk2700GBANCFEPPIM_ = value;
         onChanged();
         return this;
@@ -1835,7 +1835,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700GBANCFEPPIM() {
-        
+
         unk2700GBANCFEPPIM_ = 0;
         onChanged();
         return this;
@@ -1856,7 +1856,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAmplifyReactionType(int value) {
-        
+
         amplifyReactionType_ = value;
         onChanged();
         return this;
@@ -1866,7 +1866,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAmplifyReactionType() {
-        
+
         amplifyReactionType_ = 0;
         onChanged();
         return this;
@@ -1887,7 +1887,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndureBreak(int value) {
-        
+
         endureBreak_ = value;
         onChanged();
         return this;
@@ -1897,7 +1897,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndureBreak() {
-        
+
         endureBreak_ = 0;
         onChanged();
         return this;
@@ -1918,7 +1918,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setElementType(int value) {
-        
+
         elementType_ = value;
         onChanged();
         return this;
@@ -1928,7 +1928,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearElementType() {
-        
+
         elementType_ = 0;
         onChanged();
         return this;
@@ -1949,7 +1949,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setElementDurabilityAttenuation(float value) {
-        
+
         elementDurabilityAttenuation_ = value;
         onChanged();
         return this;
@@ -1959,7 +1959,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearElementDurabilityAttenuation() {
-        
+
         elementDurabilityAttenuation_ = 0F;
         onChanged();
         return this;
@@ -1980,7 +1980,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDefenseId(int value) {
-        
+
         defenseId_ = value;
         onChanged();
         return this;
@@ -1990,7 +1990,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDefenseId() {
-        
+
         defenseId_ = 0;
         onChanged();
         return this;
@@ -2011,7 +2011,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAttackTimestampMs(int value) {
-        
+
         attackTimestampMs_ = value;
         onChanged();
         return this;
@@ -2021,7 +2021,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAttackTimestampMs() {
-        
+
         attackTimestampMs_ = 0;
         onChanged();
         return this;
@@ -2042,7 +2042,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBulletFlyTimeMs(int value) {
-        
+
         bulletFlyTimeMs_ = value;
         onChanged();
         return this;
@@ -2052,7 +2052,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBulletFlyTimeMs() {
-        
+
         bulletFlyTimeMs_ = 0;
         onChanged();
         return this;
@@ -2073,7 +2073,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsCrit(boolean value) {
-        
+
         isCrit_ = value;
         onChanged();
         return this;
@@ -2083,7 +2083,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsCrit() {
-        
+
         isCrit_ = false;
         onChanged();
         return this;
@@ -2104,7 +2104,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setElementAmplifyRate(float value) {
-        
+
         elementAmplifyRate_ = value;
         onChanged();
         return this;
@@ -2114,7 +2114,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearElementAmplifyRate() {
-        
+
         elementAmplifyRate_ = 0F;
         onChanged();
         return this;
@@ -2135,7 +2135,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAttackCount(int value) {
-        
+
         attackCount_ = value;
         onChanged();
         return this;
@@ -2145,7 +2145,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAttackCount() {
-        
+
         attackCount_ = 0;
         onChanged();
         return this;
@@ -2166,7 +2166,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCriticalRand(int value) {
-        
+
         criticalRand_ = value;
         onChanged();
         return this;
@@ -2176,7 +2176,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCriticalRand() {
-        
+
         criticalRand_ = 0;
         onChanged();
         return this;
@@ -2197,7 +2197,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHitPosType(int value) {
-        
+
         hitPosType_ = value;
         onChanged();
         return this;
@@ -2207,7 +2207,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHitPosType() {
-        
+
         hitPosType_ = 0;
         onChanged();
         return this;
@@ -2238,7 +2238,7 @@ public final class AttackResultOuterClass {
           getAnimEventIdBytes() {
         java.lang.Object ref = animEventId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           animEventId_ = b;
@@ -2257,7 +2257,7 @@ public final class AttackResultOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         animEventId_ = value;
         onChanged();
         return this;
@@ -2267,7 +2267,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAnimEventId() {
-        
+
         animEventId_ = getDefaultInstance().getAnimEventId();
         onChanged();
         return this;
@@ -2283,7 +2283,7 @@ public final class AttackResultOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         animEventId_ = value;
         onChanged();
         return this;
@@ -2376,7 +2376,7 @@ public final class AttackResultOuterClass {
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
        */
       public emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder getHitEffResultBuilder() {
-        
+
         onChanged();
         return getHitEffResultFieldBuilder().getBuilder();
       }
@@ -2395,7 +2395,7 @@ public final class AttackResultOuterClass {
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResultOrBuilder> 
+          emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResultOrBuilder>
           getHitEffResultFieldBuilder() {
         if (hitEffResultBuilder_ == null) {
           hitEffResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2423,7 +2423,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDamageShield(float value) {
-        
+
         damageShield_ = value;
         onChanged();
         return this;
@@ -2433,7 +2433,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDamageShield() {
-        
+
         damageShield_ = 0F;
         onChanged();
         return this;
@@ -2454,7 +2454,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndureDelta(float value) {
-        
+
         endureDelta_ = value;
         onChanged();
         return this;
@@ -2464,7 +2464,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndureDelta() {
-        
+
         endureDelta_ = 0F;
         onChanged();
         return this;
@@ -2557,7 +2557,7 @@ public final class AttackResultOuterClass {
        * <code>.Vector resolved_dir = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getResolvedDirBuilder() {
-        
+
         onChanged();
         return getResolvedDirFieldBuilder().getBuilder();
       }
@@ -2576,7 +2576,7 @@ public final class AttackResultOuterClass {
        * <code>.Vector resolved_dir = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getResolvedDirFieldBuilder() {
         if (resolvedDirBuilder_ == null) {
           resolvedDirBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2604,7 +2604,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDamage(float value) {
-        
+
         damage_ = value;
         onChanged();
         return this;
@@ -2614,7 +2614,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDamage() {
-        
+
         damage_ = 0F;
         onChanged();
         return this;
@@ -2635,7 +2635,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAddhurtReactionType(int value) {
-        
+
         addhurtReactionType_ = value;
         onChanged();
         return this;
@@ -2645,7 +2645,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAddhurtReactionType() {
-        
+
         addhurtReactionType_ = 0;
         onChanged();
         return this;
@@ -2666,7 +2666,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHashedAnimEventId(int value) {
-        
+
         hashedAnimEventId_ = value;
         onChanged();
         return this;
@@ -2676,7 +2676,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHashedAnimEventId() {
-        
+
         hashedAnimEventId_ = 0;
         onChanged();
         return this;
@@ -2697,7 +2697,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUseGadgetDamageAction(boolean value) {
-        
+
         useGadgetDamageAction_ = value;
         onChanged();
         return this;
@@ -2707,7 +2707,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUseGadgetDamageAction() {
-        
+
         useGadgetDamageAction_ = false;
         onChanged();
         return this;
@@ -2728,7 +2728,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHitRetreatAngleCompat(int value) {
-        
+
         hitRetreatAngleCompat_ = value;
         onChanged();
         return this;
@@ -2738,7 +2738,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHitRetreatAngleCompat() {
-        
+
         hitRetreatAngleCompat_ = 0;
         onChanged();
         return this;
@@ -2831,7 +2831,7 @@ public final class AttackResultOuterClass {
        * <code>.AbilityIdentifier ability_identifier = 14;</code>
        */
       public emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.Builder getAbilityIdentifierBuilder() {
-        
+
         onChanged();
         return getAbilityIdentifierFieldBuilder().getBuilder();
       }
@@ -2850,7 +2850,7 @@ public final class AttackResultOuterClass {
        * <code>.AbilityIdentifier ability_identifier = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.Builder, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifierOrBuilder> 
+          emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.Builder, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifierOrBuilder>
           getAbilityIdentifierFieldBuilder() {
         if (abilityIdentifierBuilder_ == null) {
           abilityIdentifierBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2878,7 +2878,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAttackerId(int value) {
-        
+
         attackerId_ = value;
         onChanged();
         return this;
@@ -2888,7 +2888,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAttackerId() {
-        
+
         attackerId_ = 0;
         onChanged();
         return this;
@@ -2909,7 +2909,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMuteElementHurt(boolean value) {
-        
+
         muteElementHurt_ = value;
         onChanged();
         return this;
@@ -2919,7 +2919,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMuteElementHurt() {
-        
+
         muteElementHurt_ = false;
         onChanged();
         return this;
@@ -2940,7 +2940,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetType(int value) {
-        
+
         targetType_ = value;
         onChanged();
         return this;
@@ -2950,7 +2950,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetType() {
-        
+
         targetType_ = 0;
         onChanged();
         return this;
@@ -3043,7 +3043,7 @@ public final class AttackResultOuterClass {
        * <code>.HitCollision hit_collision = 10;</code>
        */
       public emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.Builder getHitCollisionBuilder() {
-        
+
         onChanged();
         return getHitCollisionFieldBuilder().getBuilder();
       }
@@ -3062,7 +3062,7 @@ public final class AttackResultOuterClass {
        * <code>.HitCollision hit_collision = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.Builder, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollisionOrBuilder> 
+          emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.Builder, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollisionOrBuilder>
           getHitCollisionFieldBuilder() {
         if (hitCollisionBuilder_ == null) {
           hitCollisionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3090,7 +3090,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetDamageActionIdx(int value) {
-        
+
         gadgetDamageActionIdx_ = value;
         onChanged();
         return this;
@@ -3100,7 +3100,7 @@ public final class AttackResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetDamageActionIdx() {
-        
+
         gadgetDamageActionIdx_ = 0;
         onChanged();
         return this;
@@ -3160,7 +3160,7 @@ public final class AttackResultOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AttackResult_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AttackResult_fieldAccessorTable;
 

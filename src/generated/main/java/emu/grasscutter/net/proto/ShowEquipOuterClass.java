@@ -681,7 +681,7 @@ public final class ShowEquipOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
@@ -691,7 +691,7 @@ public final class ShowEquipOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -820,7 +820,7 @@ public final class ShowEquipOuterClass {
        * <code>.Reliquary reliquary = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder> 
+          emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder>
           getReliquaryFieldBuilder() {
         if (reliquaryBuilder_ == null) {
           if (!(detailCase_ == 2)) {
@@ -961,7 +961,7 @@ public final class ShowEquipOuterClass {
        * <code>.Weapon weapon = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WeaponOuterClass.Weapon, emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder, emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder> 
+          emu.grasscutter.net.proto.WeaponOuterClass.Weapon, emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder, emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder>
           getWeaponFieldBuilder() {
         if (weaponBuilder_ == null) {
           if (!(detailCase_ == 3)) {
@@ -1033,7 +1033,7 @@ public final class ShowEquipOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShowEquip_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShowEquip_fieldAccessorTable;
 

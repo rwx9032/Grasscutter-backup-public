@@ -617,7 +617,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParam(int value) {
-        
+
         param_ = value;
         onChanged();
         return this;
@@ -627,7 +627,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParam() {
-        
+
         param_ = 0;
         onChanged();
         return this;
@@ -726,7 +726,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDisappearTypeValue(int value) {
-        
+
         disappearType_ = value;
         onChanged();
         return this;
@@ -750,7 +750,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         disappearType_ = value.getNumber();
         onChanged();
         return this;
@@ -760,7 +760,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDisappearType() {
-        
+
         disappearType_ = 0;
         onChanged();
         return this;
@@ -820,7 +820,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneEntityDisappearNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneEntityDisappearNotify_fieldAccessorTable;
 

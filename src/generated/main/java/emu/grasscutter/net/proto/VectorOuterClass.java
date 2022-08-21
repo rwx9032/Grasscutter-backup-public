@@ -518,7 +518,7 @@ public final class VectorOuterClass {
        * @return This builder for chaining.
        */
       public Builder setX(float value) {
-        
+
         x_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class VectorOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearX() {
-        
+
         x_ = 0F;
         onChanged();
         return this;
@@ -549,7 +549,7 @@ public final class VectorOuterClass {
        * @return This builder for chaining.
        */
       public Builder setY(float value) {
-        
+
         y_ = value;
         onChanged();
         return this;
@@ -559,7 +559,7 @@ public final class VectorOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearY() {
-        
+
         y_ = 0F;
         onChanged();
         return this;
@@ -580,7 +580,7 @@ public final class VectorOuterClass {
        * @return This builder for chaining.
        */
       public Builder setZ(float value) {
-        
+
         z_ = value;
         onChanged();
         return this;
@@ -590,7 +590,7 @@ public final class VectorOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearZ() {
-        
+
         z_ = 0F;
         onChanged();
         return this;
@@ -650,7 +650,7 @@ public final class VectorOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Vector_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Vector_fieldAccessorTable;
 

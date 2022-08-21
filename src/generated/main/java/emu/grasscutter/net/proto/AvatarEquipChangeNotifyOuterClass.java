@@ -735,7 +735,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -745,7 +745,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -766,7 +766,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEquipGuid(long value) {
-        
+
         equipGuid_ = value;
         onChanged();
         return this;
@@ -776,7 +776,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEquipGuid() {
-        
+
         equipGuid_ = 0L;
         onChanged();
         return this;
@@ -869,7 +869,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * <code>.SceneReliquaryInfo reliquary = 1;</code>
        */
       public emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder getReliquaryBuilder() {
-        
+
         onChanged();
         return getReliquaryFieldBuilder().getBuilder();
       }
@@ -888,7 +888,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * <code>.SceneReliquaryInfo reliquary = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder>
           getReliquaryFieldBuilder() {
         if (reliquaryBuilder_ == null) {
           reliquaryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -988,7 +988,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * <code>.SceneWeaponInfo weapon = 15;</code>
        */
       public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder getWeaponBuilder() {
-        
+
         onChanged();
         return getWeaponFieldBuilder().getBuilder();
       }
@@ -1007,7 +1007,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * <code>.SceneWeaponInfo weapon = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder>
           getWeaponFieldBuilder() {
         if (weaponBuilder_ == null) {
           weaponBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1035,7 +1035,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
@@ -1045,7 +1045,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -1066,7 +1066,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEquipType(int value) {
-        
+
         equipType_ = value;
         onChanged();
         return this;
@@ -1076,7 +1076,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEquipType() {
-        
+
         equipType_ = 0;
         onChanged();
         return this;
@@ -1136,7 +1136,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarEquipChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarEquipChangeNotify_fieldAccessorTable;
 

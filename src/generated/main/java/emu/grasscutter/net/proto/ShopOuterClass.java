@@ -21,7 +21,7 @@ public final class ShopOuterClass {
     /**
      * <code>repeated .ShopConcertProduct concert_product_list = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct> 
+    java.util.List<emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct>
         getConcertProductListList();
     /**
      * <code>repeated .ShopConcertProduct concert_product_list = 3;</code>
@@ -34,7 +34,7 @@ public final class ShopOuterClass {
     /**
      * <code>repeated .ShopConcertProduct concert_product_list = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProductOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProductOrBuilder>
         getConcertProductListOrBuilderList();
     /**
      * <code>repeated .ShopConcertProduct concert_product_list = 3;</code>
@@ -45,7 +45,7 @@ public final class ShopOuterClass {
     /**
      * <code>repeated .ShopGoods goods_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods> 
+    java.util.List<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods>
         getGoodsListList();
     /**
      * <code>repeated .ShopGoods goods_list = 15;</code>
@@ -58,7 +58,7 @@ public final class ShopOuterClass {
     /**
      * <code>repeated .ShopGoods goods_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder>
         getGoodsListOrBuilderList();
     /**
      * <code>repeated .ShopGoods goods_list = 15;</code>
@@ -75,7 +75,7 @@ public final class ShopOuterClass {
     /**
      * <code>repeated .ShopCardProduct card_product_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct> 
+    java.util.List<emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct>
         getCardProductListList();
     /**
      * <code>repeated .ShopCardProduct card_product_list = 14;</code>
@@ -88,7 +88,7 @@ public final class ShopOuterClass {
     /**
      * <code>repeated .ShopCardProduct card_product_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProductOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProductOrBuilder>
         getCardProductListOrBuilderList();
     /**
      * <code>repeated .ShopCardProduct card_product_list = 14;</code>
@@ -99,7 +99,7 @@ public final class ShopOuterClass {
     /**
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct> 
+    java.util.List<emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct>
         getMcoinProductListList();
     /**
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 7;</code>
@@ -112,7 +112,7 @@ public final class ShopOuterClass {
     /**
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProductOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProductOrBuilder>
         getMcoinProductListOrBuilderList();
     /**
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 7;</code>
@@ -301,7 +301,7 @@ public final class ShopOuterClass {
      * <code>repeated .ShopConcertProduct concert_product_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProductOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProductOrBuilder>
         getConcertProductListOrBuilderList() {
       return concertProductList_;
     }
@@ -341,7 +341,7 @@ public final class ShopOuterClass {
      * <code>repeated .ShopGoods goods_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder>
         getGoodsListOrBuilderList() {
       return goodsList_;
     }
@@ -392,7 +392,7 @@ public final class ShopOuterClass {
      * <code>repeated .ShopCardProduct card_product_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProductOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProductOrBuilder>
         getCardProductListOrBuilderList() {
       return cardProductList_;
     }
@@ -432,7 +432,7 @@ public final class ShopOuterClass {
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProductOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProductOrBuilder>
         getMcoinProductListOrBuilderList() {
       return mcoinProductList_;
     }
@@ -939,7 +939,7 @@ public final class ShopOuterClass {
               concertProductListBuilder_ = null;
               concertProductList_ = other.concertProductList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              concertProductListBuilder_ = 
+              concertProductListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getConcertProductListFieldBuilder() : null;
             } else {
@@ -965,7 +965,7 @@ public final class ShopOuterClass {
               goodsListBuilder_ = null;
               goodsList_ = other.goodsList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              goodsListBuilder_ = 
+              goodsListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getGoodsListFieldBuilder() : null;
             } else {
@@ -994,7 +994,7 @@ public final class ShopOuterClass {
               cardProductListBuilder_ = null;
               cardProductList_ = other.cardProductList_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              cardProductListBuilder_ = 
+              cardProductListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCardProductListFieldBuilder() : null;
             } else {
@@ -1020,7 +1020,7 @@ public final class ShopOuterClass {
               mcoinProductListBuilder_ = null;
               mcoinProductList_ = other.mcoinProductList_;
               bitField0_ = (bitField0_ & ~0x00000008);
-              mcoinProductListBuilder_ = 
+              mcoinProductListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMcoinProductListFieldBuilder() : null;
             } else {
@@ -1262,7 +1262,7 @@ public final class ShopOuterClass {
       /**
        * <code>repeated .ShopConcertProduct concert_product_list = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProductOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProductOrBuilder>
            getConcertProductListOrBuilderList() {
         if (concertProductListBuilder_ != null) {
           return concertProductListBuilder_.getMessageOrBuilderList();
@@ -1288,12 +1288,12 @@ public final class ShopOuterClass {
       /**
        * <code>repeated .ShopConcertProduct concert_product_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct.Builder>
            getConcertProductListBuilderList() {
         return getConcertProductListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct, emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct.Builder, emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProductOrBuilder> 
+          emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct, emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct.Builder, emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProductOrBuilder>
           getConcertProductListFieldBuilder() {
         if (concertProductListBuilder_ == null) {
           concertProductListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1502,7 +1502,7 @@ public final class ShopOuterClass {
       /**
        * <code>repeated .ShopGoods goods_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder>
            getGoodsListOrBuilderList() {
         if (goodsListBuilder_ != null) {
           return goodsListBuilder_.getMessageOrBuilderList();
@@ -1528,12 +1528,12 @@ public final class ShopOuterClass {
       /**
        * <code>repeated .ShopGoods goods_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder>
            getGoodsListBuilderList() {
         return getGoodsListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods, emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder, emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder> 
+          emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods, emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder, emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder>
           getGoodsListFieldBuilder() {
         if (goodsListBuilder_ == null) {
           goodsListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1562,7 +1562,7 @@ public final class ShopOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCityReputationLevel(int value) {
-        
+
         cityReputationLevel_ = value;
         onChanged();
         return this;
@@ -1572,7 +1572,7 @@ public final class ShopOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCityReputationLevel() {
-        
+
         cityReputationLevel_ = 0;
         onChanged();
         return this;
@@ -1773,7 +1773,7 @@ public final class ShopOuterClass {
       /**
        * <code>repeated .ShopCardProduct card_product_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProductOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProductOrBuilder>
            getCardProductListOrBuilderList() {
         if (cardProductListBuilder_ != null) {
           return cardProductListBuilder_.getMessageOrBuilderList();
@@ -1799,12 +1799,12 @@ public final class ShopOuterClass {
       /**
        * <code>repeated .ShopCardProduct card_product_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.Builder>
            getCardProductListBuilderList() {
         return getCardProductListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct, emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.Builder, emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProductOrBuilder> 
+          emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct, emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.Builder, emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProductOrBuilder>
           getCardProductListFieldBuilder() {
         if (cardProductListBuilder_ == null) {
           cardProductListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2013,7 +2013,7 @@ public final class ShopOuterClass {
       /**
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProductOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProductOrBuilder>
            getMcoinProductListOrBuilderList() {
         if (mcoinProductListBuilder_ != null) {
           return mcoinProductListBuilder_.getMessageOrBuilderList();
@@ -2039,12 +2039,12 @@ public final class ShopOuterClass {
       /**
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct.Builder>
            getMcoinProductListBuilderList() {
         return getMcoinProductListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct, emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct.Builder, emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProductOrBuilder> 
+          emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct, emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct.Builder, emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProductOrBuilder>
           getMcoinProductListFieldBuilder() {
         if (mcoinProductListBuilder_ == null) {
           mcoinProductListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2073,7 +2073,7 @@ public final class ShopOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextRefreshTime(int value) {
-        
+
         nextRefreshTime_ = value;
         onChanged();
         return this;
@@ -2083,7 +2083,7 @@ public final class ShopOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextRefreshTime() {
-        
+
         nextRefreshTime_ = 0;
         onChanged();
         return this;
@@ -2104,7 +2104,7 @@ public final class ShopOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCityId(int value) {
-        
+
         cityId_ = value;
         onChanged();
         return this;
@@ -2114,7 +2114,7 @@ public final class ShopOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCityId() {
-        
+
         cityId_ = 0;
         onChanged();
         return this;
@@ -2135,7 +2135,7 @@ public final class ShopOuterClass {
        * @return This builder for chaining.
        */
       public Builder setShopType(int value) {
-        
+
         shopType_ = value;
         onChanged();
         return this;
@@ -2145,7 +2145,7 @@ public final class ShopOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearShopType() {
-        
+
         shopType_ = 0;
         onChanged();
         return this;
@@ -2205,7 +2205,7 @@ public final class ShopOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Shop_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Shop_fieldAccessorTable;
 

@@ -527,7 +527,7 @@ public final class MusicGameCreateBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -537,7 +537,7 @@ public final class MusicGameCreateBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -557,7 +557,7 @@ public final class MusicGameCreateBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnknownEnum1Value(int value) {
-        
+
         unknownEnum1_ = value;
         onChanged();
         return this;
@@ -581,7 +581,7 @@ public final class MusicGameCreateBeatmapRspOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unknownEnum1_ = value.getNumber();
         onChanged();
         return this;
@@ -591,7 +591,7 @@ public final class MusicGameCreateBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnknownEnum1() {
-        
+
         unknownEnum1_ = 0;
         onChanged();
         return this;
@@ -612,7 +612,7 @@ public final class MusicGameCreateBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicShareId(long value) {
-        
+
         musicShareId_ = value;
         onChanged();
         return this;
@@ -622,7 +622,7 @@ public final class MusicGameCreateBeatmapRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicShareId() {
-        
+
         musicShareId_ = 0L;
         onChanged();
         return this;
@@ -682,7 +682,7 @@ public final class MusicGameCreateBeatmapRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameCreateBeatmapRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameCreateBeatmapRsp_fieldAccessorTable;
 

@@ -512,7 +512,7 @@ public final class AbilityGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCampId(int value) {
-        
+
         campId_ = value;
         onChanged();
         return this;
@@ -522,7 +522,7 @@ public final class AbilityGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCampId() {
-        
+
         campId_ = 0;
         onChanged();
         return this;
@@ -543,7 +543,7 @@ public final class AbilityGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCampTargetType(int value) {
-        
+
         campTargetType_ = value;
         onChanged();
         return this;
@@ -553,7 +553,7 @@ public final class AbilityGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCampTargetType() {
-        
+
         campTargetType_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class AbilityGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetEntityId(int value) {
-        
+
         targetEntityId_ = value;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class AbilityGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetEntityId() {
-        
+
         targetEntityId_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class AbilityGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityGadgetInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityGadgetInfo_fieldAccessorTable;
 

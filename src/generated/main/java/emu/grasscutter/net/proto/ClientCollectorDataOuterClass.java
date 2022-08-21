@@ -512,7 +512,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
@@ -522,7 +522,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -543,7 +543,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxPoints(int value) {
-        
+
         maxPoints_ = value;
         onChanged();
         return this;
@@ -553,7 +553,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxPoints() {
-        
+
         maxPoints_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurrPoints(int value) {
-        
+
         currPoints_ = value;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class ClientCollectorDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurrPoints() {
-        
+
         currPoints_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class ClientCollectorDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ClientCollectorData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ClientCollectorData_fieldAccessorTable;
 

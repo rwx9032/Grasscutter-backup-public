@@ -513,7 +513,7 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsUnlock(boolean value) {
-        
+
         isUnlock_ = value;
         onChanged();
         return this;
@@ -523,7 +523,7 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsUnlock() {
-        
+
         isUnlock_ = false;
         onChanged();
         return this;
@@ -544,7 +544,7 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxScore(int value) {
-        
+
         maxScore_ = value;
         onChanged();
         return this;
@@ -554,7 +554,7 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
-        
+
         maxScore_ = 0;
         onChanged();
         return this;
@@ -575,7 +575,7 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxCombo(int value) {
-        
+
         maxCombo_ = value;
         onChanged();
         return this;
@@ -585,7 +585,7 @@ public final class MusicGameRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxCombo() {
-        
+
         maxCombo_ = 0;
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class MusicGameRecordOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameRecord_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameRecord_fieldAccessorTable;
 

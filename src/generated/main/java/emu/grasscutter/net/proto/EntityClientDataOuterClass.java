@@ -514,7 +514,7 @@ public final class EntityClientDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWindChangeSceneTime(int value) {
-        
+
         windChangeSceneTime_ = value;
         onChanged();
         return this;
@@ -524,7 +524,7 @@ public final class EntityClientDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWindChangeSceneTime() {
-        
+
         windChangeSceneTime_ = 0;
         onChanged();
         return this;
@@ -545,7 +545,7 @@ public final class EntityClientDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWindmillSyncAngle(float value) {
-        
+
         windmillSyncAngle_ = value;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class EntityClientDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWindmillSyncAngle() {
-        
+
         windmillSyncAngle_ = 0F;
         onChanged();
         return this;
@@ -576,7 +576,7 @@ public final class EntityClientDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWindChangeTargetLevel(int value) {
-        
+
         windChangeTargetLevel_ = value;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class EntityClientDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWindChangeTargetLevel() {
-        
+
         windChangeTargetLevel_ = 0;
         onChanged();
         return this;
@@ -646,7 +646,7 @@ public final class EntityClientDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityClientData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityClientData_fieldAccessorTable;
 

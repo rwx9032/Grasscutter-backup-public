@@ -434,7 +434,7 @@ public final class HomeMarkPointSuiteDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSuiteId(int value) {
-        
+
         suiteId_ = value;
         onChanged();
         return this;
@@ -444,7 +444,7 @@ public final class HomeMarkPointSuiteDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSuiteId() {
-        
+
         suiteId_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class HomeMarkPointSuiteDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeMarkPointSuiteData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeMarkPointSuiteData_fieldAccessorTable;
 

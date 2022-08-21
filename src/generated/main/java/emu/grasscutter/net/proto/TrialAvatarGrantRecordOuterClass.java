@@ -653,7 +653,7 @@ public final class TrialAvatarGrantRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGrantReason(int value) {
-        
+
         grantReason_ = value;
         onChanged();
         return this;
@@ -663,7 +663,7 @@ public final class TrialAvatarGrantRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGrantReason() {
-        
+
         grantReason_ = 0;
         onChanged();
         return this;
@@ -684,7 +684,7 @@ public final class TrialAvatarGrantRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFromParentQuestId(int value) {
-        
+
         fromParentQuestId_ = value;
         onChanged();
         return this;
@@ -694,7 +694,7 @@ public final class TrialAvatarGrantRecordOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFromParentQuestId() {
-        
+
         fromParentQuestId_ = 0;
         onChanged();
         return this;
@@ -754,7 +754,7 @@ public final class TrialAvatarGrantRecordOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TrialAvatarGrantRecord_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TrialAvatarGrantRecord_fieldAccessorTable;
 

@@ -449,7 +449,7 @@ public final class GetAllMailReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700OPEHLDAGICF(boolean value) {
-        
+
         unk2700OPEHLDAGICF_ = value;
         onChanged();
         return this;
@@ -459,7 +459,7 @@ public final class GetAllMailReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700OPEHLDAGICF() {
-        
+
         unk2700OPEHLDAGICF_ = false;
         onChanged();
         return this;
@@ -519,7 +519,7 @@ public final class GetAllMailReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAllMailReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAllMailReq_fieldAccessorTable;
 

@@ -514,7 +514,7 @@ public final class WidgetCoolDownDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSuccess(boolean value) {
-        
+
         isSuccess_ = value;
         onChanged();
         return this;
@@ -524,7 +524,7 @@ public final class WidgetCoolDownDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSuccess() {
-        
+
         isSuccess_ = false;
         onChanged();
         return this;
@@ -545,7 +545,7 @@ public final class WidgetCoolDownDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCoolDownTime(long value) {
-        
+
         coolDownTime_ = value;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class WidgetCoolDownDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCoolDownTime() {
-        
+
         coolDownTime_ = 0L;
         onChanged();
         return this;
@@ -576,7 +576,7 @@ public final class WidgetCoolDownDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class WidgetCoolDownDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -646,7 +646,7 @@ public final class WidgetCoolDownDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetCoolDownData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetCoolDownData_fieldAccessorTable;
 

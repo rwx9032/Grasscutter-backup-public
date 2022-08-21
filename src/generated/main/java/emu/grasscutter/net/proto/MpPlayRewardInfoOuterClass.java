@@ -666,7 +666,7 @@ public final class MpPlayRewardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setResin(int value) {
-        
+
         resin_ = value;
         onChanged();
         return this;
@@ -676,7 +676,7 @@ public final class MpPlayRewardInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearResin() {
-        
+
         resin_ = 0;
         onChanged();
         return this;
@@ -894,7 +894,7 @@ public final class MpPlayRewardInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MpPlayRewardInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MpPlayRewardInfo_fieldAccessorTable;
 

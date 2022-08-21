@@ -111,7 +111,7 @@ public final class DoGachaRspOuterClass {
     /**
      * <code>repeated .GachaItem gacha_item_list = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem> 
+    java.util.List<emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem>
         getGachaItemListList();
     /**
      * <code>repeated .GachaItem gacha_item_list = 15;</code>
@@ -124,7 +124,7 @@ public final class DoGachaRspOuterClass {
     /**
      * <code>repeated .GachaItem gacha_item_list = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.GachaItemOuterClass.GachaItemOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.GachaItemOuterClass.GachaItemOrBuilder>
         getGachaItemListOrBuilderList();
     /**
      * <code>repeated .GachaItem gacha_item_list = 15;</code>
@@ -493,7 +493,7 @@ public final class DoGachaRspOuterClass {
      * <code>repeated .GachaItem gacha_item_list = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GachaItemOuterClass.GachaItemOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.GachaItemOuterClass.GachaItemOrBuilder>
         getGachaItemListOrBuilderList() {
       return gachaItemList_;
     }
@@ -1111,7 +1111,7 @@ public final class DoGachaRspOuterClass {
               gachaItemListBuilder_ = null;
               gachaItemList_ = other.gachaItemList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              gachaItemListBuilder_ = 
+              gachaItemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getGachaItemListFieldBuilder() : null;
             } else {
@@ -1167,7 +1167,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700LEEPELHDING(boolean value) {
-        
+
         unk2700LEEPELHDING_ = value;
         onChanged();
         return this;
@@ -1177,7 +1177,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700LEEPELHDING() {
-        
+
         unk2700LEEPELHDING_ = false;
         onChanged();
         return this;
@@ -1198,7 +1198,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaScheduleId(int value) {
-        
+
         gachaScheduleId_ = value;
         onChanged();
         return this;
@@ -1208,7 +1208,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaScheduleId() {
-        
+
         gachaScheduleId_ = 0;
         onChanged();
         return this;
@@ -1229,7 +1229,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWishItemId(int value) {
-        
+
         wishItemId_ = value;
         onChanged();
         return this;
@@ -1239,7 +1239,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWishItemId() {
-        
+
         wishItemId_ = 0;
         onChanged();
         return this;
@@ -1260,7 +1260,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -1270,7 +1270,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -1291,7 +1291,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCostItemNum(int value) {
-        
+
         costItemNum_ = value;
         onChanged();
         return this;
@@ -1301,7 +1301,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCostItemNum() {
-        
+
         costItemNum_ = 0;
         onChanged();
         return this;
@@ -1322,7 +1322,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaTimesLimit(int value) {
-        
+
         gachaTimesLimit_ = value;
         onChanged();
         return this;
@@ -1332,7 +1332,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaTimesLimit() {
-        
+
         gachaTimesLimit_ = 0;
         onChanged();
         return this;
@@ -1353,7 +1353,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCostItemId(int value) {
-        
+
         costItemId_ = value;
         onChanged();
         return this;
@@ -1363,7 +1363,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCostItemId() {
-        
+
         costItemId_ = 0;
         onChanged();
         return this;
@@ -1384,7 +1384,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaType(int value) {
-        
+
         gachaType_ = value;
         onChanged();
         return this;
@@ -1394,7 +1394,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaType() {
-        
+
         gachaType_ = 0;
         onChanged();
         return this;
@@ -1415,7 +1415,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTenCostItemId(int value) {
-        
+
         tenCostItemId_ = value;
         onChanged();
         return this;
@@ -1425,7 +1425,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTenCostItemId() {
-        
+
         tenCostItemId_ = 0;
         onChanged();
         return this;
@@ -1446,7 +1446,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWishMaxProgress(int value) {
-        
+
         wishMaxProgress_ = value;
         onChanged();
         return this;
@@ -1456,7 +1456,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWishMaxProgress() {
-        
+
         wishMaxProgress_ = 0;
         onChanged();
         return this;
@@ -1477,7 +1477,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700OJKKHDLEDCI(int value) {
-        
+
         unk2700OJKKHDLEDCI_ = value;
         onChanged();
         return this;
@@ -1487,7 +1487,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700OJKKHDLEDCI() {
-        
+
         unk2700OJKKHDLEDCI_ = 0;
         onChanged();
         return this;
@@ -1508,7 +1508,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTenCostItemNum(int value) {
-        
+
         tenCostItemNum_ = value;
         onChanged();
         return this;
@@ -1518,7 +1518,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTenCostItemNum() {
-        
+
         tenCostItemNum_ = 0;
         onChanged();
         return this;
@@ -1539,7 +1539,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLeftGachaTimes(int value) {
-        
+
         leftGachaTimes_ = value;
         onChanged();
         return this;
@@ -1549,7 +1549,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLeftGachaTimes() {
-        
+
         leftGachaTimes_ = 0;
         onChanged();
         return this;
@@ -1570,7 +1570,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWishProgress(int value) {
-        
+
         wishProgress_ = value;
         onChanged();
         return this;
@@ -1580,7 +1580,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWishProgress() {
-        
+
         wishProgress_ = 0;
         onChanged();
         return this;
@@ -1601,7 +1601,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaTimes(int value) {
-        
+
         gachaTimes_ = value;
         onChanged();
         return this;
@@ -1611,7 +1611,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaTimes() {
-        
+
         gachaTimes_ = 0;
         onChanged();
         return this;
@@ -1812,7 +1812,7 @@ public final class DoGachaRspOuterClass {
       /**
        * <code>repeated .GachaItem gacha_item_list = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.GachaItemOuterClass.GachaItemOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.GachaItemOuterClass.GachaItemOrBuilder>
            getGachaItemListOrBuilderList() {
         if (gachaItemListBuilder_ != null) {
           return gachaItemListBuilder_.getMessageOrBuilderList();
@@ -1838,12 +1838,12 @@ public final class DoGachaRspOuterClass {
       /**
        * <code>repeated .GachaItem gacha_item_list = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem.Builder>
            getGachaItemListBuilderList() {
         return getGachaItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem, emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem.Builder, emu.grasscutter.net.proto.GachaItemOuterClass.GachaItemOrBuilder> 
+          emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem, emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem.Builder, emu.grasscutter.net.proto.GachaItemOuterClass.GachaItemOrBuilder>
           getGachaItemListFieldBuilder() {
         if (gachaItemListBuilder_ == null) {
           gachaItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1872,7 +1872,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNewGachaRandom(int value) {
-        
+
         newGachaRandom_ = value;
         onChanged();
         return this;
@@ -1882,7 +1882,7 @@ public final class DoGachaRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNewGachaRandom() {
-        
+
         newGachaRandom_ = 0;
         onChanged();
         return this;
@@ -1942,7 +1942,7 @@ public final class DoGachaRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DoGachaRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DoGachaRsp_fieldAccessorTable;
 

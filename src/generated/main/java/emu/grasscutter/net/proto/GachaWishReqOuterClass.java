@@ -526,7 +526,7 @@ public final class GachaWishReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaScheduleId(int value) {
-        
+
         gachaScheduleId_ = value;
         onChanged();
         return this;
@@ -536,7 +536,7 @@ public final class GachaWishReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaScheduleId() {
-        
+
         gachaScheduleId_ = 0;
         onChanged();
         return this;
@@ -557,7 +557,7 @@ public final class GachaWishReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGachaType(int value) {
-        
+
         gachaType_ = value;
         onChanged();
         return this;
@@ -567,7 +567,7 @@ public final class GachaWishReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGachaType() {
-        
+
         gachaType_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class GachaWishReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
@@ -598,7 +598,7 @@ public final class GachaWishReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -658,7 +658,7 @@ public final class GachaWishReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GachaWishReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GachaWishReq_fieldAccessorTable;
 

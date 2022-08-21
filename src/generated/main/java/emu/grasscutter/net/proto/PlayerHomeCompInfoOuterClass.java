@@ -1030,7 +1030,7 @@ public final class PlayerHomeCompInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFriendEnterHomeOptionValue(int value) {
-        
+
         friendEnterHomeOption_ = value;
         onChanged();
         return this;
@@ -1054,7 +1054,7 @@ public final class PlayerHomeCompInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         friendEnterHomeOption_ = value.getNumber();
         onChanged();
         return this;
@@ -1064,7 +1064,7 @@ public final class PlayerHomeCompInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFriendEnterHomeOption() {
-        
+
         friendEnterHomeOption_ = 0;
         onChanged();
         return this;
@@ -1124,7 +1124,7 @@ public final class PlayerHomeCompInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerHomeCompInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerHomeCompInfo_fieldAccessorTable;
 

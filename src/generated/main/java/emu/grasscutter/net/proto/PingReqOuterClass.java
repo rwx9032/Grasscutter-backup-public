@@ -609,7 +609,7 @@ public final class PingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setClientTime(int value) {
-        
+
         clientTime_ = value;
         onChanged();
         return this;
@@ -619,7 +619,7 @@ public final class PingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearClientTime() {
-        
+
         clientTime_ = 0;
         onChanged();
         return this;
@@ -640,7 +640,7 @@ public final class PingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUeTime(float value) {
-        
+
         ueTime_ = value;
         onChanged();
         return this;
@@ -650,7 +650,7 @@ public final class PingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUeTime() {
-        
+
         ueTime_ = 0F;
         onChanged();
         return this;
@@ -671,7 +671,7 @@ public final class PingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTotalTickTime(double value) {
-        
+
         totalTickTime_ = value;
         onChanged();
         return this;
@@ -681,7 +681,7 @@ public final class PingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTotalTickTime() {
-        
+
         totalTickTime_ = 0D;
         onChanged();
         return this;
@@ -705,7 +705,7 @@ public final class PingReqOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         scData_ = value;
         onChanged();
         return this;
@@ -715,7 +715,7 @@ public final class PingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScData() {
-        
+
         scData_ = getDefaultInstance().getScData();
         onChanged();
         return this;
@@ -736,7 +736,7 @@ public final class PingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSeq(int value) {
-        
+
         seq_ = value;
         onChanged();
         return this;
@@ -746,7 +746,7 @@ public final class PingReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSeq() {
-        
+
         seq_ = 0;
         onChanged();
         return this;
@@ -806,7 +806,7 @@ public final class PingReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PingReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PingReq_fieldAccessorTable;
 

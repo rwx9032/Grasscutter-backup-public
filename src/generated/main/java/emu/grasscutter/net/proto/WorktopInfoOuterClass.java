@@ -632,7 +632,7 @@ public final class WorktopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsGuestCanOperate(boolean value) {
-        
+
         isGuestCanOperate_ = value;
         onChanged();
         return this;
@@ -642,7 +642,7 @@ public final class WorktopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsGuestCanOperate() {
-        
+
         isGuestCanOperate_ = false;
         onChanged();
         return this;
@@ -702,7 +702,7 @@ public final class WorktopInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorktopInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorktopInfo_fieldAccessorTable;
 

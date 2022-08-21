@@ -527,7 +527,7 @@ public final class ChangeGameTimeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGameTime(int value) {
-        
+
         gameTime_ = value;
         onChanged();
         return this;
@@ -537,7 +537,7 @@ public final class ChangeGameTimeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGameTime() {
-        
+
         gameTime_ = 0;
         onChanged();
         return this;
@@ -558,7 +558,7 @@ public final class ChangeGameTimeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsForceSet(boolean value) {
-        
+
         isForceSet_ = value;
         onChanged();
         return this;
@@ -568,7 +568,7 @@ public final class ChangeGameTimeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsForceSet() {
-        
+
         isForceSet_ = false;
         onChanged();
         return this;
@@ -589,7 +589,7 @@ public final class ChangeGameTimeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setExtraDays(int value) {
-        
+
         extraDays_ = value;
         onChanged();
         return this;
@@ -599,7 +599,7 @@ public final class ChangeGameTimeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearExtraDays() {
-        
+
         extraDays_ = 0;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class ChangeGameTimeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChangeGameTimeReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChangeGameTimeReq_fieldAccessorTable;
 

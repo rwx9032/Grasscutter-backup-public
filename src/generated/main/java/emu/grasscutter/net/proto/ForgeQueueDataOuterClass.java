@@ -668,7 +668,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFinishCount(int value) {
-        
+
         finishCount_ = value;
         onChanged();
         return this;
@@ -678,7 +678,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFinishCount() {
-        
+
         finishCount_ = 0;
         onChanged();
         return this;
@@ -699,7 +699,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTotalFinishTimestamp(int value) {
-        
+
         totalFinishTimestamp_ = value;
         onChanged();
         return this;
@@ -709,7 +709,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTotalFinishTimestamp() {
-        
+
         totalFinishTimestamp_ = 0;
         onChanged();
         return this;
@@ -730,7 +730,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarId(int value) {
-        
+
         avatarId_ = value;
         onChanged();
         return this;
@@ -740,7 +740,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
-        
+
         avatarId_ = 0;
         onChanged();
         return this;
@@ -761,7 +761,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQueueId(int value) {
-        
+
         queueId_ = value;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQueueId() {
-        
+
         queueId_ = 0;
         onChanged();
         return this;
@@ -792,7 +792,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnfinishCount(int value) {
-        
+
         unfinishCount_ = value;
         onChanged();
         return this;
@@ -802,7 +802,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnfinishCount() {
-        
+
         unfinishCount_ = 0;
         onChanged();
         return this;
@@ -823,7 +823,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextFinishTimestamp(int value) {
-        
+
         nextFinishTimestamp_ = value;
         onChanged();
         return this;
@@ -833,7 +833,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextFinishTimestamp() {
-        
+
         nextFinishTimestamp_ = 0;
         onChanged();
         return this;
@@ -854,7 +854,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForgeId(int value) {
-        
+
         forgeId_ = value;
         onChanged();
         return this;
@@ -864,7 +864,7 @@ public final class ForgeQueueDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForgeId() {
-        
+
         forgeId_ = 0;
         onChanged();
         return this;
@@ -924,7 +924,7 @@ public final class ForgeQueueDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForgeQueueData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForgeQueueData_fieldAccessorTable;
 

@@ -210,7 +210,7 @@ public final class ForgeQueueDataNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData>newDefaultInstance(
-                  emu.grasscutter.net.proto.ForgeQueueDataNotifyOuterClass.internal_static_ForgeQueueDataNotify_ForgeQueueMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.ForgeQueueDataNotifyOuterClass.internal_static_ForgeQueueDataNotify_ForgeQueueMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -237,7 +237,7 @@ public final class ForgeQueueDataNotifyOuterClass {
     @java.lang.Override
     public boolean containsForgeQueueMap(
         int key) {
-      
+
       return internalGetForgeQueueMap().getMap().containsKey(key);
     }
     /**
@@ -264,7 +264,7 @@ public final class ForgeQueueDataNotifyOuterClass {
     public emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData getForgeQueueMapOrDefault(
         int key,
         emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> map =
           internalGetForgeQueueMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -276,7 +276,7 @@ public final class ForgeQueueDataNotifyOuterClass {
 
     public emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData getForgeQueueMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> map =
           internalGetForgeQueueMap().getMap();
       if (!map.containsKey(key)) {
@@ -734,7 +734,7 @@ public final class ForgeQueueDataNotifyOuterClass {
       @java.lang.Override
       public boolean containsForgeQueueMap(
           int key) {
-        
+
         return internalGetForgeQueueMap().getMap().containsKey(key);
       }
       /**
@@ -761,7 +761,7 @@ public final class ForgeQueueDataNotifyOuterClass {
       public emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData getForgeQueueMapOrDefault(
           int key,
           emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> map =
             internalGetForgeQueueMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -773,7 +773,7 @@ public final class ForgeQueueDataNotifyOuterClass {
 
       public emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData getForgeQueueMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData> map =
             internalGetForgeQueueMap().getMap();
         if (!map.containsKey(key)) {
@@ -793,7 +793,7 @@ public final class ForgeQueueDataNotifyOuterClass {
 
       public Builder removeForgeQueueMap(
           int key) {
-        
+
         internalGetMutableForgeQueueMap().getMutableMap()
             .remove(key);
         return this;
@@ -812,7 +812,7 @@ public final class ForgeQueueDataNotifyOuterClass {
       public Builder putForgeQueueMap(
           int key,
           emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableForgeQueueMap().getMutableMap()
             .put(key, value);
@@ -962,12 +962,12 @@ public final class ForgeQueueDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForgeQueueDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForgeQueueDataNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForgeQueueDataNotify_ForgeQueueMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForgeQueueDataNotify_ForgeQueueMapEntry_fieldAccessorTable;
 

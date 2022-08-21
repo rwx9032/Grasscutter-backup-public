@@ -569,7 +569,7 @@ public final class PersonalSceneJumpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDestSceneId(int value) {
-        
+
         destSceneId_ = value;
         onChanged();
         return this;
@@ -579,7 +579,7 @@ public final class PersonalSceneJumpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDestSceneId() {
-        
+
         destSceneId_ = 0;
         onChanged();
         return this;
@@ -600,7 +600,7 @@ public final class PersonalSceneJumpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -610,7 +610,7 @@ public final class PersonalSceneJumpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -703,7 +703,7 @@ public final class PersonalSceneJumpRspOuterClass {
        * <code>.Vector dest_pos = 11;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getDestPosBuilder() {
-        
+
         onChanged();
         return getDestPosFieldBuilder().getBuilder();
       }
@@ -722,7 +722,7 @@ public final class PersonalSceneJumpRspOuterClass {
        * <code>.Vector dest_pos = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getDestPosFieldBuilder() {
         if (destPosBuilder_ == null) {
           destPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -789,7 +789,7 @@ public final class PersonalSceneJumpRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PersonalSceneJumpRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PersonalSceneJumpRsp_fieldAccessorTable;
 

@@ -532,7 +532,7 @@ public final class SetEntityClientDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -542,7 +542,7 @@ public final class SetEntityClientDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -635,7 +635,7 @@ public final class SetEntityClientDataNotifyOuterClass {
        * <code>.EntityClientData entity_client_data = 9;</code>
        */
       public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder getEntityClientDataBuilder() {
-        
+
         onChanged();
         return getEntityClientDataFieldBuilder().getBuilder();
       }
@@ -654,7 +654,7 @@ public final class SetEntityClientDataNotifyOuterClass {
        * <code>.EntityClientData entity_client_data = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder> 
+          emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder>
           getEntityClientDataFieldBuilder() {
         if (entityClientDataBuilder_ == null) {
           entityClientDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -721,7 +721,7 @@ public final class SetEntityClientDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetEntityClientDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetEntityClientDataNotify_fieldAccessorTable;
 

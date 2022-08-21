@@ -477,7 +477,7 @@ public final class ModifierDurabilityOuterClass {
        * @return This builder for chaining.
        */
       public Builder setReduceRatio(float value) {
-        
+
         reduceRatio_ = value;
         onChanged();
         return this;
@@ -487,7 +487,7 @@ public final class ModifierDurabilityOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReduceRatio() {
-        
+
         reduceRatio_ = 0F;
         onChanged();
         return this;
@@ -508,7 +508,7 @@ public final class ModifierDurabilityOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRemainingDurability(float value) {
-        
+
         remainingDurability_ = value;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class ModifierDurabilityOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRemainingDurability() {
-        
+
         remainingDurability_ = 0F;
         onChanged();
         return this;
@@ -578,7 +578,7 @@ public final class ModifierDurabilityOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ModifierDurability_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ModifierDurability_fieldAccessorTable;
 

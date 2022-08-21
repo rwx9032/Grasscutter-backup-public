@@ -27,7 +27,7 @@ public final class TowerLevelEndNotifyOuterClass {
     /**
      * <code>repeated .ItemParam reward_item_list = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
         getRewardItemListList();
     /**
      * <code>repeated .ItemParam reward_item_list = 12;</code>
@@ -40,7 +40,7 @@ public final class TowerLevelEndNotifyOuterClass {
     /**
      * <code>repeated .ItemParam reward_item_list = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getRewardItemListOrBuilderList();
     /**
      * <code>repeated .ItemParam reward_item_list = 12;</code>
@@ -355,7 +355,7 @@ public final class TowerLevelEndNotifyOuterClass {
      * <code>repeated .ItemParam reward_item_list = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getRewardItemListOrBuilderList() {
       return rewardItemList_;
     }
@@ -823,7 +823,7 @@ public final class TowerLevelEndNotifyOuterClass {
               rewardItemListBuilder_ = null;
               rewardItemList_ = other.rewardItemList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              rewardItemListBuilder_ = 
+              rewardItemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRewardItemListFieldBuilder() : null;
             } else {
@@ -892,7 +892,7 @@ public final class TowerLevelEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextFloorId(int value) {
-        
+
         nextFloorId_ = value;
         onChanged();
         return this;
@@ -902,7 +902,7 @@ public final class TowerLevelEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextFloorId() {
-        
+
         nextFloorId_ = 0;
         onChanged();
         return this;
@@ -1103,7 +1103,7 @@ public final class TowerLevelEndNotifyOuterClass {
       /**
        * <code>repeated .ItemParam reward_item_list = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
            getRewardItemListOrBuilderList() {
         if (rewardItemListBuilder_ != null) {
           return rewardItemListBuilder_.getMessageOrBuilderList();
@@ -1129,12 +1129,12 @@ public final class TowerLevelEndNotifyOuterClass {
       /**
        * <code>repeated .ItemParam reward_item_list = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
            getRewardItemListBuilderList() {
         return getRewardItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getRewardItemListFieldBuilder() {
         if (rewardItemListBuilder_ == null) {
           rewardItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1163,7 +1163,7 @@ public final class TowerLevelEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setContinueState(int value) {
-        
+
         continueState_ = value;
         onChanged();
         return this;
@@ -1173,7 +1173,7 @@ public final class TowerLevelEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearContinueState() {
-        
+
         continueState_ = 0;
         onChanged();
         return this;
@@ -1194,7 +1194,7 @@ public final class TowerLevelEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSuccess(boolean value) {
-        
+
         isSuccess_ = value;
         onChanged();
         return this;
@@ -1204,7 +1204,7 @@ public final class TowerLevelEndNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSuccess() {
-        
+
         isSuccess_ = false;
         onChanged();
         return this;
@@ -1343,7 +1343,7 @@ public final class TowerLevelEndNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerLevelEndNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerLevelEndNotify_fieldAccessorTable;
 

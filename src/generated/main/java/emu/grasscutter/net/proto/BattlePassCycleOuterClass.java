@@ -512,7 +512,7 @@ public final class BattlePassCycleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCycleIdx(int value) {
-        
+
         cycleIdx_ = value;
         onChanged();
         return this;
@@ -522,7 +522,7 @@ public final class BattlePassCycleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCycleIdx() {
-        
+
         cycleIdx_ = 0;
         onChanged();
         return this;
@@ -543,7 +543,7 @@ public final class BattlePassCycleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
@@ -553,7 +553,7 @@ public final class BattlePassCycleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class BattlePassCycleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class BattlePassCycleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class BattlePassCycleOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BattlePassCycle_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BattlePassCycle_fieldAccessorTable;
 

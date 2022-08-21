@@ -449,7 +449,7 @@ public final class WeaponPromoteReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetWeaponGuid(long value) {
-        
+
         targetWeaponGuid_ = value;
         onChanged();
         return this;
@@ -459,7 +459,7 @@ public final class WeaponPromoteReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetWeaponGuid() {
-        
+
         targetWeaponGuid_ = 0L;
         onChanged();
         return this;
@@ -519,7 +519,7 @@ public final class WeaponPromoteReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeaponPromoteReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeaponPromoteReq_fieldAccessorTable;
 

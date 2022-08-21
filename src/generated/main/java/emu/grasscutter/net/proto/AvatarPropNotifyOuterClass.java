@@ -178,7 +178,7 @@ public final class AvatarPropNotifyOuterClass {
           java.lang.Integer, java.lang.Long> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Long>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarPropNotifyOuterClass.internal_static_AvatarPropNotify_PropMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarPropNotifyOuterClass.internal_static_AvatarPropNotify_PropMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.INT64,
@@ -205,7 +205,7 @@ public final class AvatarPropNotifyOuterClass {
     @java.lang.Override
     public boolean containsPropMap(
         int key) {
-      
+
       return internalGetPropMap().getMap().containsKey(key);
     }
     /**
@@ -232,7 +232,7 @@ public final class AvatarPropNotifyOuterClass {
     public long getPropMapOrDefault(
         int key,
         long defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Long> map =
           internalGetPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -244,7 +244,7 @@ public final class AvatarPropNotifyOuterClass {
 
     public long getPropMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Long> map =
           internalGetPropMap().getMap();
       if (!map.containsKey(key)) {
@@ -657,7 +657,7 @@ public final class AvatarPropNotifyOuterClass {
       @java.lang.Override
       public boolean containsPropMap(
           int key) {
-        
+
         return internalGetPropMap().getMap().containsKey(key);
       }
       /**
@@ -684,7 +684,7 @@ public final class AvatarPropNotifyOuterClass {
       public long getPropMapOrDefault(
           int key,
           long defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Long> map =
             internalGetPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -696,7 +696,7 @@ public final class AvatarPropNotifyOuterClass {
 
       public long getPropMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Long> map =
             internalGetPropMap().getMap();
         if (!map.containsKey(key)) {
@@ -716,7 +716,7 @@ public final class AvatarPropNotifyOuterClass {
 
       public Builder removePropMap(
           int key) {
-        
+
         internalGetMutablePropMap().getMutableMap()
             .remove(key);
         return this;
@@ -735,8 +735,8 @@ public final class AvatarPropNotifyOuterClass {
       public Builder putPropMap(
           int key,
           long value) {
-        
-        
+
+
         internalGetMutablePropMap().getMutableMap()
             .put(key, value);
         return this;
@@ -767,7 +767,7 @@ public final class AvatarPropNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -777,7 +777,7 @@ public final class AvatarPropNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -837,12 +837,12 @@ public final class AvatarPropNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarPropNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarPropNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarPropNotify_PropMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarPropNotify_PropMapEntry_fieldAccessorTable;
 

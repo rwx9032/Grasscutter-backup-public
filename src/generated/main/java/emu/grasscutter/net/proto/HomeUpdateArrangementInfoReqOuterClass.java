@@ -565,7 +565,7 @@ public final class HomeUpdateArrangementInfoReqOuterClass {
        * <code>.HomeSceneArrangementInfo scene_arrangement_info = 6;</code>
        */
       public emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfo.Builder getSceneArrangementInfoBuilder() {
-        
+
         onChanged();
         return getSceneArrangementInfoFieldBuilder().getBuilder();
       }
@@ -584,7 +584,7 @@ public final class HomeUpdateArrangementInfoReqOuterClass {
        * <code>.HomeSceneArrangementInfo scene_arrangement_info = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfo, emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfo.Builder, emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfoOrBuilder> 
+          emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfo, emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfo.Builder, emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfoOrBuilder>
           getSceneArrangementInfoFieldBuilder() {
         if (sceneArrangementInfoBuilder_ == null) {
           sceneArrangementInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -651,7 +651,7 @@ public final class HomeUpdateArrangementInfoReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeUpdateArrangementInfoReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeUpdateArrangementInfoReq_fieldAccessorTable;
 

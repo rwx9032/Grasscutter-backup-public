@@ -678,7 +678,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQuestId(int value) {
-        
+
         questId_ = value;
         onChanged();
         return this;
@@ -688,7 +688,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQuestId() {
-        
+
         questId_ = 0;
         onChanged();
         return this;
@@ -906,7 +906,7 @@ public final class QuestProgressUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QuestProgressUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QuestProgressUpdateNotify_fieldAccessorTable;
 

@@ -638,7 +638,7 @@ public final class QuestOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.QuestOuterClass.internal_static_Quest_LackedNpcMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.QuestOuterClass.internal_static_Quest_LackedNpcMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -665,7 +665,7 @@ public final class QuestOuterClass {
     @java.lang.Override
     public boolean containsLackedNpcMap(
         int key) {
-      
+
       return internalGetLackedNpcMap().getMap().containsKey(key);
     }
     /**
@@ -692,7 +692,7 @@ public final class QuestOuterClass {
     public int getLackedNpcMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetLackedNpcMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -704,7 +704,7 @@ public final class QuestOuterClass {
 
     public int getLackedNpcMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetLackedNpcMap().getMap();
       if (!map.containsKey(key)) {
@@ -747,7 +747,7 @@ public final class QuestOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.QuestOuterClass.internal_static_Quest_LackedPlaceMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.QuestOuterClass.internal_static_Quest_LackedPlaceMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -774,7 +774,7 @@ public final class QuestOuterClass {
     @java.lang.Override
     public boolean containsLackedPlaceMap(
         int key) {
-      
+
       return internalGetLackedPlaceMap().getMap().containsKey(key);
     }
     /**
@@ -801,7 +801,7 @@ public final class QuestOuterClass {
     public int getLackedPlaceMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetLackedPlaceMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -813,7 +813,7 @@ public final class QuestOuterClass {
 
     public int getLackedPlaceMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetLackedPlaceMap().getMap();
       if (!map.containsKey(key)) {
@@ -1518,7 +1518,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQuestId(int value) {
-        
+
         questId_ = value;
         onChanged();
         return this;
@@ -1528,7 +1528,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQuestId() {
-        
+
         questId_ = 0;
         onChanged();
         return this;
@@ -1549,7 +1549,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setState(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -1559,7 +1559,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -1580,7 +1580,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartTime(int value) {
-        
+
         startTime_ = value;
         onChanged();
         return this;
@@ -1590,7 +1590,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartTime() {
-        
+
         startTime_ = 0;
         onChanged();
         return this;
@@ -1611,7 +1611,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsRandom(boolean value) {
-        
+
         isRandom_ = value;
         onChanged();
         return this;
@@ -1621,7 +1621,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsRandom() {
-        
+
         isRandom_ = false;
         onChanged();
         return this;
@@ -1642,7 +1642,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParentQuestId(int value) {
-        
+
         parentQuestId_ = value;
         onChanged();
         return this;
@@ -1652,7 +1652,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParentQuestId() {
-        
+
         parentQuestId_ = 0;
         onChanged();
         return this;
@@ -1673,7 +1673,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQuestConfigId(int value) {
-        
+
         questConfigId_ = value;
         onChanged();
         return this;
@@ -1683,7 +1683,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQuestConfigId() {
-        
+
         questConfigId_ = 0;
         onChanged();
         return this;
@@ -1704,7 +1704,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartGameTime(int value) {
-        
+
         startGameTime_ = value;
         onChanged();
         return this;
@@ -1714,7 +1714,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartGameTime() {
-        
+
         startGameTime_ = 0;
         onChanged();
         return this;
@@ -1735,7 +1735,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAcceptTime(int value) {
-        
+
         acceptTime_ = value;
         onChanged();
         return this;
@@ -1745,7 +1745,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAcceptTime() {
-        
+
         acceptTime_ = 0;
         onChanged();
         return this;
@@ -2021,7 +2021,7 @@ public final class QuestOuterClass {
       @java.lang.Override
       public boolean containsLackedNpcMap(
           int key) {
-        
+
         return internalGetLackedNpcMap().getMap().containsKey(key);
       }
       /**
@@ -2048,7 +2048,7 @@ public final class QuestOuterClass {
       public int getLackedNpcMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetLackedNpcMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -2060,7 +2060,7 @@ public final class QuestOuterClass {
 
       public int getLackedNpcMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetLackedNpcMap().getMap();
         if (!map.containsKey(key)) {
@@ -2080,7 +2080,7 @@ public final class QuestOuterClass {
 
       public Builder removeLackedNpcMap(
           int key) {
-        
+
         internalGetMutableLackedNpcMap().getMutableMap()
             .remove(key);
         return this;
@@ -2099,8 +2099,8 @@ public final class QuestOuterClass {
       public Builder putLackedNpcMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableLackedNpcMap().getMutableMap()
             .put(key, value);
         return this;
@@ -2228,7 +2228,7 @@ public final class QuestOuterClass {
       @java.lang.Override
       public boolean containsLackedPlaceMap(
           int key) {
-        
+
         return internalGetLackedPlaceMap().getMap().containsKey(key);
       }
       /**
@@ -2255,7 +2255,7 @@ public final class QuestOuterClass {
       public int getLackedPlaceMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetLackedPlaceMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -2267,7 +2267,7 @@ public final class QuestOuterClass {
 
       public int getLackedPlaceMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetLackedPlaceMap().getMap();
         if (!map.containsKey(key)) {
@@ -2287,7 +2287,7 @@ public final class QuestOuterClass {
 
       public Builder removeLackedPlaceMap(
           int key) {
-        
+
         internalGetMutableLackedPlaceMap().getMutableMap()
             .remove(key);
         return this;
@@ -2306,8 +2306,8 @@ public final class QuestOuterClass {
       public Builder putLackedPlaceMap(
           int key,
           int value) {
-        
-        
+
+
         internalGetMutableLackedPlaceMap().getMutableMap()
             .put(key, value);
         return this;
@@ -2377,17 +2377,17 @@ public final class QuestOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Quest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Quest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Quest_LackedNpcMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Quest_LackedNpcMapEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Quest_LackedPlaceMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Quest_LackedPlaceMapEntry_fieldAccessorTable;
 

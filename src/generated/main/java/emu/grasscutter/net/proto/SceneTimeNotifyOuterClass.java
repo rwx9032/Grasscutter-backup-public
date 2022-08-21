@@ -526,7 +526,7 @@ public final class SceneTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneTime(long value) {
-        
+
         sceneTime_ = value;
         onChanged();
         return this;
@@ -536,7 +536,7 @@ public final class SceneTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneTime() {
-        
+
         sceneTime_ = 0L;
         onChanged();
         return this;
@@ -557,7 +557,7 @@ public final class SceneTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsPaused(boolean value) {
-        
+
         isPaused_ = value;
         onChanged();
         return this;
@@ -567,7 +567,7 @@ public final class SceneTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsPaused() {
-        
+
         isPaused_ = false;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class SceneTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -598,7 +598,7 @@ public final class SceneTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -658,7 +658,7 @@ public final class SceneTimeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneTimeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneTimeNotify_fieldAccessorTable;
 

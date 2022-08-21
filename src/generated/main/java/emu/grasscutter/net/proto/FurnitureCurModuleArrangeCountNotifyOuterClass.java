@@ -21,7 +21,7 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
     /**
      * <code>repeated .Uint32Pair furniture_arrange_count_list = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
+    java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>
         getFurnitureArrangeCountListList();
     /**
      * <code>repeated .Uint32Pair furniture_arrange_count_list = 13;</code>
@@ -34,7 +34,7 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
     /**
      * <code>repeated .Uint32Pair furniture_arrange_count_list = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
         getFurnitureArrangeCountListOrBuilderList();
     /**
      * <code>repeated .Uint32Pair furniture_arrange_count_list = 13;</code>
@@ -152,7 +152,7 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
      * <code>repeated .Uint32Pair furniture_arrange_count_list = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
         getFurnitureArrangeCountListOrBuilderList() {
       return furnitureArrangeCountList_;
     }
@@ -489,7 +489,7 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
               furnitureArrangeCountListBuilder_ = null;
               furnitureArrangeCountList_ = other.furnitureArrangeCountList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              furnitureArrangeCountListBuilder_ = 
+              furnitureArrangeCountListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFurnitureArrangeCountListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
       /**
        * <code>repeated .Uint32Pair furniture_arrange_count_list = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
            getFurnitureArrangeCountListOrBuilderList() {
         if (furnitureArrangeCountListBuilder_ != null) {
           return furnitureArrangeCountListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
       /**
        * <code>repeated .Uint32Pair furniture_arrange_count_list = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder>
            getFurnitureArrangeCountListBuilderList() {
         return getFurnitureArrangeCountListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
+          emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
           getFurnitureArrangeCountListFieldBuilder() {
         if (furnitureArrangeCountListBuilder_ == null) {
           furnitureArrangeCountListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FurnitureCurModuleArrangeCountNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FurnitureCurModuleArrangeCountNotify_fieldAccessorTable;
 

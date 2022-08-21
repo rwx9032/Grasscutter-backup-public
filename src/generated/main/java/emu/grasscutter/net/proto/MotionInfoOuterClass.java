@@ -77,7 +77,7 @@ public final class MotionInfoOuterClass {
     /**
      * <code>repeated .Vector params = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector> 
+    java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector>
         getParamsList();
     /**
      * <code>repeated .Vector params = 5;</code>
@@ -90,7 +90,7 @@ public final class MotionInfoOuterClass {
     /**
      * <code>repeated .Vector params = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
         getParamsOrBuilderList();
     /**
      * <code>repeated .Vector params = 5;</code>
@@ -406,7 +406,7 @@ public final class MotionInfoOuterClass {
      * <code>repeated .Vector params = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
         getParamsOrBuilderList() {
       return params_;
     }
@@ -972,7 +972,7 @@ public final class MotionInfoOuterClass {
               paramsBuilder_ = null;
               params_ = other.params_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              paramsBuilder_ = 
+              paramsBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getParamsFieldBuilder() : null;
             } else {
@@ -1109,7 +1109,7 @@ public final class MotionInfoOuterClass {
        * <code>.Vector pos = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -1128,7 +1128,7 @@ public final class MotionInfoOuterClass {
        * <code>.Vector pos = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1228,7 +1228,7 @@ public final class MotionInfoOuterClass {
        * <code>.Vector rot = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
-        
+
         onChanged();
         return getRotFieldBuilder().getBuilder();
       }
@@ -1247,7 +1247,7 @@ public final class MotionInfoOuterClass {
        * <code>.Vector rot = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRotFieldBuilder() {
         if (rotBuilder_ == null) {
           rotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1347,7 +1347,7 @@ public final class MotionInfoOuterClass {
        * <code>.Vector speed = 3;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSpeedBuilder() {
-        
+
         onChanged();
         return getSpeedFieldBuilder().getBuilder();
       }
@@ -1366,7 +1366,7 @@ public final class MotionInfoOuterClass {
        * <code>.Vector speed = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getSpeedFieldBuilder() {
         if (speedBuilder_ == null) {
           speedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1393,7 +1393,7 @@ public final class MotionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStateValue(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -1417,7 +1417,7 @@ public final class MotionInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         state_ = value.getNumber();
         onChanged();
         return this;
@@ -1427,7 +1427,7 @@ public final class MotionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -1628,7 +1628,7 @@ public final class MotionInfoOuterClass {
       /**
        * <code>repeated .Vector params = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
            getParamsOrBuilderList() {
         if (paramsBuilder_ != null) {
           return paramsBuilder_.getMessageOrBuilderList();
@@ -1654,12 +1654,12 @@ public final class MotionInfoOuterClass {
       /**
        * <code>repeated .Vector params = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder>
            getParamsBuilderList() {
         return getParamsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getParamsFieldBuilder() {
         if (paramsBuilder_ == null) {
           paramsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1760,7 +1760,7 @@ public final class MotionInfoOuterClass {
        * <code>.Vector ref_pos = 6;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRefPosBuilder() {
-        
+
         onChanged();
         return getRefPosFieldBuilder().getBuilder();
       }
@@ -1779,7 +1779,7 @@ public final class MotionInfoOuterClass {
        * <code>.Vector ref_pos = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRefPosFieldBuilder() {
         if (refPosBuilder_ == null) {
           refPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1807,7 +1807,7 @@ public final class MotionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRefId(int value) {
-        
+
         refId_ = value;
         onChanged();
         return this;
@@ -1817,7 +1817,7 @@ public final class MotionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRefId() {
-        
+
         refId_ = 0;
         onChanged();
         return this;
@@ -1838,7 +1838,7 @@ public final class MotionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneTime(int value) {
-        
+
         sceneTime_ = value;
         onChanged();
         return this;
@@ -1848,7 +1848,7 @@ public final class MotionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneTime() {
-        
+
         sceneTime_ = 0;
         onChanged();
         return this;
@@ -1869,7 +1869,7 @@ public final class MotionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIntervalVelocity(long value) {
-        
+
         intervalVelocity_ = value;
         onChanged();
         return this;
@@ -1879,7 +1879,7 @@ public final class MotionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIntervalVelocity() {
-        
+
         intervalVelocity_ = 0L;
         onChanged();
         return this;
@@ -1939,7 +1939,7 @@ public final class MotionInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MotionInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MotionInfo_fieldAccessorTable;
 

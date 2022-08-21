@@ -531,7 +531,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHaveCurSchedule(boolean value) {
-        
+
         haveCurSchedule_ = value;
         onChanged();
         return this;
@@ -541,7 +541,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHaveCurSchedule() {
-        
+
         haveCurSchedule_ = false;
         onChanged();
         return this;
@@ -634,7 +634,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
        * <code>.BattlePassSchedule cur_schedule = 1;</code>
        */
       public emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder getCurScheduleBuilder() {
-        
+
         onChanged();
         return getCurScheduleFieldBuilder().getBuilder();
       }
@@ -653,7 +653,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
        * <code>.BattlePassSchedule cur_schedule = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder> 
+          emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder>
           getCurScheduleFieldBuilder() {
         if (curScheduleBuilder_ == null) {
           curScheduleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -720,7 +720,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BattlePassCurScheduleUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BattlePassCurScheduleUpdateNotify_fieldAccessorTable;
 

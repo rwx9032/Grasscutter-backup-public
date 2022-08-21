@@ -486,7 +486,7 @@ public final class ForgeFormulaDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsLocked(boolean value) {
-        
+
         isLocked_ = value;
         onChanged();
         return this;
@@ -496,7 +496,7 @@ public final class ForgeFormulaDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsLocked() {
-        
+
         isLocked_ = false;
         onChanged();
         return this;
@@ -517,7 +517,7 @@ public final class ForgeFormulaDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForgeId(int value) {
-        
+
         forgeId_ = value;
         onChanged();
         return this;
@@ -527,7 +527,7 @@ public final class ForgeFormulaDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForgeId() {
-        
+
         forgeId_ = 0;
         onChanged();
         return this;
@@ -587,7 +587,7 @@ public final class ForgeFormulaDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForgeFormulaDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForgeFormulaDataNotify_fieldAccessorTable;
 

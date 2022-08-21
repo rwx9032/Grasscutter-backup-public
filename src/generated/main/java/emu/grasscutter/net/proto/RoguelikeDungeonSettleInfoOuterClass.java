@@ -249,7 +249,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo>newDefaultInstance(
-                  emu.grasscutter.net.proto.RoguelikeDungeonSettleInfoOuterClass.internal_static_RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.RoguelikeDungeonSettleInfoOuterClass.internal_static_RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -276,7 +276,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
     @java.lang.Override
     public boolean containsFinishedChallengeCellNumMap(
         int key) {
-      
+
       return internalGetFinishedChallengeCellNumMap().getMap().containsKey(key);
     }
     /**
@@ -303,7 +303,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
     public emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo getFinishedChallengeCellNumMapOrDefault(
         int key,
         emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo> map =
           internalGetFinishedChallengeCellNumMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -315,7 +315,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
 
     public emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo getFinishedChallengeCellNumMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo> map =
           internalGetFinishedChallengeCellNumMap().getMap();
       if (!map.containsKey(key)) {
@@ -823,7 +823,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStageId(int value) {
-        
+
         stageId_ = value;
         onChanged();
         return this;
@@ -833,7 +833,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
-        
+
         stageId_ = 0;
         onChanged();
         return this;
@@ -854,7 +854,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsFinalLevel(boolean value) {
-        
+
         isFinalLevel_ = value;
         onChanged();
         return this;
@@ -864,7 +864,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsFinalLevel() {
-        
+
         isFinalLevel_ = false;
         onChanged();
         return this;
@@ -903,7 +903,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       @java.lang.Override
       public boolean containsFinishedChallengeCellNumMap(
           int key) {
-        
+
         return internalGetFinishedChallengeCellNumMap().getMap().containsKey(key);
       }
       /**
@@ -930,7 +930,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       public emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo getFinishedChallengeCellNumMapOrDefault(
           int key,
           emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo> map =
             internalGetFinishedChallengeCellNumMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -942,7 +942,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
 
       public emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo getFinishedChallengeCellNumMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo> map =
             internalGetFinishedChallengeCellNumMap().getMap();
         if (!map.containsKey(key)) {
@@ -962,7 +962,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
 
       public Builder removeFinishedChallengeCellNumMap(
           int key) {
-        
+
         internalGetMutableFinishedChallengeCellNumMap().getMutableMap()
             .remove(key);
         return this;
@@ -981,7 +981,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
       public Builder putFinishedChallengeCellNumMap(
           int key,
           emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableFinishedChallengeCellNumMap().getMutableMap()
             .put(key, value);
@@ -1013,7 +1013,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsCoinCReachLimit(boolean value) {
-        
+
         isCoinCReachLimit_ = value;
         onChanged();
         return this;
@@ -1023,7 +1023,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsCoinCReachLimit() {
-        
+
         isCoinCReachLimit_ = false;
         onChanged();
         return this;
@@ -1044,7 +1044,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurLevel(int value) {
-        
+
         curLevel_ = value;
         onChanged();
         return this;
@@ -1054,7 +1054,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurLevel() {
-        
+
         curLevel_ = 0;
         onChanged();
         return this;
@@ -1075,7 +1075,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTotalCoinBNum(int value) {
-        
+
         totalCoinBNum_ = value;
         onChanged();
         return this;
@@ -1085,7 +1085,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTotalCoinBNum() {
-        
+
         totalCoinBNum_ = 0;
         onChanged();
         return this;
@@ -1106,7 +1106,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTotalCoinCNum(int value) {
-        
+
         totalCoinCNum_ = value;
         onChanged();
         return this;
@@ -1116,7 +1116,7 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTotalCoinCNum() {
-        
+
         totalCoinCNum_ = 0;
         onChanged();
         return this;
@@ -1176,12 +1176,12 @@ public final class RoguelikeDungeonSettleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoguelikeDungeonSettleInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoguelikeDungeonSettleInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry_fieldAccessorTable;
 

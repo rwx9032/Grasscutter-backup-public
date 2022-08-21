@@ -447,7 +447,7 @@ public final class CanUseSkillNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsCanUseSkill(boolean value) {
-        
+
         isCanUseSkill_ = value;
         onChanged();
         return this;
@@ -457,7 +457,7 @@ public final class CanUseSkillNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsCanUseSkill() {
-        
+
         isCanUseSkill_ = false;
         onChanged();
         return this;
@@ -517,7 +517,7 @@ public final class CanUseSkillNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CanUseSkillNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CanUseSkillNotify_fieldAccessorTable;
 

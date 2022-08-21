@@ -655,7 +655,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWeaponCountLimit(int value) {
-        
+
         weaponCountLimit_ = value;
         onChanged();
         return this;
@@ -665,7 +665,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWeaponCountLimit() {
-        
+
         weaponCountLimit_ = 0;
         onChanged();
         return this;
@@ -685,7 +685,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStoreTypeValue(int value) {
-        
+
         storeType_ = value;
         onChanged();
         return this;
@@ -709,7 +709,7 @@ public final class StoreWeightLimitNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         storeType_ = value.getNumber();
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStoreType() {
-        
+
         storeType_ = 0;
         onChanged();
         return this;
@@ -740,7 +740,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaterialCountLimit(int value) {
-        
+
         materialCountLimit_ = value;
         onChanged();
         return this;
@@ -750,7 +750,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaterialCountLimit() {
-        
+
         materialCountLimit_ = 0;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setReliquaryCountLimit(int value) {
-        
+
         reliquaryCountLimit_ = value;
         onChanged();
         return this;
@@ -781,7 +781,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReliquaryCountLimit() {
-        
+
         reliquaryCountLimit_ = 0;
         onChanged();
         return this;
@@ -802,7 +802,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFurnitureCountLimit(int value) {
-        
+
         furnitureCountLimit_ = value;
         onChanged();
         return this;
@@ -812,7 +812,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFurnitureCountLimit() {
-        
+
         furnitureCountLimit_ = 0;
         onChanged();
         return this;
@@ -833,7 +833,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setWeightLimit(int value) {
-        
+
         weightLimit_ = value;
         onChanged();
         return this;
@@ -843,7 +843,7 @@ public final class StoreWeightLimitNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearWeightLimit() {
-        
+
         weightLimit_ = 0;
         onChanged();
         return this;
@@ -903,7 +903,7 @@ public final class StoreWeightLimitNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StoreWeightLimitNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StoreWeightLimitNotify_fieldAccessorTable;
 

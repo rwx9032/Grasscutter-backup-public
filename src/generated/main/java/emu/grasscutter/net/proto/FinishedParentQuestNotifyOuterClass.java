@@ -21,7 +21,7 @@ public final class FinishedParentQuestNotifyOuterClass {
     /**
      * <code>repeated .ParentQuest parent_quest_list = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest> 
+    java.util.List<emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest>
         getParentQuestListList();
     /**
      * <code>repeated .ParentQuest parent_quest_list = 2;</code>
@@ -34,7 +34,7 @@ public final class FinishedParentQuestNotifyOuterClass {
     /**
      * <code>repeated .ParentQuest parent_quest_list = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuestOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuestOrBuilder>
         getParentQuestListOrBuilderList();
     /**
      * <code>repeated .ParentQuest parent_quest_list = 2;</code>
@@ -152,7 +152,7 @@ public final class FinishedParentQuestNotifyOuterClass {
      * <code>repeated .ParentQuest parent_quest_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuestOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuestOrBuilder>
         getParentQuestListOrBuilderList() {
       return parentQuestList_;
     }
@@ -489,7 +489,7 @@ public final class FinishedParentQuestNotifyOuterClass {
               parentQuestListBuilder_ = null;
               parentQuestList_ = other.parentQuestList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              parentQuestListBuilder_ = 
+              parentQuestListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getParentQuestListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class FinishedParentQuestNotifyOuterClass {
       /**
        * <code>repeated .ParentQuest parent_quest_list = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuestOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuestOrBuilder>
            getParentQuestListOrBuilderList() {
         if (parentQuestListBuilder_ != null) {
           return parentQuestListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class FinishedParentQuestNotifyOuterClass {
       /**
        * <code>repeated .ParentQuest parent_quest_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest.Builder>
            getParentQuestListBuilderList() {
         return getParentQuestListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest, emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest.Builder, emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuestOrBuilder> 
+          emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest, emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest.Builder, emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuestOrBuilder>
           getParentQuestListFieldBuilder() {
         if (parentQuestListBuilder_ == null) {
           parentQuestListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class FinishedParentQuestNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FinishedParentQuestNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FinishedParentQuestNotify_fieldAccessorTable;
 

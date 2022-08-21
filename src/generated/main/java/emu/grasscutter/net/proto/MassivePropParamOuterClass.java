@@ -702,7 +702,7 @@ public final class MassivePropParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setType(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
@@ -712,7 +712,7 @@ public final class MassivePropParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -891,7 +891,7 @@ public final class MassivePropParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSyncFlag(int value) {
-        
+
         syncFlag_ = value;
         onChanged();
         return this;
@@ -901,7 +901,7 @@ public final class MassivePropParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSyncFlag() {
-        
+
         syncFlag_ = 0;
         onChanged();
         return this;
@@ -961,7 +961,7 @@ public final class MassivePropParamOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MassivePropParam_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MassivePropParam_fieldAccessorTable;
 

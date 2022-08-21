@@ -668,7 +668,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBuildingId(int value) {
-        
+
         buildingId_ = value;
         onChanged();
         return this;
@@ -678,7 +678,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBuildingId() {
-        
+
         buildingId_ = 0;
         onChanged();
         return this;
@@ -699,7 +699,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPointConfigId(int value) {
-        
+
         pointConfigId_ = value;
         onChanged();
         return this;
@@ -709,7 +709,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPointConfigId() {
-        
+
         pointConfigId_ = 0;
         onChanged();
         return this;
@@ -730,7 +730,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCost(int value) {
-        
+
         cost_ = value;
         onChanged();
         return this;
@@ -740,7 +740,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCost() {
-        
+
         cost_ = 0;
         onChanged();
         return this;
@@ -761,7 +761,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRefund(int value) {
-        
+
         refund_ = value;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRefund() {
-        
+
         refund_ = 0;
         onChanged();
         return this;
@@ -792,7 +792,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOwnerUid(int value) {
-        
+
         ownerUid_ = value;
         onChanged();
         return this;
@@ -802,7 +802,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOwnerUid() {
-        
+
         ownerUid_ = 0;
         onChanged();
         return this;
@@ -823,7 +823,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700MDJOPHOHFDB(int value) {
-        
+
         unk2700MDJOPHOHFDB_ = value;
         onChanged();
         return this;
@@ -833,7 +833,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700MDJOPHOHFDB() {
-        
+
         unk2700MDJOPHOHFDB_ = 0;
         onChanged();
         return this;
@@ -854,7 +854,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700COFBIGLBNGP(int value) {
-        
+
         unk2700COFBIGLBNGP_ = value;
         onChanged();
         return this;
@@ -864,7 +864,7 @@ public final class BuildingInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700COFBIGLBNGP() {
-        
+
         unk2700COFBIGLBNGP_ = 0;
         onChanged();
         return this;
@@ -924,7 +924,7 @@ public final class BuildingInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BuildingInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BuildingInfo_fieldAccessorTable;
 

@@ -524,7 +524,7 @@ public final class ChallengeDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setValue(int value) {
-        
+
         value_ = value;
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class ChallengeDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearValue() {
-        
+
         value_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class ChallengeDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setChallengeIndex(int value) {
-        
+
         challengeIndex_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class ChallengeDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearChallengeIndex() {
-        
+
         challengeIndex_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class ChallengeDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParamIndex(int value) {
-        
+
         paramIndex_ = value;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class ChallengeDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParamIndex() {
-        
+
         paramIndex_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class ChallengeDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChallengeDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChallengeDataNotify_fieldAccessorTable;
 

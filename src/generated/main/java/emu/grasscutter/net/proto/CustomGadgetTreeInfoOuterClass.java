@@ -21,7 +21,7 @@ public final class CustomGadgetTreeInfoOuterClass {
     /**
      * <code>repeated .CustomCommonNodeInfo node_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfo> 
+    java.util.List<emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfo>
         getNodeListList();
     /**
      * <code>repeated .CustomCommonNodeInfo node_list = 1;</code>
@@ -34,7 +34,7 @@ public final class CustomGadgetTreeInfoOuterClass {
     /**
      * <code>repeated .CustomCommonNodeInfo node_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfoOrBuilder>
         getNodeListOrBuilderList();
     /**
      * <code>repeated .CustomCommonNodeInfo node_list = 1;</code>
@@ -146,7 +146,7 @@ public final class CustomGadgetTreeInfoOuterClass {
      * <code>repeated .CustomCommonNodeInfo node_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfoOrBuilder>
         getNodeListOrBuilderList() {
       return nodeList_;
     }
@@ -477,7 +477,7 @@ public final class CustomGadgetTreeInfoOuterClass {
               nodeListBuilder_ = null;
               nodeList_ = other.nodeList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              nodeListBuilder_ = 
+              nodeListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getNodeListFieldBuilder() : null;
             } else {
@@ -710,7 +710,7 @@ public final class CustomGadgetTreeInfoOuterClass {
       /**
        * <code>repeated .CustomCommonNodeInfo node_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfoOrBuilder>
            getNodeListOrBuilderList() {
         if (nodeListBuilder_ != null) {
           return nodeListBuilder_.getMessageOrBuilderList();
@@ -736,12 +736,12 @@ public final class CustomGadgetTreeInfoOuterClass {
       /**
        * <code>repeated .CustomCommonNodeInfo node_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfo.Builder>
            getNodeListBuilderList() {
         return getNodeListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfo, emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfo.Builder, emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfoOrBuilder> 
+          emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfo, emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfo.Builder, emu.grasscutter.net.proto.CustomCommonNodeInfoOuterClass.CustomCommonNodeInfoOrBuilder>
           getNodeListFieldBuilder() {
         if (nodeListBuilder_ == null) {
           nodeListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -809,7 +809,7 @@ public final class CustomGadgetTreeInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CustomGadgetTreeInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CustomGadgetTreeInfo_fieldAccessorTable;
 

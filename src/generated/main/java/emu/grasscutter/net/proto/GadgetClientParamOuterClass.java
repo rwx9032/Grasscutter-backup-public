@@ -631,7 +631,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCampId(int value) {
-        
+
         campId_ = value;
         onChanged();
         return this;
@@ -641,7 +641,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCampId() {
-        
+
         campId_ = 0;
         onChanged();
         return this;
@@ -662,7 +662,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCampType(int value) {
-        
+
         campType_ = value;
         onChanged();
         return this;
@@ -672,7 +672,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCampType() {
-        
+
         campType_ = 0;
         onChanged();
         return this;
@@ -693,7 +693,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(long value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -703,7 +703,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0L;
         onChanged();
         return this;
@@ -724,7 +724,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOwnerEntityId(int value) {
-        
+
         ownerEntityId_ = value;
         onChanged();
         return this;
@@ -734,7 +734,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOwnerEntityId() {
-        
+
         ownerEntityId_ = 0;
         onChanged();
         return this;
@@ -755,7 +755,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetEntityId(int value) {
-        
+
         targetEntityId_ = value;
         onChanged();
         return this;
@@ -765,7 +765,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetEntityId() {
-        
+
         targetEntityId_ = 0;
         onChanged();
         return this;
@@ -786,7 +786,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAsyncLoad(boolean value) {
-        
+
         asyncLoad_ = value;
         onChanged();
         return this;
@@ -796,7 +796,7 @@ public final class GadgetClientParamOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAsyncLoad() {
-        
+
         asyncLoad_ = false;
         onChanged();
         return this;
@@ -856,7 +856,7 @@ public final class GadgetClientParamOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GadgetClientParam_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GadgetClientParam_fieldAccessorTable;
 

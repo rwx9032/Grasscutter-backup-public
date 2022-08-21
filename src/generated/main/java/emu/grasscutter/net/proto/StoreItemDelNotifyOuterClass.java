@@ -656,7 +656,7 @@ public final class StoreItemDelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStoreTypeValue(int value) {
-        
+
         storeType_ = value;
         onChanged();
         return this;
@@ -680,7 +680,7 @@ public final class StoreItemDelNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         storeType_ = value.getNumber();
         onChanged();
         return this;
@@ -690,7 +690,7 @@ public final class StoreItemDelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStoreType() {
-        
+
         storeType_ = 0;
         onChanged();
         return this;
@@ -750,7 +750,7 @@ public final class StoreItemDelNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StoreItemDelNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StoreItemDelNotify_fieldAccessorTable;
 

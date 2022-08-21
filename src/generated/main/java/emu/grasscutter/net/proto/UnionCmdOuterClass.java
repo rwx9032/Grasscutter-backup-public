@@ -477,7 +477,7 @@ public final class UnionCmdOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         body_ = value;
         onChanged();
         return this;
@@ -487,7 +487,7 @@ public final class UnionCmdOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBody() {
-        
+
         body_ = getDefaultInstance().getBody();
         onChanged();
         return this;
@@ -508,7 +508,7 @@ public final class UnionCmdOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMessageId(int value) {
-        
+
         messageId_ = value;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class UnionCmdOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMessageId() {
-        
+
         messageId_ = 0;
         onChanged();
         return this;
@@ -578,7 +578,7 @@ public final class UnionCmdOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UnionCmd_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UnionCmd_fieldAccessorTable;
 

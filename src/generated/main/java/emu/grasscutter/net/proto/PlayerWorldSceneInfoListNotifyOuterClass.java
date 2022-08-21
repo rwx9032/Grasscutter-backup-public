@@ -21,7 +21,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
     /**
      * <code>repeated .PlayerWorldSceneInfo info_list = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo> 
+    java.util.List<emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo>
         getInfoListList();
     /**
      * <code>repeated .PlayerWorldSceneInfo info_list = 5;</code>
@@ -34,7 +34,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
     /**
      * <code>repeated .PlayerWorldSceneInfo info_list = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfoOrBuilder>
         getInfoListOrBuilderList();
     /**
      * <code>repeated .PlayerWorldSceneInfo info_list = 5;</code>
@@ -152,7 +152,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
      * <code>repeated .PlayerWorldSceneInfo info_list = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfoOrBuilder>
         getInfoListOrBuilderList() {
       return infoList_;
     }
@@ -489,7 +489,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
               infoListBuilder_ = null;
               infoList_ = other.infoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              infoListBuilder_ = 
+              infoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getInfoListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       /**
        * <code>repeated .PlayerWorldSceneInfo info_list = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfoOrBuilder>
            getInfoListOrBuilderList() {
         if (infoListBuilder_ != null) {
           return infoListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       /**
        * <code>repeated .PlayerWorldSceneInfo info_list = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo.Builder>
            getInfoListBuilderList() {
         return getInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo, emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo.Builder, emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfoOrBuilder> 
+          emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo, emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo.Builder, emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfoOrBuilder>
           getInfoListFieldBuilder() {
         if (infoListBuilder_ == null) {
           infoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerWorldSceneInfoListNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerWorldSceneInfoListNotify_fieldAccessorTable;
 

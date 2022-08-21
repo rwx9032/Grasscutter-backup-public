@@ -563,7 +563,7 @@ public final class HomeBasicInfoNotifyOuterClass {
        * <code>.HomeBasicInfo basic_info = 15;</code>
        */
       public emu.grasscutter.net.proto.HomeBasicInfoOuterClass.HomeBasicInfo.Builder getBasicInfoBuilder() {
-        
+
         onChanged();
         return getBasicInfoFieldBuilder().getBuilder();
       }
@@ -582,7 +582,7 @@ public final class HomeBasicInfoNotifyOuterClass {
        * <code>.HomeBasicInfo basic_info = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeBasicInfoOuterClass.HomeBasicInfo, emu.grasscutter.net.proto.HomeBasicInfoOuterClass.HomeBasicInfo.Builder, emu.grasscutter.net.proto.HomeBasicInfoOuterClass.HomeBasicInfoOrBuilder> 
+          emu.grasscutter.net.proto.HomeBasicInfoOuterClass.HomeBasicInfo, emu.grasscutter.net.proto.HomeBasicInfoOuterClass.HomeBasicInfo.Builder, emu.grasscutter.net.proto.HomeBasicInfoOuterClass.HomeBasicInfoOrBuilder>
           getBasicInfoFieldBuilder() {
         if (basicInfoBuilder_ == null) {
           basicInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class HomeBasicInfoNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeBasicInfoNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeBasicInfoNotify_fieldAccessorTable;
 

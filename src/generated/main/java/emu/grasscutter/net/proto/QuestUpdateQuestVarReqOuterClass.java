@@ -27,7 +27,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
     /**
      * <code>repeated .QuestVarOp quest_var_op_list = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp> 
+    java.util.List<emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp>
         getQuestVarOpListList();
     /**
      * <code>repeated .QuestVarOp quest_var_op_list = 4;</code>
@@ -40,7 +40,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
     /**
      * <code>repeated .QuestVarOp quest_var_op_list = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOpOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOpOrBuilder>
         getQuestVarOpListOrBuilderList();
     /**
      * <code>repeated .QuestVarOp quest_var_op_list = 4;</code>
@@ -197,7 +197,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
      * <code>repeated .QuestVarOp quest_var_op_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOpOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOpOrBuilder>
         getQuestVarOpListOrBuilderList() {
       return questVarOpList_;
     }
@@ -602,7 +602,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
               questVarOpListBuilder_ = null;
               questVarOpList_ = other.questVarOpList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              questVarOpListBuilder_ = 
+              questVarOpListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getQuestVarOpListFieldBuilder() : null;
             } else {
@@ -661,7 +661,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParentQuestId(int value) {
-        
+
         parentQuestId_ = value;
         onChanged();
         return this;
@@ -671,7 +671,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParentQuestId() {
-        
+
         parentQuestId_ = 0;
         onChanged();
         return this;
@@ -872,7 +872,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
       /**
        * <code>repeated .QuestVarOp quest_var_op_list = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOpOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOpOrBuilder>
            getQuestVarOpListOrBuilderList() {
         if (questVarOpListBuilder_ != null) {
           return questVarOpListBuilder_.getMessageOrBuilderList();
@@ -898,12 +898,12 @@ public final class QuestUpdateQuestVarReqOuterClass {
       /**
        * <code>repeated .QuestVarOp quest_var_op_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp.Builder>
            getQuestVarOpListBuilderList() {
         return getQuestVarOpListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp, emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp.Builder, emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOpOrBuilder> 
+          emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp, emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOp.Builder, emu.grasscutter.net.proto.QuestVarOpOuterClass.QuestVarOpOrBuilder>
           getQuestVarOpListFieldBuilder() {
         if (questVarOpListBuilder_ == null) {
           questVarOpListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -932,7 +932,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQuestId(int value) {
-        
+
         questId_ = value;
         onChanged();
         return this;
@@ -942,7 +942,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQuestId() {
-        
+
         questId_ = 0;
         onChanged();
         return this;
@@ -963,7 +963,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setParentQuestVarSeq(int value) {
-        
+
         parentQuestVarSeq_ = value;
         onChanged();
         return this;
@@ -973,7 +973,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearParentQuestVarSeq() {
-        
+
         parentQuestVarSeq_ = 0;
         onChanged();
         return this;
@@ -1033,7 +1033,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QuestUpdateQuestVarReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QuestUpdateQuestVarReq_fieldAccessorTable;
 

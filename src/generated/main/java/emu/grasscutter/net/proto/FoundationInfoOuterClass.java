@@ -643,7 +643,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStatusValue(int value) {
-        
+
         status_ = value;
         onChanged();
         return this;
@@ -667,7 +667,7 @@ public final class FoundationInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         status_ = value.getNumber();
         onChanged();
         return this;
@@ -677,7 +677,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStatus() {
-        
+
         status_ = 0;
         onChanged();
         return this;
@@ -777,7 +777,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurrentBuildingId(int value) {
-        
+
         currentBuildingId_ = value;
         onChanged();
         return this;
@@ -787,7 +787,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurrentBuildingId() {
-        
+
         currentBuildingId_ = 0;
         onChanged();
         return this;
@@ -808,7 +808,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginBuildTimeMs(int value) {
-        
+
         beginBuildTimeMs_ = value;
         onChanged();
         return this;
@@ -818,7 +818,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginBuildTimeMs() {
-        
+
         beginBuildTimeMs_ = 0;
         onChanged();
         return this;
@@ -878,7 +878,7 @@ public final class FoundationInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FoundationInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FoundationInfo_fieldAccessorTable;
 

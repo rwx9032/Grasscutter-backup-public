@@ -246,7 +246,7 @@ public final class ResVersionConfigOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         md5_ = s;
@@ -262,7 +262,7 @@ public final class ResVersionConfigOuterClass {
         getMd5Bytes() {
       java.lang.Object ref = md5_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         md5_ = b;
@@ -284,7 +284,7 @@ public final class ResVersionConfigOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         releaseTotalSize_ = s;
@@ -300,7 +300,7 @@ public final class ResVersionConfigOuterClass {
         getReleaseTotalSizeBytes() {
       java.lang.Object ref = releaseTotalSize_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         releaseTotalSize_ = b;
@@ -322,7 +322,7 @@ public final class ResVersionConfigOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         versionSuffix_ = s;
@@ -338,7 +338,7 @@ public final class ResVersionConfigOuterClass {
         getVersionSuffixBytes() {
       java.lang.Object ref = versionSuffix_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         versionSuffix_ = b;
@@ -360,7 +360,7 @@ public final class ResVersionConfigOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         branch_ = s;
@@ -376,7 +376,7 @@ public final class ResVersionConfigOuterClass {
         getBranchBytes() {
       java.lang.Object ref = branch_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         branch_ = b;
@@ -398,7 +398,7 @@ public final class ResVersionConfigOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nextScriptVersion_ = s;
@@ -414,7 +414,7 @@ public final class ResVersionConfigOuterClass {
         getNextScriptVersionBytes() {
       java.lang.Object ref = nextScriptVersion_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nextScriptVersion_ = b;
@@ -844,7 +844,7 @@ public final class ResVersionConfigOuterClass {
        * @return This builder for chaining.
        */
       public Builder setVersion(int value) {
-        
+
         version_ = value;
         onChanged();
         return this;
@@ -854,7 +854,7 @@ public final class ResVersionConfigOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearVersion() {
-        
+
         version_ = 0;
         onChanged();
         return this;
@@ -875,7 +875,7 @@ public final class ResVersionConfigOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRelogin(boolean value) {
-        
+
         relogin_ = value;
         onChanged();
         return this;
@@ -885,7 +885,7 @@ public final class ResVersionConfigOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRelogin() {
-        
+
         relogin_ = false;
         onChanged();
         return this;
@@ -916,7 +916,7 @@ public final class ResVersionConfigOuterClass {
           getMd5Bytes() {
         java.lang.Object ref = md5_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           md5_ = b;
@@ -935,7 +935,7 @@ public final class ResVersionConfigOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         md5_ = value;
         onChanged();
         return this;
@@ -945,7 +945,7 @@ public final class ResVersionConfigOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMd5() {
-        
+
         md5_ = getDefaultInstance().getMd5();
         onChanged();
         return this;
@@ -961,7 +961,7 @@ public final class ResVersionConfigOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         md5_ = value;
         onChanged();
         return this;
@@ -992,7 +992,7 @@ public final class ResVersionConfigOuterClass {
           getReleaseTotalSizeBytes() {
         java.lang.Object ref = releaseTotalSize_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           releaseTotalSize_ = b;
@@ -1011,7 +1011,7 @@ public final class ResVersionConfigOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         releaseTotalSize_ = value;
         onChanged();
         return this;
@@ -1021,7 +1021,7 @@ public final class ResVersionConfigOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearReleaseTotalSize() {
-        
+
         releaseTotalSize_ = getDefaultInstance().getReleaseTotalSize();
         onChanged();
         return this;
@@ -1037,7 +1037,7 @@ public final class ResVersionConfigOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         releaseTotalSize_ = value;
         onChanged();
         return this;
@@ -1068,7 +1068,7 @@ public final class ResVersionConfigOuterClass {
           getVersionSuffixBytes() {
         java.lang.Object ref = versionSuffix_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           versionSuffix_ = b;
@@ -1087,7 +1087,7 @@ public final class ResVersionConfigOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         versionSuffix_ = value;
         onChanged();
         return this;
@@ -1097,7 +1097,7 @@ public final class ResVersionConfigOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearVersionSuffix() {
-        
+
         versionSuffix_ = getDefaultInstance().getVersionSuffix();
         onChanged();
         return this;
@@ -1113,7 +1113,7 @@ public final class ResVersionConfigOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         versionSuffix_ = value;
         onChanged();
         return this;
@@ -1144,7 +1144,7 @@ public final class ResVersionConfigOuterClass {
           getBranchBytes() {
         java.lang.Object ref = branch_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           branch_ = b;
@@ -1163,7 +1163,7 @@ public final class ResVersionConfigOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         branch_ = value;
         onChanged();
         return this;
@@ -1173,7 +1173,7 @@ public final class ResVersionConfigOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBranch() {
-        
+
         branch_ = getDefaultInstance().getBranch();
         onChanged();
         return this;
@@ -1189,7 +1189,7 @@ public final class ResVersionConfigOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         branch_ = value;
         onChanged();
         return this;
@@ -1220,7 +1220,7 @@ public final class ResVersionConfigOuterClass {
           getNextScriptVersionBytes() {
         java.lang.Object ref = nextScriptVersion_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nextScriptVersion_ = b;
@@ -1239,7 +1239,7 @@ public final class ResVersionConfigOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         nextScriptVersion_ = value;
         onChanged();
         return this;
@@ -1249,7 +1249,7 @@ public final class ResVersionConfigOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextScriptVersion() {
-        
+
         nextScriptVersion_ = getDefaultInstance().getNextScriptVersion();
         onChanged();
         return this;
@@ -1265,7 +1265,7 @@ public final class ResVersionConfigOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         nextScriptVersion_ = value;
         onChanged();
         return this;
@@ -1325,7 +1325,7 @@ public final class ResVersionConfigOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResVersionConfig_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResVersionConfig_fieldAccessorTable;
 

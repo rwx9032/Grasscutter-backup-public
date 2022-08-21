@@ -602,7 +602,7 @@ public final class AbilityActionGenerateElemBallOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRoomId(int value) {
-        
+
         roomId_ = value;
         onChanged();
         return this;
@@ -612,7 +612,7 @@ public final class AbilityActionGenerateElemBallOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRoomId() {
-        
+
         roomId_ = 0;
         onChanged();
         return this;
@@ -705,7 +705,7 @@ public final class AbilityActionGenerateElemBallOuterClass {
        * <code>.Vector pos = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -724,7 +724,7 @@ public final class AbilityActionGenerateElemBallOuterClass {
        * <code>.Vector pos = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -824,7 +824,7 @@ public final class AbilityActionGenerateElemBallOuterClass {
        * <code>.Vector rot = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
-        
+
         onChanged();
         return getRotFieldBuilder().getBuilder();
       }
@@ -843,7 +843,7 @@ public final class AbilityActionGenerateElemBallOuterClass {
        * <code>.Vector rot = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRotFieldBuilder() {
         if (rotBuilder_ == null) {
           rotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -910,7 +910,7 @@ public final class AbilityActionGenerateElemBallOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityActionGenerateElemBall_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityActionGenerateElemBall_fieldAccessorTable;
 

@@ -565,7 +565,7 @@ public final class ActivityInfoNotifyOuterClass {
        * <code>.ActivityInfo activity_info = 9;</code>
        */
       public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder getActivityInfoBuilder() {
-        
+
         onChanged();
         return getActivityInfoFieldBuilder().getBuilder();
       }
@@ -584,7 +584,7 @@ public final class ActivityInfoNotifyOuterClass {
        * <code>.ActivityInfo activity_info = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder> 
+          emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder>
           getActivityInfoFieldBuilder() {
         if (activityInfoBuilder_ == null) {
           activityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -651,7 +651,7 @@ public final class ActivityInfoNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityInfoNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityInfoNotify_fieldAccessorTable;
 

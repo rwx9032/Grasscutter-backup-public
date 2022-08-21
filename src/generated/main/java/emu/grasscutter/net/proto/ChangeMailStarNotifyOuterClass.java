@@ -567,7 +567,7 @@ public final class ChangeMailStarNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsStar(boolean value) {
-        
+
         isStar_ = value;
         onChanged();
         return this;
@@ -577,7 +577,7 @@ public final class ChangeMailStarNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsStar() {
-        
+
         isStar_ = false;
         onChanged();
         return this;
@@ -716,7 +716,7 @@ public final class ChangeMailStarNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChangeMailStarNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChangeMailStarNotify_fieldAccessorTable;
 

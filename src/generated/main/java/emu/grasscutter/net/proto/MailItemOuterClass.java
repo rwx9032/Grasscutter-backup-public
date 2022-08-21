@@ -635,7 +635,7 @@ public final class MailItemOuterClass {
        * <code>.EquipParam equip_param = 1;</code>
        */
       public emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder getEquipParamBuilder() {
-        
+
         onChanged();
         return getEquipParamFieldBuilder().getBuilder();
       }
@@ -654,7 +654,7 @@ public final class MailItemOuterClass {
        * <code>.EquipParam equip_param = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> 
+          emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder>
           getEquipParamFieldBuilder() {
         if (equipParamBuilder_ == null) {
           equipParamBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -754,7 +754,7 @@ public final class MailItemOuterClass {
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       public emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.Builder getDeleteInfoBuilder() {
-        
+
         onChanged();
         return getDeleteInfoFieldBuilder().getBuilder();
       }
@@ -773,7 +773,7 @@ public final class MailItemOuterClass {
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfoOrBuilder> 
+          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfoOrBuilder>
           getDeleteInfoFieldBuilder() {
         if (deleteInfoBuilder_ == null) {
           deleteInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -840,7 +840,7 @@ public final class MailItemOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MailItem_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MailItem_fieldAccessorTable;
 

@@ -606,7 +606,7 @@ public final class SetUpAvatarTeamReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTeamId(int value) {
-        
+
         teamId_ = value;
         onChanged();
         return this;
@@ -616,7 +616,7 @@ public final class SetUpAvatarTeamReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTeamId() {
-        
+
         teamId_ = 0;
         onChanged();
         return this;
@@ -716,7 +716,7 @@ public final class SetUpAvatarTeamReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurAvatarGuid(long value) {
-        
+
         curAvatarGuid_ = value;
         onChanged();
         return this;
@@ -726,7 +726,7 @@ public final class SetUpAvatarTeamReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurAvatarGuid() {
-        
+
         curAvatarGuid_ = 0L;
         onChanged();
         return this;
@@ -786,7 +786,7 @@ public final class SetUpAvatarTeamReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetUpAvatarTeamReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetUpAvatarTeamReq_fieldAccessorTable;
 

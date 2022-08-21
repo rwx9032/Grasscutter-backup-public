@@ -446,7 +446,7 @@ public final class AvatarGainCostumeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCostumeId(int value) {
-        
+
         costumeId_ = value;
         onChanged();
         return this;
@@ -456,7 +456,7 @@ public final class AvatarGainCostumeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCostumeId() {
-        
+
         costumeId_ = 0;
         onChanged();
         return this;
@@ -516,7 +516,7 @@ public final class AvatarGainCostumeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarGainCostumeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarGainCostumeNotify_fieldAccessorTable;
 

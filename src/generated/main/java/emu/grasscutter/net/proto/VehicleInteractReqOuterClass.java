@@ -539,7 +539,7 @@ public final class VehicleInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInteractTypeValue(int value) {
-        
+
         interactType_ = value;
         onChanged();
         return this;
@@ -563,7 +563,7 @@ public final class VehicleInteractReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         interactType_ = value.getNumber();
         onChanged();
         return this;
@@ -573,7 +573,7 @@ public final class VehicleInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInteractType() {
-        
+
         interactType_ = 0;
         onChanged();
         return this;
@@ -594,7 +594,7 @@ public final class VehicleInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPos(int value) {
-        
+
         pos_ = value;
         onChanged();
         return this;
@@ -604,7 +604,7 @@ public final class VehicleInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPos() {
-        
+
         pos_ = 0;
         onChanged();
         return this;
@@ -625,7 +625,7 @@ public final class VehicleInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -635,7 +635,7 @@ public final class VehicleInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -695,7 +695,7 @@ public final class VehicleInteractReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VehicleInteractReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VehicleInteractReq_fieldAccessorTable;
 

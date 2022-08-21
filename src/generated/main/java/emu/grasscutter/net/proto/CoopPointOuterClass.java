@@ -643,7 +643,7 @@ public final class CoopPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSelfConfidence(int value) {
-        
+
         selfConfidence_ = value;
         onChanged();
         return this;
@@ -653,7 +653,7 @@ public final class CoopPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSelfConfidence() {
-        
+
         selfConfidence_ = 0;
         onChanged();
         return this;
@@ -673,7 +673,7 @@ public final class CoopPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStateValue(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -697,7 +697,7 @@ public final class CoopPointOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         state_ = value.getNumber();
         onChanged();
         return this;
@@ -707,7 +707,7 @@ public final class CoopPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -728,7 +728,7 @@ public final class CoopPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -738,7 +738,7 @@ public final class CoopPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
@@ -798,7 +798,7 @@ public final class CoopPointOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CoopPoint_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CoopPoint_fieldAccessorTable;
 

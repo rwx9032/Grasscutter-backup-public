@@ -524,7 +524,7 @@ public final class SelectWorktopOptionRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetEntityId(int value) {
-        
+
         gadgetEntityId_ = value;
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class SelectWorktopOptionRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetEntityId() {
-        
+
         gadgetEntityId_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class SelectWorktopOptionRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOptionId(int value) {
-        
+
         optionId_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class SelectWorktopOptionRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOptionId() {
-        
+
         optionId_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class SelectWorktopOptionRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class SelectWorktopOptionRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class SelectWorktopOptionRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SelectWorktopOptionRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SelectWorktopOptionRsp_fieldAccessorTable;
 

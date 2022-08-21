@@ -485,7 +485,7 @@ public final class PlayerPropChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPropDelta(int value) {
-        
+
         propDelta_ = value;
         onChanged();
         return this;
@@ -495,7 +495,7 @@ public final class PlayerPropChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPropDelta() {
-        
+
         propDelta_ = 0;
         onChanged();
         return this;
@@ -516,7 +516,7 @@ public final class PlayerPropChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPropType(int value) {
-        
+
         propType_ = value;
         onChanged();
         return this;
@@ -526,7 +526,7 @@ public final class PlayerPropChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPropType() {
-        
+
         propType_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class PlayerPropChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerPropChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerPropChangeNotify_fieldAccessorTable;
 

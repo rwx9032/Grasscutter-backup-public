@@ -564,7 +564,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -595,7 +595,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRewardId(int value) {
-        
+
         rewardId_ = value;
         onChanged();
         return this;
@@ -605,7 +605,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRewardId() {
-        
+
         rewardId_ = 0;
         onChanged();
         return this;
@@ -626,7 +626,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -636,7 +636,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -657,7 +657,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFetterLevel(int value) {
-        
+
         fetterLevel_ = value;
         onChanged();
         return this;
@@ -667,7 +667,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFetterLevel() {
-        
+
         fetterLevel_ = 0;
         onChanged();
         return this;
@@ -727,7 +727,7 @@ public final class AvatarFetterLevelRewardRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarFetterLevelRewardRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarFetterLevelRewardRsp_fieldAccessorTable;
 

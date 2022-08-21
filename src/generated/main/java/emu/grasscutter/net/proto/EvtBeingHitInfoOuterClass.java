@@ -557,7 +557,7 @@ public final class EvtBeingHitInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPeerId(int value) {
-        
+
         peerId_ = value;
         onChanged();
         return this;
@@ -567,7 +567,7 @@ public final class EvtBeingHitInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPeerId() {
-        
+
         peerId_ = 0;
         onChanged();
         return this;
@@ -660,7 +660,7 @@ public final class EvtBeingHitInfoOuterClass {
        * <code>.AttackResult attack_result = 7;</code>
        */
       public emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult.Builder getAttackResultBuilder() {
-        
+
         onChanged();
         return getAttackResultFieldBuilder().getBuilder();
       }
@@ -679,7 +679,7 @@ public final class EvtBeingHitInfoOuterClass {
        * <code>.AttackResult attack_result = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult.Builder, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResultOrBuilder> 
+          emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult.Builder, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResultOrBuilder>
           getAttackResultFieldBuilder() {
         if (attackResultBuilder_ == null) {
           attackResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -707,7 +707,7 @@ public final class EvtBeingHitInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFrameNum(int value) {
-        
+
         frameNum_ = value;
         onChanged();
         return this;
@@ -717,7 +717,7 @@ public final class EvtBeingHitInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFrameNum() {
-        
+
         frameNum_ = 0;
         onChanged();
         return this;
@@ -777,7 +777,7 @@ public final class EvtBeingHitInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtBeingHitInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtBeingHitInfo_fieldAccessorTable;
 

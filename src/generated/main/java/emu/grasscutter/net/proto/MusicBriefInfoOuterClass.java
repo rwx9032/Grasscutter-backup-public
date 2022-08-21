@@ -420,7 +420,7 @@ public final class MusicBriefInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         authorNickname_ = s;
@@ -436,7 +436,7 @@ public final class MusicBriefInfoOuterClass {
         getAuthorNicknameBytes() {
       java.lang.Object ref = authorNickname_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         authorNickname_ = b;
@@ -1370,7 +1370,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicShareId(long value) {
-        
+
         musicShareId_ = value;
         onChanged();
         return this;
@@ -1380,7 +1380,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicShareId() {
-        
+
         musicShareId_ = 0L;
         onChanged();
         return this;
@@ -1401,7 +1401,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicId(int value) {
-        
+
         musicId_ = value;
         onChanged();
         return this;
@@ -1411,7 +1411,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicId() {
-        
+
         musicId_ = 0;
         onChanged();
         return this;
@@ -1442,7 +1442,7 @@ public final class MusicBriefInfoOuterClass {
           getAuthorNicknameBytes() {
         java.lang.Object ref = authorNickname_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           authorNickname_ = b;
@@ -1461,7 +1461,7 @@ public final class MusicBriefInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         authorNickname_ = value;
         onChanged();
         return this;
@@ -1471,7 +1471,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthorNickname() {
-        
+
         authorNickname_ = getDefaultInstance().getAuthorNickname();
         onChanged();
         return this;
@@ -1487,7 +1487,7 @@ public final class MusicBriefInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         authorNickname_ = value;
         onChanged();
         return this;
@@ -1508,7 +1508,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMusicNoteCount(int value) {
-        
+
         musicNoteCount_ = value;
         onChanged();
         return this;
@@ -1518,7 +1518,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMusicNoteCount() {
-        
+
         musicNoteCount_ = 0;
         onChanged();
         return this;
@@ -1539,7 +1539,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMaxScore(int value) {
-        
+
         maxScore_ = value;
         onChanged();
         return this;
@@ -1549,7 +1549,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
-        
+
         maxScore_ = 0;
         onChanged();
         return this;
@@ -1570,7 +1570,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScore(int value) {
-        
+
         score_ = value;
         onChanged();
         return this;
@@ -1580,7 +1580,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScore() {
-        
+
         score_ = 0;
         onChanged();
         return this;
@@ -1601,7 +1601,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCreateTime(int value) {
-        
+
         createTime_ = value;
         onChanged();
         return this;
@@ -1611,7 +1611,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCreateTime() {
-        
+
         createTime_ = 0;
         onChanged();
         return this;
@@ -1632,7 +1632,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setShareTime(int value) {
-        
+
         shareTime_ = value;
         onChanged();
         return this;
@@ -1642,7 +1642,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearShareTime() {
-        
+
         shareTime_ = 0;
         onChanged();
         return this;
@@ -1663,7 +1663,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPosition(int value) {
-        
+
         position_ = value;
         onChanged();
         return this;
@@ -1673,7 +1673,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPosition() {
-        
+
         position_ = 0;
         onChanged();
         return this;
@@ -1694,7 +1694,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSettle(boolean value) {
-        
+
         settle_ = value;
         onChanged();
         return this;
@@ -1704,7 +1704,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSettle() {
-        
+
         settle_ = false;
         onChanged();
         return this;
@@ -1725,7 +1725,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setVersion(int value) {
-        
+
         version_ = value;
         onChanged();
         return this;
@@ -1735,7 +1735,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearVersion() {
-        
+
         version_ = 0;
         onChanged();
         return this;
@@ -1756,7 +1756,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCanShare(boolean value) {
-        
+
         canShare_ = value;
         onChanged();
         return this;
@@ -1766,7 +1766,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCanShare() {
-        
+
         canShare_ = false;
         onChanged();
         return this;
@@ -1787,7 +1787,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700DNLEGADDHKM(boolean value) {
-        
+
         unk2700DNLEGADDHKM_ = value;
         onChanged();
         return this;
@@ -1797,7 +1797,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700DNLEGADDHKM() {
-        
+
         unk2700DNLEGADDHKM_ = false;
         onChanged();
         return this;
@@ -1818,7 +1818,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700GBCGGDONMCD(boolean value) {
-        
+
         unk2700GBCGGDONMCD_ = value;
         onChanged();
         return this;
@@ -1828,7 +1828,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700GBCGGDONMCD() {
-        
+
         unk2700GBCGGDONMCD_ = false;
         onChanged();
         return this;
@@ -1849,7 +1849,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700JNENCBCGPGO(long value) {
-        
+
         unk2700JNENCBCGPGO_ = value;
         onChanged();
         return this;
@@ -1859,7 +1859,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700JNENCBCGPGO() {
-        
+
         unk2700JNENCBCGPGO_ = 0L;
         onChanged();
         return this;
@@ -1880,7 +1880,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700MKBNLEKMIMD(int value) {
-        
+
         unk2700MKBNLEKMIMD_ = value;
         onChanged();
         return this;
@@ -1890,7 +1890,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700MKBNLEKMIMD() {
-        
+
         unk2700MKBNLEKMIMD_ = 0;
         onChanged();
         return this;
@@ -2069,7 +2069,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700KAMOCHAKPGP(int value) {
-        
+
         unk2700KAMOCHAKPGP_ = value;
         onChanged();
         return this;
@@ -2079,7 +2079,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700KAMOCHAKPGP() {
-        
+
         unk2700KAMOCHAKPGP_ = 0;
         onChanged();
         return this;
@@ -2100,7 +2100,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700LPEKFJBNEJM(int value) {
-        
+
         unk2700LPEKFJBNEJM_ = value;
         onChanged();
         return this;
@@ -2110,7 +2110,7 @@ public final class MusicBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700LPEKFJBNEJM() {
-        
+
         unk2700LPEKFJBNEJM_ = 0;
         onChanged();
         return this;
@@ -2170,7 +2170,7 @@ public final class MusicBriefInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicBriefInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicBriefInfo_fieldAccessorTable;
 

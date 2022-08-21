@@ -500,7 +500,7 @@ public final class DealAddFriendReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDealAddFriendResultValue(int value) {
-        
+
         dealAddFriendResult_ = value;
         onChanged();
         return this;
@@ -524,7 +524,7 @@ public final class DealAddFriendReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         dealAddFriendResult_ = value.getNumber();
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class DealAddFriendReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDealAddFriendResult() {
-        
+
         dealAddFriendResult_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class DealAddFriendReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class DealAddFriendReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
@@ -625,7 +625,7 @@ public final class DealAddFriendReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DealAddFriendReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DealAddFriendReq_fieldAccessorTable;
 

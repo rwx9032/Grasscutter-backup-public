@@ -72,7 +72,7 @@ public final class ServerBuffChangeNotifyOuterClass {
     /**
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> 
+    java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff>
         getServerBuffListList();
     /**
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -85,7 +85,7 @@ public final class ServerBuffChangeNotifyOuterClass {
     /**
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList();
     /**
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -459,7 +459,7 @@ public final class ServerBuffChangeNotifyOuterClass {
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
         getServerBuffListOrBuilderList() {
       return serverBuffList_;
     }
@@ -919,7 +919,7 @@ public final class ServerBuffChangeNotifyOuterClass {
               serverBuffListBuilder_ = null;
               serverBuffList_ = other.serverBuffList_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              serverBuffListBuilder_ = 
+              serverBuffListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getServerBuffListFieldBuilder() : null;
             } else {
@@ -971,7 +971,7 @@ public final class ServerBuffChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setServerBuffChangeTypeValue(int value) {
-        
+
         serverBuffChangeType_ = value;
         onChanged();
         return this;
@@ -995,7 +995,7 @@ public final class ServerBuffChangeNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         serverBuffChangeType_ = value.getNumber();
         onChanged();
         return this;
@@ -1005,7 +1005,7 @@ public final class ServerBuffChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearServerBuffChangeType() {
-        
+
         serverBuffChangeType_ = 0;
         onChanged();
         return this;
@@ -1026,7 +1026,7 @@ public final class ServerBuffChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsCreatureBuff(boolean value) {
-        
+
         isCreatureBuff_ = value;
         onChanged();
         return this;
@@ -1036,7 +1036,7 @@ public final class ServerBuffChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsCreatureBuff() {
-        
+
         isCreatureBuff_ = false;
         onChanged();
         return this;
@@ -1395,7 +1395,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       /**
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
            getServerBuffListOrBuilderList() {
         if (serverBuffListBuilder_ != null) {
           return serverBuffListBuilder_.getMessageOrBuilderList();
@@ -1421,12 +1421,12 @@ public final class ServerBuffChangeNotifyOuterClass {
       /**
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder>
            getServerBuffListBuilderList() {
         return getServerBuffListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder> 
+          emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff.Builder, emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuffOrBuilder>
           getServerBuffListFieldBuilder() {
         if (serverBuffListBuilder_ == null) {
           serverBuffListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1494,7 +1494,7 @@ public final class ServerBuffChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServerBuffChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServerBuffChangeNotify_fieldAccessorTable;
 

@@ -557,7 +557,7 @@ public final class TeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAuthorityPeerId(int value) {
-        
+
         authorityPeerId_ = value;
         onChanged();
         return this;
@@ -567,7 +567,7 @@ public final class TeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAuthorityPeerId() {
-        
+
         authorityPeerId_ = 0;
         onChanged();
         return this;
@@ -660,7 +660,7 @@ public final class TeamEntityInfoOuterClass {
        * <code>.AbilitySyncStateInfo team_ability_info = 9;</code>
        */
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getTeamAbilityInfoBuilder() {
-        
+
         onChanged();
         return getTeamAbilityInfoFieldBuilder().getBuilder();
       }
@@ -679,7 +679,7 @@ public final class TeamEntityInfoOuterClass {
        * <code>.AbilitySyncStateInfo team_ability_info = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
+          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>
           getTeamAbilityInfoFieldBuilder() {
         if (teamAbilityInfoBuilder_ == null) {
           teamAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -707,7 +707,7 @@ public final class TeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTeamEntityId(int value) {
-        
+
         teamEntityId_ = value;
         onChanged();
         return this;
@@ -717,7 +717,7 @@ public final class TeamEntityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTeamEntityId() {
-        
+
         teamEntityId_ = 0;
         onChanged();
         return this;
@@ -777,7 +777,7 @@ public final class TeamEntityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TeamEntityInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TeamEntityInfo_fieldAccessorTable;
 

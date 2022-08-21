@@ -563,7 +563,7 @@ public final class NpcTalkRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurTalkId(int value) {
-        
+
         curTalkId_ = value;
         onChanged();
         return this;
@@ -573,7 +573,7 @@ public final class NpcTalkRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurTalkId() {
-        
+
         curTalkId_ = 0;
         onChanged();
         return this;
@@ -594,7 +594,7 @@ public final class NpcTalkRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNpcEntityId(int value) {
-        
+
         npcEntityId_ = value;
         onChanged();
         return this;
@@ -604,7 +604,7 @@ public final class NpcTalkRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNpcEntityId() {
-        
+
         npcEntityId_ = 0;
         onChanged();
         return this;
@@ -625,7 +625,7 @@ public final class NpcTalkRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -635,7 +635,7 @@ public final class NpcTalkRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class NpcTalkRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
@@ -666,7 +666,7 @@ public final class NpcTalkRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -726,7 +726,7 @@ public final class NpcTalkRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_NpcTalkRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_NpcTalkRsp_fieldAccessorTable;
 

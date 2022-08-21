@@ -81,7 +81,7 @@ public final class EntityAuthorityInfoOuterClass {
     /**
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair> 
+    java.util.List<emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair>
         getPoseParaListList();
     /**
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -94,7 +94,7 @@ public final class EntityAuthorityInfoOuterClass {
     /**
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPairOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPairOrBuilder>
         getPoseParaListOrBuilderList();
     /**
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -390,7 +390,7 @@ public final class EntityAuthorityInfoOuterClass {
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPairOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPairOrBuilder>
         getPoseParaListOrBuilderList() {
       return poseParaList_;
     }
@@ -894,7 +894,7 @@ public final class EntityAuthorityInfoOuterClass {
               poseParaListBuilder_ = null;
               poseParaList_ = other.poseParaList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              poseParaListBuilder_ = 
+              poseParaListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPoseParaListFieldBuilder() : null;
             } else {
@@ -1022,7 +1022,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
        */
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getAbilityInfoBuilder() {
-        
+
         onChanged();
         return getAbilityInfoFieldBuilder().getBuilder();
       }
@@ -1041,7 +1041,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
+          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>
           getAbilityInfoFieldBuilder() {
         if (abilityInfoBuilder_ == null) {
           abilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1141,7 +1141,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
        */
       public emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.Builder getRendererChangedInfoBuilder() {
-        
+
         onChanged();
         return getRendererChangedInfoFieldBuilder().getBuilder();
       }
@@ -1160,7 +1160,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.Builder, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfoOrBuilder> 
+          emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.Builder, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfoOrBuilder>
           getRendererChangedInfoFieldBuilder() {
         if (rendererChangedInfoBuilder_ == null) {
           rendererChangedInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1260,7 +1260,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
        */
       public emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo.Builder getAiInfoBuilder() {
-        
+
         onChanged();
         return getAiInfoFieldBuilder().getBuilder();
       }
@@ -1279,7 +1279,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo, emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo.Builder, emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfoOrBuilder> 
+          emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo, emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo.Builder, emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfoOrBuilder>
           getAiInfoFieldBuilder() {
         if (aiInfoBuilder_ == null) {
           aiInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1379,7 +1379,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.Vector born_pos = 4;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getBornPosBuilder() {
-        
+
         onChanged();
         return getBornPosFieldBuilder().getBuilder();
       }
@@ -1398,7 +1398,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.Vector born_pos = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getBornPosFieldBuilder() {
         if (bornPosBuilder_ == null) {
           bornPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1606,7 +1606,7 @@ public final class EntityAuthorityInfoOuterClass {
       /**
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPairOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPairOrBuilder>
            getPoseParaListOrBuilderList() {
         if (poseParaListBuilder_ != null) {
           return poseParaListBuilder_.getMessageOrBuilderList();
@@ -1632,12 +1632,12 @@ public final class EntityAuthorityInfoOuterClass {
       /**
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair.Builder>
            getPoseParaListBuilderList() {
         return getPoseParaListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair, emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPairOrBuilder> 
+          emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair, emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPairOrBuilder>
           getPoseParaListFieldBuilder() {
         if (poseParaListBuilder_ == null) {
           poseParaListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1738,7 +1738,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.Unk2700_HFMDKDHCJCM Unk2700_KDGMOPELHNE = 6;</code>
        */
       public emu.grasscutter.net.proto.Unk2700HFMDKDHCJCM.Unk2700_HFMDKDHCJCM.Builder getUnk2700KDGMOPELHNEBuilder() {
-        
+
         onChanged();
         return getUnk2700KDGMOPELHNEFieldBuilder().getBuilder();
       }
@@ -1757,7 +1757,7 @@ public final class EntityAuthorityInfoOuterClass {
        * <code>.Unk2700_HFMDKDHCJCM Unk2700_KDGMOPELHNE = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.Unk2700HFMDKDHCJCM.Unk2700_HFMDKDHCJCM, emu.grasscutter.net.proto.Unk2700HFMDKDHCJCM.Unk2700_HFMDKDHCJCM.Builder, emu.grasscutter.net.proto.Unk2700HFMDKDHCJCM.Unk2700_HFMDKDHCJCMOrBuilder> 
+          emu.grasscutter.net.proto.Unk2700HFMDKDHCJCM.Unk2700_HFMDKDHCJCM, emu.grasscutter.net.proto.Unk2700HFMDKDHCJCM.Unk2700_HFMDKDHCJCM.Builder, emu.grasscutter.net.proto.Unk2700HFMDKDHCJCM.Unk2700_HFMDKDHCJCMOrBuilder>
           getUnk2700KDGMOPELHNEFieldBuilder() {
         if (unk2700KDGMOPELHNEBuilder_ == null) {
           unk2700KDGMOPELHNEBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1824,7 +1824,7 @@ public final class EntityAuthorityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityAuthorityInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityAuthorityInfo_fieldAccessorTable;
 

@@ -21,7 +21,7 @@ public final class VehicleInfoOuterClass {
     /**
      * <code>repeated .VehicleMember member_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember> 
+    java.util.List<emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember>
         getMemberListList();
     /**
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -34,7 +34,7 @@ public final class VehicleInfoOuterClass {
     /**
      * <code>repeated .VehicleMember member_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder>
         getMemberListOrBuilderList();
     /**
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -168,7 +168,7 @@ public final class VehicleInfoOuterClass {
      * <code>repeated .VehicleMember member_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder>
         getMemberListOrBuilderList() {
       return memberList_;
     }
@@ -551,7 +551,7 @@ public final class VehicleInfoOuterClass {
               memberListBuilder_ = null;
               memberList_ = other.memberList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              memberListBuilder_ = 
+              memberListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMemberListFieldBuilder() : null;
             } else {
@@ -790,7 +790,7 @@ public final class VehicleInfoOuterClass {
       /**
        * <code>repeated .VehicleMember member_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder>
            getMemberListOrBuilderList() {
         if (memberListBuilder_ != null) {
           return memberListBuilder_.getMessageOrBuilderList();
@@ -816,12 +816,12 @@ public final class VehicleInfoOuterClass {
       /**
        * <code>repeated .VehicleMember member_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember.Builder>
            getMemberListBuilderList() {
         return getMemberListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember.Builder, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder> 
+          emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember.Builder, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder>
           getMemberListFieldBuilder() {
         if (memberListBuilder_ == null) {
           memberListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -850,7 +850,7 @@ public final class VehicleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOwnerUid(int value) {
-        
+
         ownerUid_ = value;
         onChanged();
         return this;
@@ -860,7 +860,7 @@ public final class VehicleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOwnerUid() {
-        
+
         ownerUid_ = 0;
         onChanged();
         return this;
@@ -881,7 +881,7 @@ public final class VehicleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurStamina(float value) {
-        
+
         curStamina_ = value;
         onChanged();
         return this;
@@ -891,7 +891,7 @@ public final class VehicleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurStamina() {
-        
+
         curStamina_ = 0F;
         onChanged();
         return this;
@@ -951,7 +951,7 @@ public final class VehicleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VehicleInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VehicleInfo_fieldAccessorTable;
 

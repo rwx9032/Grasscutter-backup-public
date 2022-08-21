@@ -592,7 +592,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsInvalid(boolean value) {
-        
+
         isInvalid_ = value;
         onChanged();
         return this;
@@ -602,7 +602,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsInvalid() {
-        
+
         isInvalid_ = false;
         onChanged();
         return this;
@@ -623,7 +623,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOwnerEntityId(int value) {
-        
+
         ownerEntityId_ = value;
         onChanged();
         return this;
@@ -633,7 +633,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOwnerEntityId() {
-        
+
         ownerEntityId_ = 0;
         onChanged();
         return this;
@@ -654,7 +654,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setInstancedModifierId(int value) {
-        
+
         instancedModifierId_ = value;
         onChanged();
         return this;
@@ -664,7 +664,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearInstancedModifierId() {
-        
+
         instancedModifierId_ = 0;
         onChanged();
         return this;
@@ -685,7 +685,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsServerbuffModifier(boolean value) {
-        
+
         isServerbuffModifier_ = value;
         onChanged();
         return this;
@@ -695,7 +695,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsServerbuffModifier() {
-        
+
         isServerbuffModifier_ = false;
         onChanged();
         return this;
@@ -716,7 +716,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAttachNameHash(int value) {
-        
+
         attachNameHash_ = value;
         onChanged();
         return this;
@@ -726,7 +726,7 @@ public final class AbilityAttachedModifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAttachNameHash() {
-        
+
         attachNameHash_ = 0;
         onChanged();
         return this;
@@ -786,7 +786,7 @@ public final class AbilityAttachedModifierOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityAttachedModifier_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityAttachedModifier_fieldAccessorTable;
 

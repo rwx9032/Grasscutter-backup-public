@@ -631,7 +631,7 @@ public final class Unk2800FHMOLALLEEN {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Unk2800_FHMOLALLEEN_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Unk2800_FHMOLALLEEN_fieldAccessorTable;
 

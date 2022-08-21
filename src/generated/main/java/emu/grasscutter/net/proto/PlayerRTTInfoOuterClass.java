@@ -473,7 +473,7 @@ public final class PlayerRTTInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRtt(int value) {
-        
+
         rtt_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class PlayerRTTInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRtt() {
-        
+
         rtt_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class PlayerRTTInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class PlayerRTTInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class PlayerRTTInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerRTTInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerRTTInfo_fieldAccessorTable;
 

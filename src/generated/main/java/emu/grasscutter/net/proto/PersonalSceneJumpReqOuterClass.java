@@ -448,7 +448,7 @@ public final class PersonalSceneJumpReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
@@ -458,7 +458,7 @@ public final class PersonalSceneJumpReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class PersonalSceneJumpReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PersonalSceneJumpReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PersonalSceneJumpReq_fieldAccessorTable;
 

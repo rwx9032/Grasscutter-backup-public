@@ -605,7 +605,7 @@ public final class ReliquaryDecomposeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setConfigId(int value) {
-        
+
         configId_ = value;
         onChanged();
         return this;
@@ -615,7 +615,7 @@ public final class ReliquaryDecomposeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
-        
+
         configId_ = 0;
         onChanged();
         return this;
@@ -636,7 +636,7 @@ public final class ReliquaryDecomposeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetCount(int value) {
-        
+
         targetCount_ = value;
         onChanged();
         return this;
@@ -646,7 +646,7 @@ public final class ReliquaryDecomposeReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetCount() {
-        
+
         targetCount_ = 0;
         onChanged();
         return this;
@@ -785,7 +785,7 @@ public final class ReliquaryDecomposeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ReliquaryDecomposeReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ReliquaryDecomposeReq_fieldAccessorTable;
 

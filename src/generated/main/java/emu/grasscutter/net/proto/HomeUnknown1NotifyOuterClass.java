@@ -435,7 +435,7 @@ public final class HomeUnknown1NotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsEnterEditMode(boolean value) {
-        
+
         isEnterEditMode_ = value;
         onChanged();
         return this;
@@ -445,7 +445,7 @@ public final class HomeUnknown1NotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsEnterEditMode() {
-        
+
         isEnterEditMode_ = false;
         onChanged();
         return this;
@@ -505,7 +505,7 @@ public final class HomeUnknown1NotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeUnknown1Notify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeUnknown1Notify_fieldAccessorTable;
 

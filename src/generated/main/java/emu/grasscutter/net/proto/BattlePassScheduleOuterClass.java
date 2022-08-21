@@ -50,7 +50,7 @@ public final class BattlePassScheduleOuterClass {
     /**
      * <code>repeated .BattlePassRewardTag reward_taken_list = 11;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag> 
+    java.util.List<emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag>
         getRewardTakenListList();
     /**
      * <code>repeated .BattlePassRewardTag reward_taken_list = 11;</code>
@@ -63,7 +63,7 @@ public final class BattlePassScheduleOuterClass {
     /**
      * <code>repeated .BattlePassRewardTag reward_taken_list = 11;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder>
         getRewardTakenListOrBuilderList();
     /**
      * <code>repeated .BattlePassRewardTag reward_taken_list = 11;</code>
@@ -371,7 +371,7 @@ public final class BattlePassScheduleOuterClass {
      * <code>repeated .BattlePassRewardTag reward_taken_list = 11;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder>
         getRewardTakenListOrBuilderList() {
       return rewardTakenList_;
     }
@@ -1027,7 +1027,7 @@ public final class BattlePassScheduleOuterClass {
               rewardTakenListBuilder_ = null;
               rewardTakenList_ = other.rewardTakenList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              rewardTakenListBuilder_ = 
+              rewardTakenListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRewardTakenListFieldBuilder() : null;
             } else {
@@ -1104,7 +1104,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScheduleId(int value) {
-        
+
         scheduleId_ = value;
         onChanged();
         return this;
@@ -1114,7 +1114,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScheduleId() {
-        
+
         scheduleId_ = 0;
         onChanged();
         return this;
@@ -1135,7 +1135,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
@@ -1145,7 +1145,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -1166,7 +1166,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPoint(int value) {
-        
+
         point_ = value;
         onChanged();
         return this;
@@ -1176,7 +1176,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPoint() {
-        
+
         point_ = 0;
         onChanged();
         return this;
@@ -1196,7 +1196,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnlockStatusValue(int value) {
-        
+
         unlockStatus_ = value;
         onChanged();
         return this;
@@ -1220,7 +1220,7 @@ public final class BattlePassScheduleOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         unlockStatus_ = value.getNumber();
         onChanged();
         return this;
@@ -1230,7 +1230,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnlockStatus() {
-        
+
         unlockStatus_ = 0;
         onChanged();
         return this;
@@ -1431,7 +1431,7 @@ public final class BattlePassScheduleOuterClass {
       /**
        * <code>repeated .BattlePassRewardTag reward_taken_list = 11;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder>
            getRewardTakenListOrBuilderList() {
         if (rewardTakenListBuilder_ != null) {
           return rewardTakenListBuilder_.getMessageOrBuilderList();
@@ -1457,12 +1457,12 @@ public final class BattlePassScheduleOuterClass {
       /**
        * <code>repeated .BattlePassRewardTag reward_taken_list = 11;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag.Builder>
            getRewardTakenListBuilderList() {
         return getRewardTakenListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag.Builder, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder> 
+          emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag.Builder, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder>
           getRewardTakenListFieldBuilder() {
         if (rewardTakenListBuilder_ == null) {
           rewardTakenListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1491,7 +1491,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
@@ -1501,7 +1501,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -1522,7 +1522,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -1532,7 +1532,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -1625,7 +1625,7 @@ public final class BattlePassScheduleOuterClass {
        * <code>.BattlePassCycle cur_cycle = 4;</code>
        */
       public emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle.Builder getCurCycleBuilder() {
-        
+
         onChanged();
         return getCurCycleFieldBuilder().getBuilder();
       }
@@ -1644,7 +1644,7 @@ public final class BattlePassScheduleOuterClass {
        * <code>.BattlePassCycle cur_cycle = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle, emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle.Builder, emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycleOrBuilder> 
+          emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle, emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle.Builder, emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycleOrBuilder>
           getCurCycleFieldBuilder() {
         if (curCycleBuilder_ == null) {
           curCycleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1672,7 +1672,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsExtraPaidRewardTaken(boolean value) {
-        
+
         isExtraPaidRewardTaken_ = value;
         onChanged();
         return this;
@@ -1682,7 +1682,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsExtraPaidRewardTaken() {
-        
+
         isExtraPaidRewardTaken_ = false;
         onChanged();
         return this;
@@ -1775,7 +1775,7 @@ public final class BattlePassScheduleOuterClass {
        * <code>.BattlePassProduct product_info = 13;</code>
        */
       public emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct.Builder getProductInfoBuilder() {
-        
+
         onChanged();
         return getProductInfoFieldBuilder().getBuilder();
       }
@@ -1794,7 +1794,7 @@ public final class BattlePassScheduleOuterClass {
        * <code>.BattlePassProduct product_info = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct, emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct.Builder, emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProductOrBuilder> 
+          emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct, emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct.Builder, emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProductOrBuilder>
           getProductInfoFieldBuilder() {
         if (productInfoBuilder_ == null) {
           productInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1822,7 +1822,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsViewed(boolean value) {
-        
+
         isViewed_ = value;
         onChanged();
         return this;
@@ -1832,7 +1832,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsViewed() {
-        
+
         isViewed_ = false;
         onChanged();
         return this;
@@ -1853,7 +1853,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurCyclePoints(int value) {
-        
+
         curCyclePoints_ = value;
         onChanged();
         return this;
@@ -1863,7 +1863,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurCyclePoints() {
-        
+
         curCyclePoints_ = 0;
         onChanged();
         return this;
@@ -1884,7 +1884,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJPFMGBEBBBJ(int value) {
-        
+
         jPFMGBEBBBJ_ = value;
         onChanged();
         return this;
@@ -1894,7 +1894,7 @@ public final class BattlePassScheduleOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJPFMGBEBBBJ() {
-        
+
         jPFMGBEBBBJ_ = 0;
         onChanged();
         return this;
@@ -1954,7 +1954,7 @@ public final class BattlePassScheduleOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BattlePassSchedule_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BattlePassSchedule_fieldAccessorTable;
 

@@ -624,7 +624,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCasterId(int value) {
-        
+
         casterId_ = value;
         onChanged();
         return this;
@@ -634,7 +634,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCasterId() {
-        
+
         casterId_ = 0;
         onChanged();
         return this;
@@ -654,7 +654,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
@@ -678,7 +678,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
@@ -688,7 +688,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
@@ -781,7 +781,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
        * <code>.Vector forward = 15;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getForwardBuilder() {
-        
+
         onChanged();
         return getForwardFieldBuilder().getBuilder();
       }
@@ -800,7 +800,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
        * <code>.Vector forward = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getForwardFieldBuilder() {
         if (forwardBuilder_ == null) {
           forwardBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -828,7 +828,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSkillId(int value) {
-        
+
         skillId_ = value;
         onChanged();
         return this;
@@ -838,7 +838,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSkillId() {
-        
+
         skillId_ = 0;
         onChanged();
         return this;
@@ -898,7 +898,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtDoSkillSuccNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtDoSkillSuccNotify_fieldAccessorTable;
 

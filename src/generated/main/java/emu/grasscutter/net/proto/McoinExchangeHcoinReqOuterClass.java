@@ -487,7 +487,7 @@ public final class McoinExchangeHcoinReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHcoin(int value) {
-        
+
         hcoin_ = value;
         onChanged();
         return this;
@@ -497,7 +497,7 @@ public final class McoinExchangeHcoinReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHcoin() {
-        
+
         hcoin_ = 0;
         onChanged();
         return this;
@@ -518,7 +518,7 @@ public final class McoinExchangeHcoinReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMcoinCost(int value) {
-        
+
         mcoinCost_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class McoinExchangeHcoinReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMcoinCost() {
-        
+
         mcoinCost_ = 0;
         onChanged();
         return this;
@@ -588,7 +588,7 @@ public final class McoinExchangeHcoinReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_McoinExchangeHcoinReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_McoinExchangeHcoinReq_fieldAccessorTable;
 

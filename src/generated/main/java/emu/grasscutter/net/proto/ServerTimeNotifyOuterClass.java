@@ -447,7 +447,7 @@ public final class ServerTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setServerTime(long value) {
-        
+
         serverTime_ = value;
         onChanged();
         return this;
@@ -457,7 +457,7 @@ public final class ServerTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearServerTime() {
-        
+
         serverTime_ = 0L;
         onChanged();
         return this;
@@ -517,7 +517,7 @@ public final class ServerTimeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServerTimeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServerTimeNotify_fieldAccessorTable;
 

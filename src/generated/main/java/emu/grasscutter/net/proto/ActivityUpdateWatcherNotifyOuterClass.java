@@ -532,7 +532,7 @@ public final class ActivityUpdateWatcherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setActivityId(int value) {
-        
+
         activityId_ = value;
         onChanged();
         return this;
@@ -542,7 +542,7 @@ public final class ActivityUpdateWatcherNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearActivityId() {
-        
+
         activityId_ = 0;
         onChanged();
         return this;
@@ -635,7 +635,7 @@ public final class ActivityUpdateWatcherNotifyOuterClass {
        * <code>.ActivityWatcherInfo watcher_info = 2;</code>
        */
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder getWatcherInfoBuilder() {
-        
+
         onChanged();
         return getWatcherInfoFieldBuilder().getBuilder();
       }
@@ -654,7 +654,7 @@ public final class ActivityUpdateWatcherNotifyOuterClass {
        * <code>.ActivityWatcherInfo watcher_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
+          emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
           getWatcherInfoFieldBuilder() {
         if (watcherInfoBuilder_ == null) {
           watcherInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -721,7 +721,7 @@ public final class ActivityUpdateWatcherNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityUpdateWatcherNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityUpdateWatcherNotify_fieldAccessorTable;
 

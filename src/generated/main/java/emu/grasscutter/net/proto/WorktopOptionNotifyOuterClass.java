@@ -564,7 +564,7 @@ public final class WorktopOptionNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetEntityId(int value) {
-        
+
         gadgetEntityId_ = value;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class WorktopOptionNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetEntityId() {
-        
+
         gadgetEntityId_ = 0;
         onChanged();
         return this;
@@ -713,7 +713,7 @@ public final class WorktopOptionNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorktopOptionNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorktopOptionNotify_fieldAccessorTable;
 

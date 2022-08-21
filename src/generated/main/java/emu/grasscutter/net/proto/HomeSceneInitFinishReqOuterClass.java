@@ -448,7 +448,7 @@ public final class HomeSceneInitFinishReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeSceneInitFinishReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeSceneInitFinishReq_fieldAccessorTable;
 

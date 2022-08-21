@@ -473,7 +473,7 @@ public final class BirthdayOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMonth(int value) {
-        
+
         month_ = value;
         onChanged();
         return this;
@@ -483,7 +483,7 @@ public final class BirthdayOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMonth() {
-        
+
         month_ = 0;
         onChanged();
         return this;
@@ -504,7 +504,7 @@ public final class BirthdayOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDay(int value) {
-        
+
         day_ = value;
         onChanged();
         return this;
@@ -514,7 +514,7 @@ public final class BirthdayOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDay() {
-        
+
         day_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class BirthdayOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Birthday_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Birthday_fieldAccessorTable;
 

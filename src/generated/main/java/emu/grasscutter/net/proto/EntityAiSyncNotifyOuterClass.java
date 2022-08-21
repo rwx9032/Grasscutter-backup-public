@@ -38,7 +38,7 @@ public final class EntityAiSyncNotifyOuterClass {
     /**
      * <code>repeated .AiSyncInfo info_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo> 
+    java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo>
         getInfoListList();
     /**
      * <code>repeated .AiSyncInfo info_list = 1;</code>
@@ -51,7 +51,7 @@ public final class EntityAiSyncNotifyOuterClass {
     /**
      * <code>repeated .AiSyncInfo info_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder>
         getInfoListOrBuilderList();
     /**
      * <code>repeated .AiSyncInfo info_list = 1;</code>
@@ -223,7 +223,7 @@ public final class EntityAiSyncNotifyOuterClass {
      * <code>repeated .AiSyncInfo info_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder>
         getInfoListOrBuilderList() {
       return infoList_;
     }
@@ -606,7 +606,7 @@ public final class EntityAiSyncNotifyOuterClass {
               infoListBuilder_ = null;
               infoList_ = other.infoList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              infoListBuilder_ = 
+              infoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getInfoListFieldBuilder() : null;
             } else {
@@ -918,7 +918,7 @@ public final class EntityAiSyncNotifyOuterClass {
       /**
        * <code>repeated .AiSyncInfo info_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder>
            getInfoListOrBuilderList() {
         if (infoListBuilder_ != null) {
           return infoListBuilder_.getMessageOrBuilderList();
@@ -944,12 +944,12 @@ public final class EntityAiSyncNotifyOuterClass {
       /**
        * <code>repeated .AiSyncInfo info_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder>
            getInfoListBuilderList() {
         return getInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder> 
+          emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder>
           getInfoListFieldBuilder() {
         if (infoListBuilder_ == null) {
           infoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1017,7 +1017,7 @@ public final class EntityAiSyncNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityAiSyncNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityAiSyncNotify_fieldAccessorTable;
 

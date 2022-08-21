@@ -518,7 +518,7 @@ public final class MaterialOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCount(int value) {
-        
+
         count_ = value;
         onChanged();
         return this;
@@ -528,7 +528,7 @@ public final class MaterialOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCount() {
-        
+
         count_ = 0;
         onChanged();
         return this;
@@ -621,7 +621,7 @@ public final class MaterialOuterClass {
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       public emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.Builder getDeleteInfoBuilder() {
-        
+
         onChanged();
         return getDeleteInfoFieldBuilder().getBuilder();
       }
@@ -640,7 +640,7 @@ public final class MaterialOuterClass {
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfoOrBuilder> 
+          emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfoOrBuilder>
           getDeleteInfoFieldBuilder() {
         if (deleteInfoBuilder_ == null) {
           deleteInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -707,7 +707,7 @@ public final class MaterialOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Material_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Material_fieldAccessorTable;
 

@@ -715,7 +715,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsAllowSummon(boolean value) {
-        
+
         isAllowSummon_ = value;
         onChanged();
         return this;
@@ -725,7 +725,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsAllowSummon() {
-        
+
         isAllowSummon_ = false;
         onChanged();
         return this;
@@ -746,7 +746,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSuiteId(int value) {
-        
+
         suiteId_ = value;
         onChanged();
         return this;
@@ -756,7 +756,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSuiteId() {
-        
+
         suiteId_ = 0;
         onChanged();
         return this;
@@ -849,7 +849,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
        * <code>.Vector spawn_pos = 8;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSpawnPosBuilder() {
-        
+
         onChanged();
         return getSpawnPosFieldBuilder().getBuilder();
       }
@@ -868,7 +868,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
        * <code>.Vector spawn_pos = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getSpawnPosFieldBuilder() {
         if (spawnPosBuilder_ == null) {
           spawnPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -896,7 +896,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(int value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -906,7 +906,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0;
         onChanged();
         return this;
@@ -1045,7 +1045,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeFurnitureSuiteData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeFurnitureSuiteData_fieldAccessorTable;
 

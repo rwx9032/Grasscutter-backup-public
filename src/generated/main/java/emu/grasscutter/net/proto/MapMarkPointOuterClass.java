@@ -234,7 +234,7 @@ public final class MapMarkPointOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -250,7 +250,7 @@ public final class MapMarkPointOuterClass {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -776,7 +776,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -786,7 +786,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -817,7 +817,7 @@ public final class MapMarkPointOuterClass {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -836,7 +836,7 @@ public final class MapMarkPointOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -846,7 +846,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -862,7 +862,7 @@ public final class MapMarkPointOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -955,7 +955,7 @@ public final class MapMarkPointOuterClass {
        * <code>.Vector pos = 3;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
-        
+
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
@@ -974,7 +974,7 @@ public final class MapMarkPointOuterClass {
        * <code>.Vector pos = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1001,7 +1001,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPointTypeValue(int value) {
-        
+
         pointType_ = value;
         onChanged();
         return this;
@@ -1025,7 +1025,7 @@ public final class MapMarkPointOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         pointType_ = value.getNumber();
         onChanged();
         return this;
@@ -1035,7 +1035,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPointType() {
-        
+
         pointType_ = 0;
         onChanged();
         return this;
@@ -1056,7 +1056,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMonsterId(int value) {
-        
+
         monsterId_ = value;
         onChanged();
         return this;
@@ -1066,7 +1066,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMonsterId() {
-        
+
         monsterId_ = 0;
         onChanged();
         return this;
@@ -1086,7 +1086,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFromTypeValue(int value) {
-        
+
         fromType_ = value;
         onChanged();
         return this;
@@ -1110,7 +1110,7 @@ public final class MapMarkPointOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         fromType_ = value.getNumber();
         onChanged();
         return this;
@@ -1120,7 +1120,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFromType() {
-        
+
         fromType_ = 0;
         onChanged();
         return this;
@@ -1141,7 +1141,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQuestId(int value) {
-        
+
         questId_ = value;
         onChanged();
         return this;
@@ -1151,7 +1151,7 @@ public final class MapMarkPointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQuestId() {
-        
+
         questId_ = 0;
         onChanged();
         return this;
@@ -1211,7 +1211,7 @@ public final class MapMarkPointOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MapMarkPoint_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MapMarkPoint_fieldAccessorTable;
 

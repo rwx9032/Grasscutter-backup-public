@@ -1182,7 +1182,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRouteId(int value) {
-        
+
         routeId_ = value;
         onChanged();
         return this;
@@ -1192,7 +1192,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRouteId() {
-        
+
         routeId_ = 0;
         onChanged();
         return this;
@@ -1213,7 +1213,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartIndex(int value) {
-        
+
         startIndex_ = value;
         onChanged();
         return this;
@@ -1223,7 +1223,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartIndex() {
-        
+
         startIndex_ = 0;
         onChanged();
         return this;
@@ -1244,7 +1244,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartRouteTime(int value) {
-        
+
         startRouteTime_ = value;
         onChanged();
         return this;
@@ -1254,7 +1254,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartRouteTime() {
-        
+
         startRouteTime_ = 0;
         onChanged();
         return this;
@@ -1275,7 +1275,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartSceneTime(int value) {
-        
+
         startSceneTime_ = value;
         onChanged();
         return this;
@@ -1285,7 +1285,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartSceneTime() {
-        
+
         startSceneTime_ = 0;
         onChanged();
         return this;
@@ -1378,7 +1378,7 @@ public final class PlatformInfoOuterClass {
        * <code>.Vector start_pos = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getStartPosBuilder() {
-        
+
         onChanged();
         return getStartPosFieldBuilder().getBuilder();
       }
@@ -1397,7 +1397,7 @@ public final class PlatformInfoOuterClass {
        * <code>.Vector start_pos = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getStartPosFieldBuilder() {
         if (startPosBuilder_ == null) {
           startPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1425,7 +1425,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsStarted(boolean value) {
-        
+
         isStarted_ = value;
         onChanged();
         return this;
@@ -1435,7 +1435,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsStarted() {
-        
+
         isStarted_ = false;
         onChanged();
         return this;
@@ -1528,7 +1528,7 @@ public final class PlatformInfoOuterClass {
        * <code>.MathQuaternion start_rot = 9;</code>
        */
       public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder getStartRotBuilder() {
-        
+
         onChanged();
         return getStartRotFieldBuilder().getBuilder();
       }
@@ -1547,7 +1547,7 @@ public final class PlatformInfoOuterClass {
        * <code>.MathQuaternion start_rot = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> 
+          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder>
           getStartRotFieldBuilder() {
         if (startRotBuilder_ == null) {
           startRotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1575,7 +1575,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStopSceneTime(int value) {
-        
+
         stopSceneTime_ = value;
         onChanged();
         return this;
@@ -1585,7 +1585,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStopSceneTime() {
-        
+
         stopSceneTime_ = 0;
         onChanged();
         return this;
@@ -1678,7 +1678,7 @@ public final class PlatformInfoOuterClass {
        * <code>.Vector pos_offset = 11;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosOffsetBuilder() {
-        
+
         onChanged();
         return getPosOffsetFieldBuilder().getBuilder();
       }
@@ -1697,7 +1697,7 @@ public final class PlatformInfoOuterClass {
        * <code>.Vector pos_offset = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPosOffsetFieldBuilder() {
         if (posOffsetBuilder_ == null) {
           posOffsetBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1797,7 +1797,7 @@ public final class PlatformInfoOuterClass {
        * <code>.MathQuaternion rot_offset = 12;</code>
        */
       public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder getRotOffsetBuilder() {
-        
+
         onChanged();
         return getRotOffsetFieldBuilder().getBuilder();
       }
@@ -1816,7 +1816,7 @@ public final class PlatformInfoOuterClass {
        * <code>.MathQuaternion rot_offset = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> 
+          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder>
           getRotOffsetFieldBuilder() {
         if (rotOffsetBuilder_ == null) {
           rotOffsetBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1843,7 +1843,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMovingPlatformTypeValue(int value) {
-        
+
         movingPlatformType_ = value;
         onChanged();
         return this;
@@ -1867,7 +1867,7 @@ public final class PlatformInfoOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         movingPlatformType_ = value.getNumber();
         onChanged();
         return this;
@@ -1877,7 +1877,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMovingPlatformType() {
-        
+
         movingPlatformType_ = 0;
         onChanged();
         return this;
@@ -1898,7 +1898,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsActive(boolean value) {
-        
+
         isActive_ = value;
         onChanged();
         return this;
@@ -1908,7 +1908,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsActive() {
-        
+
         isActive_ = false;
         onChanged();
         return this;
@@ -2001,7 +2001,7 @@ public final class PlatformInfoOuterClass {
        * <code>.Route route = 15;</code>
        */
       public emu.grasscutter.net.proto.RouteOuterClass.Route.Builder getRouteBuilder() {
-        
+
         onChanged();
         return getRouteFieldBuilder().getBuilder();
       }
@@ -2020,7 +2020,7 @@ public final class PlatformInfoOuterClass {
        * <code>.Route route = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.RouteOuterClass.Route, emu.grasscutter.net.proto.RouteOuterClass.Route.Builder, emu.grasscutter.net.proto.RouteOuterClass.RouteOrBuilder> 
+          emu.grasscutter.net.proto.RouteOuterClass.Route, emu.grasscutter.net.proto.RouteOuterClass.Route.Builder, emu.grasscutter.net.proto.RouteOuterClass.RouteOrBuilder>
           getRouteFieldBuilder() {
         if (routeBuilder_ == null) {
           routeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2048,7 +2048,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
@@ -2058,7 +2058,7 @@ public final class PlatformInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
@@ -2118,7 +2118,7 @@ public final class PlatformInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlatformInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlatformInfo_fieldAccessorTable;
 

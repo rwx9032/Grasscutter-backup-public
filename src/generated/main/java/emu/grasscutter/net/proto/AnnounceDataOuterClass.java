@@ -263,7 +263,7 @@ public final class AnnounceDataOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         centerSystemText_ = s;
@@ -279,7 +279,7 @@ public final class AnnounceDataOuterClass {
         getCenterSystemTextBytes() {
       java.lang.Object ref = centerSystemText_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         centerSystemText_ = b;
@@ -301,7 +301,7 @@ public final class AnnounceDataOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         countDownText_ = s;
@@ -317,7 +317,7 @@ public final class AnnounceDataOuterClass {
         getCountDownTextBytes() {
       java.lang.Object ref = countDownText_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         countDownText_ = b;
@@ -339,7 +339,7 @@ public final class AnnounceDataOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         dungeonConfirmText_ = s;
@@ -355,7 +355,7 @@ public final class AnnounceDataOuterClass {
         getDungeonConfirmTextBytes() {
       java.lang.Object ref = dungeonConfirmText_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         dungeonConfirmText_ = b;
@@ -852,7 +852,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setConfigId(int value) {
-        
+
         configId_ = value;
         onChanged();
         return this;
@@ -862,7 +862,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
-        
+
         configId_ = 0;
         onChanged();
         return this;
@@ -883,7 +883,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
@@ -893,7 +893,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -914,7 +914,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
@@ -924,7 +924,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -955,7 +955,7 @@ public final class AnnounceDataOuterClass {
           getCenterSystemTextBytes() {
         java.lang.Object ref = centerSystemText_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           centerSystemText_ = b;
@@ -974,7 +974,7 @@ public final class AnnounceDataOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         centerSystemText_ = value;
         onChanged();
         return this;
@@ -984,7 +984,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCenterSystemText() {
-        
+
         centerSystemText_ = getDefaultInstance().getCenterSystemText();
         onChanged();
         return this;
@@ -1000,7 +1000,7 @@ public final class AnnounceDataOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         centerSystemText_ = value;
         onChanged();
         return this;
@@ -1031,7 +1031,7 @@ public final class AnnounceDataOuterClass {
           getCountDownTextBytes() {
         java.lang.Object ref = countDownText_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           countDownText_ = b;
@@ -1050,7 +1050,7 @@ public final class AnnounceDataOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         countDownText_ = value;
         onChanged();
         return this;
@@ -1060,7 +1060,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCountDownText() {
-        
+
         countDownText_ = getDefaultInstance().getCountDownText();
         onChanged();
         return this;
@@ -1076,7 +1076,7 @@ public final class AnnounceDataOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         countDownText_ = value;
         onChanged();
         return this;
@@ -1107,7 +1107,7 @@ public final class AnnounceDataOuterClass {
           getDungeonConfirmTextBytes() {
         java.lang.Object ref = dungeonConfirmText_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           dungeonConfirmText_ = b;
@@ -1126,7 +1126,7 @@ public final class AnnounceDataOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         dungeonConfirmText_ = value;
         onChanged();
         return this;
@@ -1136,7 +1136,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDungeonConfirmText() {
-        
+
         dungeonConfirmText_ = getDefaultInstance().getDungeonConfirmText();
         onChanged();
         return this;
@@ -1152,7 +1152,7 @@ public final class AnnounceDataOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         dungeonConfirmText_ = value;
         onChanged();
         return this;
@@ -1173,7 +1173,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCenterSystemFrequency(int value) {
-        
+
         centerSystemFrequency_ = value;
         onChanged();
         return this;
@@ -1183,7 +1183,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCenterSystemFrequency() {
-        
+
         centerSystemFrequency_ = 0;
         onChanged();
         return this;
@@ -1204,7 +1204,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCountDownFrequency(int value) {
-        
+
         countDownFrequency_ = value;
         onChanged();
         return this;
@@ -1214,7 +1214,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCountDownFrequency() {
-        
+
         countDownFrequency_ = 0;
         onChanged();
         return this;
@@ -1235,7 +1235,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsCenterSystemLast5EveryMinutes(boolean value) {
-        
+
         isCenterSystemLast5EveryMinutes_ = value;
         onChanged();
         return this;
@@ -1245,7 +1245,7 @@ public final class AnnounceDataOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsCenterSystemLast5EveryMinutes() {
-        
+
         isCenterSystemLast5EveryMinutes_ = false;
         onChanged();
         return this;
@@ -1305,7 +1305,7 @@ public final class AnnounceDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AnnounceData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AnnounceData_fieldAccessorTable;
 

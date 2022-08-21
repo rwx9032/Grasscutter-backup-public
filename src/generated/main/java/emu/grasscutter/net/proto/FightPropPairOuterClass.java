@@ -475,7 +475,7 @@ public final class FightPropPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPropType(int value) {
-        
+
         propType_ = value;
         onChanged();
         return this;
@@ -485,7 +485,7 @@ public final class FightPropPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPropType() {
-        
+
         propType_ = 0;
         onChanged();
         return this;
@@ -506,7 +506,7 @@ public final class FightPropPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPropValue(float value) {
-        
+
         propValue_ = value;
         onChanged();
         return this;
@@ -516,7 +516,7 @@ public final class FightPropPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPropValue() {
-        
+
         propValue_ = 0F;
         onChanged();
         return this;
@@ -576,7 +576,7 @@ public final class FightPropPairOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FightPropPair_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FightPropPair_fieldAccessorTable;
 

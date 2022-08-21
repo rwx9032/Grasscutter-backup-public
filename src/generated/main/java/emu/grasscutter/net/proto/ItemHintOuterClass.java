@@ -553,7 +553,7 @@ public final class ItemHintOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
@@ -563,7 +563,7 @@ public final class ItemHintOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class ItemHintOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsNew(boolean value) {
-        
+
         isNew_ = value;
         onChanged();
         return this;
@@ -594,7 +594,7 @@ public final class ItemHintOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsNew() {
-        
+
         isNew_ = false;
         onChanged();
         return this;
@@ -615,7 +615,7 @@ public final class ItemHintOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCount(int value) {
-        
+
         count_ = value;
         onChanged();
         return this;
@@ -625,7 +625,7 @@ public final class ItemHintOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCount() {
-        
+
         count_ = 0;
         onChanged();
         return this;
@@ -646,7 +646,7 @@ public final class ItemHintOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(long value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class ItemHintOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0L;
         onChanged();
         return this;
@@ -716,7 +716,7 @@ public final class ItemHintOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ItemHint_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ItemHint_fieldAccessorTable;
 

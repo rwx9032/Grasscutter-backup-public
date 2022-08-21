@@ -527,7 +527,7 @@ public final class PlayerGameTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -537,7 +537,7 @@ public final class PlayerGameTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -558,7 +558,7 @@ public final class PlayerGameTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGameTime(int value) {
-        
+
         gameTime_ = value;
         onChanged();
         return this;
@@ -568,7 +568,7 @@ public final class PlayerGameTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGameTime() {
-        
+
         gameTime_ = 0;
         onChanged();
         return this;
@@ -589,7 +589,7 @@ public final class PlayerGameTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsHome(boolean value) {
-        
+
         isHome_ = value;
         onChanged();
         return this;
@@ -599,7 +599,7 @@ public final class PlayerGameTimeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsHome() {
-        
+
         isHome_ = false;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class PlayerGameTimeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerGameTimeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerGameTimeNotify_fieldAccessorTable;
 

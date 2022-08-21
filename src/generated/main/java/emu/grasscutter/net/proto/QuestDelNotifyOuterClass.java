@@ -446,7 +446,7 @@ public final class QuestDelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setQuestId(int value) {
-        
+
         questId_ = value;
         onChanged();
         return this;
@@ -456,7 +456,7 @@ public final class QuestDelNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearQuestId() {
-        
+
         questId_ = 0;
         onChanged();
         return this;
@@ -516,7 +516,7 @@ public final class QuestDelNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_QuestDelNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_QuestDelNotify_fieldAccessorTable;
 

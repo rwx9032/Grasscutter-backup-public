@@ -602,7 +602,7 @@ public final class SetPlayerBirthdayRspOuterClass {
        * <code>.Birthday birthday = 2;</code>
        */
       public emu.grasscutter.net.proto.BirthdayOuterClass.Birthday.Builder getBirthdayBuilder() {
-        
+
         onChanged();
         return getBirthdayFieldBuilder().getBuilder();
       }
@@ -621,7 +621,7 @@ public final class SetPlayerBirthdayRspOuterClass {
        * <code>.Birthday birthday = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BirthdayOuterClass.Birthday, emu.grasscutter.net.proto.BirthdayOuterClass.Birthday.Builder, emu.grasscutter.net.proto.BirthdayOuterClass.BirthdayOrBuilder> 
+          emu.grasscutter.net.proto.BirthdayOuterClass.Birthday, emu.grasscutter.net.proto.BirthdayOuterClass.Birthday.Builder, emu.grasscutter.net.proto.BirthdayOuterClass.BirthdayOrBuilder>
           getBirthdayFieldBuilder() {
         if (birthdayBuilder_ == null) {
           birthdayBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class SetPlayerBirthdayRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class SetPlayerBirthdayRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class SetPlayerBirthdayRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetPlayerBirthdayRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetPlayerBirthdayRsp_fieldAccessorTable;
 

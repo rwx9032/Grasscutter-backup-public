@@ -435,7 +435,7 @@ public final class AbilityMixinCostStaminaOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSwim(boolean value) {
-        
+
         isSwim_ = value;
         onChanged();
         return this;
@@ -445,7 +445,7 @@ public final class AbilityMixinCostStaminaOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSwim() {
-        
+
         isSwim_ = false;
         onChanged();
         return this;
@@ -505,7 +505,7 @@ public final class AbilityMixinCostStaminaOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityMixinCostStamina_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityMixinCostStamina_fieldAccessorTable;
 

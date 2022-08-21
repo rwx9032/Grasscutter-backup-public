@@ -217,7 +217,7 @@ public final class GetBattlePassProductRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         productId_ = s;
@@ -233,7 +233,7 @@ public final class GetBattlePassProductRspOuterClass {
         getProductIdBytes() {
       java.lang.Object ref = productId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         productId_ = b;
@@ -255,7 +255,7 @@ public final class GetBattlePassProductRspOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         priceTier_ = s;
@@ -271,7 +271,7 @@ public final class GetBattlePassProductRspOuterClass {
         getPriceTierBytes() {
       java.lang.Object ref = priceTier_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         priceTier_ = b;
@@ -672,7 +672,7 @@ public final class GetBattlePassProductRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -682,7 +682,7 @@ public final class GetBattlePassProductRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -703,7 +703,7 @@ public final class GetBattlePassProductRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBattlePassProductPlayType(int value) {
-        
+
         battlePassProductPlayType_ = value;
         onChanged();
         return this;
@@ -713,7 +713,7 @@ public final class GetBattlePassProductRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBattlePassProductPlayType() {
-        
+
         battlePassProductPlayType_ = 0;
         onChanged();
         return this;
@@ -734,7 +734,7 @@ public final class GetBattlePassProductRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurScheduleId(int value) {
-        
+
         curScheduleId_ = value;
         onChanged();
         return this;
@@ -744,7 +744,7 @@ public final class GetBattlePassProductRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurScheduleId() {
-        
+
         curScheduleId_ = 0;
         onChanged();
         return this;
@@ -775,7 +775,7 @@ public final class GetBattlePassProductRspOuterClass {
           getProductIdBytes() {
         java.lang.Object ref = productId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           productId_ = b;
@@ -794,7 +794,7 @@ public final class GetBattlePassProductRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         productId_ = value;
         onChanged();
         return this;
@@ -804,7 +804,7 @@ public final class GetBattlePassProductRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearProductId() {
-        
+
         productId_ = getDefaultInstance().getProductId();
         onChanged();
         return this;
@@ -820,7 +820,7 @@ public final class GetBattlePassProductRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         productId_ = value;
         onChanged();
         return this;
@@ -851,7 +851,7 @@ public final class GetBattlePassProductRspOuterClass {
           getPriceTierBytes() {
         java.lang.Object ref = priceTier_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           priceTier_ = b;
@@ -870,7 +870,7 @@ public final class GetBattlePassProductRspOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         priceTier_ = value;
         onChanged();
         return this;
@@ -880,7 +880,7 @@ public final class GetBattlePassProductRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPriceTier() {
-        
+
         priceTier_ = getDefaultInstance().getPriceTier();
         onChanged();
         return this;
@@ -896,7 +896,7 @@ public final class GetBattlePassProductRspOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         priceTier_ = value;
         onChanged();
         return this;
@@ -956,7 +956,7 @@ public final class GetBattlePassProductRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetBattlePassProductRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetBattlePassProductRsp_fieldAccessorTable;
 

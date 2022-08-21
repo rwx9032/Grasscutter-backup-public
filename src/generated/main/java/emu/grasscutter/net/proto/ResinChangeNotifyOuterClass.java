@@ -524,7 +524,7 @@ public final class ResinChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextAddTimestamp(int value) {
-        
+
         nextAddTimestamp_ = value;
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class ResinChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextAddTimestamp() {
-        
+
         nextAddTimestamp_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class ResinChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurBuyCount(int value) {
-        
+
         curBuyCount_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class ResinChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurBuyCount() {
-        
+
         curBuyCount_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class ResinChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCurValue(int value) {
-        
+
         curValue_ = value;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class ResinChangeNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCurValue() {
-        
+
         curValue_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class ResinChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResinChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResinChangeNotify_fieldAccessorTable;
 

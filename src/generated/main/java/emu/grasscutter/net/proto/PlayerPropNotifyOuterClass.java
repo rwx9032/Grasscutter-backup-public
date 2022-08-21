@@ -167,7 +167,7 @@ public final class PlayerPropNotifyOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>newDefaultInstance(
-                  emu.grasscutter.net.proto.PlayerPropNotifyOuterClass.internal_static_PlayerPropNotify_PropMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.PlayerPropNotifyOuterClass.internal_static_PlayerPropNotify_PropMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -194,7 +194,7 @@ public final class PlayerPropNotifyOuterClass {
     @java.lang.Override
     public boolean containsPropMap(
         int key) {
-      
+
       return internalGetPropMap().getMap().containsKey(key);
     }
     /**
@@ -221,7 +221,7 @@ public final class PlayerPropNotifyOuterClass {
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
         int key,
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
           internalGetPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -233,7 +233,7 @@ public final class PlayerPropNotifyOuterClass {
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
           internalGetPropMap().getMap();
       if (!map.containsKey(key)) {
@@ -617,7 +617,7 @@ public final class PlayerPropNotifyOuterClass {
       @java.lang.Override
       public boolean containsPropMap(
           int key) {
-        
+
         return internalGetPropMap().getMap().containsKey(key);
       }
       /**
@@ -644,7 +644,7 @@ public final class PlayerPropNotifyOuterClass {
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrDefault(
           int key,
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
             internalGetPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -656,7 +656,7 @@ public final class PlayerPropNotifyOuterClass {
 
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue> map =
             internalGetPropMap().getMap();
         if (!map.containsKey(key)) {
@@ -676,7 +676,7 @@ public final class PlayerPropNotifyOuterClass {
 
       public Builder removePropMap(
           int key) {
-        
+
         internalGetMutablePropMap().getMutableMap()
             .remove(key);
         return this;
@@ -695,7 +695,7 @@ public final class PlayerPropNotifyOuterClass {
       public Builder putPropMap(
           int key,
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutablePropMap().getMutableMap()
             .put(key, value);
@@ -766,12 +766,12 @@ public final class PlayerPropNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerPropNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerPropNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerPropNotify_PropMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerPropNotify_PropMapEntry_fieldAccessorTable;
 

@@ -719,7 +719,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextCloseTime(int value) {
-        
+
         nextCloseTime_ = value;
         onChanged();
         return this;
@@ -729,7 +729,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextCloseTime() {
-        
+
         nextCloseTime_ = 0;
         onChanged();
         return this;
@@ -750,7 +750,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextGuestOpenTime(int value) {
-        
+
         nextGuestOpenTime_ = value;
         onChanged();
         return this;
@@ -760,7 +760,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextGuestOpenTime() {
-        
+
         nextGuestOpenTime_ = 0;
         onChanged();
         return this;
@@ -853,7 +853,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * <code>.Vector djinn_rot = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getDjinnRotBuilder() {
-        
+
         onChanged();
         return getDjinnRotFieldBuilder().getBuilder();
       }
@@ -872,7 +872,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * <code>.Vector djinn_rot = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getDjinnRotFieldBuilder() {
         if (djinnRotBuilder_ == null) {
           djinnRotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -900,7 +900,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -910,7 +910,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -931,7 +931,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextOpenTime(int value) {
-        
+
         nextOpenTime_ = value;
         onChanged();
         return this;
@@ -941,7 +941,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextOpenTime() {
-        
+
         nextOpenTime_ = 0;
         onChanged();
         return this;
@@ -1034,7 +1034,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * <code>.Vector djinn_pos = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getDjinnPosBuilder() {
-        
+
         onChanged();
         return getDjinnPosFieldBuilder().getBuilder();
       }
@@ -1053,7 +1053,7 @@ public final class HomeLimitedShopInfoOuterClass {
        * <code>.Vector djinn_pos = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getDjinnPosFieldBuilder() {
         if (djinnPosBuilder_ == null) {
           djinnPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1120,7 +1120,7 @@ public final class HomeLimitedShopInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeLimitedShopInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeLimitedShopInfo_fieldAccessorTable;
 

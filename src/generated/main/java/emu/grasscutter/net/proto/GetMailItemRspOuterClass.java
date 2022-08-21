@@ -44,7 +44,7 @@ public final class GetMailItemRspOuterClass {
     /**
      * <code>repeated .EquipParam item_list = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam> 
+    java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam>
         getItemListList();
     /**
      * <code>repeated .EquipParam item_list = 2;</code>
@@ -57,7 +57,7 @@ public final class GetMailItemRspOuterClass {
     /**
      * <code>repeated .EquipParam item_list = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder>
         getItemListOrBuilderList();
     /**
      * <code>repeated .EquipParam item_list = 2;</code>
@@ -244,7 +244,7 @@ public final class GetMailItemRspOuterClass {
      * <code>repeated .EquipParam item_list = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder>
         getItemListOrBuilderList() {
       return itemList_;
     }
@@ -643,7 +643,7 @@ public final class GetMailItemRspOuterClass {
               itemListBuilder_ = null;
               itemList_ = other.itemList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              itemListBuilder_ = 
+              itemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getItemListFieldBuilder() : null;
             } else {
@@ -696,7 +696,7 @@ public final class GetMailItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -706,7 +706,7 @@ public final class GetMailItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -986,7 +986,7 @@ public final class GetMailItemRspOuterClass {
       /**
        * <code>repeated .EquipParam item_list = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder>
            getItemListOrBuilderList() {
         if (itemListBuilder_ != null) {
           return itemListBuilder_.getMessageOrBuilderList();
@@ -1012,12 +1012,12 @@ public final class GetMailItemRspOuterClass {
       /**
        * <code>repeated .EquipParam item_list = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder>
            getItemListBuilderList() {
         return getItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> 
+          emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder>
           getItemListFieldBuilder() {
         if (itemListBuilder_ == null) {
           itemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1085,7 +1085,7 @@ public final class GetMailItemRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetMailItemRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetMailItemRsp_fieldAccessorTable;
 

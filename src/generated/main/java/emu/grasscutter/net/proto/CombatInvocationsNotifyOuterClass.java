@@ -21,7 +21,7 @@ public final class CombatInvocationsNotifyOuterClass {
     /**
      * <code>repeated .CombatInvokeEntry invoke_list = 14;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntry> 
+    java.util.List<emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntry>
         getInvokeListList();
     /**
      * <code>repeated .CombatInvokeEntry invoke_list = 14;</code>
@@ -34,7 +34,7 @@ public final class CombatInvocationsNotifyOuterClass {
     /**
      * <code>repeated .CombatInvokeEntry invoke_list = 14;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntryOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntryOrBuilder>
         getInvokeListOrBuilderList();
     /**
      * <code>repeated .CombatInvokeEntry invoke_list = 14;</code>
@@ -153,7 +153,7 @@ public final class CombatInvocationsNotifyOuterClass {
      * <code>repeated .CombatInvokeEntry invoke_list = 14;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntryOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntryOrBuilder>
         getInvokeListOrBuilderList() {
       return invokeList_;
     }
@@ -491,7 +491,7 @@ public final class CombatInvocationsNotifyOuterClass {
               invokeListBuilder_ = null;
               invokeList_ = other.invokeList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              invokeListBuilder_ = 
+              invokeListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getInvokeListFieldBuilder() : null;
             } else {
@@ -724,7 +724,7 @@ public final class CombatInvocationsNotifyOuterClass {
       /**
        * <code>repeated .CombatInvokeEntry invoke_list = 14;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntryOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntryOrBuilder>
            getInvokeListOrBuilderList() {
         if (invokeListBuilder_ != null) {
           return invokeListBuilder_.getMessageOrBuilderList();
@@ -750,12 +750,12 @@ public final class CombatInvocationsNotifyOuterClass {
       /**
        * <code>repeated .CombatInvokeEntry invoke_list = 14;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntry.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntry.Builder>
            getInvokeListBuilderList() {
         return getInvokeListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntry, emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntry.Builder, emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntryOrBuilder> 
+          emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntry, emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntry.Builder, emu.grasscutter.net.proto.CombatInvokeEntryOuterClass.CombatInvokeEntryOrBuilder>
           getInvokeListFieldBuilder() {
         if (invokeListBuilder_ == null) {
           invokeListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -823,7 +823,7 @@ public final class CombatInvocationsNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CombatInvocationsNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CombatInvocationsNotify_fieldAccessorTable;
 

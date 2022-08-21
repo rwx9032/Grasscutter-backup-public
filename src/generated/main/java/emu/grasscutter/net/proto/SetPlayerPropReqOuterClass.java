@@ -21,7 +21,7 @@ public final class SetPlayerPropReqOuterClass {
     /**
      * <code>repeated .PropValue prop_list = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue> 
+    java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
         getPropListList();
     /**
      * <code>repeated .PropValue prop_list = 7;</code>
@@ -34,7 +34,7 @@ public final class SetPlayerPropReqOuterClass {
     /**
      * <code>repeated .PropValue prop_list = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder>
         getPropListOrBuilderList();
     /**
      * <code>repeated .PropValue prop_list = 7;</code>
@@ -153,7 +153,7 @@ public final class SetPlayerPropReqOuterClass {
      * <code>repeated .PropValue prop_list = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder>
         getPropListOrBuilderList() {
       return propList_;
     }
@@ -491,7 +491,7 @@ public final class SetPlayerPropReqOuterClass {
               propListBuilder_ = null;
               propList_ = other.propList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              propListBuilder_ = 
+              propListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPropListFieldBuilder() : null;
             } else {
@@ -724,7 +724,7 @@ public final class SetPlayerPropReqOuterClass {
       /**
        * <code>repeated .PropValue prop_list = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder>
            getPropListOrBuilderList() {
         if (propListBuilder_ != null) {
           return propListBuilder_.getMessageOrBuilderList();
@@ -750,12 +750,12 @@ public final class SetPlayerPropReqOuterClass {
       /**
        * <code>repeated .PropValue prop_list = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder>
            getPropListBuilderList() {
         return getPropListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PropValueOuterClass.PropValue, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder, emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> 
+          emu.grasscutter.net.proto.PropValueOuterClass.PropValue, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder, emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder>
           getPropListFieldBuilder() {
         if (propListBuilder_ == null) {
           propListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -823,7 +823,7 @@ public final class SetPlayerPropReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetPlayerPropReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetPlayerPropReq_fieldAccessorTable;
 

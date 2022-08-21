@@ -512,7 +512,7 @@ public final class CityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCityId(int value) {
-        
+
         cityId_ = value;
         onChanged();
         return this;
@@ -522,7 +522,7 @@ public final class CityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCityId() {
-        
+
         cityId_ = 0;
         onChanged();
         return this;
@@ -543,7 +543,7 @@ public final class CityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCrystalNum(int value) {
-        
+
         crystalNum_ = value;
         onChanged();
         return this;
@@ -553,7 +553,7 @@ public final class CityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCrystalNum() {
-        
+
         crystalNum_ = 0;
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class CityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
@@ -584,7 +584,7 @@ public final class CityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class CityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CityInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CityInfo_fieldAccessorTable;
 

@@ -257,7 +257,7 @@ public final class ScenePlayerInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -273,7 +273,7 @@ public final class ScenePlayerInfoOuterClass {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -710,7 +710,7 @@ public final class ScenePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -720,7 +720,7 @@ public final class ScenePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -741,7 +741,7 @@ public final class ScenePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPeerId(int value) {
-        
+
         peerId_ = value;
         onChanged();
         return this;
@@ -751,7 +751,7 @@ public final class ScenePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPeerId() {
-        
+
         peerId_ = 0;
         onChanged();
         return this;
@@ -844,7 +844,7 @@ public final class ScenePlayerInfoOuterClass {
        * <code>.OnlinePlayerInfo online_player_info = 13;</code>
        */
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder getOnlinePlayerInfoBuilder() {
-        
+
         onChanged();
         return getOnlinePlayerInfoFieldBuilder().getBuilder();
       }
@@ -863,7 +863,7 @@ public final class ScenePlayerInfoOuterClass {
        * <code>.OnlinePlayerInfo online_player_info = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
+          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
           getOnlinePlayerInfoFieldBuilder() {
         if (onlinePlayerInfoBuilder_ == null) {
           onlinePlayerInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -891,7 +891,7 @@ public final class ScenePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsConnected(boolean value) {
-        
+
         isConnected_ = value;
         onChanged();
         return this;
@@ -901,7 +901,7 @@ public final class ScenePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsConnected() {
-        
+
         isConnected_ = false;
         onChanged();
         return this;
@@ -932,7 +932,7 @@ public final class ScenePlayerInfoOuterClass {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -951,7 +951,7 @@ public final class ScenePlayerInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -961,7 +961,7 @@ public final class ScenePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -977,7 +977,7 @@ public final class ScenePlayerInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -998,7 +998,7 @@ public final class ScenePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
@@ -1008,7 +1008,7 @@ public final class ScenePlayerInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -1068,7 +1068,7 @@ public final class ScenePlayerInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ScenePlayerInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ScenePlayerInfo_fieldAccessorTable;
 

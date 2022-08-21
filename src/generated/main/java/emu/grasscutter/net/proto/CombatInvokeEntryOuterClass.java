@@ -544,7 +544,7 @@ public final class CombatInvokeEntryOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         combatData_ = value;
         onChanged();
         return this;
@@ -554,7 +554,7 @@ public final class CombatInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCombatData() {
-        
+
         combatData_ = getDefaultInstance().getCombatData();
         onChanged();
         return this;
@@ -574,7 +574,7 @@ public final class CombatInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
@@ -598,7 +598,7 @@ public final class CombatInvokeEntryOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
@@ -608,7 +608,7 @@ public final class CombatInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
@@ -628,7 +628,7 @@ public final class CombatInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setArgumentTypeValue(int value) {
-        
+
         argumentType_ = value;
         onChanged();
         return this;
@@ -652,7 +652,7 @@ public final class CombatInvokeEntryOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         argumentType_ = value.getNumber();
         onChanged();
         return this;
@@ -662,7 +662,7 @@ public final class CombatInvokeEntryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearArgumentType() {
-        
+
         argumentType_ = 0;
         onChanged();
         return this;
@@ -722,7 +722,7 @@ public final class CombatInvokeEntryOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CombatInvokeEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CombatInvokeEntry_fieldAccessorTable;
 

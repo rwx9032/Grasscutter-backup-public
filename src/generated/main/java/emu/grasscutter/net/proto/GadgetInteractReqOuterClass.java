@@ -672,7 +672,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetId(int value) {
-        
+
         gadgetId_ = value;
         onChanged();
         return this;
@@ -682,7 +682,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetId() {
-        
+
         gadgetId_ = 0;
         onChanged();
         return this;
@@ -703,7 +703,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsUseCondenseResin(boolean value) {
-        
+
         isUseCondenseResin_ = value;
         onChanged();
         return this;
@@ -713,7 +713,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsUseCondenseResin() {
-        
+
         isUseCondenseResin_ = false;
         onChanged();
         return this;
@@ -733,7 +733,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOpTypeValue(int value) {
-        
+
         opType_ = value;
         onChanged();
         return this;
@@ -757,7 +757,7 @@ public final class GadgetInteractReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         opType_ = value.getNumber();
         onChanged();
         return this;
@@ -767,7 +767,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOpType() {
-        
+
         opType_ = 0;
         onChanged();
         return this;
@@ -787,7 +787,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setResinCostTypeValue(int value) {
-        
+
         resinCostType_ = value;
         onChanged();
         return this;
@@ -811,7 +811,7 @@ public final class GadgetInteractReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         resinCostType_ = value.getNumber();
         onChanged();
         return this;
@@ -821,7 +821,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearResinCostType() {
-        
+
         resinCostType_ = 0;
         onChanged();
         return this;
@@ -842,7 +842,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUnk2700DCPBGMKCHGJ(int value) {
-        
+
         unk2700DCPBGMKCHGJ_ = value;
         onChanged();
         return this;
@@ -852,7 +852,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUnk2700DCPBGMKCHGJ() {
-        
+
         unk2700DCPBGMKCHGJ_ = 0;
         onChanged();
         return this;
@@ -873,7 +873,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGadgetEntityId(int value) {
-        
+
         gadgetEntityId_ = value;
         onChanged();
         return this;
@@ -883,7 +883,7 @@ public final class GadgetInteractReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGadgetEntityId() {
-        
+
         gadgetEntityId_ = 0;
         onChanged();
         return this;
@@ -943,7 +943,7 @@ public final class GadgetInteractReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GadgetInteractReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GadgetInteractReq_fieldAccessorTable;
 

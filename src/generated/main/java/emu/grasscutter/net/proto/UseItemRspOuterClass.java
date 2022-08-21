@@ -604,7 +604,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGuid(long value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
@@ -614,7 +614,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
-        
+
         guid_ = 0L;
         onChanged();
         return this;
@@ -635,7 +635,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setTargetGuid(long value) {
-        
+
         targetGuid_ = value;
         onChanged();
         return this;
@@ -645,7 +645,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearTargetGuid() {
-        
+
         targetGuid_ = 0L;
         onChanged();
         return this;
@@ -666,7 +666,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
@@ -676,7 +676,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -697,7 +697,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOptionIdx(int value) {
-        
+
         optionIdx_ = value;
         onChanged();
         return this;
@@ -707,7 +707,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOptionIdx() {
-        
+
         optionIdx_ = 0;
         onChanged();
         return this;
@@ -728,7 +728,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -738,7 +738,7 @@ public final class UseItemRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -798,7 +798,7 @@ public final class UseItemRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UseItemRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UseItemRsp_fieldAccessorTable;
 

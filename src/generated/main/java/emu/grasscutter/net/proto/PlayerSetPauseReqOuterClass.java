@@ -449,7 +449,7 @@ public final class PlayerSetPauseReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsPaused(boolean value) {
-        
+
         isPaused_ = value;
         onChanged();
         return this;
@@ -459,7 +459,7 @@ public final class PlayerSetPauseReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsPaused() {
-        
+
         isPaused_ = false;
         onChanged();
         return this;
@@ -519,7 +519,7 @@ public final class PlayerSetPauseReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerSetPauseReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerSetPauseReq_fieldAccessorTable;
 

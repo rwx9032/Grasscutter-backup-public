@@ -571,7 +571,7 @@ public final class BuyGoodsReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBuyCount(int value) {
-        
+
         buyCount_ = value;
         onChanged();
         return this;
@@ -581,7 +581,7 @@ public final class BuyGoodsReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBuyCount() {
-        
+
         buyCount_ = 0;
         onChanged();
         return this;
@@ -674,7 +674,7 @@ public final class BuyGoodsReqOuterClass {
        * <code>.ShopGoods goods = 15;</code>
        */
       public emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder getGoodsBuilder() {
-        
+
         onChanged();
         return getGoodsFieldBuilder().getBuilder();
       }
@@ -693,7 +693,7 @@ public final class BuyGoodsReqOuterClass {
        * <code>.ShopGoods goods = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods, emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder, emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder> 
+          emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods, emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods.Builder, emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder>
           getGoodsFieldBuilder() {
         if (goodsBuilder_ == null) {
           goodsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -721,7 +721,7 @@ public final class BuyGoodsReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setShopType(int value) {
-        
+
         shopType_ = value;
         onChanged();
         return this;
@@ -731,7 +731,7 @@ public final class BuyGoodsReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearShopType() {
-        
+
         shopType_ = 0;
         onChanged();
         return this;
@@ -791,7 +791,7 @@ public final class BuyGoodsReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BuyGoodsReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BuyGoodsReq_fieldAccessorTable;
 

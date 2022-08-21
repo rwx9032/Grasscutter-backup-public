@@ -1128,7 +1128,7 @@ public final class RoutePointOuterClass {
        * <code>.Vector position = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPositionBuilder() {
-        
+
         onChanged();
         return getPositionFieldBuilder().getBuilder();
       }
@@ -1147,7 +1147,7 @@ public final class RoutePointOuterClass {
        * <code>.Vector position = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPositionFieldBuilder() {
         if (positionBuilder_ == null) {
           positionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1175,7 +1175,7 @@ public final class RoutePointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setArriveRange(float value) {
-        
+
         arriveRange_ = value;
         onChanged();
         return this;
@@ -1185,7 +1185,7 @@ public final class RoutePointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearArriveRange() {
-        
+
         arriveRange_ = 0F;
         onChanged();
         return this;
@@ -1396,7 +1396,7 @@ public final class RoutePointOuterClass {
        * <code>.Vector rotation = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRotationFieldBuilder() {
         if (rotationBuilder_ == null) {
           if (!(rotateParamsCase_ == 21)) {
@@ -1537,7 +1537,7 @@ public final class RoutePointOuterClass {
        * <code>.MathQuaternion rotation_speed = 22;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> 
+          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder>
           getRotationSpeedFieldBuilder() {
         if (rotationSpeedBuilder_ == null) {
           if (!(rotateParamsCase_ == 22)) {
@@ -1678,7 +1678,7 @@ public final class RoutePointOuterClass {
        * <code>.MathQuaternion axis_speed = 23;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> 
+          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder>
           getAxisSpeedFieldBuilder() {
         if (axisSpeedBuilder_ == null) {
           if (!(rotateParamsCase_ == 23)) {
@@ -1750,7 +1750,7 @@ public final class RoutePointOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoutePoint_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoutePoint_fieldAccessorTable;
 

@@ -602,7 +602,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
        * <code>.SocialDetail detail_data = 12;</code>
        */
       public emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail.Builder getDetailDataBuilder() {
-        
+
         onChanged();
         return getDetailDataFieldBuilder().getBuilder();
       }
@@ -621,7 +621,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
        * <code>.SocialDetail detail_data = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail, emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail.Builder, emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetailOrBuilder> 
+          emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail, emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail.Builder, emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetailOrBuilder>
           getDetailDataFieldBuilder() {
         if (detailDataBuilder_ == null) {
           detailDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -649,7 +649,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -659,7 +659,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -719,7 +719,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetPlayerSocialDetailRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetPlayerSocialDetailRsp_fieldAccessorTable;
 

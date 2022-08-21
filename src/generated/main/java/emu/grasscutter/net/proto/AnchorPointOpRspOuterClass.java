@@ -524,7 +524,7 @@ public final class AnchorPointOpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -534,7 +534,7 @@ public final class AnchorPointOpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -555,7 +555,7 @@ public final class AnchorPointOpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAnchorPointId(int value) {
-        
+
         anchorPointId_ = value;
         onChanged();
         return this;
@@ -565,7 +565,7 @@ public final class AnchorPointOpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAnchorPointId() {
-        
+
         anchorPointId_ = 0;
         onChanged();
         return this;
@@ -586,7 +586,7 @@ public final class AnchorPointOpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAnchorPointOpType(int value) {
-        
+
         anchorPointOpType_ = value;
         onChanged();
         return this;
@@ -596,7 +596,7 @@ public final class AnchorPointOpRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAnchorPointOpType() {
-        
+
         anchorPointOpType_ = 0;
         onChanged();
         return this;
@@ -656,7 +656,7 @@ public final class AnchorPointOpRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AnchorPointOpRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AnchorPointOpRsp_fieldAccessorTable;
 

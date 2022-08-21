@@ -21,7 +21,7 @@ public final class HomeComfortInfoNotifyOuterClass {
     /**
      * <code>repeated .HomeModuleComfortInfo module_info_list = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo> 
+    java.util.List<emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo>
         getModuleInfoListList();
     /**
      * <code>repeated .HomeModuleComfortInfo module_info_list = 6;</code>
@@ -34,7 +34,7 @@ public final class HomeComfortInfoNotifyOuterClass {
     /**
      * <code>repeated .HomeModuleComfortInfo module_info_list = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfoOrBuilder>
         getModuleInfoListOrBuilderList();
     /**
      * <code>repeated .HomeModuleComfortInfo module_info_list = 6;</code>
@@ -152,7 +152,7 @@ public final class HomeComfortInfoNotifyOuterClass {
      * <code>repeated .HomeModuleComfortInfo module_info_list = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfoOrBuilder>
         getModuleInfoListOrBuilderList() {
       return moduleInfoList_;
     }
@@ -489,7 +489,7 @@ public final class HomeComfortInfoNotifyOuterClass {
               moduleInfoListBuilder_ = null;
               moduleInfoList_ = other.moduleInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              moduleInfoListBuilder_ = 
+              moduleInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getModuleInfoListFieldBuilder() : null;
             } else {
@@ -722,7 +722,7 @@ public final class HomeComfortInfoNotifyOuterClass {
       /**
        * <code>repeated .HomeModuleComfortInfo module_info_list = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfoOrBuilder>
            getModuleInfoListOrBuilderList() {
         if (moduleInfoListBuilder_ != null) {
           return moduleInfoListBuilder_.getMessageOrBuilderList();
@@ -748,12 +748,12 @@ public final class HomeComfortInfoNotifyOuterClass {
       /**
        * <code>repeated .HomeModuleComfortInfo module_info_list = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo.Builder>
            getModuleInfoListBuilderList() {
         return getModuleInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo, emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo.Builder, emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfoOrBuilder> 
+          emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo, emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo.Builder, emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfoOrBuilder>
           getModuleInfoListFieldBuilder() {
         if (moduleInfoListBuilder_ == null) {
           moduleInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -821,7 +821,7 @@ public final class HomeComfortInfoNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HomeComfortInfoNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HomeComfortInfoNotify_fieldAccessorTable;
 

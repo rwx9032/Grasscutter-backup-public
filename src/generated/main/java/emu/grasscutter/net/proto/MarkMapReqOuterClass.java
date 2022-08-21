@@ -828,7 +828,7 @@ public final class MarkMapReqOuterClass {
        * <code>.MapMarkPoint mark = 8;</code>
        */
       public emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder getMarkBuilder() {
-        
+
         onChanged();
         return getMarkFieldBuilder().getBuilder();
       }
@@ -847,7 +847,7 @@ public final class MarkMapReqOuterClass {
        * <code>.MapMarkPoint mark = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder> 
+          emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder>
           getMarkFieldBuilder() {
         if (markBuilder_ == null) {
           markBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -947,7 +947,7 @@ public final class MarkMapReqOuterClass {
        * <code>.MapMarkPoint old = 6;</code>
        */
       public emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder getOldBuilder() {
-        
+
         onChanged();
         return getOldFieldBuilder().getBuilder();
       }
@@ -966,7 +966,7 @@ public final class MarkMapReqOuterClass {
        * <code>.MapMarkPoint old = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder> 
+          emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint.Builder, emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPointOrBuilder>
           getOldFieldBuilder() {
         if (oldBuilder_ == null) {
           oldBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -993,7 +993,7 @@ public final class MarkMapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOpValue(int value) {
-        
+
         op_ = value;
         onChanged();
         return this;
@@ -1017,7 +1017,7 @@ public final class MarkMapReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         op_ = value.getNumber();
         onChanged();
         return this;
@@ -1027,7 +1027,7 @@ public final class MarkMapReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOp() {
-        
+
         op_ = 0;
         onChanged();
         return this;
@@ -1087,7 +1087,7 @@ public final class MarkMapReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MarkMapReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MarkMapReq_fieldAccessorTable;
 

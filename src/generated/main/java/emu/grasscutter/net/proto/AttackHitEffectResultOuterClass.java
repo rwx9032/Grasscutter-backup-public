@@ -637,7 +637,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHitHaltTimeScale(float value) {
-        
+
         hitHaltTimeScale_ = value;
         onChanged();
         return this;
@@ -647,7 +647,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHitHaltTimeScale() {
-        
+
         hitHaltTimeScale_ = 0F;
         onChanged();
         return this;
@@ -668,7 +668,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOriginalHitEffLevel(int value) {
-        
+
         originalHitEffLevel_ = value;
         onChanged();
         return this;
@@ -678,7 +678,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOriginalHitEffLevel() {
-        
+
         originalHitEffLevel_ = 0;
         onChanged();
         return this;
@@ -699,7 +699,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAirStrength(float value) {
-        
+
         airStrength_ = value;
         onChanged();
         return this;
@@ -709,7 +709,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAirStrength() {
-        
+
         airStrength_ = 0F;
         onChanged();
         return this;
@@ -730,7 +730,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHitEffLevel(int value) {
-        
+
         hitEffLevel_ = value;
         onChanged();
         return this;
@@ -740,7 +740,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHitEffLevel() {
-        
+
         hitEffLevel_ = 0;
         onChanged();
         return this;
@@ -761,7 +761,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHitHaltTime(float value) {
-        
+
         hitHaltTime_ = value;
         onChanged();
         return this;
@@ -771,7 +771,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHitHaltTime() {
-        
+
         hitHaltTime_ = 0F;
         onChanged();
         return this;
@@ -792,7 +792,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetreatStrength(float value) {
-        
+
         retreatStrength_ = value;
         onChanged();
         return this;
@@ -802,7 +802,7 @@ public final class AttackHitEffectResultOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetreatStrength() {
-        
+
         retreatStrength_ = 0F;
         onChanged();
         return this;
@@ -862,7 +862,7 @@ public final class AttackHitEffectResultOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AttackHitEffectResult_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AttackHitEffectResult_fieldAccessorTable;
 
