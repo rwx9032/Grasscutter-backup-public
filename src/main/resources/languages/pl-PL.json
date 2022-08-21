@@ -363,7 +363,7 @@
   },
   "documentation": {
     "handbook": {
-      "title": "GM Handbook",
+      "title": "🇺🇸GM Handbook",
       "title_commands": "Komendy",
       "title_avatars": "Awatary",
       "title_items": "Przedmioty",
@@ -379,7 +379,7 @@
     },
     "index": {
       "title": "Dokumentacja",
-      "handbook": "GM Handbook",
+      "handbook": "🇺🇸GM Handbook",
       "gacha_mapping": "Losowanie w formacie JSON"
     }
   }
